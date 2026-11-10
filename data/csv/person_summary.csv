@@ -1,0 +1,283 @@
+person_id,slug,name,is_member,roles,songs_written,songs_produced,songs,releases,first_year,last_year,spotify_streams,top_song,hot100_songs
+1,4rest,4rest,false,writer,1,0,1,1,2022,2022,192033322,For Youth,0
+2,adien-lewis,Adien Lewis,false,writer,1,0,1,1,2020,2020,219669950,Inner Child,0
+3,adora-singer,Adora,false,"producer, writer",15,1,15,8,2016,2020,4575959704,Euphoria,0
+4,agust-d,Agust D,false,"producer, writer",1,1,1,1,2022,2022,,,0
+5,ahn-bok-jin,Ahn Bok-jin,false,writer,1,0,1,1,2020,2020,526691318,Filter,1
+6,akira-evans,Akira Evans,false,writer,1,0,1,1,2026,2026,430307738,Body to Body,1
+7,aldae,Aldae,false,"producer, writer",3,1,3,1,2026,2026,812681366,FYA,3
+8,alex-bilowitz,Alex Bilowitz,false,writer,1,0,1,1,2021,2021,1521296862,Butter,1
+9,alex-karlsson,Alex Karlsson,false,writer,1,0,1,1,2020,2020,287535221,We are Bulletproof : the Eternal,0
+10,alex-ludwig-lindell,Alex Ludwig Lindell,false,writer,1,0,1,1,2020,2020,261004031,Moon,0
+11,alexei-viktorovitch,Alexei Viktorovitch,false,writer,1,0,1,1,2020,2020,287535221,We are Bulletproof : the Eternal,0
+12,ali-tamposi,Ali Tamposi,false,writer,2,0,2,2,2018,2018,1276481634,IDOL,1
+13,allie-x,Allie X,false,writer,1,0,1,1,2020,2020,247329123,Louder than bombs,0
+14,allison-kaplan,Allison Kaplan,false,writer,1,0,1,1,2017,2017,464639465,Dimple,0
+15,ammo-music-producer,Ammo,false,"producer, writer",1,1,1,1,2026,2026,192387946,Come Over,1
+16,andrews,Andrews,false,writer,1,0,1,1,2021,2021,839818748,Permission to Dance,1
+17,annika-wells,Annika Wells,false,writer,1,0,1,1,2018,2018,437063858,The Truth Untold,0
+18,ant-clemons,Ant Clemons,false,writer,1,0,1,1,2026,2026,264136463,One More Night,1
+19,anthony-parrino,Anthony Parrino,false,writer,1,0,1,1,2022,2022,126117000,Born Singer,0
+20,antonina-armato,Antonina Armato,false,writer,4,0,4,2,2020,2020,2370718149,Life Goes On,2
+21,arcades-band,Arcades,false,"producer, writer",1,3,3,2,2019,2020,929387741,Mikrokosmos,0
+22,arlissa,Arlissa,false,writer,1,0,1,1,2017,2017,682403050,Spring Day,0
+23,arston,Arston,false,"producer, writer",1,1,1,1,2020,2020,220518128,Stay,1
+24,artemas-musician,Artemas,false,"producer, writer",1,1,1,1,2026,2026,323156464,Like Animals,1
+25,ashton-foster,Ashton Foster,false,writer,6,0,6,4,2016,2018,1425144774,Save Me,0
+26,audien,Audien,false,"producer, writer",1,1,1,1,2020,2020,287535221,We are Bulletproof : the Eternal,0
+27,august-rigo,August Rigo,false,writer,2,0,2,2,2020,2020,1309360327,ON,2
+28,back-number,Back Number,false,producer,0,1,1,1,2021,2021,302705658,Film out,1
+29,bad-milk,Bad Milk,false,producer,0,1,1,1,2019,2019,281169533,Jamais Vu,0
+30,bang-si-hyuk,Bang Si-hyuk,false,"producer, writer",49,5,52,19,2013,2022,16822703753,Boy With Luv,6
+31,beau-nox,Beau Nox,false,writer,2,0,2,1,2026,2026,587292927,Like Animals,2
+32,benjy-gibson,Benjy Gibson,false,writer,1,0,1,1,2019,2019,693768648,Make It Right,1
+33,blaise-railey,Blaise Railey,false,writer,1,0,1,1,2022,2022,192033322,For Youth,0
+34,blvsh,BLVSH,false,writer,1,0,1,1,2020,2020,1062173083,Life Goes On,1
+35,bobby-chung,Bobby Chung,false,writer,5,0,5,4,2018,2020,1568400561,Filter,1
+36,bram-inscore,Bram Inscore,false,"producer, writer",1,1,1,1,2020,2020,247329123,Louder than bombs,0
+37,brandon-bell-music-producer,Brandon Bell,false,"producer, writer",1,1,1,1,2026,2026,318078491,Aliens,1
+38,brandon-jung,Brandon Jung,false,writer,1,0,1,1,2019,2019,,,0
+39,brasstracks,Brasstracks,false,"producer, writer",1,1,1,1,2020,2020,220472739,Dis-ease,1
+40,brother-su,Brother Su,false,writer,5,0,5,3,2015,2016,1052809690,I Need U,0
+41,camilla-anne-stewart,Camilla Anne Stewart,false,writer,1,0,1,1,2019,2019,281169533,Jamais Vu,0
+42,candace-nicole-sosa,Candace Nicole Sosa,false,writer,8,0,8,4,2018,2020,2917828990,Euphoria,0
+43,canei-finch,Canei Finch,false,writer,1,0,1,1,2022,2022,126117000,Born Singer,0
+44,cazzi-opeia,Cazzi Opeia,false,writer,1,0,1,1,2020,2020,287535221,We are Bulletproof : the Eternal,0
+45,charles-hinshaw-jr,Charles Hinshaw Jr.,false,writer,2,0,2,1,2026,2026,708354733,2.0,2
+46,charli-xcx,Charli XCX,false,writer,1,0,1,1,2019,2019,169278082,Dream Glow,0
+47,charlie,Charlie,false,producer,0,1,1,1,2018,2018,356999327,Singularity,0
+48,charlie-j-perry,Charlie J. Perry,false,"producer, writer",1,1,1,1,2018,2018,356999327,Singularity,0
+49,chris-james,Chris James,false,writer,1,0,1,1,2020,2020,1062173083,Life Goes On,1
+50,cirkut,Cirkut,false,"producer, writer",1,1,1,1,2026,2026,192387946,Come Over,1
+51,clyde-kelly,Clyde Kelly,false,writer,1,0,1,1,2020,2020,604437429,Black Swan,1
+52,conor-maynard,Conor Maynard,false,writer,1,0,1,1,2018,2018,232191383,Answer : Love Myself,0
+53,cosmos-midnight,Cosmo's Midnight,false,"producer, writer",1,1,1,1,2020,2020,207984355,Fly To My Room,1
+54,coyle-girelli,Coyle Girelli,false,writer,1,0,1,1,2019,2019,181524153,Heartbeat,0
+55,crash-cove,Crash Cove,false,producer,0,1,1,1,2017,2017,464639465,Dimple,0
+56,cream,Cream,false,"producer, writer",1,1,1,1,2014,2014,41954911,Where You From,0
+57,daisuke,Daisuke,false,writer,1,0,1,1,2016,2016,29511447,Wishing on a Star,0
+58,dan-gleyzer,Dan Gleyzer,false,writer,1,0,1,1,2022,2022,429774843,Yet To Come,1
+59,daniel-caesar,Daniel Caesar,false,writer,1,0,1,1,2022,2022,675448054,Run BTS,1
+60,danke,Danke,false,writer,1,0,1,1,2020,2020,526691318,Filter,1
+61,david-quinones,David Quinones,false,writer,1,0,1,1,2016,2016,181806253,Begin,0
+62,david-stewart-dynamite-producer,David Stewart,false,"producer, writer",1,1,1,1,2020,2020,2379195409,Dynamite,1
+63,delacey,Delacey,false,writer,1,0,1,1,2026,2026,396158639,Hooligan,1
+64,dem-jointz,Dem Jointz,false,"producer, writer",1,1,1,1,2022,2022,675448054,Run BTS,1
+65,derrick-milano,Derrick Milano,false,writer,6,0,6,1,2026,2026,2857548527,SWIM,6
+66,devine-channel,Devine Channel,false,writer,2,0,2,2,2016,2016,481683633,Burning Up,0
+67,diplo,Diplo,false,"producer, writer",5,5,5,1,2026,2026,1629840077,Body to Body,5
+68,dj-swivel,DJ Swivel,false,"producer, writer",8,2,9,5,2018,2020,3099353143,Euphoria,0
+69,docskim,DOCSKIM,false,"producer, writer",2,2,2,2,2016,2018,495474302,Lie,0
+70,dreamville-records,Dreamville Records,false,writer,1,0,1,1,2022,2022,126117000,Born Singer,0
+71,earattack,earattack,false,writer,1,0,1,1,2015,2015,459654311,Dope,0
+72,ebenezer,Ebenezer,false,writer,1,0,1,1,2022,2022,675448054,Run BTS,1
+73,ed-sheeran,Ed Sheeran,false,writer,2,0,2,2,2019,2021,1533587396,Permission to Dance,2
+74,el-capitxn,El Capitxn,false,"producer, writer",4,3,4,3,2020,2026,717687772,Telepathy,2
+75,el-guincho,El Guincho,false,"producer, writer",1,1,1,1,2026,2026,396158639,Hooligan,1
+76,electric-music-producers,Electric,false,producer,0,1,1,1,2020,2020,287535221,We are Bulletproof : the Eternal,0
+77,ellis-miah,Ellis Miah,false,writer,1,0,1,1,2020,2020,219669950,Inner Child,0
+78,elohim,Elohim,false,writer,1,0,1,1,2020,2020,287535221,We are Bulletproof : the Eternal,0
+79,emily-weisband,Emily Weisband,false,writer,1,0,1,1,2019,2019,1444368649,Boy With Luv,1
+80,eskeerdo,Eskeerdo,false,writer,1,0,1,1,2026,2026,396158639,Hooligan,1
+81,etta-zelmani,Etta Zelmani,false,writer,1,0,1,1,2020,2020,287535221,We are Bulletproof : the Eternal,0
+82,f-gibson,F. Gibson,false,producer,0,1,1,1,2019,2019,693768648,Make It Right,1
+83,fakeguido,Fakeguido,false,producer,0,1,1,1,2026,2026,396158639,Hooligan,1
+84,fallin-dild,Fallin' Dild,false,writer,1,0,1,1,2020,2020,526691318,Filter,1
+85,fazer-rapper,Fazer,false,writer,1,0,1,1,2016,2016,135879466,Lost,0
+86,feli-ferraro,Feli Ferraro,false,writer,1,0,1,1,2022,2022,675448054,Run BTS,1
+87,flume-musician,Flume,false,"producer, writer",1,1,1,1,2026,2026,333866410,FYA,1
+88,fontana,Fontana,false,writer,3,0,3,3,2019,2022,1808919210,ON,2
+89,fred-again,Fred Again,false,writer,1,0,1,1,2019,2019,693768648,Make It Right,1
+90,gaeko,Gaeko,false,writer,1,0,1,1,2016,2016,97443288,Am I Wrong,0
+91,ghstloop,Ghstloop,false,"producer, writer",5,6,7,4,2020,2026,2333413662,Run BTS,6
+92,gustav-mared,Gustav Mared,false,"producer, writer",2,1,2,1,2020,2020,236885375,Your eyes tell,0
+93,gusten-dahlqvist,Gusten Dahlqvist,false,writer,1,0,1,1,2020,2020,287535221,We are Bulletproof : the Eternal,0
+94,gwis-bang-mang,Gwis Bang Mang,false,writer,1,0,1,1,2015,2015,459654311,Dope,0
+95,gwitbangmangi,Gwitbangmangi,false,writer,1,0,1,1,2015,2015,459654311,Dope,0
+96,halsey-singer,Halsey,false,writer,1,0,1,1,2019,2019,1444368649,Boy With Luv,1
+97,hilda-stenmalm,Hilda Stenmalm,false,writer,1,0,1,1,2020,2020,526691318,Filter,1
+98,hiro,Hiro,false,writer,4,0,4,3,2015,2018,433674747,Let Go,0
+99,hiss-noise,Hiss Noise,false,"producer, writer",10,7,10,6,2018,2022,2193651644,Magic Shop,2
+100,hyunji,Hyunji,false,writer,1,0,1,1,2019,2019,,,0
+101,icecream-drum,Icecream Drum,false,writer,1,0,1,1,2020,2020,228061916,UGH!,0
+102,imad-royal,Imad Royal,false,"producer, writer",1,1,1,1,2022,2022,192033322,For Youth,0
+103,ink-musician,Ink,false,writer,1,0,1,1,2026,2026,390276242,2.0,1
+104,iyori-shimizu,Iyori Shimizu,false,writer,1,0,1,1,2021,2021,302705658,Film out,1
+105,j-hope,J-Hope,true,"producer, writer",107,2,107,25,2013,2026,24944732031,Boy With Luv,21
+106,j-cole,J. Cole,false,writer,1,0,1,1,2022,2022,126117000,Born Singer,0
+107,jacob-kasher-hindlin,Jacob Kasher Hindlin,false,writer,1,0,1,1,2026,2026,192387946,Come Over,1
+108,jake-torrey,Jake Torrey,false,writer,1,0,1,1,2018,2018,437063858,The Truth Untold,0
+109,jam-factory-music-publisher,Jam Factory,false,writer,1,0,1,1,2020,2020,526691318,Filter,1
+110,james-essein,James Essein,false,writer,3,0,3,1,2026,2026,1624625431,SWIM,3
+111,james-f-reynolds,James F. Reynolds,false,writer,2,0,2,2,2019,2020,648218208,Mikrokosmos,0
+112,james-fauntleroy,James Fauntleroy,false,writer,1,0,1,1,2022,2022,126117000,Born Singer,0
+113,james-reynolds,James Reynolds,false,"producer, writer",1,1,1,1,2016,2016,97443288,Am I Wrong,0
+114,jamison-baken,Jamison Baken,false,writer,1,0,1,1,2026,2026,1035700171,SWIM,1
+115,jasper-harris,Jasper Harris,false,"producer, writer",1,1,1,1,2026,2026,396158639,Hooligan,1
+116,jayrah-gibson,Jayrah Gibson,false,writer,1,0,1,1,2020,2020,312079284,My Time,1
+117,jean-marcel-day-jr,Jean Marcel Day Jr.,false,writer,1,0,1,1,2026,2026,318078491,Aliens,1
+118,jenna-andrews,Jenna Andrews,false,writer,1,0,1,1,2021,2021,1521296862,Butter,1
+119,jesse-fink,Jesse Fink,false,writer,1,0,1,1,2026,2026,323156464,Like Animals,1
+120,jessica-agombar,Jessica Agombar,false,writer,1,0,1,1,2020,2020,2379195409,Dynamite,1
+121,jessie-lauryn-foutz,Jessie Lauryn Foutz,false,writer,1,0,1,1,2020,2020,316086947,00:00,0
+122,jimin,Jimin,true,"producer, writer",8,2,8,6,2013,2026,1594683230,they don’t know ’bout us,3
+123,jin-singer,Jin,true,"producer, writer",7,1,7,5,2013,2020,892010087,Moon,1
+124,jinbo,Jinbo,false,writer,3,0,3,3,2014,2018,959761029,Pied Piper,0
+125,jo-hill,Jo Hill,false,writer,1,0,1,1,2019,2019,693768648,Make It Right,1
+126,joe-femi-griffith,Joe Femi Griffith,false,writer,1,0,1,1,2020,2020,207984355,Fly To My Room,1
+127,john-mitchell,John Mitchell,false,writer,2,0,2,1,2026,2026,708354733,2.0,2
+128,johnny-mcdaid,Johnny McDaid,false,writer,1,0,1,1,2021,2021,839818748,Permission to Dance,1
+129,josh-wilkinson,Josh Wilkinson,false,"producer, writer",1,1,1,1,2016,2016,97443288,Am I Wrong,0
+130,jpegmafia,JPEGMafia,false,writer,1,0,1,1,2026,2026,333866410,FYA,1
+131,juice-wrld,Juice Wrld,false,writer,1,0,1,1,2019,2019,131206203,All Night,0
+132,julia-ross,Julia Ross,false,writer,2,0,2,2,2019,2020,1113320286,ON,1
+133,july-jones,July Jones,false,writer,1,0,1,1,2020,2020,287535221,We are Bulletproof : the Eternal,0
+134,jun,Jun,false,writer,5,0,5,2,2018,2020,724045648,Stay Gold,0
+135,june,June,false,writer,3,0,3,2,2016,2017,674052015,Not Today,0
+136,jung,Jung,false,writer,2,0,2,1,2019,2019,,,0
+137,jung-bobby,Jung Bobby,false,writer,2,0,2,1,2018,2018,470160162,I'm Fine,0
+138,jung-kook,Jung Kook,true,"producer, writer",20,4,20,11,2013,2026,4842416086,Run BTS,9
+139,juro-mez-davis,"Juro ""Mez"" Davis",false,writer,1,0,1,1,2022,2022,126117000,Born Singer,0
+140,kanata-okajima,Kanata Okajima,false,writer,1,0,1,1,2017,2017,135966747,Crystal Snow,0
+141,kang-minkook,Kang Minkook,false,writer,1,0,1,1,2019,2019,,,0
+142,kass,Kass,false,writer,2,0,2,1,2017,2017,1333228791,DNA,1
+143,keb-mo,Keb' Mo',false,"producer, writer",1,1,1,1,2016,2016,97443288,Am I Wrong,0
+144,kevin-parker,Kevin Parker,false,"producer, writer",1,1,1,1,2026,2026,286427010,Merry Go Round,1
+145,kevin-white,Kevin White,false,"producer, writer",1,1,1,1,2026,2026,323156464,Like Animals,1
+146,khaled-rohaim,Khaled Rohaim,false,"producer, writer",1,1,1,1,2026,2026,318078491,Aliens,1
+147,ki-an-dee-kambaran,Ki-An Dee Kambaran,false,writer,1,0,1,1,2026,2026,278373002,Into the Sun,1
+148,kim-do-hoon,Kim Do-hoon,false,writer,1,0,1,1,2016,2016,749049330,Blood Sweat & Tears,0
+149,kirsten-spencer,Kirsten Spencer,false,writer,5,0,5,1,2026,2026,2616230986,SWIM,5
+150,km-markit,KM-Markit,false,"producer, writer",4,1,4,2,2014,2020,329539090,Stay Gold,0
+151,krysta-youngs,Krysta Youngs,false,writer,2,0,2,2,2019,2020,1113320286,ON,1
+152,kurtis-wells,Kurtis Wells,false,writer,2,0,2,1,2026,2026,663142618,FYA,2
+153,kwon-dae-hee,Kwon Dae Hee,false,"producer, writer",1,1,1,1,2014,2014,41954911,Where You From,0
+154,larsson,Larsson,false,writer,1,0,1,1,2019,2019,120424403,A Brand New Day,0
+155,lauren-dyson,Lauren Dyson,false,writer,2,0,2,2,2018,2019,646366167,HOME,0
+156,leclair,Leclair,false,producer,0,1,1,1,2026,2026,1035700171,SWIM,1
+157,lee-ho-hyoung,Lee Ho Hyoung,false,"producer, writer",1,1,1,1,2014,2014,65424134,Look Here,0
+158,lee-hyun,Lee Hyun,false,writer,1,0,1,1,2019,2019,181524153,Heartbeat,0
+159,lee-paul-williams,Lee Paul Williams,false,writer,1,0,1,1,2016,2016,135879466,Lost,0
+160,leland-musician,Leland,false,writer,1,0,1,1,2020,2020,247329123,Louder than bombs,0
+161,levi,Levi,false,"producer, writer",1,1,1,1,2020,2020,303771305,Blue & Grey,1
+162,lim-hyunji,Lim Hyunji,false,writer,1,0,1,1,2019,2019,,,0
+163,lindgren,Lindgren,false,writer,1,0,1,1,2019,2019,428548258,Mikrokosmos,0
+164,livvi-franc,Livvi Franc,false,writer,1,0,1,1,2026,2026,430907974,NORMAL,1
+165,liza-owens,Liza Owens,false,writer,1,0,1,1,2018,2018,443598940,Airplane pt.2,0
+166,ludwig-lindell,Ludwig Lindell,false,writer,1,0,1,1,2022,2022,675448054,Run BTS,1
+167,lutra,Lutra,false,writer,1,0,1,1,2020,2020,526691318,Filter,1
+168,marcus-mccoan,Marcus McCoan,false,"producer, writer",2,1,2,1,2019,2019,709717791,Mikrokosmos,0
+169,marric-strobert,Marric Strobert,false,writer,1,0,1,1,2019,2019,131206203,All Night,0
+170,martin-luke-brown,Martin Luke Brown,false,writer,1,0,1,1,2018,2018,170987812,134340,0
+171,martin-sjølie,Martin Sjølie,false,writer,1,0,1,1,2020,2020,276195010,Friends,0
+172,matt-cab,Matt Cab,false,"producer, writer",2,2,2,2,2016,2016,62849037,Good Day,0
+173,matthew-tishler,Matthew Tishler,false,"producer, writer",1,1,1,1,2017,2017,464639465,Dimple,0
+174,matty-thomson,Matty Thomson,false,writer,2,0,2,1,2019,2019,709717791,Mikrokosmos,0
+175,max-lynedoch-graham,Max Lynedoch Graham,false,writer,2,0,2,1,2019,2019,709717791,Mikrokosmos,0
+176,max-schneider,Max Schneider,false,writer,1,0,1,1,2022,2022,429774843,Yet To Come,1
+177,max-wolfgang,Max Wolfgang,false,writer,1,0,1,1,2019,2019,120424403,A Brand New Day,0
+178,maxime-picard,Maxime Picard,false,writer,1,0,1,1,2026,2026,430307738,Body to Body,1
+179,mears,Mears,false,writer,2,0,2,1,2026,2026,542509465,Into the Sun,2
+180,medor-j-pierre,Medor J. Pierre,false,"producer, writer",1,1,1,1,2016,2016,218730744,BTS Cypher 4,0
+181,melanie-fontana,Melanie Fontana,false,writer,4,0,4,3,2018,2020,2473873654,Boy With Luv,1
+182,metaphor,Metaphor,false,writer,1,0,1,1,2020,2020,303771305,Blue & Grey,1
+183,michel-lindgren-schulz,"Michel ""Lindgren"" Schulz",false,writer,4,0,4,3,2019,2020,2451238416,Boy With Luv,2
+184,michel-magne,Michel Magne,false,writer,1,0,1,1,2026,2026,396158639,Hooligan,1
+185,mikael-daniel-caesar,Mikael Daniel Caesar,false,writer,1,0,1,1,2020,2020,261004031,Moon,0
+186,mike-will-made-it,Mike Will Made It,false,"producer, writer",1,2,2,1,2026,2026,708354733,2.0,2
+187,minkook,Minkook,false,writer,3,0,3,1,2019,2019,,,0
+188,miss-kay,Miss Kay,false,"producer, writer",1,1,1,1,2016,2016,91701877,First Love,0
+189,mnek,MNEK,false,writer,1,0,1,1,2018,2018,189015160,Paradise,0
+190,mura-masa,Mura Masa,false,"producer, writer",1,1,1,1,2019,2019,120424403,A Brand New Day,0
+191,neon-boy,Neon Boy,false,writer,1,0,1,1,2020,2020,526691318,Filter,1
+192,nicki-minaj,Nicki Minaj,false,writer,1,0,1,1,2018,2018,832882694,IDOL,1
+193,nitti-dj,Nitti,false,"producer, writer",1,3,3,1,2026,2026,876375875,FYA,3
+194,nive,NIve,false,writer,1,0,1,1,2020,2020,303771305,Blue & Grey,1
+195,noah-conrad,Noah Conrad,false,writer,1,0,1,1,2018,2018,437063858,The Truth Untold,0
+196,north-band,North,false,writer,1,0,1,1,2014,2014,261655051,Danger,0
+197,oneye,Oneye,false,writer,1,0,1,1,2022,2022,675448054,Run BTS,1
+198,orla-gartland,Orla Gartland,false,writer,1,0,1,1,2018,2018,170987812,134340,0
+199,owen-roberts,Owen Roberts,false,writer,1,0,1,1,2019,2019,281169533,Jamais Vu,0
+200,owo,OWO,false,"producer, writer",1,1,1,1,2014,2014,131044493,Spine Breaker,0
+201,pablo-martinez-alborch,Pablo Martinez Alborch,false,writer,1,0,1,1,2026,2026,396158639,Hooligan,1
+202,park-ji-soo,Park Ji-soo,false,"producer, writer",1,1,1,1,2020,2020,303771305,Blue & Grey,1
+203,pdogg,Pdogg,false,"producer, writer",102,90,108,23,2013,2026,28003329977,Boy With Luv,21
+204,peter-ibsen,Peter Ibsen,false,writer,2,0,2,2,2016,2017,818282516,Spring Day,0
+205,philtre,Philtre,false,"producer, writer",1,1,1,1,2016,2016,213021645,Stigma,0
+206,picard-brothers,Picard Brothers,false,producer,0,1,1,1,2026,2026,430307738,Body to Body,1
+207,pluss,Pluss,false,"producer, writer",2,2,2,1,2026,2026,708354733,2.0,2
+208,primary-musician,Primary,false,"producer, writer",1,1,1,1,2016,2016,101409181,MAMA,0
+209,printz-board,Printz Board,false,writer,1,0,1,1,2020,2020,312079284,My Time,1
+210,pro-era,Pro Era,false,"producer, writer",1,1,1,1,2019,2019,131206203,All Night,0
+211,randy-runyon,Randy Runyon,false,writer,1,0,1,1,2020,2020,220472739,Dis-ease,1
+212,ray-michael-djan-jr,Ray Michael Djan Jr,false,writer,6,0,6,4,2016,2018,1425144774,Save Me,0
+213,reynolds,Reynolds,false,writer,1,0,1,1,2019,2019,281169533,Jamais Vu,0
+214,richelle-alleyne,Richelle Alleyne,false,writer,1,0,1,1,2020,2020,312079284,My Time,1
+215,rm-musician,RM,true,"producer, writer",144,5,144,28,2013,2026,38917874786,Butter,32
+216,rob-grimaldi,Rob Grimaldi,false,"producer, writer",1,1,1,1,2021,2021,1521296862,Butter,1
+217,roget-chahayed,Rogét Chahayed,false,"producer, writer",1,1,1,1,2022,2022,192033322,For Youth,0
+218,roland-spreckley,Roland Spreckley,false,writer,1,0,1,1,2018,2018,437063858,The Truth Untold,0
+219,roman-campolo,Roman Campolo,false,writer,3,0,3,3,2018,2019,1614225766,IDOL,1
+220,ron-perry-music-executive,Ron Perry,false,"producer, writer",1,1,1,1,2021,2021,1521296862,Butter,1
+221,rug,Rug,false,writer,1,0,1,1,2026,2026,329276208,they don’t know ’bout us,1
+222,ruuth,Ruuth,false,writer,1,0,1,1,2020,2020,1062173083,Life Goes On,1
+223,ryan-tedder,Ryan Tedder,false,"producer, writer",4,2,4,1,2026,2026,2167762652,SWIM,4
+224,ryn-weaver,Ryn Weaver,false,writer,1,0,1,1,2019,2019,169278082,Dream Glow,0
+225,ryuja,Ryuja,false,"producer, writer",2,2,2,2,2016,2016,43065466,Good Day,0
+226,sam-homaee,Sam Homaee,false,"producer, writer",1,1,1,1,2026,2026,286427010,Merry Go Round,1
+227,sam-klempner,Sam Klempner,false,"producer, writer",3,1,3,3,2016,2018,483875886,Best Of Me,0
+228,samantha-harper,Samantha Harper,false,writer,2,0,2,2,2016,2018,658932844,Save Me,0
+229,sarah-aarons,Sarah Aarons,false,"producer, writer",1,1,1,1,2026,2026,286427010,Merry Go Round,1
+230,schulz,Schulz,false,writer,1,0,1,1,2022,2022,675448054,Run BTS,1
+231,scott-quinn,Scott Quinn,false,writer,1,0,1,1,2019,2019,120424403,A Brand New Day,0
+232,sean-cook,Sean Cook,false,"producer, writer",1,1,1,1,2026,2026,430907974,NORMAL,1
+233,sean-foreman,Sean Foreman,false,writer,2,0,2,1,2026,2026,1466608145,SWIM,2
+234,sebastian-garcia,Sebastian Garcia,false,writer,1,0,1,1,2021,2021,1521296862,Butter,1
+235,shawn,Shawn,false,"producer, writer",1,1,1,1,2014,2014,64336121,Embarrassed,0
+236,shin-myung-soo,Shin Myung-soo,false,writer,1,0,1,1,2018,2018,203789942,Tear,0
+237,shingo-suzuki,Shingo Suzuki,false,"producer, writer",2,2,2,1,2014,2014,20858820,INTRO.,0
+238,simo,SiMo,false,"producer, writer",1,1,1,1,2014,2014,41468692,Outro: Do You Think It Makes Sense?,0
+239,skylar-nam,Skylar Nam,false,writer,1,0,1,1,2019,2019,,,0
+240,sleep-deez,Sleep Deez,false,"producer, writer",1,1,1,1,2020,2020,312079284,My Time,1
+241,slow-rabbit,Slow Rabbit,false,"producer, writer",35,27,38,15,2013,2022,5288744763,The Truth Untold,0
+242,soma-genda,Soma Genda,false,"producer, writer",1,1,1,1,2017,2017,135966747,Crystal Snow,0
+243,song-chang-sik,Song Chang-sik,false,writer,1,0,1,1,2014,2014,131044493,Spine Breaker,0
+244,song-jae-kyung,Song Jae-kyung,false,writer,2,0,2,2,2018,2019,597412548,HOME,0
+245,stargate-music-producers,Stargate,false,"producer, writer",1,1,1,1,2019,2019,169278082,Dream Glow,0
+246,stella-jang,Stella Jang,false,writer,1,0,1,1,2020,2020,276195010,Friends,0
+247,stephen-kirk,Stephen Kirk,false,"producer, writer",1,1,1,1,2021,2021,1521296862,Butter,1
+248,steve-aoki,Steve Aoki,false,"producer, writer",1,1,1,1,2018,2018,437063858,The Truth Untold,0
+249,steve-mac,Steve Mac,false,writer,1,0,1,1,2021,2021,839818748,Permission to Dance,1
+250,suga,Suga,true,"producer, writer",113,14,113,24,2013,2026,27370169867,Boy With Luv,23
+251,sumin,Sumin,false,writer,1,0,1,1,2016,2016,291684360,Lie,0
+252,sunny-boy,Sunny Boy,false,writer,5,0,5,3,2018,2020,906360505,Stay Gold,0
+253,supreme-boi,Supreme Boi,false,"producer, writer",30,8,31,13,2013,2022,7725724775,DNA,3
+254,swing-o,Swing-O,false,"producer, writer",1,1,1,1,2014,2014,14192464,WAKE UP,0
+255,teezo-touchdown,Teezo Touchdown,false,writer,2,0,2,1,2026,2026,708680740,Body to Body,2
+256,the-chainsmokers,The Chainsmokers,false,"producer, writer",2,1,2,2,2017,2018,386432598,Best Of Me,0
+257,the-monsters-strangerz,The Monsters & Strangerz,false,writer,1,0,1,1,2026,2026,396158639,Hooligan,1
+258,the-x-factor-british-tv-series-series-13,The X Factor (British TV series) series 13,false,writer,2,0,2,2,2019,2020,648218208,Mikrokosmos,0
+259,they-duo,They,false,writer,1,0,1,1,2022,2022,192033322,For Youth,0
+260,toby-daintree,Toby Daintree,false,"producer, writer",1,1,1,1,2026,2026,323156464,Like Animals,1
+261,tom-wiklund,Tom Wiklund,false,"producer, writer",1,1,1,1,2020,2020,526691318,Filter,1
+262,tony-esterly,Tony Esterly,false,"producer, writer",1,1,1,1,2016,2016,181806253,Begin,0
+263,tricky-stewart,Tricky Stewart,false,"producer, writer",1,1,1,1,2016,2016,218730744,BTS Cypher 4,0
+264,troye-sivan,Troye Sivan,false,writer,1,0,1,1,2020,2020,247329123,Louder than bombs,0
+265,tushar-apte,Tushar Apte,false,writer,1,0,1,1,2019,2019,408397388,HOME,0
+266,tyler-acord,Tyler Acord,false,"producer, writer",1,1,1,1,2018,2018,189015160,Paradise,0
+267,tyler-johnson-musician,Tyler Johnson,false,"producer, writer",1,1,1,1,2026,2026,278373002,Into the Sun,1
+268,tyler-spry,Tyler Spry,false,"producer, writer",2,2,2,1,2026,2026,1306546940,SWIM,2
+269,urban-zakapa,Urban Zakapa,false,writer,1,0,1,1,2013,2013,138525649,Coffee,0
+270,uta,UTA,false,"producer, writer",11,10,12,6,2015,2021,1572971270,Film out,1
+271,v-singer,V,true,"producer, writer",11,2,11,8,2013,2026,2183357369,Run,3
+272,victor-kong,Victor Kong,false,writer,1,0,1,1,2019,2019,,,0
+273,vince-nantes,Vince Nantes,false,writer,1,0,1,1,2020,2020,604437429,Black Swan,1
+274,will-tanner,Will Tanner,false,writer,1,0,1,1,2020,2020,287535221,We are Bulletproof : the Eternal,0
+275,william-ernest-weeks,William Ernest Weeks,false,"producer, writer",1,1,1,1,2016,2016,29511447,Wishing on a Star,0
+276,williams,Williams,false,writer,1,0,1,1,2026,2026,390276242,2.0,1
+277,y2k-music-producer,Y2K,false,"producer, writer",1,1,1,1,2026,2026,329276208,they don’t know ’bout us,1
+278,yohei,Yohei,false,writer,1,0,1,1,2019,2019,249029327,Lights,0
+279,yoo-gi-ta,Yoo Gi-ta,false,writer,1,0,1,1,2019,2019,120424403,A Brand New Day,0
+280,yoon-guitar,Yoon Guitar,false,writer,1,0,1,1,2018,2018,237968779,I'm Fine,0
+281,yoon-kita,Yoon Kita,false,writer,1,0,1,1,2018,2018,293045961,Love Maze,0
+282,young,Young,false,"producer, writer",1,1,1,1,2018,2018,727558136,Euphoria,0

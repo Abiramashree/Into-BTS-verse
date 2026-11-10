@@ -1,0 +1,843 @@
+@prefix bv: <https://abiramashree.github.io/Into-BTS-verse/ontology#> .
+@prefix bvs: <https://abiramashree.github.io/Into-BTS-verse/shapes#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+owl:Class rdfs:subClassOf rdfs:Class .
+
+owl:DatatypeProperty rdfs:subClassOf rdf:Property .
+
+bvs:Member a sh:NodeShape ;
+    sh:property [ sh:hasValue bv:BTS ;
+            sh:minCount 1 ;
+            sh:path bv:member_of ] ;
+    sh:targetClass bv:Member .
+
+bvs:Person a sh:NodeShape ;
+    sh:property [ sh:minCount 1 ;
+            sh:path bv:name ],
+        [ sh:minCount 1 ;
+            sh:path bv:display_name ],
+        [ sh:minCount 1 ;
+            sh:path bv:slug ],
+        [ sh:message "Every person is credited on at least one song." ;
+            sh:minCount 1 ;
+            sh:path [ sh:alternativePath ( [ sh:inversePath bv:written_by ] [ sh:inversePath bv:lyrics_by ] [ sh:inversePath bv:music_by ] [ sh:inversePath bv:produced_by ] ) ] ] ;
+    sh:targetClass bv:Person .
+
+bvs:Recording a sh:NodeShape ;
+    sh:property [ sh:minCount 1 ;
+            sh:path bv:title ],
+        [ sh:minCount 1 ;
+            sh:path bv:is_video ],
+        [ sh:minCount 1 ;
+            sh:path bv:recording_of ],
+        [ sh:in ( "original" "live" "remix" "instrumental" "demo" "japanese" "korean" "alternate" "atmos" ) ;
+            sh:minCount 1 ;
+            sh:path bv:version ],
+        [ sh:in ( "year" "month" "day" ) ;
+            sh:path bv:first_release_precision ] ;
+    sh:targetClass bv:Recording .
+
+bvs:Release a sh:NodeShape ;
+    sh:property [ sh:minCount 1 ;
+            sh:path bv:title ],
+        [ sh:minCount 1 ;
+            sh:path bv:slug ],
+        [ sh:minCount 1 ;
+            sh:path bv:release_date ],
+        [ sh:minCount 1 ;
+            sh:path bv:track_count ],
+        [ sh:minCount 1 ;
+            sh:path bv:has_tracklist ],
+        [ sh:minCount 1 ;
+            sh:path bv:by_artist ] ;
+    sh:targetClass bv:Release .
+
+bvs:Song a sh:NodeShape ;
+    sh:property [ sh:minCount 1 ;
+            sh:path bv:title ],
+        [ sh:in ( 0 1 ) ;
+            sh:path bv:mode ],
+        [ sh:minCount 1 ;
+            sh:path bv:slug ],
+        [ sh:minCount 1 ;
+            sh:path bv:is_single ],
+        [ sh:minCount 1 ;
+            sh:path bv:is_generic_title ],
+        [ sh:minCount 1 ;
+            sh:path bv:by_artist ],
+        [ sh:message "Every song has at least one recording." ;
+            sh:minCount 1 ;
+            sh:path [ sh:inversePath bv:recording_of ] ],
+        [ sh:in ( "verified" "estimated" ) ;
+            sh:path bv:audio_confidence ] ;
+    sh:targetClass bv:Song .
+
+bvs:Track a sh:NodeShape ;
+    sh:message "Every track links to its song once: through its recording, or directly." ;
+    sh:property [ sh:minCount 1 ;
+            sh:path bv:title ],
+        [ sh:minCount 1 ;
+            sh:path bv:is_feature ],
+        [ sh:in ( "spotify" "deezer" ) ;
+            sh:minCount 1 ;
+            sh:path bv:platform ],
+        [ sh:in ( "original" "live" "remix" "instrumental" "demo" "japanese" "korean" "alternate" "atmos" ) ;
+            sh:minCount 1 ;
+            sh:path bv:version ] ;
+    sh:targetClass bv:Track ;
+    sh:xone ( [ sh:minCount 1 ;
+                sh:path bv:track_of ] [ sh:minCount 1 ;
+                sh:path bv:track_of_song ] ) .
+
+bvs:Video a sh:NodeShape ;
+    sh:property [ sh:minCount 1 ;
+            sh:path bv:title ],
+        [ sh:minCount 1 ;
+            sh:path bv:is_feature ],
+        [ sh:minCount 1 ;
+            sh:path bv:video_of ],
+        [ sh:in ( "mv" "dance_practice" "lyric_video" "teaser" "performance" "other" ) ;
+            sh:minCount 1 ;
+            sh:path bv:video_kind ],
+        [ sh:in ( "original" "live" "remix" "instrumental" "demo" "japanese" "korean" "alternate" "atmos" ) ;
+            sh:path bv:version ] ;
+    sh:targetClass bv:Video .
+
+bvs:acousticness a sh:NodeShape ;
+    sh:class bv:Song ;
+    sh:property bvs:acousticness-value ;
+    sh:targetSubjectsOf bv:acousticness .
+
+bvs:audio_confidence a sh:NodeShape ;
+    sh:class bv:Song ;
+    sh:property bvs:audio_confidence-value ;
+    sh:targetSubjectsOf bv:audio_confidence .
+
+bvs:by_artist a sh:NodeShape ;
+    sh:or ( bvs:by_artist-album bvs:by_artist-ep bvs:by_artist-single bvs:by_artist-song ) ;
+    sh:property bvs:by_artist-target ;
+    sh:targetSubjectsOf bv:by_artist .
+
+bvs:charted_on a sh:NodeShape ;
+    sh:or ( bvs:charted_on-album bvs:charted_on-ep bvs:charted_on-single bvs:charted_on-song ) ;
+    sh:property bvs:charted_on-target ;
+    sh:targetSubjectsOf bv:charted_on .
+
+bvs:collaborated_with a sh:NodeShape ;
+    sh:or ( bvs:collaborated_with-member bvs:collaborated_with-person ) ;
+    sh:property bvs:collaborated_with-target ;
+    sh:targetSubjectsOf bv:collaborated_with .
+
+bvs:credited a sh:NodeShape ;
+    sh:class bv:Song ;
+    sh:property bvs:credited-target ;
+    sh:targetSubjectsOf bv:credited .
+
+bvs:current_streams a sh:NodeShape ;
+    sh:class bv:Song ;
+    sh:property bvs:current_streams-value ;
+    sh:targetSubjectsOf bv:current_streams .
+
+bvs:danceability a sh:NodeShape ;
+    sh:class bv:Song ;
+    sh:property bvs:danceability-value ;
+    sh:targetSubjectsOf bv:danceability .
+
+bvs:display_name a sh:NodeShape ;
+    sh:class bv:Person ;
+    sh:property bvs:display_name-value ;
+    sh:targetSubjectsOf bv:display_name .
+
+bvs:energy a sh:NodeShape ;
+    sh:class bv:Song ;
+    sh:property bvs:energy-value ;
+    sh:targetSubjectsOf bv:energy .
+
+bvs:first_release_date a sh:NodeShape ;
+    sh:or ( bvs:first_release_date-recording bvs:first_release_date-song ) ;
+    sh:property bvs:first_release_date-value ;
+    sh:targetSubjectsOf bv:first_release_date .
+
+bvs:first_release_precision a sh:NodeShape ;
+    sh:class bv:Recording ;
+    sh:property bvs:first_release_precision-value ;
+    sh:targetSubjectsOf bv:first_release_precision .
+
+bvs:first_released_on a sh:NodeShape ;
+    sh:class bv:Song ;
+    sh:property bvs:first_released_on-target ;
+    sh:targetSubjectsOf bv:first_released_on .
+
+bvs:growth_acceleration a sh:NodeShape ;
+    sh:class bv:Song ;
+    sh:property bvs:growth_acceleration-value ;
+    sh:targetSubjectsOf bv:growth_acceleration .
+
+bvs:has_revival a sh:NodeShape ;
+    sh:class bv:Song ;
+    sh:property bvs:has_revival-value ;
+    sh:targetSubjectsOf bv:has_revival .
+
+bvs:has_tracklist a sh:NodeShape ;
+    sh:class bv:Release ;
+    sh:property bvs:has_tracklist-value ;
+    sh:targetSubjectsOf bv:has_tracklist .
+
+bvs:hot100_peak a sh:NodeShape ;
+    sh:class bv:Song ;
+    sh:property bvs:hot100_peak-value ;
+    sh:targetSubjectsOf bv:hot100_peak .
+
+bvs:hot100_weeks a sh:NodeShape ;
+    sh:class bv:Song ;
+    sh:property bvs:hot100_weeks-value ;
+    sh:targetSubjectsOf bv:hot100_weeks .
+
+bvs:instrumentalness a sh:NodeShape ;
+    sh:class bv:Song ;
+    sh:property bvs:instrumentalness-value ;
+    sh:targetSubjectsOf bv:instrumentalness .
+
+bvs:is_feature a sh:NodeShape ;
+    sh:or ( bvs:is_feature-track bvs:is_feature-video ) ;
+    sh:property bvs:is_feature-value ;
+    sh:targetSubjectsOf bv:is_feature .
+
+bvs:is_generic_title a sh:NodeShape ;
+    sh:class bv:Song ;
+    sh:property bvs:is_generic_title-value ;
+    sh:targetSubjectsOf bv:is_generic_title .
+
+bvs:is_single a sh:NodeShape ;
+    sh:class bv:Song ;
+    sh:property bvs:is_single-value ;
+    sh:targetSubjectsOf bv:is_single .
+
+bvs:is_video a sh:NodeShape ;
+    sh:class bv:Recording ;
+    sh:property bvs:is_video-value ;
+    sh:targetSubjectsOf bv:is_video .
+
+bvs:key a sh:NodeShape ;
+    sh:class bv:Song ;
+    sh:property bvs:key-value ;
+    sh:targetSubjectsOf bv:key .
+
+bvs:length a sh:NodeShape ;
+    sh:class bv:Recording ;
+    sh:property bvs:length-value ;
+    sh:targetSubjectsOf bv:length .
+
+bvs:liveness a sh:NodeShape ;
+    sh:class bv:Song ;
+    sh:property bvs:liveness-value ;
+    sh:targetSubjectsOf bv:liveness .
+
+bvs:long_tail_score a sh:NodeShape ;
+    sh:class bv:Song ;
+    sh:property bvs:long_tail_score-value ;
+    sh:targetSubjectsOf bv:long_tail_score .
+
+bvs:loudness a sh:NodeShape ;
+    sh:class bv:Song ;
+    sh:property bvs:loudness-value ;
+    sh:targetSubjectsOf bv:loudness .
+
+bvs:lyrics_by a sh:NodeShape ;
+    sh:class bv:Song ;
+    sh:property bvs:lyrics_by-target ;
+    sh:targetSubjectsOf bv:lyrics_by .
+
+bvs:member_of a sh:NodeShape ;
+    sh:or ( bvs:member_of-member bvs:member_of-person ) ;
+    sh:property bvs:member_of-target ;
+    sh:targetSubjectsOf bv:member_of .
+
+bvs:member_writer_share a sh:NodeShape ;
+    sh:class bv:Song ;
+    sh:property bvs:member_writer_share-value ;
+    sh:targetSubjectsOf bv:member_writer_share .
+
+bvs:mode a sh:NodeShape ;
+    sh:class bv:Song ;
+    sh:property bvs:mode-value ;
+    sh:targetSubjectsOf bv:mode .
+
+bvs:music_by a sh:NodeShape ;
+    sh:class bv:Song ;
+    sh:property bvs:music_by-target ;
+    sh:targetSubjectsOf bv:music_by .
+
+bvs:mv_growth_rate a sh:NodeShape ;
+    sh:class bv:Song ;
+    sh:property bvs:mv_growth_rate-value ;
+    sh:targetSubjectsOf bv:mv_growth_rate .
+
+bvs:mv_views_per_day a sh:NodeShape ;
+    sh:class bv:Song ;
+    sh:property bvs:mv_views_per_day-value ;
+    sh:targetSubjectsOf bv:mv_views_per_day .
+
+bvs:name a sh:NodeShape ;
+    sh:class bv:Person ;
+    sh:property bvs:name-value ;
+    sh:targetSubjectsOf bv:name .
+
+bvs:on_album a sh:NodeShape ;
+    sh:class bv:Song ;
+    sh:property bvs:on_album-target ;
+    sh:targetSubjectsOf bv:on_album .
+
+bvs:peak_streams_per_day a sh:NodeShape ;
+    sh:class bv:Song ;
+    sh:property bvs:peak_streams_per_day-value ;
+    sh:targetSubjectsOf bv:peak_streams_per_day .
+
+bvs:platform a sh:NodeShape ;
+    sh:class bv:Track ;
+    sh:property bvs:platform-value ;
+    sh:targetSubjectsOf bv:platform .
+
+bvs:popularity_score a sh:NodeShape ;
+    sh:class bv:Song ;
+    sh:property bvs:popularity_score-value ;
+    sh:targetSubjectsOf bv:popularity_score .
+
+bvs:produced_by a sh:NodeShape ;
+    sh:class bv:Song ;
+    sh:property bvs:produced_by-target ;
+    sh:targetSubjectsOf bv:produced_by .
+
+bvs:producer_count a sh:NodeShape ;
+    sh:class bv:Song ;
+    sh:property bvs:producer_count-value ;
+    sh:targetSubjectsOf bv:producer_count .
+
+bvs:published_month a sh:NodeShape ;
+    sh:class bv:Video ;
+    sh:property bvs:published_month-value ;
+    sh:targetSubjectsOf bv:published_month .
+
+bvs:recommends a sh:NodeShape ;
+    sh:class bv:Song ;
+    sh:property bvs:recommends-target ;
+    sh:targetSubjectsOf bv:recommends .
+
+bvs:recording_of a sh:NodeShape ;
+    sh:class bv:Recording ;
+    sh:property bvs:recording_of-target ;
+    sh:targetSubjectsOf bv:recording_of .
+
+bvs:release_age_years a sh:NodeShape ;
+    sh:class bv:Song ;
+    sh:property bvs:release_age_years-value ;
+    sh:targetSubjectsOf bv:release_age_years .
+
+bvs:release_date a sh:NodeShape ;
+    sh:class bv:Release ;
+    sh:property bvs:release_date-value ;
+    sh:targetSubjectsOf bv:release_date .
+
+bvs:retention a sh:NodeShape ;
+    sh:class bv:Song ;
+    sh:property bvs:retention-value ;
+    sh:targetSubjectsOf bv:retention .
+
+bvs:revival_month a sh:NodeShape ;
+    sh:class bv:Song ;
+    sh:property bvs:revival_month-value ;
+    sh:targetSubjectsOf bv:revival_month .
+
+bvs:revival_score a sh:NodeShape ;
+    sh:class bv:Song ;
+    sh:property bvs:revival_score-value ;
+    sh:targetSubjectsOf bv:revival_score .
+
+bvs:shares_writers a sh:NodeShape ;
+    sh:class bv:Song ;
+    sh:property bvs:shares_writers-target ;
+    sh:targetSubjectsOf bv:shares_writers .
+
+bvs:slug a sh:NodeShape ;
+    sh:or ( bvs:slug-person bvs:slug-release bvs:slug-song ) ;
+    sh:property bvs:slug-value ;
+    sh:targetSubjectsOf bv:slug .
+
+bvs:sounds_like a sh:NodeShape ;
+    sh:class bv:Song ;
+    sh:property bvs:sounds_like-target ;
+    sh:targetSubjectsOf bv:sounds_like .
+
+bvs:sounds_like_estimated a sh:NodeShape ;
+    sh:class bv:Song ;
+    sh:property bvs:sounds_like_estimated-target ;
+    sh:targetSubjectsOf bv:sounds_like_estimated .
+
+bvs:speechiness a sh:NodeShape ;
+    sh:class bv:Song ;
+    sh:property bvs:speechiness-value ;
+    sh:targetSubjectsOf bv:speechiness .
+
+bvs:stream_growth_rate a sh:NodeShape ;
+    sh:class bv:Song ;
+    sh:property bvs:stream_growth_rate-value ;
+    sh:targetSubjectsOf bv:stream_growth_rate .
+
+bvs:streams_per_day a sh:NodeShape ;
+    sh:class bv:Song ;
+    sh:property bvs:streams_per_day-value ;
+    sh:targetSubjectsOf bv:streams_per_day .
+
+bvs:tempo a sh:NodeShape ;
+    sh:class bv:Song ;
+    sh:property bvs:tempo-value ;
+    sh:targetSubjectsOf bv:tempo .
+
+bvs:title a sh:NodeShape ;
+    sh:or ( bvs:title-recording bvs:title-release bvs:title-song bvs:title-track bvs:title-video ) ;
+    sh:property bvs:title-value ;
+    sh:targetSubjectsOf bv:title .
+
+bvs:title_ko a sh:NodeShape ;
+    sh:class bv:Song ;
+    sh:property bvs:title_ko-value ;
+    sh:targetSubjectsOf bv:title_ko .
+
+bvs:track_count a sh:NodeShape ;
+    sh:class bv:Release ;
+    sh:property bvs:track_count-value ;
+    sh:targetSubjectsOf bv:track_count .
+
+bvs:track_of a sh:NodeShape ;
+    sh:class bv:Track ;
+    sh:property bvs:track_of-target ;
+    sh:targetSubjectsOf bv:track_of .
+
+bvs:track_of_song a sh:NodeShape ;
+    sh:class bv:Track ;
+    sh:property bvs:track_of_song-target ;
+    sh:targetSubjectsOf bv:track_of_song .
+
+bvs:valence a sh:NodeShape ;
+    sh:class bv:Song ;
+    sh:property bvs:valence-value ;
+    sh:targetSubjectsOf bv:valence .
+
+bvs:version a sh:NodeShape ;
+    sh:or ( bvs:version-recording bvs:version-track bvs:version-video ) ;
+    sh:property bvs:version-value ;
+    sh:targetSubjectsOf bv:version .
+
+bvs:version_label a sh:NodeShape ;
+    sh:class bv:Recording ;
+    sh:property bvs:version_label-value ;
+    sh:targetSubjectsOf bv:version_label .
+
+bvs:video_kind a sh:NodeShape ;
+    sh:class bv:Video ;
+    sh:property bvs:video_kind-value ;
+    sh:targetSubjectsOf bv:video_kind .
+
+bvs:video_of a sh:NodeShape ;
+    sh:class bv:Video ;
+    sh:property bvs:video_of-target ;
+    sh:targetSubjectsOf bv:video_of .
+
+bvs:writer_count a sh:NodeShape ;
+    sh:class bv:Song ;
+    sh:property bvs:writer_count-value ;
+    sh:targetSubjectsOf bv:writer_count .
+
+bvs:written_by a sh:NodeShape ;
+    sh:class bv:Song ;
+    sh:property bvs:written_by-target ;
+    sh:targetSubjectsOf bv:written_by .
+
+bvs:acousticness-value sh:datatype xsd:decimal ;
+    sh:maxCount 1 ;
+    sh:maxInclusive 1 ;
+    sh:minInclusive 0 ;
+    sh:path bv:acousticness .
+
+bvs:audio_confidence-value sh:datatype xsd:string ;
+    sh:maxCount 1 ;
+    sh:path bv:audio_confidence .
+
+bvs:by_artist-album sh:class bv:Album .
+
+bvs:by_artist-ep sh:class bv:EP .
+
+bvs:by_artist-single sh:class bv:Single .
+
+bvs:by_artist-song sh:class bv:Song .
+
+bvs:by_artist-target sh:class bv:Group ;
+    sh:maxCount 1 ;
+    sh:path bv:by_artist .
+
+bvs:charted_on-album sh:class bv:Album .
+
+bvs:charted_on-ep sh:class bv:EP .
+
+bvs:charted_on-single sh:class bv:Single .
+
+bvs:charted_on-song sh:class bv:Song .
+
+bvs:charted_on-target sh:class bv:Chart ;
+    sh:path bv:charted_on .
+
+bvs:collaborated_with-member sh:class bv:Member .
+
+bvs:collaborated_with-person sh:class bv:Person .
+
+bvs:collaborated_with-target sh:or ( bvs:collaborated_with-target-member bvs:collaborated_with-target-person ) ;
+    sh:path bv:collaborated_with .
+
+bvs:collaborated_with-target-member sh:class bv:Member .
+
+bvs:collaborated_with-target-person sh:class bv:Person .
+
+bvs:credited-target sh:or ( bvs:credited-target-member bvs:credited-target-person ) ;
+    sh:path bv:credited .
+
+bvs:credited-target-member sh:class bv:Member .
+
+bvs:credited-target-person sh:class bv:Person .
+
+bvs:current_streams-value sh:datatype xsd:nonNegativeInteger ;
+    sh:maxCount 1 ;
+    sh:path bv:current_streams .
+
+bvs:danceability-value sh:datatype xsd:decimal ;
+    sh:maxCount 1 ;
+    sh:maxInclusive 1 ;
+    sh:minInclusive 0 ;
+    sh:path bv:danceability .
+
+bvs:display_name-value sh:datatype xsd:string ;
+    sh:maxCount 1 ;
+    sh:path bv:display_name .
+
+bvs:energy-value sh:datatype xsd:decimal ;
+    sh:maxCount 1 ;
+    sh:maxInclusive 1 ;
+    sh:minInclusive 0 ;
+    sh:path bv:energy .
+
+bvs:first_release_date-recording sh:class bv:Recording .
+
+bvs:first_release_date-song sh:class bv:Song .
+
+bvs:first_release_date-value sh:datatype xsd:date ;
+    sh:maxCount 1 ;
+    sh:path bv:first_release_date .
+
+bvs:first_release_precision-value sh:datatype xsd:string ;
+    sh:maxCount 1 ;
+    sh:path bv:first_release_precision .
+
+bvs:first_released_on-target sh:maxCount 1 ;
+    sh:or ( bvs:first_released_on-target-album bvs:first_released_on-target-ep bvs:first_released_on-target-single ) ;
+    sh:path bv:first_released_on .
+
+bvs:first_released_on-target-album sh:class bv:Album .
+
+bvs:first_released_on-target-ep sh:class bv:EP .
+
+bvs:first_released_on-target-single sh:class bv:Single .
+
+bvs:growth_acceleration-value sh:datatype xsd:decimal ;
+    sh:maxCount 1 ;
+    sh:path bv:growth_acceleration .
+
+bvs:has_revival-value sh:datatype xsd:boolean ;
+    sh:maxCount 1 ;
+    sh:path bv:has_revival .
+
+bvs:has_tracklist-value sh:datatype xsd:boolean ;
+    sh:maxCount 1 ;
+    sh:path bv:has_tracklist .
+
+bvs:hot100_peak-value sh:datatype xsd:integer ;
+    sh:maxCount 1 ;
+    sh:maxInclusive 200 ;
+    sh:minInclusive 1 ;
+    sh:path bv:hot100_peak .
+
+bvs:hot100_weeks-value sh:datatype xsd:positiveInteger ;
+    sh:maxCount 1 ;
+    sh:path bv:hot100_weeks .
+
+bvs:instrumentalness-value sh:datatype xsd:decimal ;
+    sh:maxCount 1 ;
+    sh:maxInclusive 1 ;
+    sh:minInclusive 0 ;
+    sh:path bv:instrumentalness .
+
+bvs:is_feature-track sh:class bv:Track .
+
+bvs:is_feature-value sh:datatype xsd:boolean ;
+    sh:maxCount 1 ;
+    sh:path bv:is_feature .
+
+bvs:is_feature-video sh:class bv:Video .
+
+bvs:is_generic_title-value sh:datatype xsd:boolean ;
+    sh:maxCount 1 ;
+    sh:path bv:is_generic_title .
+
+bvs:is_single-value sh:datatype xsd:boolean ;
+    sh:maxCount 1 ;
+    sh:path bv:is_single .
+
+bvs:is_video-value sh:datatype xsd:boolean ;
+    sh:maxCount 1 ;
+    sh:path bv:is_video .
+
+bvs:key-value sh:datatype xsd:integer ;
+    sh:maxCount 1 ;
+    sh:maxInclusive 11 ;
+    sh:minInclusive -1 ;
+    sh:path bv:key .
+
+bvs:length-value sh:datatype xsd:nonNegativeInteger ;
+    sh:maxCount 1 ;
+    sh:path bv:length .
+
+bvs:liveness-value sh:datatype xsd:decimal ;
+    sh:maxCount 1 ;
+    sh:maxInclusive 1 ;
+    sh:minInclusive 0 ;
+    sh:path bv:liveness .
+
+bvs:long_tail_score-value sh:datatype xsd:decimal ;
+    sh:maxCount 1 ;
+    sh:maxInclusive 100 ;
+    sh:minInclusive 0 ;
+    sh:path bv:long_tail_score .
+
+bvs:loudness-value sh:datatype xsd:decimal ;
+    sh:maxCount 1 ;
+    sh:path bv:loudness .
+
+bvs:lyrics_by-target sh:or ( bvs:lyrics_by-target-member bvs:lyrics_by-target-person ) ;
+    sh:path bv:lyrics_by .
+
+bvs:lyrics_by-target-member sh:class bv:Member .
+
+bvs:lyrics_by-target-person sh:class bv:Person .
+
+bvs:member_of-member sh:class bv:Member .
+
+bvs:member_of-person sh:class bv:Person .
+
+bvs:member_of-target sh:class bv:Group ;
+    sh:maxCount 1 ;
+    sh:path bv:member_of .
+
+bvs:member_writer_share-value sh:datatype xsd:decimal ;
+    sh:maxCount 1 ;
+    sh:maxInclusive 1 ;
+    sh:minInclusive 0 ;
+    sh:path bv:member_writer_share .
+
+bvs:mode-value sh:datatype xsd:integer ;
+    sh:maxCount 1 ;
+    sh:path bv:mode .
+
+bvs:music_by-target sh:or ( bvs:music_by-target-member bvs:music_by-target-person ) ;
+    sh:path bv:music_by .
+
+bvs:music_by-target-member sh:class bv:Member .
+
+bvs:music_by-target-person sh:class bv:Person .
+
+bvs:mv_growth_rate-value sh:datatype xsd:decimal ;
+    sh:maxCount 1 ;
+    sh:path bv:mv_growth_rate .
+
+bvs:mv_views_per_day-value sh:datatype xsd:decimal ;
+    sh:maxCount 1 ;
+    sh:path bv:mv_views_per_day .
+
+bvs:name-value sh:datatype xsd:string ;
+    sh:maxCount 1 ;
+    sh:path bv:name .
+
+bvs:on_album-target sh:or ( bvs:on_album-target-album bvs:on_album-target-ep bvs:on_album-target-single ) ;
+    sh:path bv:on_album .
+
+bvs:on_album-target-album sh:class bv:Album .
+
+bvs:on_album-target-ep sh:class bv:EP .
+
+bvs:on_album-target-single sh:class bv:Single .
+
+bvs:peak_streams_per_day-value sh:datatype xsd:nonNegativeInteger ;
+    sh:maxCount 1 ;
+    sh:path bv:peak_streams_per_day .
+
+bvs:platform-value sh:datatype xsd:string ;
+    sh:maxCount 1 ;
+    sh:path bv:platform .
+
+bvs:popularity_score-value sh:datatype xsd:decimal ;
+    sh:maxCount 1 ;
+    sh:maxInclusive 100 ;
+    sh:minInclusive 0 ;
+    sh:path bv:popularity_score .
+
+bvs:produced_by-target sh:or ( bvs:produced_by-target-member bvs:produced_by-target-person ) ;
+    sh:path bv:produced_by .
+
+bvs:produced_by-target-member sh:class bv:Member .
+
+bvs:produced_by-target-person sh:class bv:Person .
+
+bvs:producer_count-value sh:datatype xsd:nonNegativeInteger ;
+    sh:maxCount 1 ;
+    sh:path bv:producer_count .
+
+bvs:published_month-value sh:datatype xsd:date ;
+    sh:maxCount 1 ;
+    sh:path bv:published_month .
+
+bvs:recommends-target sh:class bv:Song ;
+    sh:path bv:recommends .
+
+bvs:recording_of-target sh:class bv:Song ;
+    sh:maxCount 1 ;
+    sh:path bv:recording_of .
+
+bvs:release_age_years-value sh:datatype xsd:decimal ;
+    sh:maxCount 1 ;
+    sh:path bv:release_age_years .
+
+bvs:release_date-value sh:datatype xsd:date ;
+    sh:maxCount 1 ;
+    sh:path bv:release_date .
+
+bvs:retention-value sh:datatype xsd:decimal ;
+    sh:maxCount 1 ;
+    sh:maxInclusive 1 ;
+    sh:minInclusive 0 ;
+    sh:path bv:retention .
+
+bvs:revival_month-value sh:datatype xsd:date ;
+    sh:maxCount 1 ;
+    sh:path bv:revival_month .
+
+bvs:revival_score-value sh:datatype xsd:decimal ;
+    sh:maxCount 1 ;
+    sh:path bv:revival_score .
+
+bvs:shares_writers-target sh:class bv:Song ;
+    sh:path bv:shares_writers .
+
+bvs:slug-person sh:class bv:Person .
+
+bvs:slug-release sh:class bv:Release .
+
+bvs:slug-song sh:class bv:Song .
+
+bvs:slug-value sh:datatype xsd:string ;
+    sh:maxCount 1 ;
+    sh:path bv:slug .
+
+bvs:sounds_like-target sh:class bv:Song ;
+    sh:path bv:sounds_like .
+
+bvs:sounds_like_estimated-target sh:class bv:Song ;
+    sh:path bv:sounds_like_estimated .
+
+bvs:speechiness-value sh:datatype xsd:decimal ;
+    sh:maxCount 1 ;
+    sh:maxInclusive 1 ;
+    sh:minInclusive 0 ;
+    sh:path bv:speechiness .
+
+bvs:stream_growth_rate-value sh:datatype xsd:decimal ;
+    sh:maxCount 1 ;
+    sh:path bv:stream_growth_rate .
+
+bvs:streams_per_day-value sh:datatype xsd:decimal ;
+    sh:maxCount 1 ;
+    sh:path bv:streams_per_day .
+
+bvs:tempo-value sh:datatype xsd:decimal ;
+    sh:maxCount 1 ;
+    sh:path bv:tempo .
+
+bvs:title-recording sh:class bv:Recording .
+
+bvs:title-release sh:class bv:Release .
+
+bvs:title-song sh:class bv:Song .
+
+bvs:title-track sh:class bv:Track .
+
+bvs:title-value sh:datatype xsd:string ;
+    sh:path bv:title .
+
+bvs:title-video sh:class bv:Video .
+
+bvs:title_ko-value sh:datatype xsd:string ;
+    sh:maxCount 1 ;
+    sh:path bv:title_ko .
+
+bvs:track_count-value sh:datatype xsd:nonNegativeInteger ;
+    sh:maxCount 1 ;
+    sh:path bv:track_count .
+
+bvs:track_of-target sh:class bv:Recording ;
+    sh:maxCount 1 ;
+    sh:path bv:track_of .
+
+bvs:track_of_song-target sh:class bv:Song ;
+    sh:maxCount 1 ;
+    sh:path bv:track_of_song .
+
+bvs:valence-value sh:datatype xsd:decimal ;
+    sh:maxCount 1 ;
+    sh:maxInclusive 1 ;
+    sh:minInclusive 0 ;
+    sh:path bv:valence .
+
+bvs:version-recording sh:class bv:Recording .
+
+bvs:version-track sh:class bv:Track .
+
+bvs:version-value sh:datatype xsd:string ;
+    sh:maxCount 1 ;
+    sh:path bv:version .
+
+bvs:version-video sh:class bv:Video .
+
+bvs:version_label-value sh:datatype xsd:string ;
+    sh:maxCount 1 ;
+    sh:path bv:version_label .
+
+bvs:video_kind-value sh:datatype xsd:string ;
+    sh:maxCount 1 ;
+    sh:path bv:video_kind .
+
+bvs:video_of-target sh:class bv:Song ;
+    sh:maxCount 1 ;
+    sh:path bv:video_of .
+
+bvs:writer_count-value sh:datatype xsd:nonNegativeInteger ;
+    sh:maxCount 1 ;
+    sh:path bv:writer_count .
+
+bvs:written_by-target sh:or ( bvs:written_by-target-member bvs:written_by-target-person ) ;
+    sh:path bv:written_by .
+
+bvs:written_by-target-member sh:class bv:Member .
+
+bvs:written_by-target-person sh:class bv:Person .
+

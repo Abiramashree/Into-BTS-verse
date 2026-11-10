@@ -1,0 +1,1022 @@
+track_id,platform,song_id,recording_id,version,title,is_feature
+1,deezer,153,1,original,00:00 (Zero O'Clock),false
+2,deezer,153,1,original,00:00 (Zero O’Clock),false
+3,deezer,113,3,original,134340,false
+4,deezer,194,5,original,2.0,false
+5,deezer,76,7,original,2! 3!,false
+6,deezer,76,7,original,2! 3!,false
+7,deezer,77,8,original,21st Century Girl,false
+8,deezer,77,8,original,21st Century Girl,false
+9,deezer,32,9,original,24/7=Heaven,false
+10,deezer,141,10,original,A Brand New Day (BTS World Original Soundtrack) (Pt. 2),false
+11,deezer,91,11,original,A Supplementary Story: You Never Walk Alone,false
+12,deezer,114,12,original,Airplane pt.2,false
+13,deezer,114,12,original,Airplane pt.2,false
+14,deezer,114,14,japanese,Airplane pt.2 (Japanese ver.),false
+15,deezer,114,14,japanese,Airplane pt.2 (Japanese ver.),false
+16,deezer,114,14,japanese,Airplane pt.2 (Japanese ver.),false
+17,deezer,114,,live,Airplane pt.2 - Live,false
+18,deezer,196,17,original,Aliens,false
+19,deezer,142,19,original,All Night (BTS World Original Soundtrack) (Pt. 3),false
+20,deezer,78,20,original,Am I Wrong,false
+21,deezer,78,20,original,Am I Wrong,false
+22,deezer,115,21,original,Anpanman,false
+23,deezer,115,21,original,Anpanman,false
+24,deezer,124,22,original,Answer : Love Myself,false
+25,deezer,10,24,original,Attack on Bangtan,false
+26,deezer,10,25,japanese,Shingeki no Boudan (Japanese Ver.),false
+27,deezer,10,25,japanese,Shingeki no Boudan (Japanese Ver.),false
+28,deezer,10,,remix,Shingeki no Boudan (Sonpub Remix),false
+29,deezer,10,25,japanese,進撃の防弾 -Japanese Ver.-,false
+30,deezer,10,25,japanese,進撃の防弾 -Japanese Ver.-,false
+31,deezer,10,,remix,進撃の防弾(SONPUB REMIX),false
+32,deezer,61,27,original,Autumn Leaves,false
+33,deezer,61,,original,Autumn Leaves,false
+34,deezer,79,28,original,Awake,false
+35,deezer,79,28,original,Awake,false
+36,deezer,81,29,original,Begin,false
+37,deezer,81,29,original,Begin,false
+38,deezer,96,30,original,Best Of Me,false
+39,deezer,96,30,original,Best Of Me,false
+40,deezer,96,31,japanese,Best Of Me (Japanese ver.),false
+41,deezer,96,31,japanese,Best Of Me (Japanese ver.),false
+42,deezer,152,32,original,Black Swan,false
+43,deezer,152,32,original,Black Swan,false
+44,deezer,152,33,japanese,Black Swan (Japanese ver.),false
+45,deezer,152,33,japanese,Black Swan (Japanese ver.),false
+46,deezer,152,,live,Black Swan - Live,false
+47,deezer,82,36,original,Blood Sweat & Tears,false
+48,deezer,82,36,original,Blood Sweat & Tears,false
+49,deezer,82,36,original,Blood Sweat & Tears,false
+50,deezer,82,37,japanese,Blood Sweat & Tears (Japanese ver.),false
+51,deezer,82,37,japanese,Blood Sweat & Tears (Japanese ver.),false
+52,deezer,82,37,japanese,Blood Sweat & Tears (Japanese ver.),false
+53,deezer,82,,live,Blood Sweat & Tears - Live,false
+54,deezer,172,42,original,Blue & Grey,false
+55,deezer,172,,live,Blue & Grey - Live,false
+56,deezer,197,46,original,Body to Body,false
+57,deezer,182,47,original,Born Singer,false
+58,deezer,21,51,japanese,BOY IN LUV -Japanese Ver.-,false
+59,deezer,21,51,japanese,BOY IN LUV -Japanese Ver.-,false
+60,deezer,21,49,original,Boy In Luv,false
+61,deezer,21,51,japanese,Boy In Luv (Japanese Ver.),false
+62,deezer,21,51,japanese,Boy In Luv (Japanese Ver.),false
+63,deezer,21,,original,Boy in Luv,false
+64,deezer,21,49,original,Boy in Luv,false
+65,deezer,133,55,original,Boy With Luv (Feat. Halsey),false
+66,deezer,133,55,original,Boy With Luv (Feat. Halsey),false
+67,deezer,133,,live,Boy With Luv (Feat. Halsey) - Live,false
+68,deezer,133,56,japanese,Boy With Luv (Japanese ver.),false
+69,deezer,133,56,japanese,Boy With Luv (Japanese ver.),false
+70,deezer,133,56,japanese,Boy With Luv (Japanese ver.),false
+71,deezer,133,55,original,Boy With Luv (feat. Halsey),false
+72,deezer,51,59,original,Boyz with Fun,false
+73,deezer,51,60,japanese,Funtan Shounendan (Japanese Ver.),false
+74,deezer,51,60,japanese,Funtan Shounendan (Japanese Ver.),false
+75,deezer,51,60,japanese,Funtan Syounendan (Japanese Ver.),false
+76,deezer,51,60,japanese,Funtan Syounendan (Japanese Ver.),false
+77,deezer,80,62,original,BTS Cypher 4,false
+78,deezer,80,62,original,BTS Cypher 4,false
+79,deezer,11,63,original,BTS Cypher Pt.1,false
+80,deezer,20,,original,BTS Cypher Pt.2: Triptych,false
+81,deezer,20,,original,BTS Cypher Pt.2: Triptych,false
+82,deezer,33,65,original,BTS Cypher PT.3 : KILLER (Feat. Supreme Boi),false
+83,deezer,33,65,original,BTS Cypher Pt.3: Killer,false
+84,deezer,71,67,original,Burning Up (FIRE),false
+85,deezer,71,,live,Burning Up (FIRE) - Live,false
+86,deezer,71,67,original,Burning Up (Fire),false
+87,deezer,71,68,japanese,Fire (Japanese Ver.),false
+88,deezer,71,68,japanese,Fire (Japanese Ver.),false
+89,deezer,180,71,original,Butter,false
+90,deezer,180,71,original,Butter,false
+91,deezer,180,71,original,Butter,false
+92,deezer,180,74,remix,Butter (Cooler Remix),false
+93,deezer,180,77,remix,Butter (Holiday Remix),false
+94,deezer,180,73,remix,Butter (Hotter Remix),false
+95,deezer,180,72,instrumental,Butter (Instrumental),false
+96,deezer,180,72,instrumental,Butter (Instrumental),false
+97,deezer,180,76,remix,Butter (Megan Thee Stallion Remix),false
+98,deezer,180,75,remix,Butter (Sweeter Remix),false
+99,deezer,180,,live,Butter - Live,false
+100,deezer,62,,original,Butterfly,false
+101,deezer,62,80,original,Butterfly,false
+102,deezer,62,82,remix,Butterfly (Alternative Mix),false
+103,deezer,62,81,japanese,Butterfly (Japanese Ver.),false
+104,deezer,62,81,japanese,Butterfly (Japanese Ver.),false
+105,deezer,62,81,japanese,Butterfly (Japanese Ver.),false
+106,deezer,62,81,japanese,Butterfly (Japanese Ver.),false
+107,deezer,62,83,remix,Butterfly (Prologue Mix),false
+108,deezer,12,86,original,Coffee,false
+109,deezer,95,87,original,Come Back Home,false
+110,deezer,210,88,original,Come Over,false
+111,deezer,52,,original,Converse High,false
+112,deezer,52,90,original,Converse High,false
+113,deezer,34,91,original,Could You Turn off Your Cell Phone,false
+114,deezer,107,92,original,Crystal Snow,false
+115,deezer,107,92,original,Crystal Snow,false
+116,deezer,107,92,original,Crystal Snow,false
+117,deezer,35,93,original,Danger,false
+118,deezer,35,93,original,Danger,false
+119,deezer,35,94,japanese,Danger (Japanese Ver.),false
+120,deezer,35,94,japanese,Danger (Japanese Ver.),false
+121,deezer,35,94,japanese,Danger -Japanese Ver.-,false
+122,deezer,35,94,japanese,Danger -Japanese Ver.-,false
+123,deezer,98,97,original,Dimple,false
+124,deezer,98,97,original,Dimple,false
+125,deezer,98,97,original,dimple,false
+126,deezer,134,99,original,Dionysus,false
+127,deezer,134,99,original,Dionysus,false
+128,deezer,134,100,japanese,Dionysus (Japanese ver.),false
+129,deezer,134,100,japanese,Dionysus (Japanese ver.),false
+130,deezer,173,102,original,Dis-ease,false
+131,deezer,173,,live,Dis-ease - Live,false
+132,deezer,97,105,original,DNA,false
+133,deezer,97,105,original,DNA,false
+134,deezer,97,105,original,DNA,false
+135,deezer,97,106,japanese,DNA (Japanese ver.),false
+136,deezer,97,106,japanese,DNA (Japanese ver.),false
+137,deezer,97,106,japanese,DNA (Japanese ver.),false
+138,deezer,97,107,remix,DNA (Pedal 2 LA Mix),false
+139,deezer,97,,live,DNA - Live,false
+140,deezer,109,111,original,Don't Leave Me,false
+141,deezer,109,111,original,Don't Leave Me,false
+142,deezer,53,,original,Dope,false
+143,deezer,53,112,original,Dope,false
+144,deezer,53,113,japanese,Dope - Chou Yabee! (Japanese Ver.),false
+145,deezer,53,113,japanese,Dope - Chou Yabee! - (Japanese Ver.),false
+146,deezer,53,113,japanese,Dope - Chou Yabee! - (Japanese Ver.),false
+147,deezer,53,113,japanese,Dope - Chou Yabee! - (Japanese Ver.),false
+148,deezer,53,,live,Dope - Live,false
+149,deezer,140,115,original,Dream Glow (BTS World Original Soundtrack) (Pt. 1),false
+150,deezer,170,117,original,Dynamite,false
+151,deezer,170,117,original,Dynamite,false
+152,deezer,170,117,original,Dynamite,false
+153,deezer,170,117,original,Dynamite,false
+154,deezer,170,121,remix,Dynamite (Acoustic Remix),false
+155,deezer,170,123,remix,Dynamite (Bedroom Remix),false
+156,deezer,170,118,remix,Dynamite (EDM Remix),false
+157,deezer,170,127,remix,Dynamite (Holiday Remix),false
+158,deezer,170,122,instrumental,Dynamite (Instrumental),false
+159,deezer,170,122,instrumental,Dynamite (Instrumental),false
+160,deezer,170,124,remix,Dynamite (Midnight Remix),false
+161,deezer,170,119,remix,Dynamite (Poolside Remix),false
+162,deezer,170,125,remix,Dynamite (Retro Remix),false
+163,deezer,170,126,remix,Dynamite (Slow Jam Remix),false
+164,deezer,170,120,remix,Dynamite (Tropical Remix),false
+165,deezer,170,,live,Dynamite - Live,false
+166,deezer,36,130,original,Embarrassed,false
+167,deezer,72,133,japanese,Epilogue : Young Forever (Japanese Ver.),false
+168,deezer,72,133,japanese,Epilogue : Young Forever (Japanese Ver.),false
+169,deezer,72,132,original,Epilogue: Young Forever,false
+170,deezer,125,135,original,Epiphany,false
+171,deezer,126,137,original,Euphoria,false
+172,deezer,126,137,original,Euphoria,false
+173,deezer,116,140,original,FAKE LOVE,false
+174,deezer,116,140,original,FAKE LOVE,false
+175,deezer,116,140,original,FAKE LOVE,false
+176,deezer,116,,japanese,FAKE LOVE (Japanese Version / Remix),false
+177,deezer,116,142,japanese,FAKE LOVE (Japanese ver.),false
+178,deezer,116,142,japanese,FAKE LOVE (Japanese ver.),false
+179,deezer,116,142,japanese,FAKE LOVE (Japanese ver.),false
+180,deezer,116,141,remix,FAKE LOVE (Rocking Vibe Mix),false
+181,deezer,116,,remix,FAKE LOVE (Rocking Vibe Mix),false
+182,deezer,116,,live,FAKE LOVE - Live,false
+183,deezer,179,146,original,Film out,false
+184,deezer,179,146,original,Film out,false
+185,deezer,154,147,original,Filter,false
+186,deezer,154,147,original,Filter,false
+187,deezer,83,149,original,First Love,false
+188,deezer,83,149,original,First Love,false
+189,deezer,174,150,original,Fly To My Room,false
+190,deezer,60,153,original,FOR YOU,false
+191,deezer,60,153,original,For You,false
+192,deezer,60,153,original,For You,false
+193,deezer,60,153,original,For You,false
+194,deezer,183,155,original,For Youth,false
+195,deezer,155,156,original,Friends,false
+196,deezer,155,156,original,Friends,false
+197,deezer,198,160,original,FYA,false
+198,deezer,99,161,original,Go Go,false
+199,deezer,99,161,original,Go Go,false
+200,deezer,99,162,japanese,Go Go (Japanese ver.),false
+201,deezer,99,162,japanese,Go Go (Japanese ver.),false
+202,deezer,70,163,original,Good Day,false
+203,deezer,70,163,original,Good Day,false
+204,deezer,70,163,original,Good Day,false
+205,deezer,70,163,original,Good Day,false
+206,deezer,100,165,original,Her,false
+207,deezer,100,165,original,Her,false
+208,deezer,100,165,original,Outro: Her,false
+209,deezer,37,167,original,Hip Hop Phile,false
+210,deezer,54,168,original,Hold Me Tight,false
+211,deezer,54,,original,Hold Me Tight,false
+212,deezer,135,169,original,HOME,false
+213,deezer,199,172,original,Hooligan,false
+214,deezer,55,174,original,I NEED U,false
+215,deezer,55,174,original,I Need U,false
+216,deezer,55,174,original,I Need U,false
+217,deezer,55,175,japanese,I Need U (Japanese Ver.),false
+218,deezer,55,175,japanese,I Need U (Japanese Ver.),false
+219,deezer,55,175,japanese,I Need U (Japanese Ver.),false
+220,deezer,55,175,japanese,I Need U (Japanese Ver.),false
+221,deezer,55,176,remix,I Need U (Remix),false
+222,deezer,55,177,remix,I Need U (Urban Mix),false
+223,deezer,128,181,original,IDOL,false
+224,deezer,128,181,original,IDOL,false
+225,deezer,128,180,original,IDOL,false
+226,deezer,128,183,japanese,IDOL (Japanese ver.),false
+227,deezer,128,183,japanese,IDOL (Japanese ver.),false
+228,deezer,128,183,japanese,IDOL (Japanese ver.),false
+229,deezer,128,,live,IDOL - Live,false
+230,deezer,13,186,original,If I Ruled the World,false
+231,deezer,47,187,original,Iine!Pt.2 - Ano Bashode -,false
+232,deezer,47,187,original,いいね!Pt.2 ~あの場所で~,false
+233,deezer,127,188,original,I'm Fine,false
+234,deezer,156,189,original,Inner Child,false
+235,deezer,1,191,original,Interlude,false
+236,deezer,157,192,original,Interlude : Shadow,false
+237,deezer,38,194,original,Interlude: What Are You Doing Now,false
+238,deezer,84,195,original,Interlude: Wings,false
+239,deezer,200,196,original,Into the Sun,false
+240,deezer,2,198,original,Intro: 2 Cool 4 Skool,false
+241,deezer,85,199,original,Intro: Boy Meets Evil,false
+242,deezer,85,199,original,Intro: Boy Meets Evil,false
+243,deezer,167,201,original,INTRO : Calling,false
+244,deezer,63,203,original,Intro: Never Mind,false
+245,deezer,14,204,original,"Intro: O!RUL8,2?",false
+246,deezer,136,205,original,Intro : Persona,false
+247,deezer,136,205,original,Intro : Persona,false
+248,deezer,136,205,original,Intro : Persona,false
+249,deezer,110,207,original,INTRO : Ringwanderung,false
+250,deezer,101,208,original,Intro: Serendipity,false
+251,deezer,22,,original,Intro: Skool Luv Affair,false
+252,deezer,22,,original,Intro: Skool Luv Affair,false
+253,deezer,56,,original,Intro: The Most Beautiful Moment in Life,false
+254,deezer,56,210,original,Intro: The Most Beautiful Moment in Life,false
+255,deezer,46,211,original,INTRO.,false
+256,deezer,46,211,original,Intro.,false
+257,deezer,39,212,original,Intro: What Am I to You,false
+258,deezer,74,213,original,Introduction : Youth,false
+259,deezer,74,213,original,Introduction : Youth,false
+260,deezer,137,215,original,Jamais Vu,false
+261,deezer,137,215,original,Jamais Vu,false
+262,deezer,137,215,original,Jamais Vu,false
+263,deezer,23,219,japanese,JUMP -Japanese Ver.-,false
+264,deezer,23,,original,Jump,false
+265,deezer,23,,original,Jump,false
+266,deezer,23,219,japanese,Jump (Japanese Ver.),false
+267,deezer,24,224,japanese,JUST ONE DAY -Japanese Ver. Extended-,false
+268,deezer,24,,japanese,JUST ONE DAY -Japanese Ver.-,false
+269,deezer,24,,original,Just One Day,false
+270,deezer,24,,original,Just One Day,false
+271,deezer,24,224,japanese,Just One Day (Japanese Ver.),false
+272,deezer,24,,japanese,Just One Day (Japanese Ver.),false
+273,deezer,111,225,original,Let Go,false
+274,deezer,111,225,original,Let Go,false
+275,deezer,40,226,original,Let Me Know,false
+276,deezer,40,227,japanese,Let Me Know (Japanese Ver.),false
+277,deezer,40,227,japanese,Let Me Know (Japanese Ver.),false
+278,deezer,86,228,original,Lie,false
+279,deezer,86,228,original,Lie,false
+280,deezer,175,229,original,Life Goes On,false
+281,deezer,175,229,original,Life Goes On,false
+282,deezer,175,,live,Life Goes On - Live,false
+283,deezer,151,232,original,Lights,false
+284,deezer,151,232,original,Lights,false
+285,deezer,151,232,original,Lights,false
+286,deezer,3,235,japanese,Iine!,false
+287,deezer,3,235,japanese,Iine!,false
+288,deezer,3,233,original,Like,false
+289,deezer,3,,remix,Like (Slow Jam Remix),false
+290,deezer,3,235,japanese,いいね!,false
+291,deezer,3,235,japanese,いいね!,false
+292,deezer,201,237,original,Like Animals,false
+293,deezer,41,238,original,Look Here,false
+294,deezer,87,239,original,Lost,false
+295,deezer,87,239,original,Lost,false
+296,deezer,158,240,original,Louder than bombs,false
+297,deezer,117,242,original,Love Maze,false
+298,deezer,64,243,original,Ma City,false
+299,deezer,64,,original,Ma City,false
+300,deezer,118,244,original,Magic Shop,false
+301,deezer,118,244,original,Magic Shop,false
+302,deezer,138,245,original,Make It Right,false
+303,deezer,138,245,original,Make It Right,false
+304,deezer,138,249,japanese,Make It Right (Japanese ver.),false
+305,deezer,138,249,japanese,Make It Right (Japanese ver.),false
+306,deezer,138,246,original,Make It Right (feat. Lauv),false
+307,deezer,138,248,remix,Make It Right (feat. Lauv) (Acoustic Remix),false
+308,deezer,138,247,remix,Make It Right (feat. Lauv) (EDM Remix),false
+309,deezer,88,251,original,MAMA,false
+310,deezer,88,251,original,MAMA,false
+311,deezer,202,253,original,Merry Go Round,false
+312,deezer,102,255,original,MIC Drop,false
+313,deezer,102,255,original,MIC Drop,false
+314,deezer,102,257,japanese,MIC Drop (Japanese ver.),false
+315,deezer,102,257,japanese,MIC Drop (Japanese ver.),false
+316,deezer,102,257,japanese,MIC Drop (Japanese ver.),false
+317,deezer,102,259,alternate,MIC Drop (Steve Aoki Remix) (Full Length Edition),false
+318,deezer,102,,remix,MIC Drop (feat. Desiigner) [Steve Aoki Remix],false
+319,deezer,139,261,original,Mikrokosmos,false
+320,deezer,31,,japanese,MISS RIGHT -Japanese Ver.-,false
+321,deezer,31,,original,Miss Right,false
+322,deezer,31,,japanese,Miss Right (Japanese Ver.),false
+323,deezer,159,265,original,Moon,false
+324,deezer,159,265,original,Moon,false
+325,deezer,57,,original,Moving On,false
+326,deezer,57,267,original,Moving On,false
+327,deezer,160,268,original,My Time,false
+328,deezer,15,270,original,N.O,false
+329,deezer,15,270,original,N.O,false
+330,deezer,15,271,japanese,N.O (Japanese Ver.),false
+331,deezer,15,271,japanese,N.O (Japanese Ver.),false
+332,deezer,15,271,japanese,N.O -Japanese Ver.-,false
+333,deezer,15,271,japanese,N.O -Japanese Ver.-,false
+334,deezer,204,274,original,No. 29,false
+335,deezer,4,276,japanese,NO MORE DREAM -Japanese Ver.-,false
+336,deezer,4,276,japanese,NO MORE DREAM -Japanese Ver.-,false
+337,deezer,4,275,original,No More Dream,false
+338,deezer,4,275,original,No More Dream,false
+339,deezer,4,276,japanese,No More Dream (Japanese Ver.),false
+340,deezer,4,276,japanese,No More Dream (Japanese Ver.),false
+341,deezer,203,279,original,NORMAL,false
+342,deezer,203,278,original,NORMAL,false
+343,deezer,203,279,original,NORMAL,false
+344,deezer,203,286,instrumental,NORMAL (Instrumental),false
+345,deezer,203,283,korean,NORMAL (Korean Ver.),false
+346,deezer,203,285,korean,NORMAL (Korean Ver.),false
+347,deezer,92,289,original,Not Today,false
+348,deezer,92,290,japanese,Not Today (Japanese ver.),false
+349,deezer,92,290,japanese,Not Today (Japanese ver.),false
+350,deezer,92,290,japanese,Not Today (Japanese ver.),false
+351,deezer,161,291,original,ON,false
+352,deezer,161,291,original,ON,false
+353,deezer,161,292,original,ON (Feat. Sia),false
+354,deezer,161,293,japanese,ON (Japanese ver.),false
+355,deezer,161,293,japanese,ON (Japanese ver.),false
+356,deezer,161,,live,ON - Live,false
+357,deezer,205,297,original,One More Night,false
+358,deezer,5,299,original,Outro: Circle Room Cypher,false
+359,deezer,112,300,original,OUTRO : Crack,false
+360,deezer,42,301,original,Outro: Do You Think It Makes Sense?,false
+361,deezer,162,302,original,Outro : Ego,false
+362,deezer,162,302,original,Outro : Ego,false
+363,deezer,65,305,alternate,House of Cards (Full Length Edition),false
+364,deezer,65,304,original,Outro: House of Cards,false
+365,deezer,58,307,alternate,Love Is Not Over (Full Length Edition),false
+366,deezer,58,306,original,Outro: Love Is Not Over,false
+367,deezer,16,308,original,Outro: Luv in Skool,false
+368,deezer,25,,original,Outro: Propose,false
+369,deezer,25,,original,Outro: Propose,false
+370,deezer,168,310,original,OUTRO : The Journey,false
+371,deezer,48,311,original,OUTRO.,false
+372,deezer,48,311,original,Outro.,false
+373,deezer,93,,live,Outro : Wings - Live,false
+374,deezer,93,312,original,Outro: Wings,false
+375,deezer,17,314,original,Paldogangsan,false
+376,deezer,119,315,original,Paradise,false
+377,deezer,181,317,original,Permission to Dance,false
+378,deezer,181,317,original,Permission to Dance,false
+379,deezer,181,318,instrumental,Permission to Dance (Instrumental),false
+380,deezer,181,318,instrumental,Permission to Dance (Instrumental),false
+381,deezer,181,319,remix,Permission to Dance (R&B Remix),false
+382,deezer,181,,live,Permission to Dance - Live,false
+383,deezer,103,321,original,Pied Piper,false
+384,deezer,206,322,original,Please,false
+385,deezer,43,324,original,Rain,false
+386,deezer,89,325,original,Reflection,false
+387,deezer,89,325,original,Reflection,false
+388,deezer,163,326,original,Respect,false
+389,deezer,66,328,original,RUN,false
+390,deezer,66,328,original,Run,false
+391,deezer,66,328,original,Run,false
+392,deezer,66,331,remix,Run (Alternative Mix),false
+393,deezer,66,330,remix,Run (Ballad Mix),false
+394,deezer,66,329,japanese,Run (Japanese Ver.),false
+395,deezer,66,329,japanese,Run (Japanese Ver.),false
+396,deezer,66,329,japanese,Run (Japanese Ver.),false
+397,deezer,66,329,japanese,Run (Japanese Ver.),false
+398,deezer,184,334,original,Run BTS,false
+399,deezer,73,335,original,Save Me,false
+400,deezer,73,336,japanese,Save Me (Japanese Ver.),false
+401,deezer,73,336,japanese,Save Me (Japanese Ver.),false
+402,deezer,129,337,alternate,Serendipity (Full Length Edition),false
+403,deezer,67,340,japanese,Peppuse (Japanese Ver.),false
+404,deezer,67,340,japanese,Peppuse (Japanese Ver.),false
+405,deezer,67,339,original,Silver Spoon,false
+406,deezer,67,339,original,Silver Spoon,false
+407,deezer,67,,live,Silver Spoon - Live,false
+408,deezer,120,342,original,Intro: Singularity,false
+409,deezer,120,342,original,Singularity,false
+410,deezer,120,342,original,Singularity,false
+411,deezer,176,344,original,Skit,false
+412,deezer,105,346,original,Skit: Billboard Music Awards Speech,false
+413,deezer,8,347,original,Skit: Circle Room Talk,false
+414,deezer,59,348,original,Skit: Expectation!,false
+415,deezer,68,350,original,Skit: One Night in a Strange City,false
+416,deezer,18,351,original,Skit: R U Happy Now?,false
+417,deezer,26,,original,Skit: Soulmate,false
+418,deezer,26,,original,Skit: Soulmate,false
+419,deezer,44,354,original,So 4 more,false
+420,deezer,121,355,original,So What,false
+421,deezer,121,,live,So What - Live,false
+422,deezer,27,,original,Spine Breaker,false
+423,deezer,27,,original,Spine Breaker,false
+424,deezer,94,359,original,Spring Day,false
+425,deezer,94,359,original,Spring Day,false
+426,deezer,94,360,japanese,Spring Day (Japanese ver.),false
+427,deezer,94,360,japanese,Spring Day (Japanese ver.),false
+428,deezer,94,360,japanese,Spring Day (Japanese ver.),false
+429,deezer,94,,live,Spring Day - Live,false
+430,deezer,177,364,original,Stay,false
+431,deezer,177,364,original,Stay,false
+432,deezer,177,,live,Stay - Live,false
+433,deezer,166,367,original,Stay Gold,false
+434,deezer,166,367,original,Stay Gold,false
+435,deezer,166,367,original,Stay Gold,false
+436,deezer,90,368,original,Stigma,false
+437,deezer,90,368,original,Stigma,false
+438,deezer,207,371,original,SWIM,false
+439,deezer,207,371,original,SWIM,false
+440,deezer,207,371,original,SWIM,false
+441,deezer,207,371,original,SWIM,false
+442,deezer,207,371,original,SWIM,false
+443,deezer,207,372,instrumental,SWIM (Instrumental),false
+444,deezer,207,372,instrumental,SWIM (Instrumental),false
+445,deezer,207,372,instrumental,SWIM (Instrumental),false
+446,deezer,207,372,instrumental,SWIM (Instrumental),false
+447,deezer,207,389,remix,SWIM (Spring Waves Remix),false
+448,deezer,207,388,remix,SWIM (Underwater Remix),false
+449,deezer,207,373,remix,SWIM with Jimin (Slow Jam R&B Remix),false
+450,deezer,207,374,remix,SWIM with Jin (Alternative Rock Remix),false
+451,deezer,207,376,remix,SWIM with Jung Kook (Acoustic Lofi Remix),false
+452,deezer,207,377,remix,SWIM with RM (Chill Hip Hop Remix),false
+453,deezer,207,378,remix,SWIM with SUGA (Melodic Techno Remix),false
+454,deezer,207,379,remix,SWIM with V (Electronic Remix),false
+455,deezer,207,380,remix,SWIM with j-hope (Afrobeat Remix),false
+456,deezer,193,392,original,Take Two,false
+457,deezer,122,394,original,Outro: Tear,false
+458,deezer,122,394,original,Tear,false
+459,deezer,178,395,original,Telepathy,false
+460,deezer,178,,live,Telepathy - Live,false
+461,deezer,192,398,original,The Planet,false
+462,deezer,49,399,original,THE STARS,false
+463,deezer,49,399,original,The Stars,false
+464,deezer,123,400,original,The Truth Untold,false
+465,deezer,123,400,original,The Truth Untold (feat. Steve Aoki),false
+466,deezer,208,401,original,they don’t know ’bout us,false
+467,deezer,28,,original,Tomorrow,false
+468,deezer,28,,original,Tomorrow,false
+469,deezer,130,406,original,Trivia 承 : Love,false
+470,deezer,131,407,original,Trivia 起 : Just Dance,false
+471,deezer,132,408,original,Trivia 轉 : Seesaw,false
+472,deezer,132,408,original,Trivia 轉 : Seesaw,false
+473,deezer,164,411,original,UGH!,false
+474,deezer,50,413,original,WAKE UP,false
+475,deezer,50,413,original,Wake Up,false
+476,deezer,45,415,japanese,Hormone Sensou (Japanese Ver.),false
+477,deezer,45,414,original,War of Hormone,false
+478,deezer,45,415,japanese,ホルモン戦争 (Japanese Ver.),false
+479,deezer,9,416,original,We Are Bulletproof Pt.2,false
+480,deezer,165,417,original,We are Bulletproof : the Eternal,false
+481,deezer,19,419,original,We On,false
+482,deezer,69,420,original,Whalien 52,false
+483,deezer,69,,original,Whalien 52,false
+484,deezer,29,,original,Where You From,false
+485,deezer,29,,original,Where You From,false
+486,deezer,75,424,original,Wishing On A Star,false
+487,deezer,75,424,original,Wishing on a Star,false
+488,deezer,187,427,original,Yet To Come,false
+489,deezer,187,428,remix,Yet To Come (Hyundai Ver.),false
+490,deezer,169,429,original,Your eyes tell,false
+491,deezer,169,429,original,Your eyes tell,false
+492,spotify,153,1,original,00:00 (Zero O'Clock),false
+493,spotify,153,1,original,00:00 (Zero O’Clock),false
+494,spotify,113,3,original,134340,false
+495,spotify,194,,original,2.0,false
+496,spotify,76,7,original,2! 3!,false
+497,spotify,76,7,original,2! 3!,false
+498,spotify,76,,original,둘! 셋! (그래도 좋은 날이 더 많기를),false
+499,spotify,77,8,original,21st Century Girl,false
+500,spotify,77,8,original,21st Century Girl,false
+501,spotify,77,,original,21세기 소녀,false
+502,spotify,32,9,original,24/7=Heaven,false
+503,spotify,32,9,original,24/7=Heaven,false
+504,spotify,141,,original,A Brand New Day (BTS World Original Soundtrack) [Pt. 2],false
+505,spotify,141,10,original,A Brand New Day - BTS World Original Soundtrack (Pt. 2),false
+506,spotify,91,11,original,A Supplementary Story: You Never Walk Alone,false
+507,spotify,91,11,original,A Supplementary Story: You Never Walk Alone,false
+508,spotify,114,12,original,Airplane pt.2,false
+509,spotify,114,12,original,Airplane pt.2,false
+510,spotify,114,14,japanese,Airplane pt.2 - Japanese ver.,false
+511,spotify,114,,live,Airplane pt.2 - Live,false
+512,spotify,196,,original,Aliens,false
+513,spotify,142,,original,All Night (BTS World Original Soundtrack) [Pt. 3],false
+514,spotify,142,19,original,All Night - BTS World Original Soundtrack (Pt. 3),false
+515,spotify,78,20,original,Am I Wrong,false
+516,spotify,78,,original,Am I Wrong,false
+517,spotify,78,20,original,Am I Wrong,false
+518,spotify,115,21,original,Anpanman,false
+519,spotify,115,21,original,Anpanman,false
+520,spotify,124,22,original,Answer : Love Myself,false
+521,spotify,10,24,original,Attack on Bangtan,false
+522,spotify,10,,remix,Shingeki no Boudan - Sonpub Remix,false
+523,spotify,10,,japanese,進撃の防弾 - Japanese Ver.,false
+524,spotify,10,,remix,進撃の防弾(SONPUB REMIX),false
+525,spotify,10,,original,진격의 방탄,false
+526,spotify,61,,original,Autumn Leaves,false
+527,spotify,61,27,original,Autumn Leaves,false
+528,spotify,61,,original,고엽,false
+529,spotify,79,28,original,Awake,false
+530,spotify,79,,original,Awake,false
+531,spotify,79,28,original,Awake,false
+532,spotify,81,29,original,Begin,false
+533,spotify,81,,original,Begin,false
+534,spotify,81,29,original,Begin,false
+535,spotify,96,30,original,Best Of Me,false
+536,spotify,96,30,original,Best Of Me,false
+537,spotify,96,31,japanese,Best Of Me - Japanese ver.,false
+538,spotify,152,32,original,Black Swan,false
+539,spotify,152,32,original,Black Swan,false
+540,spotify,152,33,japanese,Black Swan - Japanese ver.,false
+541,spotify,152,,live,Black Swan - Live,false
+542,spotify,82,36,original,Blood Sweat & Tears,false
+543,spotify,82,36,original,Blood Sweat & Tears,false
+544,spotify,82,,live,Blood Sweat & Tears - Live,false
+545,spotify,82,37,japanese,血、汗、涙 - Japanese ver.,false
+546,spotify,82,,original,피 땀 눈물,false
+547,spotify,172,42,original,Blue & Grey,false
+548,spotify,172,42,original,Blue & Grey,false
+549,spotify,172,,live,Blue & Grey - Live,false
+550,spotify,197,,original,Body to Body,false
+551,spotify,182,47,original,Born Singer,false
+552,spotify,21,49,original,Boy In Luv,false
+553,spotify,21,51,japanese,Boy In Luv - Japanese Ver.,false
+554,spotify,21,,original,상남자 (Boy in Luv),false
+555,spotify,133,55,original,Boy With Luv (Feat. Halsey),false
+556,spotify,133,55,original,Boy With Luv (Feat. Halsey),false
+557,spotify,133,,live,Boy With Luv (Feat. Halsey) - Live,false
+558,spotify,133,55,original,Boy With Luv (feat. Halsey),false
+559,spotify,133,56,japanese,Boy With Luv - Japanese ver.,false
+560,spotify,133,,original,작은 것들을 위한 시 (Boy With Luv) [feat. Halsey],false
+561,spotify,51,59,original,Boyz with Fun,false
+562,spotify,51,60,japanese,Funtan Syounendan - Japanese Ver.,false
+563,spotify,51,,japanese,フンタン少年団(Japanese Ver.),false
+564,spotify,51,,original,흥탄소년단,false
+565,spotify,80,62,original,BTS Cypher 4,false
+566,spotify,80,62,original,BTS Cypher 4,false
+567,spotify,80,,original,BTS Cypher 4,false
+568,spotify,11,63,original,BTS Cypher Pt.1,false
+569,spotify,11,63,original,BTS Cypher Pt.1,false
+570,spotify,20,,original,BTS Cypher Pt.2: Triptych,false
+571,spotify,20,,original,BTS Cypher Pt.2: Triptych,false
+572,spotify,33,65,original,BTS Cypher PT.3 : KILLER (Feat. Supreme Boi),false
+573,spotify,71,67,original,Burning Up (FIRE),false
+574,spotify,71,,live,Burning Up (FIRE) - Live,false
+575,spotify,71,,japanese,FIRE - Japanese Ver.,false
+576,spotify,71,,japanese,FIRE‐Japanese Ver.‐,false
+577,spotify,71,,original,Fire,false
+578,spotify,71,68,japanese,Fire - Japanese Ver.,false
+579,spotify,71,,original,불타오르네 (Fire),false
+580,spotify,180,71,original,Butter,false
+581,spotify,180,74,remix,Butter (Cooler Remix),false
+582,spotify,180,77,remix,Butter (Holiday Remix),false
+583,spotify,180,73,remix,Butter (Hotter Remix),false
+584,spotify,180,72,instrumental,Butter (Instrumental),false
+585,spotify,180,75,remix,Butter (Sweeter Remix),false
+586,spotify,180,72,instrumental,Butter - Instrumental,false
+587,spotify,180,,live,Butter - Live,false
+588,spotify,180,76,remix,Butter - Megan Thee Stallion Remix,false
+589,spotify,62,,original,Butterfly,false
+590,spotify,62,,original,Butterfly,false
+591,spotify,62,80,original,Butterfly,false
+592,spotify,62,82,remix,Butterfly - Alternative Mix,false
+593,spotify,62,82,remix,Butterfly - Alternative Mix,false
+594,spotify,62,81,japanese,Butterfly - Japanese Ver.,false
+595,spotify,62,83,remix,Butterfly - Prologue Mix,false
+596,spotify,62,83,remix,Butterfly - Prologue Mix,false
+597,spotify,62,,japanese,Butterfly‐Japanese Ver.‐,false
+598,spotify,12,86,original,Coffee,false
+599,spotify,12,86,original,Coffee,false
+600,spotify,95,87,original,Come Back Home,false
+601,spotify,210,,original,Come Over,false
+602,spotify,52,90,original,Converse High,false
+603,spotify,52,,original,Converse High,false
+604,spotify,52,,original,Converse High,false
+605,spotify,34,91,original,Could You Turn off Your Cell Phone,false
+606,spotify,34,,original,핸드폰 좀 꺼줄래,false
+607,spotify,107,92,original,Crystal Snow,false
+608,spotify,35,93,original,Danger,false
+609,spotify,35,94,japanese,Danger - Japanese Ver.,false
+610,spotify,98,97,original,Dimple,false
+611,spotify,98,97,original,Dimple,false
+612,spotify,98,97,original,dimple,false
+613,spotify,134,99,original,Dionysus,false
+614,spotify,134,99,original,Dionysus,false
+615,spotify,134,99,original,Dionysus,false
+616,spotify,134,100,japanese,Dionysus - Japanese ver.,false
+617,spotify,173,102,original,Dis-ease,false
+618,spotify,173,,live,Dis-ease - Live,false
+619,spotify,173,,original,병,false
+620,spotify,97,105,original,DNA,false
+621,spotify,97,105,original,DNA,false
+622,spotify,97,105,original,DNA,false
+623,spotify,97,107,remix,DNA (Pedal 2 LA Mix),false
+624,spotify,97,106,japanese,DNA - Japanese ver.,false
+625,spotify,97,,live,DNA - Live,false
+626,spotify,109,111,original,Don't Leave Me,false
+627,spotify,53,,japanese,DOPE ‐超ヤベー!‐ - Japanese Ver.,false
+628,spotify,53,,japanese,DOPE‐超ヤベー!‐(Japanese Ver.),false
+629,spotify,53,,original,Dope,false
+630,spotify,53,112,original,Dope,false
+631,spotify,53,,original,Dope,false
+632,spotify,53,113,japanese,Dope - Chou Yabee! - - Japanese Ver.,false
+633,spotify,53,,live,Dope - Live,false
+634,spotify,53,,original,쩔어,false
+635,spotify,140,,original,Dream Glow (BTS World Original Soundtrack) - Pt. 1,false
+636,spotify,140,115,original,Dream Glow - BTS World Original Soundtrack (Pt. 1),false
+637,spotify,170,117,original,Dynamite,false
+638,spotify,170,117,original,Dynamite,false
+639,spotify,170,122,instrumental,Dynamite (Instrumental),false
+640,spotify,170,121,remix,Dynamite - Acoustic Remix,false
+641,spotify,170,123,remix,Dynamite - Bedroom Remix,false
+642,spotify,170,118,remix,Dynamite - EDM Remix,false
+643,spotify,170,127,remix,Dynamite - Holiday Remix,false
+644,spotify,170,122,instrumental,Dynamite - Instrumental,false
+645,spotify,170,,live,Dynamite - Live,false
+646,spotify,170,124,remix,Dynamite - Midnight Remix,false
+647,spotify,170,119,remix,Dynamite - Poolside Remix,false
+648,spotify,170,125,remix,Dynamite - Retro Remix,false
+649,spotify,170,126,remix,Dynamite - Slow Jam Remix,false
+650,spotify,170,120,remix,Dynamite - Tropical Remix,false
+651,spotify,36,130,original,Embarrassed,false
+652,spotify,36,,original,이불킥,false
+653,spotify,72,,japanese,EPILOGUE : Young Forever‐Japanese Ver.‐,false
+654,spotify,72,133,japanese,Epilogue : Young Forever - Japanese Ver.,false
+655,spotify,72,132,original,Epilogue: Young Forever,false
+656,spotify,72,132,original,Epilogue: Young Forever,false
+657,spotify,125,135,original,Epiphany,false
+658,spotify,126,137,original,Euphoria,false
+659,spotify,126,137,original,Euphoria,false
+660,spotify,116,140,original,FAKE LOVE,false
+661,spotify,116,140,original,FAKE LOVE,false
+662,spotify,116,140,original,FAKE LOVE,false
+663,spotify,116,141,remix,FAKE LOVE (Rocking Vibe Mix),false
+664,spotify,116,142,japanese,FAKE LOVE - Japanese ver.,false
+665,spotify,116,,japanese,FAKE LOVE - Japanese ver. / Remix,false
+666,spotify,116,,japanese,FAKE LOVE - Japanese ver. / Remix,false
+667,spotify,116,,live,FAKE LOVE - Live,false
+668,spotify,179,146,original,Film out,false
+669,spotify,154,147,original,Filter,false
+670,spotify,154,147,original,Filter,false
+671,spotify,83,,original,First Love,false
+672,spotify,83,149,original,First Love,false
+673,spotify,83,149,original,First Love,false
+674,spotify,174,150,original,Fly To My Room,false
+675,spotify,174,,original,내 방을 여행하는 법,false
+676,spotify,60,,original,FOR YOU,false
+677,spotify,60,153,original,For You,false
+678,spotify,183,155,original,For Youth,false
+679,spotify,155,156,original,Friends,false
+680,spotify,155,156,original,Friends,false
+681,spotify,155,,original,친구,false
+682,spotify,198,,original,FYA,false
+683,spotify,99,161,original,Go Go,false
+684,spotify,99,161,original,Go Go,false
+685,spotify,99,162,japanese,Go Go - Japanese ver.,false
+686,spotify,70,163,original,Good Day,false
+687,spotify,70,163,original,Good Day,false
+688,spotify,147,,original,Heartbeat (BTS World Original Soundtrack),false
+689,spotify,100,165,original,Her,false
+690,spotify,100,165,original,Her,false
+691,spotify,100,165,original,Outro: Her,false
+692,spotify,37,167,original,Hip Hop Phile,false
+693,spotify,37,,original,힙합성애자,false
+694,spotify,54,168,original,Hold Me Tight,false
+695,spotify,54,,original,Hold Me Tight,false
+696,spotify,54,,original,잡아줘 (Hold Me Tight),false
+697,spotify,135,169,original,HOME,false
+698,spotify,135,169,original,HOME,false
+699,spotify,199,,original,Hooligan,false
+700,spotify,55,174,original,I NEED U,false
+701,spotify,55,,japanese,I NEED U(Japanese Ver.),false
+702,spotify,55,175,japanese,I Need U - Japanese Ver.,false
+703,spotify,55,176,remix,I Need U - Remix,false
+704,spotify,55,176,remix,I Need U - Remix,false
+705,spotify,55,177,remix,I Need U - Urban Mix,false
+706,spotify,55,177,remix,I Need U - Urban Mix,false
+707,spotify,128,181,original,IDOL,false
+708,spotify,128,181,original,IDOL,false
+709,spotify,128,180,original,IDOL,false
+710,spotify,128,183,japanese,IDOL - Japanese ver.,false
+711,spotify,128,,live,IDOL - Live,false
+712,spotify,128,,remix,IDOL - Stadium Remix,false
+713,spotify,13,186,original,If I Ruled the World,false
+714,spotify,13,186,original,If I Ruled the World,false
+715,spotify,47,187,original,Iine!Pt.2 - Ano Bashode -,false
+716,spotify,47,,original,いいね!Pt.2 ~あの場所で~,false
+717,spotify,127,188,original,I'm Fine,false
+718,spotify,156,189,original,Inner Child,false
+719,spotify,156,189,original,Inner Child,false
+720,spotify,1,191,original,Interlude,false
+721,spotify,1,191,original,Interlude,false
+722,spotify,157,192,original,Interlude : Shadow,false
+723,spotify,157,192,original,Interlude : Shadow,false
+724,spotify,38,194,original,Interlude: What Are You Doing Now,false
+725,spotify,38,,original,Interlude: 뭐해,false
+726,spotify,84,195,original,Interlude: Wings,false
+727,spotify,200,,original,Into the Sun,false
+728,spotify,2,198,original,Intro: 2 Cool 4 Skool,false
+729,spotify,2,198,original,Intro: 2 Cool 4 Skool,false
+730,spotify,85,199,original,Intro: Boy Meets Evil,false
+731,spotify,85,,original,Intro: Boy Meets Evil,false
+732,spotify,85,199,original,Intro: Boy Meets Evil,false
+733,spotify,167,201,original,INTRO : Calling,false
+734,spotify,63,203,original,Intro: Never Mind,false
+735,spotify,63,203,original,Intro: Never Mind,false
+736,spotify,14,204,original,"Intro: O!RUL8,2?",false
+737,spotify,14,204,original,"Intro: O!RUL8,2?",false
+738,spotify,136,205,original,Intro : Persona,false
+739,spotify,136,205,original,Intro : Persona,false
+740,spotify,136,205,original,Intro : Persona,false
+741,spotify,110,207,original,INTRO : Ringwanderung,false
+742,spotify,101,208,original,Intro: Serendipity,false
+743,spotify,22,,original,Intro: Skool Luv Affair,false
+744,spotify,22,,original,Intro: Skool Luv Affair,false
+745,spotify,56,,original,Intro: The Most Beautiful Moment in Life,false
+746,spotify,56,210,original,Intro: The Most Beautiful Moment in Life,false
+747,spotify,56,,original,Intro: 화양연화,false
+748,spotify,46,211,original,Intro.,false
+749,spotify,39,212,original,Intro: What Am I to You,false
+750,spotify,39,212,original,Intro: What Am I to You,false
+751,spotify,74,,original,INTRODUCTION : YOUTH,false
+752,spotify,74,213,original,Introduction : Youth,false
+753,spotify,137,215,original,Jamais Vu,false
+754,spotify,137,215,original,Jamais Vu,false
+755,spotify,137,215,original,Jamais Vu,false
+756,spotify,23,,original,Jump,false
+757,spotify,23,,original,Jump,false
+758,spotify,23,219,japanese,Jump - Japanese Ver.,false
+759,spotify,24,,japanese,JUST ONE DAY - Japanese Ver.,false
+760,spotify,24,,original,Just One Day,false
+761,spotify,24,,original,Just One Day,false
+762,spotify,24,224,japanese,Just One Day - Japanese Ver.,false
+763,spotify,24,,japanese,Just One Day - Japanese Ver.,false
+764,spotify,24,,original,하루만,false
+765,spotify,111,225,original,Let Go,false
+766,spotify,40,226,original,Let Me Know,false
+767,spotify,40,226,original,Let Me Know,false
+768,spotify,40,227,japanese,Let Me Know - Japanese Ver.,false
+769,spotify,86,,original,Lie,false
+770,spotify,86,228,original,Lie,false
+771,spotify,86,228,original,Lie,false
+772,spotify,175,229,original,Life Goes On,false
+773,spotify,175,229,original,Life Goes On,false
+774,spotify,175,,live,Life Goes On - Live,false
+775,spotify,151,232,original,Lights,false
+776,spotify,3,235,japanese,Iine!,false
+777,spotify,3,233,original,Like,false
+778,spotify,3,,remix,Like - Slow Jam Remix,false
+779,spotify,3,,original,좋아요,false
+780,spotify,201,,original,Like Animals,false
+781,spotify,41,238,original,Look Here,false
+782,spotify,41,,original,여기 봐,false
+783,spotify,87,239,original,Lost,false
+784,spotify,87,,original,Lost,false
+785,spotify,87,239,original,Lost,false
+786,spotify,158,240,original,Louder than bombs,false
+787,spotify,158,240,original,Louder than bombs,false
+788,spotify,117,242,original,Love Maze,false
+789,spotify,64,,original,Ma City,false
+790,spotify,64,243,original,Ma City,false
+791,spotify,64,,original,Ma City,false
+792,spotify,118,244,original,Magic Shop,false
+793,spotify,118,244,original,Magic Shop,false
+794,spotify,138,245,original,Make It Right,false
+795,spotify,138,245,original,Make It Right,false
+796,spotify,138,245,original,Make It Right,false
+797,spotify,138,246,original,Make It Right (feat. Lauv),false
+798,spotify,138,248,remix,Make It Right (feat. Lauv) - Acoustic Remix,false
+799,spotify,138,247,remix,Make It Right (feat. Lauv) - EDM Remix,false
+800,spotify,138,249,japanese,Make It Right - Japanese ver.,false
+801,spotify,88,,original,MAMA,false
+802,spotify,88,251,original,MAMA,false
+803,spotify,88,251,original,MAMA,false
+804,spotify,202,,original,Merry Go Round,false
+805,spotify,102,255,original,MIC Drop,false
+806,spotify,102,255,original,MIC Drop,false
+807,spotify,102,259,alternate,MIC Drop (Steve Aoki Remix) (Full Length Edition),false
+808,spotify,102,,remix,MIC Drop (feat. Desiigner) [Steve Aoki Remix],false
+809,spotify,102,257,japanese,MIC Drop - Japanese ver.,false
+810,spotify,139,261,original,Mikrokosmos,false
+811,spotify,139,,original,소우주 (Mikrokosmos),false
+812,spotify,31,,japanese,MISS RIGHT - Japanese Ver.,false
+813,spotify,31,,original,Miss Right,false
+814,spotify,159,265,original,Moon,false
+815,spotify,159,265,original,Moon,false
+816,spotify,57,267,original,Moving On,false
+817,spotify,57,,original,Moving On,false
+818,spotify,57,,original,이사,false
+819,spotify,160,268,original,My Time,false
+820,spotify,160,,original,시차,false
+821,spotify,15,270,original,N.O,false
+822,spotify,15,271,japanese,N.O - Japanese Ver.,false
+823,spotify,204,,original,No. 29,false
+824,spotify,4,275,original,No More Dream,false
+825,spotify,4,276,japanese,No More Dream - Japanese Ver.,false
+826,spotify,203,,original,NORMAL,false
+827,spotify,203,286,instrumental,NORMAL (Instrumental),false
+828,spotify,203,283,korean,NORMAL (Korean Ver.),false
+829,spotify,92,289,original,Not Today,false
+830,spotify,92,289,original,Not Today,false
+831,spotify,92,290,japanese,Not Today - Japanese ver.,false
+832,spotify,161,291,original,ON,false
+833,spotify,161,291,original,ON,false
+834,spotify,161,292,original,ON (Feat. Sia),false
+835,spotify,161,292,original,ON (Feat. Sia),false
+836,spotify,161,293,japanese,ON - Japanese ver.,false
+837,spotify,161,,live,ON - Live,false
+838,spotify,205,,original,One More Night,false
+839,spotify,5,299,original,Outro: Circle Room Cypher,false
+840,spotify,5,299,original,Outro: Circle Room Cypher,false
+841,spotify,112,300,original,OUTRO : Crack,false
+842,spotify,42,301,original,Outro: Do You Think It Makes Sense?,false
+843,spotify,42,,original,Outro: 그게 말이 돼?,false
+844,spotify,162,302,original,Outro : Ego,false
+845,spotify,162,302,original,Outro : Ego,false
+846,spotify,65,305,alternate,House of Cards - Full Length Edition,false
+847,spotify,65,305,alternate,House of Cards - Full Length Edition,false
+848,spotify,65,304,original,Outro: House of Cards,false
+849,spotify,65,304,original,Outro: House of Cards,false
+850,spotify,58,307,alternate,Love Is Not Over - Full Length Edition,false
+851,spotify,58,307,alternate,Love Is Not Over - Full Length Edition,false
+852,spotify,58,306,original,Outro: Love Is Not Over,false
+853,spotify,58,306,original,Outro: Love Is Not Over,false
+854,spotify,16,308,original,Outro: Luv in Skool,false
+855,spotify,16,308,original,Outro: Luv in Skool,false
+856,spotify,25,,original,Outro: Propose,false
+857,spotify,25,,original,Outro: Propose,false
+858,spotify,168,310,original,OUTRO : The Journey,false
+859,spotify,48,311,original,Outro.,false
+860,spotify,93,,live,Outro : Wings - Live,false
+861,spotify,93,312,original,Outro: Wings,false
+862,spotify,93,312,original,Outro: Wings,false
+863,spotify,17,314,original,Paldogangsan,false
+864,spotify,17,,original,팔도강산,false
+865,spotify,119,315,original,Paradise,false
+866,spotify,181,317,original,Permission to Dance,false
+867,spotify,181,317,original,Permission to Dance,false
+868,spotify,181,318,instrumental,Permission to Dance (Instrumental),false
+869,spotify,181,318,instrumental,Permission to Dance (Instrumental),false
+870,spotify,181,319,remix,Permission to Dance (R&B Remix),false
+871,spotify,181,,live,Permission to Dance - Live,false
+872,spotify,103,321,original,Pied Piper,false
+873,spotify,206,,original,Please,false
+874,spotify,43,324,original,Rain,false
+875,spotify,43,324,original,Rain,false
+876,spotify,89,325,original,Reflection,false
+877,spotify,89,,original,Reflection,false
+878,spotify,89,325,original,Reflection,false
+879,spotify,163,326,original,Respect,false
+880,spotify,163,326,original,Respect,false
+881,spotify,66,328,original,RUN,false
+882,spotify,66,,japanese,RUN - Japanese Ver.,false
+883,spotify,66,,japanese,RUN‐Japanese Ver.‐,false
+884,spotify,66,331,remix,Run - Alternative Mix,false
+885,spotify,66,331,remix,Run - Alternative Mix,false
+886,spotify,66,330,remix,Run - Ballad Mix,false
+887,spotify,66,330,remix,Run - Ballad Mix,false
+888,spotify,66,329,japanese,Run - Japanese Ver.,false
+889,spotify,184,334,original,Run BTS,false
+890,spotify,73,,japanese,Save ME‐Japanese Ver.‐,false
+891,spotify,73,335,original,Save Me,false
+892,spotify,73,335,original,Save Me,false
+893,spotify,73,336,japanese,Save Me - Japanese Ver.,false
+894,spotify,129,337,alternate,Serendipity (Full Length Edition),false
+895,spotify,67,340,japanese,Peppuse - Japanese Ver.,false
+896,spotify,67,339,original,Silver Spoon,false
+897,spotify,67,339,original,Silver Spoon,false
+898,spotify,67,,live,Silver Spoon - Live,false
+899,spotify,67,,japanese,ペップセ‐Japanese Ver.‐,false
+900,spotify,67,,original,뱁새,false
+901,spotify,120,342,original,Intro: Singularity,false
+902,spotify,120,342,original,Singularity,false
+903,spotify,120,342,original,Singularity,false
+904,spotify,176,344,original,Skit,false
+905,spotify,176,344,original,Skit,false
+906,spotify,105,346,original,Skit: Billboard Music Awards Speech,false
+907,spotify,8,347,original,Skit: Circle Room Talk,false
+908,spotify,8,347,original,Skit: Circle Room Talk,false
+909,spotify,59,348,original,Skit: Expectation!,false
+910,spotify,59,348,original,Skit: Expectation!,false
+911,spotify,68,350,original,Skit: One Night in a Strange City,false
+912,spotify,68,350,original,Skit: One Night in a Strange City,false
+913,spotify,18,351,original,Skit: R U Happy Now?,false
+914,spotify,18,351,original,Skit: R U Happy Now?,false
+915,spotify,26,,original,Skit: Soulmate,false
+916,spotify,26,,original,Skit: Soulmate,false
+917,spotify,44,,original,2학년,false
+918,spotify,44,354,original,So 4 more,false
+919,spotify,121,355,original,So What,false
+920,spotify,121,,live,So What - Live,false
+921,spotify,27,,original,Spine Breaker,false
+922,spotify,27,,original,Spine Breaker,false
+923,spotify,27,,original,등골브레이커,false
+924,spotify,94,359,original,Spring Day,false
+925,spotify,94,359,original,Spring Day,false
+926,spotify,94,360,japanese,Spring Day - Japanese ver.,false
+927,spotify,94,,live,Spring Day - Live,false
+928,spotify,94,,original,봄날,false
+929,spotify,177,364,original,Stay,false
+930,spotify,177,364,original,Stay,false
+931,spotify,177,,live,Stay - Live,false
+932,spotify,166,367,original,Stay Gold,false
+933,spotify,90,368,original,Stigma,false
+934,spotify,90,368,original,Stigma,false
+935,spotify,90,,original,Stigma,false
+936,spotify,207,,original,SWIM,false
+937,spotify,207,,instrumental,SWIM (Instrumental),false
+938,spotify,207,,remix,SWIM - Spring Waves Remix,false
+939,spotify,207,388,remix,SWIM - Underwater Remix,false
+940,spotify,207,,remix,SWIM with Jimin (Slow Jam R&B Remix),false
+941,spotify,207,,remix,SWIM with Jin (Alternative Rock Remix),false
+942,spotify,207,,remix,SWIM with Jung Kook (Acoustic Lofi Remix),false
+943,spotify,207,,remix,SWIM with RM (Chill Hip Hop Remix),false
+944,spotify,207,,remix,SWIM with SUGA (Melodic Techno Remix),false
+945,spotify,207,,remix,SWIM with V (Electronic Remix),false
+946,spotify,207,,remix,SWIM with j-hope (Afrobeat Remix),false
+947,spotify,193,392,original,Take Two,false
+948,spotify,122,394,original,Outro: Tear,false
+949,spotify,122,394,original,Tear,false
+950,spotify,178,395,original,Telepathy,false
+951,spotify,178,,live,Telepathy - Live,false
+952,spotify,178,,original,잠시,false
+953,spotify,192,398,original,The Planet,false
+954,spotify,49,399,original,The Stars,false
+955,spotify,123,400,original,The Truth Untold,false
+956,spotify,123,400,original,The Truth Untold (feat. Steve Aoki),false
+957,spotify,208,,original,they don’t know ’bout us,false
+958,spotify,28,,original,Tomorrow,false
+959,spotify,28,,original,Tomorrow,false
+960,spotify,130,406,original,Trivia 承 : Love,false
+961,spotify,131,407,original,Trivia 起 : Just Dance,false
+962,spotify,132,408,original,Trivia 轉 : Seesaw,false
+963,spotify,132,408,original,Trivia 轉 : Seesaw,false
+964,spotify,164,411,original,UGH!,false
+965,spotify,164,,original,욱 (UGH!),false
+966,spotify,50,413,original,Wake Up,false
+967,spotify,45,415,japanese,Hormone Sensou - Japanese Ver.,false
+968,spotify,45,414,original,War of Hormone,false
+969,spotify,45,,original,호르몬 전쟁,false
+970,spotify,9,416,original,We Are Bulletproof Pt.2,false
+971,spotify,9,416,original,We Are Bulletproof Pt.2,false
+972,spotify,165,417,original,We are Bulletproof : the Eternal,false
+973,spotify,165,417,original,We are Bulletproof : the Eternal,false
+974,spotify,19,419,original,We On,false
+975,spotify,19,419,original,We On,false
+976,spotify,69,,original,Whalien 52,false
+977,spotify,69,420,original,Whalien 52,false
+978,spotify,69,,original,Whalien 52,false
+979,spotify,29,,original,Where You From,false
+980,spotify,29,,original,Where You From,false
+981,spotify,75,424,original,Wishing On A Star,false
+982,spotify,75,,original,Wishing on a star,false
+983,spotify,187,427,original,Yet To Come,false
+984,spotify,187,428,remix,Yet To Come - Hyundai Ver.,false
+985,spotify,169,429,original,Your eyes tell,false
+986,spotify,,,original,Bad Decisions (with BTS & Snoop Dogg),true
+987,spotify,,,remix,Bad Decisions (with BTS & Snoop Dogg) - Acoustic,true
+988,spotify,,,instrumental,Bad Decisions (with BTS & Snoop Dogg) - Instrumental,true
+989,spotify,,,original,Dreamers [Music from the FIFA World Cup Qatar 2022 Official Soundtrack],true
+990,spotify,,,original,Dreamers [Music from the FIFA World Cup Qatar 2022 Official Soundtrack],true
+991,spotify,,,original,Girl Of My Dreams (with SUGA of BTS),true
+992,spotify,,,original,Left and Right (Feat. Jung Kook of BTS),true
+993,spotify,,,original,Left and Right (Feat. Jung Kook of BTS),true
+994,spotify,,,original,"Love U, Hate U (Feat. 방탄소년단)",true
+995,spotify,,,original,My Universe,true
+996,spotify,,,original,My Universe,true
+997,spotify,,,remix,My Universe - Acoustic Version,true
+998,spotify,,,remix,My Universe - David Guetta Remix,true
+999,spotify,,,remix,My Universe - Galantis Remix,true
+1000,spotify,,,instrumental,My Universe - Instrumental,true
+1001,spotify,,,remix,My Universe - SUGA's Remix,true
+1002,spotify,,,remix,My Universe - Supernova 7 Mix,true
+1003,spotify,,,remix,Old Town Road (feat. RM of BTS) - Seoul Town Road Remix,true
+1004,spotify,,,original,SUGA's Interlude,true
+1005,spotify,,,original,SUGA's Interlude,true
+1006,spotify,,,remix,Savage Love (Laxed – Siren Beat) [BTS Remix],true
+1007,spotify,,,instrumental,Savage Love (Laxed – Siren Beat) [BTS Remix] (Instrumental),true
+1008,spotify,,,original,Waste It On Me,true
+1009,spotify,,,original,Waste It On Me,true
+1010,spotify,,,original,Waste It On Me (feat. BTS),true
+1011,spotify,,,original,Waste It On Me (feat. BTS),true
+1012,spotify,,,remix,Waste It On Me (feat. BTS) - Steve Aoki The Bold Tender Sneeze Remix,true
+1013,spotify,,,remix,Waste It On Me (feat. BTS) - W&W Remix,true
+1014,spotify,,,remix,Waste It On Me - Cheat Codes Remix,true
+1015,spotify,,,remix,Waste It On Me - Cheat Codes Remix,true
+1016,spotify,,,remix,Waste It On Me - Slushii Remix,true
+1017,spotify,,,remix,Waste It On Me - Slushii Remix,true
+1018,spotify,,,remix,Waste It On Me - Steve Aoki The Bold Tender Sneeze Remix,true
+1019,spotify,,,remix,Waste It On Me - W&W Remix,true
+1020,spotify,,,remix,Waste It On Me - W&W Remix,true
+1021,spotify,,,original,Who,true

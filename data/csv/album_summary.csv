@@ -1,0 +1,43 @@
+album_id,slug,title,kind,release_date,track_count,new_songs,singles,spotify_streams,median_song_streams,top_song,mv_views,hot100_songs,best_hot100_peak,bb200_weeks,bb200_peak,audio_songs,avg_tempo,avg_energy,avg_valence,avg_danceability,credited_songs,writers,producers,member_writer_share
+1,2-cool-4-skool,2 COOL 4 SKOOL,Album,2013-06-12,7,9,2,784479796,36136767.0,No More Dream,708561711,0,,,,7,121.2,0.646,0.757,0.717,9,11,7,0.667
+2,o-rul8-2,"O!RUL8,2?",Album,2013-09-11,10,10,1,621172671,41253792.5,Coffee,223861236,0,,,,10,112.0,0.771,0.633,0.652,10,8,3,0.583
+3,skool-luv-affair,Skool Luv Affair,Album,2014-02-12,10,10,2,1290131901,90224379.5,Boy in Luv,912610963,0,,2,12,10,120.4,0.823,0.669,0.561,10,11,7,0.535
+4,skool-luv-affair-special-edition,Skool Luv Affair (Special Edition),Album,2014-05-14,12,1,0,50991756,50991756.0,Miss Right,,0,,,,1,93.0,0.835,0.855,0.718,1,6,1,0.5
+5,dark-wild,DARK&WILD,Album,2014-08-20,14,14,2,1156965658,59441659.0,Danger,747613721,0,,,,14,110.8,0.868,0.577,0.667,14,12,8,0.596
+6,wake-up,WAKE UP,Album,2014-12-24,13,5,0,81767975,13399757.0,Iine!Pt.2,,0,,,,5,111.7,0.793,0.748,0.696,5,8,5,0.588
+7,the-most-beautiful-moment-in-life-pt-1,"The Most Beautiful Moment in Life, Pt. 1",Album,2015-04-29,9,9,2,1565822432,111772304.0,I Need U,1363519444,0,,,,9,124.3,0.735,0.604,0.614,9,14,5,0.581
+8,for-you,FOR YOU,Single,2015-06-17,3,1,1,68562562,68562562.0,For You,145135359,0,,,,1,165.9,0.809,0.574,0.547,1,6,1,0.5
+9,the-most-beautiful-moment-in-life-pt-2,"The Most Beautiful Moment in Life, Pt. 2",Album,2015-11-30,9,9,1,1620130222,118424425.0,Run,346566596,0,,1,171,9,123.5,0.812,0.505,0.536,9,10,4,0.476
+10,run-japanese-ver,RUN‐Japanese Ver.‐,Single,2016-03-15,3,1,0,33337590,33337590.0,Good Day,,0,,,,1,95.0,0.89,0.666,0.611,1,5,2,0.6
+11,the-most-beautiful-moment-in-life-young-forever,The Most Beautiful Moment in Life: Young Forever,Album,2016-05-02,23,3,3,1070924211,420964065.0,Burning Up,2304944703,0,,1,107,3,109.3,0.768,0.485,0.616,3,10,3,0.5
+12,youth,YOUTH,Album,2016-09-07,13,2,0,39239323,19619661.5,Wishing on a Star,,0,,,,2,176.9,0.871,0.595,0.519,2,15,3,0.444
+13,wings,Wings,Album,2016-10-10,15,15,1,2886283484,142771337.0,Blood Sweat & Tears,1051156863,0,,2,26,15,118.9,0.774,0.481,0.582,15,30,15,0.366
+14,the-best-of-防弾少年団-japan-edition,THE BEST OF 防弾少年団 (JAPAN EDITION),Album,2017-01-06,14,0,0,,,,,0,,,,0,,,,,,,,
+15,you-never-walk-alone,YOU NEVER WALK ALONE,Album,2017-02-13,18,4,2,1301991368,270576489.5,Spring Day,1284243018,0,,2,61,4,117.5,0.899,0.596,0.62,4,10,1,0.391
+16,come-back-home,Come Back Home,Single,2017-07-04,1,1,0,72781114,72781114.0,Come Back Home,25599967,0,,,,1,100.0,0.881,0.456,0.647,,,,
+17,love-yourself-承-her,LOVE YOURSELF 承 'Her',Album,2017-09-18,9,11,2,3246109681,363146071.0,DNA,1686367384,2,28,45,7,9,121.7,0.755,0.55,0.583,9,16,6,0.341
+18,mic-drop-dna-crystal-snow,MIC Drop / DNA / Crystal Snow,Single,2017-12-06,3,1,0,135966747,135966747.0,Crystal Snow,,0,,,,1,114.0,0.766,0.448,0.618,1,3,1,0.333
+19,face-yourself,FACE YOURSELF,Album,2018-04-04,12,4,1,404113603,97806836.0,Let Go,,0,,1,43,4,131.6,0.713,0.259,0.624,4,14,2,0.143
+20,love-yourself-轉-tear,Love Yourself 轉 'Tear',Album,2018-05-18,11,11,2,4353284247,356999327.0,FAKE LOVE,1414927993,1,10,16,1,11,122.6,0.722,0.535,0.658,11,31,9,0.397
+21,love-yourself-結-answer,Love Yourself 結 'Answer',Album,2018-08-24,26,9,1,2918753344,262541945.0,IDOL,1584442527,1,11,100,1,8,114.6,0.788,0.453,0.644,8,23,6,0.234
+22,map-of-the-soul-persona,MAP OF THE SOUL : PERSONA,Album,2019-04-12,7,7,2,3802838673,408397388.0,Boy With Luv,2248178416,2,8,35,1,7,126.5,0.782,0.508,0.585,7,35,6,0.316
+23,dream-glow-bts-world-original-soundtrack-pt-1,"Dream Glow (BTS World Original Soundtrack, Pt. 1)",Single,2019-06-07,1,1,1,169278082,169278082.0,Dream Glow,,0,,,,1,142.0,0.74,0.541,0.735,1,4,1,0.0
+24,a-brand-new-day-bts-world-original-soundtrack-pt-2,A Brand New Day (BTS World Original Soundtrack) [Pt. 2],Single,2019-06-14,1,1,1,120424403,120424403.0,A Brand New Day,,0,,,,1,105.0,0.498,0.711,0.804,1,6,1,0.167
+25,all-night-bts-world-original-soundtrack-pt-3,All Night (BTS World Original Soundtrack) [Pt. 3],Single,2019-06-21,1,1,1,131206203,131206203.0,All Night,,0,,,,1,120.0,0.705,0.634,0.726,1,5,2,0.4
+26,bts-world-original-soundtrack,BTS World (Original Soundtrack),Album,2019-06-28,14,8,1,181524153,181524153.0,Heartbeat,102290561,0,,,,8,120.3,0.421,,,8,13,1,0.125
+27,lights-boy-with-luv,Lights / Boy with Luv,Single,2019-07-03,3,1,1,249029327,249029327.0,Lights,183866634,0,,,,1,99.0,0.644,0.431,0.608,1,3,1,0.0
+28,black-swan,Black Swan,Single,2020-01-17,1,1,1,604437429,604437429.0,Black Swan,618248445,1,57,,,1,147.0,0.757,0.489,0.719,1,5,1,0.2
+29,map-of-the-soul-7,MAP OF THE SOUL : 7,Album,2020-02-21,21,13,1,3813446485,261004031.0,ON,482273133,3,4,95,1,13,121.9,0.728,0.455,0.629,13,60,14,0.269
+30,map-of-the-soul-7-the-journey,MAP OF THE SOUL : 7 ~ THE JOURNEY ~,Album,2020-07-14,13,4,1,538832244,119189227.0,Stay Gold,277918533,0,,4,14,4,137.7,0.548,0.271,0.545,4,8,2,0.1
+31,dynamite,Dynamite,Single,2020-08-21,1,1,1,2379195409,2379195409.0,Dynamite,2681798146,1,1,,,1,114.0,0.765,0.737,0.746,1,2,1,0.0
+32,be,BE,Album,2020-11-20,8,7,1,2328568023,220518128.0,Life Goes On,859661512,6,1,37,1,7,109.2,0.625,0.477,0.669,7,24,15,0.587
+33,film-out,Film out,Single,2021-04-02,1,1,1,302705658,302705658.0,Film out,243936881,1,81,,,1,81.9,0.71,0.293,0.503,1,2,2,0.5
+34,butter,Butter,Single,2021-05-21,1,1,1,1521296862,1521296862.0,Butter,1119427575,1,1,,,1,110.0,0.459,0.695,0.759,1,7,3,0.143
+35,bts-the-best,"BTS, THE BEST",Album,2021-06-16,22,0,0,,,,,0,,2,19,0,,,,,,,,
+36,permission-to-dance,Permission to Dance,Single,2021-07-09,1,1,1,839818748,839818748.0,Permission to Dance,734488547,1,1,,,1,124.9,0.741,0.646,0.702,1,4,0,0.0
+37,proof,Proof,Album,2022-06-10,35,8,1,1423373219,310904082.5,Run BTS,232415188,2,13,41,1,4,131.0,0.764,0.588,0.63,6,32,8,0.333
+38,the-planet,The Planet,Single,2023-05-12,1,1,0,116869424,116869424.0,The Planet,,0,,,,1,120.0,0.848,0.687,0.665,,,,
+39,take-two,Take Two,Single,2023-06-09,1,1,1,346067851,346067851.0,Take Two,,1,48,,,1,93.0,0.589,0.566,0.617,,,,
+40,permission-to-dance-on-stage-live,PERMISSION TO DANCE ON STAGE (LIVE),Album,2025-07-18,22,0,0,,,,,0,,2,10,0,,,,,,,,
+41,arirang,ARIRANG,Album,2026-03-20,14,16,3,5493282378,323156464.0,SWIM,,14,1,32,1,15,110.1,0.715,,,14,60,29,0.326
+42,keep-swimming,KEEP SWIMMING,Album,2026-03-27,9,0,0,,,,,0,,,,0,,,,,,,,

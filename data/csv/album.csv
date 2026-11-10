@@ -1,0 +1,43 @@
+album_id,slug,title,kind,release_date,track_count,has_tracklist
+1,2-cool-4-skool,2 COOL 4 SKOOL,Album,2013-06-12,7,true
+2,o-rul8-2,"O!RUL8,2?",Album,2013-09-11,10,true
+3,skool-luv-affair,Skool Luv Affair,Album,2014-02-12,10,true
+4,skool-luv-affair-special-edition,Skool Luv Affair (Special Edition),Album,2014-05-14,12,true
+5,dark-wild,DARK&WILD,Album,2014-08-20,14,true
+6,wake-up,WAKE UP,Album,2014-12-24,13,true
+7,the-most-beautiful-moment-in-life-pt-1,"The Most Beautiful Moment in Life, Pt. 1",Album,2015-04-29,9,true
+8,for-you,FOR YOU,Single,2015-06-17,3,true
+9,the-most-beautiful-moment-in-life-pt-2,"The Most Beautiful Moment in Life, Pt. 2",Album,2015-11-30,9,true
+10,run-japanese-ver,RUN‐Japanese Ver.‐,Single,2016-03-15,3,true
+11,the-most-beautiful-moment-in-life-young-forever,The Most Beautiful Moment in Life: Young Forever,Album,2016-05-02,23,true
+12,youth,YOUTH,Album,2016-09-07,13,true
+13,wings,Wings,Album,2016-10-10,15,true
+14,the-best-of-防弾少年団-japan-edition,THE BEST OF 防弾少年団 (JAPAN EDITION),Album,2017-01-06,14,true
+15,you-never-walk-alone,YOU NEVER WALK ALONE,Album,2017-02-13,18,true
+16,come-back-home,Come Back Home,Single,2017-07-04,1,true
+17,love-yourself-承-her,LOVE YOURSELF 承 'Her',Album,2017-09-18,9,true
+18,mic-drop-dna-crystal-snow,MIC Drop / DNA / Crystal Snow,Single,2017-12-06,3,true
+19,face-yourself,FACE YOURSELF,Album,2018-04-04,12,true
+20,love-yourself-轉-tear,Love Yourself 轉 'Tear',Album,2018-05-18,11,true
+21,love-yourself-結-answer,Love Yourself 結 'Answer',Album,2018-08-24,26,true
+22,map-of-the-soul-persona,MAP OF THE SOUL : PERSONA,Album,2019-04-12,7,true
+23,dream-glow-bts-world-original-soundtrack-pt-1,"Dream Glow (BTS World Original Soundtrack, Pt. 1)",Single,2019-06-07,1,true
+24,a-brand-new-day-bts-world-original-soundtrack-pt-2,A Brand New Day (BTS World Original Soundtrack) [Pt. 2],Single,2019-06-14,1,true
+25,all-night-bts-world-original-soundtrack-pt-3,All Night (BTS World Original Soundtrack) [Pt. 3],Single,2019-06-21,1,true
+26,bts-world-original-soundtrack,BTS World (Original Soundtrack),Album,2019-06-28,14,true
+27,lights-boy-with-luv,Lights / Boy with Luv,Single,2019-07-03,3,true
+28,black-swan,Black Swan,Single,2020-01-17,1,true
+29,map-of-the-soul-7,MAP OF THE SOUL : 7,Album,2020-02-21,21,true
+30,map-of-the-soul-7-the-journey,MAP OF THE SOUL : 7 ~ THE JOURNEY ~,Album,2020-07-14,13,true
+31,dynamite,Dynamite,Single,2020-08-21,1,true
+32,be,BE,Album,2020-11-20,8,true
+33,film-out,Film out,Single,2021-04-02,1,true
+34,butter,Butter,Single,2021-05-21,1,true
+35,bts-the-best,"BTS, THE BEST",Album,2021-06-16,22,true
+36,permission-to-dance,Permission to Dance,Single,2021-07-09,1,true
+37,proof,Proof,Album,2022-06-10,35,true
+38,the-planet,The Planet,Single,2023-05-12,1,true
+39,take-two,Take Two,Single,2023-06-09,1,true
+40,permission-to-dance-on-stage-live,PERMISSION TO DANCE ON STAGE (LIVE),Album,2025-07-18,22,true
+41,arirang,ARIRANG,Album,2026-03-20,14,true
+42,keep-swimming,KEEP SWIMMING,Album,2026-03-27,9,false

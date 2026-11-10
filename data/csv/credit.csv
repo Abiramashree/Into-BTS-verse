@@ -1,0 +1,1382 @@
+song_id,person_id,role,pages
+1,241,producer,[2 Cool 4 Skool]
+2,253,producer,[2 Cool 4 Skool]
+3,105,writer,"[2 Cool 4 Skool, 'Wake Up (BTS album)']"
+3,215,writer,"[2 Cool 4 Skool, 'Wake Up (BTS album)']"
+3,241,writer,"[2 Cool 4 Skool, 'Wake Up (BTS album)']"
+3,241,producer,"[2 Cool 4 Skool, 'Wake Up (BTS album)']"
+3,250,writer,"[2 Cool 4 Skool, 'Wake Up (BTS album)']"
+4,30,writer,"[2 Cool 4 Skool, 'Proof (album)']"
+4,105,writer,"[2 Cool 4 Skool, 'Proof (album)']"
+4,138,writer,['Proof (album)']
+4,203,writer,"[2 Cool 4 Skool, 'Proof (album)']"
+4,203,producer,"[2 Cool 4 Skool, 'Proof (album)']"
+4,215,writer,"[2 Cool 4 Skool, 'Proof (album)']"
+4,250,writer,"[2 Cool 4 Skool, 'Proof (album)']"
+4,253,writer,[2 Cool 4 Skool]
+5,105,writer,[2 Cool 4 Skool]
+5,122,writer,[2 Cool 4 Skool]
+5,123,writer,[2 Cool 4 Skool]
+5,138,writer,[2 Cool 4 Skool]
+5,203,writer,[2 Cool 4 Skool]
+5,203,producer,[2 Cool 4 Skool]
+5,215,writer,[2 Cool 4 Skool]
+5,250,writer,[2 Cool 4 Skool]
+5,271,writer,[2 Cool 4 Skool]
+6,30,writer,[2 Cool 4 Skool]
+6,30,producer,[2 Cool 4 Skool]
+6,105,writer,[2 Cool 4 Skool]
+6,105,producer,[2 Cool 4 Skool]
+6,203,writer,[2 Cool 4 Skool]
+6,203,producer,[2 Cool 4 Skool]
+6,215,writer,[2 Cool 4 Skool]
+6,215,producer,[2 Cool 4 Skool]
+6,250,writer,[2 Cool 4 Skool]
+6,250,producer,[2 Cool 4 Skool]
+7,30,producer,[2 Cool 4 Skool]
+7,215,writer,[2 Cool 4 Skool]
+8,203,producer,[2 Cool 4 Skool]
+9,30,writer,[2 Cool 4 Skool]
+9,203,writer,[2 Cool 4 Skool]
+9,203,producer,[2 Cool 4 Skool]
+9,215,writer,[2 Cool 4 Skool]
+9,250,writer,[2 Cool 4 Skool]
+9,253,writer,[2 Cool 4 Skool]
+10,105,writer,"['O!RUL8,2?', 'Wake Up (BTS album)']"
+10,203,writer,"['O!RUL8,2?', 'Wake Up (BTS album)']"
+10,203,producer,"['O!RUL8,2?', 'Wake Up (BTS album)']"
+10,215,writer,"['O!RUL8,2?', 'Wake Up (BTS album)']"
+10,250,writer,"['O!RUL8,2?', 'Wake Up (BTS album)']"
+10,253,writer,"['O!RUL8,2?']"
+11,105,writer,"['O!RUL8,2?']"
+11,215,writer,"['O!RUL8,2?']"
+11,250,writer,"['O!RUL8,2?']"
+11,253,writer,"['O!RUL8,2?']"
+11,253,producer,"['O!RUL8,2?']"
+12,105,writer,"['O!RUL8,2?']"
+12,203,writer,"['O!RUL8,2?']"
+12,203,producer,"['O!RUL8,2?']"
+12,215,writer,"['O!RUL8,2?']"
+12,241,writer,"['O!RUL8,2?']"
+12,241,producer,"['O!RUL8,2?']"
+12,250,writer,"['O!RUL8,2?']"
+12,269,writer,"['O!RUL8,2?']"
+13,105,writer,"['O!RUL8,2?']"
+13,203,writer,"['O!RUL8,2?']"
+13,203,producer,"['O!RUL8,2?']"
+13,215,writer,"['O!RUL8,2?']"
+13,250,writer,"['O!RUL8,2?']"
+14,203,writer,"['O!RUL8,2?']"
+14,203,producer,"['O!RUL8,2?']"
+14,215,writer,"['O!RUL8,2?']"
+15,30,writer,"['O!RUL8,2?', 'Proof (album)']"
+15,203,writer,"['O!RUL8,2?', 'Proof (album)']"
+15,203,producer,"['O!RUL8,2?', 'Proof (album)']"
+15,215,writer,"['O!RUL8,2?', 'Proof (album)']"
+15,250,writer,"['O!RUL8,2?', 'Proof (album)']"
+15,253,writer,"['O!RUL8,2?']"
+16,203,writer,"['O!RUL8,2?']"
+16,203,producer,"['O!RUL8,2?']"
+16,241,writer,"['O!RUL8,2?']"
+16,241,producer,"['O!RUL8,2?']"
+17,105,writer,"['O!RUL8,2?']"
+17,203,writer,"['O!RUL8,2?']"
+17,203,producer,"['O!RUL8,2?']"
+17,215,writer,"['O!RUL8,2?']"
+17,250,writer,"['O!RUL8,2?']"
+18,203,producer,"['O!RUL8,2?']"
+19,105,writer,"['O!RUL8,2?']"
+19,203,writer,"['O!RUL8,2?']"
+19,203,producer,"['O!RUL8,2?']"
+19,215,writer,"['O!RUL8,2?']"
+19,250,writer,"['O!RUL8,2?']"
+20,105,writer,[Skool Luv Affair]
+20,215,writer,[Skool Luv Affair]
+20,250,writer,[Skool Luv Affair]
+20,253,writer,[Skool Luv Affair]
+20,253,producer,[Skool Luv Affair]
+21,30,writer,"['Proof (album)', Skool Luv Affair]"
+21,203,writer,"['Proof (album)', Skool Luv Affair]"
+21,203,producer,"['Proof (album)', Skool Luv Affair]"
+21,215,writer,"['Proof (album)', Skool Luv Affair]"
+21,250,writer,"['Proof (album)', Skool Luv Affair]"
+21,253,writer,"['Proof (album)', Skool Luv Affair]"
+22,105,writer,[Skool Luv Affair]
+22,203,writer,[Skool Luv Affair]
+22,203,producer,[Skool Luv Affair]
+22,215,writer,[Skool Luv Affair]
+22,241,writer,[Skool Luv Affair]
+22,250,writer,[Skool Luv Affair]
+23,105,writer,[Skool Luv Affair]
+23,203,writer,[Skool Luv Affair]
+23,203,producer,[Skool Luv Affair]
+23,215,writer,[Skool Luv Affair]
+23,250,writer,[Skool Luv Affair]
+23,250,producer,[Skool Luv Affair]
+23,253,writer,[Skool Luv Affair]
+23,253,producer,[Skool Luv Affair]
+24,105,writer,[Skool Luv Affair]
+24,203,writer,[Skool Luv Affair]
+24,203,producer,[Skool Luv Affair]
+24,215,writer,[Skool Luv Affair]
+24,250,writer,[Skool Luv Affair]
+25,203,writer,[Skool Luv Affair]
+25,241,writer,[Skool Luv Affair]
+25,241,producer,[Skool Luv Affair]
+26,203,writer,[Skool Luv Affair]
+26,203,producer,[Skool Luv Affair]
+27,105,writer,[Skool Luv Affair]
+27,200,writer,[Skool Luv Affair]
+27,200,producer,[Skool Luv Affair]
+27,203,writer,[Skool Luv Affair]
+27,203,producer,[Skool Luv Affair]
+27,215,writer,[Skool Luv Affair]
+27,241,writer,[Skool Luv Affair]
+27,243,writer,[Skool Luv Affair]
+27,250,writer,[Skool Luv Affair]
+27,253,writer,[Skool Luv Affair]
+28,105,writer,[Skool Luv Affair]
+28,215,writer,[Skool Luv Affair]
+28,241,writer,[Skool Luv Affair]
+28,241,producer,[Skool Luv Affair]
+28,250,writer,[Skool Luv Affair]
+28,250,producer,[Skool Luv Affair]
+29,56,writer,[Skool Luv Affair]
+29,56,producer,[Skool Luv Affair]
+29,105,writer,[Skool Luv Affair]
+29,153,writer,[Skool Luv Affair]
+29,153,producer,[Skool Luv Affair]
+29,215,writer,[Skool Luv Affair]
+29,250,writer,[Skool Luv Affair]
+31,30,writer,[Skool Luv Affair]
+31,105,writer,[Skool Luv Affair]
+31,203,writer,[Skool Luv Affair]
+31,203,producer,[Skool Luv Affair]
+31,215,writer,[Skool Luv Affair]
+31,241,writer,[Skool Luv Affair]
+31,250,writer,[Skool Luv Affair]
+32,105,writer,[Dark & Wild]
+32,203,writer,[Dark & Wild]
+32,203,producer,[Dark & Wild]
+32,215,writer,[Dark & Wild]
+32,241,writer,[Dark & Wild]
+32,250,writer,[Dark & Wild]
+33,105,writer,"[Dark & Wild, 'Proof (album)']"
+33,215,writer,"[Dark & Wild, 'Proof (album)']"
+33,250,writer,"[Dark & Wild, 'Proof (album)']"
+33,253,writer,"[Dark & Wild, 'Proof (album)']"
+33,253,producer,"[Dark & Wild, 'Proof (album)']"
+34,105,writer,[Dark & Wild]
+34,203,writer,[Dark & Wild]
+34,203,producer,[Dark & Wild]
+34,215,writer,[Dark & Wild]
+34,250,writer,[Dark & Wild]
+35,30,writer,"[Dark & Wild, 'Proof (album)']"
+35,105,writer,"[Dark & Wild, 'Proof (album)']"
+35,196,writer,"[Dark & Wild, 'Proof (album)']"
+35,203,writer,"[Dark & Wild, 'Proof (album)']"
+35,203,producer,"[Dark & Wild, 'Proof (album)']"
+35,215,writer,"[Dark & Wild, 'Proof (album)']"
+35,250,writer,"[Dark & Wild, 'Proof (album)']"
+36,30,writer,[Dark & Wild]
+36,30,producer,[Dark & Wild]
+36,105,writer,[Dark & Wild]
+36,203,writer,[Dark & Wild]
+36,203,producer,[Dark & Wild]
+36,215,writer,[Dark & Wild]
+36,235,writer,[Dark & Wild]
+36,235,producer,[Dark & Wild]
+36,241,writer,[Dark & Wild]
+36,250,writer,[Dark & Wild]
+37,105,writer,[Dark & Wild]
+37,203,writer,[Dark & Wild]
+37,203,producer,[Dark & Wild]
+37,215,writer,[Dark & Wild]
+37,250,writer,[Dark & Wild]
+38,241,producer,[Dark & Wild]
+39,203,writer,[Dark & Wild]
+39,203,producer,[Dark & Wild]
+39,215,writer,[Dark & Wild]
+40,105,writer,[Dark & Wild]
+40,203,writer,[Dark & Wild]
+40,203,producer,[Dark & Wild]
+40,215,writer,[Dark & Wild]
+40,250,writer,[Dark & Wild]
+40,250,producer,[Dark & Wild]
+41,105,writer,[Dark & Wild]
+41,124,writer,[Dark & Wild]
+41,157,writer,[Dark & Wild]
+41,157,producer,[Dark & Wild]
+41,215,writer,[Dark & Wild]
+41,250,writer,[Dark & Wild]
+42,238,writer,[Dark & Wild]
+42,238,producer,[Dark & Wild]
+42,253,writer,[Dark & Wild]
+42,253,producer,[Dark & Wild]
+43,105,writer,[Dark & Wild]
+43,215,writer,[Dark & Wild]
+43,241,writer,[Dark & Wild]
+43,241,producer,[Dark & Wild]
+43,250,writer,[Dark & Wild]
+44,105,writer,[Dark & Wild]
+44,203,writer,[Dark & Wild]
+44,203,producer,[Dark & Wild]
+44,215,writer,[Dark & Wild]
+44,250,writer,[Dark & Wild]
+44,253,writer,[Dark & Wild]
+45,105,writer,[Dark & Wild]
+45,203,writer,[Dark & Wild]
+45,203,producer,[Dark & Wild]
+45,215,writer,[Dark & Wild]
+45,250,writer,[Dark & Wild]
+45,253,writer,[Dark & Wild]
+46,237,writer,['Wake Up (BTS album)']
+46,237,producer,['Wake Up (BTS album)']
+47,105,writer,['Wake Up (BTS album)']
+47,203,producer,['Wake Up (BTS album)']
+47,215,writer,['Wake Up (BTS album)']
+47,241,writer,['Wake Up (BTS album)']
+47,241,producer,['Wake Up (BTS album)']
+47,250,writer,['Wake Up (BTS album)']
+48,215,writer,['Wake Up (BTS album)']
+48,237,writer,['Wake Up (BTS album)']
+48,237,producer,['Wake Up (BTS album)']
+49,105,writer,['Wake Up (BTS album)']
+49,150,writer,['Wake Up (BTS album)']
+49,150,producer,['Wake Up (BTS album)']
+49,203,writer,['Wake Up (BTS album)']
+49,215,writer,['Wake Up (BTS album)']
+49,250,writer,['Wake Up (BTS album)']
+50,105,writer,['Wake Up (BTS album)']
+50,150,writer,['Wake Up (BTS album)']
+50,215,writer,['Wake Up (BTS album)']
+50,250,writer,['Wake Up (BTS album)']
+50,254,writer,['Wake Up (BTS album)']
+50,254,producer,['Wake Up (BTS album)']
+51,30,writer,"['The Most Beautiful Moment in Life, Pt. 1']"
+51,105,writer,"['The Most Beautiful Moment in Life, Pt. 1']"
+51,122,writer,"['The Most Beautiful Moment in Life, Pt. 1']"
+51,123,writer,"['The Most Beautiful Moment in Life, Pt. 1']"
+51,203,writer,"['The Most Beautiful Moment in Life, Pt. 1']"
+51,203,producer,"['The Most Beautiful Moment in Life, Pt. 1']"
+51,215,writer,"['The Most Beautiful Moment in Life, Pt. 1']"
+51,250,writer,"['The Most Beautiful Moment in Life, Pt. 1']"
+51,250,producer,"['The Most Beautiful Moment in Life, Pt. 1']"
+51,271,writer,"['The Most Beautiful Moment in Life, Pt. 1']"
+52,105,writer,"['The Most Beautiful Moment in Life, Pt. 1', 'The Most Beautiful Moment in Life: Young Forever']"
+52,203,writer,"['The Most Beautiful Moment in Life, Pt. 1', 'The Most Beautiful Moment in Life: Young Forever']"
+52,203,producer,"['The Most Beautiful Moment in Life, Pt. 1', 'The Most Beautiful Moment in Life: Young Forever']"
+52,215,writer,"['The Most Beautiful Moment in Life, Pt. 1', 'The Most Beautiful Moment in Life: Young Forever']"
+52,241,writer,"['The Most Beautiful Moment in Life, Pt. 1', 'The Most Beautiful Moment in Life: Young Forever']"
+52,241,producer,"['The Most Beautiful Moment in Life, Pt. 1', 'The Most Beautiful Moment in Life: Young Forever']"
+52,250,writer,"['The Most Beautiful Moment in Life, Pt. 1', 'The Most Beautiful Moment in Life: Young Forever']"
+53,30,writer,"[Permission to Dance on Stage – Live, 'The Most Beautiful Moment in Life, Pt. 1', 'The Most Beautiful Moment in Life: Young Forever']"
+53,71,writer,['The Most Beautiful Moment in Life: Young Forever']
+53,94,writer,"['The Most Beautiful Moment in Life, Pt. 1']"
+53,95,writer,[Permission to Dance on Stage – Live]
+53,105,writer,"[Permission to Dance on Stage – Live, 'The Most Beautiful Moment in Life, Pt. 1', 'The Most Beautiful Moment in Life: Young Forever']"
+53,203,writer,"[Permission to Dance on Stage – Live, 'The Most Beautiful Moment in Life, Pt. 1', 'The Most Beautiful Moment in Life: Young Forever']"
+53,203,producer,"['The Most Beautiful Moment in Life, Pt. 1', 'The Most Beautiful Moment in Life: Young Forever']"
+53,215,writer,"[Permission to Dance on Stage – Live, 'The Most Beautiful Moment in Life, Pt. 1', 'The Most Beautiful Moment in Life: Young Forever']"
+53,250,writer,"[Permission to Dance on Stage – Live, 'The Most Beautiful Moment in Life, Pt. 1', 'The Most Beautiful Moment in Life: Young Forever']"
+54,105,writer,"['The Most Beautiful Moment in Life, Pt. 1', 'The Most Beautiful Moment in Life: Young Forever']"
+54,203,writer,"['The Most Beautiful Moment in Life, Pt. 1', 'The Most Beautiful Moment in Life: Young Forever']"
+54,215,writer,"['The Most Beautiful Moment in Life, Pt. 1', 'The Most Beautiful Moment in Life: Young Forever']"
+54,241,writer,"['The Most Beautiful Moment in Life, Pt. 1', 'The Most Beautiful Moment in Life: Young Forever']"
+54,241,producer,"['The Most Beautiful Moment in Life, Pt. 1', 'The Most Beautiful Moment in Life: Young Forever']"
+54,250,writer,"['The Most Beautiful Moment in Life, Pt. 1', 'The Most Beautiful Moment in Life: Young Forever']"
+54,271,writer,"['The Most Beautiful Moment in Life, Pt. 1', 'The Most Beautiful Moment in Life: Young Forever']"
+55,30,writer,"['I Need U (BTS song)', 'Proof (album)', 'The Most Beautiful Moment in Life, Pt. 1', 'The Most Beautiful Moment in Life: Young Forever']"
+55,40,writer,"['I Need U (BTS song)', 'Proof (album)', 'The Most Beautiful Moment in Life, Pt. 1', 'The Most Beautiful Moment in Life: Young Forever']"
+55,105,writer,"['I Need U (BTS song)', 'Proof (album)', 'The Most Beautiful Moment in Life, Pt. 1', 'The Most Beautiful Moment in Life: Young Forever']"
+55,203,writer,"['I Need U (BTS song)', 'Proof (album)', 'The Most Beautiful Moment in Life, Pt. 1']"
+55,203,producer,"['I Need U (BTS song)', 'Proof (album)', 'The Most Beautiful Moment in Life, Pt. 1', 'The Most Beautiful Moment in Life: Young Forever']"
+55,215,writer,"['I Need U (BTS song)', 'Proof (album)', 'The Most Beautiful Moment in Life, Pt. 1', 'The Most Beautiful Moment in Life: Young Forever']"
+55,250,writer,"['I Need U (BTS song)', 'Proof (album)', 'The Most Beautiful Moment in Life, Pt. 1', 'The Most Beautiful Moment in Life: Young Forever']"
+56,241,writer,"['The Most Beautiful Moment in Life, Pt. 1', 'The Most Beautiful Moment in Life: Young Forever']"
+56,241,producer,"['The Most Beautiful Moment in Life, Pt. 1', 'The Most Beautiful Moment in Life: Young Forever']"
+56,250,writer,"['The Most Beautiful Moment in Life, Pt. 1', 'The Most Beautiful Moment in Life: Young Forever']"
+56,250,producer,"['The Most Beautiful Moment in Life, Pt. 1', 'The Most Beautiful Moment in Life: Young Forever']"
+57,105,writer,"['The Most Beautiful Moment in Life, Pt. 1', 'The Most Beautiful Moment in Life: Young Forever']"
+57,203,writer,"['The Most Beautiful Moment in Life, Pt. 1', 'The Most Beautiful Moment in Life: Young Forever']"
+57,203,producer,"['The Most Beautiful Moment in Life, Pt. 1', 'The Most Beautiful Moment in Life: Young Forever']"
+57,215,writer,"['The Most Beautiful Moment in Life, Pt. 1', 'The Most Beautiful Moment in Life: Young Forever']"
+57,250,writer,"['The Most Beautiful Moment in Life, Pt. 1', 'The Most Beautiful Moment in Life: Young Forever']"
+58,123,writer,"['The Most Beautiful Moment in Life, Pt. 1']"
+58,138,writer,"['The Most Beautiful Moment in Life, Pt. 1']"
+58,138,producer,"['The Most Beautiful Moment in Life, Pt. 1']"
+58,203,writer,"['The Most Beautiful Moment in Life, Pt. 1']"
+58,241,writer,"['The Most Beautiful Moment in Life, Pt. 1']"
+58,241,producer,"['The Most Beautiful Moment in Life, Pt. 1']"
+59,30,producer,"['The Most Beautiful Moment in Life, Pt. 1']"
+59,203,producer,"['The Most Beautiful Moment in Life, Pt. 1']"
+60,98,writer,['Youth (BTS album)']
+60,105,writer,['Youth (BTS album)']
+60,203,writer,['Youth (BTS album)']
+60,203,producer,['Youth (BTS album)']
+60,215,writer,['Youth (BTS album)']
+60,250,writer,['Youth (BTS album)']
+60,270,writer,['Youth (BTS album)']
+61,30,writer,"['The Most Beautiful Moment in Life, Pt. 2', 'The Most Beautiful Moment in Life: Young Forever']"
+61,105,writer,"['The Most Beautiful Moment in Life, Pt. 2', 'The Most Beautiful Moment in Life: Young Forever']"
+61,138,writer,"['The Most Beautiful Moment in Life, Pt. 2', 'The Most Beautiful Moment in Life: Young Forever']"
+61,203,writer,"['The Most Beautiful Moment in Life, Pt. 2']"
+61,215,writer,"['The Most Beautiful Moment in Life, Pt. 2', 'The Most Beautiful Moment in Life: Young Forever']"
+61,241,writer,"['The Most Beautiful Moment in Life, Pt. 2', 'The Most Beautiful Moment in Life: Young Forever']"
+61,241,producer,"['The Most Beautiful Moment in Life, Pt. 2', 'The Most Beautiful Moment in Life: Young Forever']"
+61,250,writer,"['The Most Beautiful Moment in Life, Pt. 2', 'The Most Beautiful Moment in Life: Young Forever']"
+61,250,producer,"['The Most Beautiful Moment in Life, Pt. 2', 'The Most Beautiful Moment in Life: Young Forever']"
+62,30,writer,"['The Most Beautiful Moment in Life, Pt. 2', 'The Most Beautiful Moment in Life: Young Forever']"
+62,40,writer,"['The Most Beautiful Moment in Life, Pt. 2', 'The Most Beautiful Moment in Life: Young Forever']"
+62,105,writer,['The Most Beautiful Moment in Life: Young Forever']
+62,203,writer,"['The Most Beautiful Moment in Life, Pt. 2', 'The Most Beautiful Moment in Life: Young Forever']"
+62,203,producer,"['The Most Beautiful Moment in Life, Pt. 2', 'The Most Beautiful Moment in Life: Young Forever']"
+62,215,writer,['The Most Beautiful Moment in Life: Young Forever']
+62,241,writer,"['The Most Beautiful Moment in Life, Pt. 2', 'The Most Beautiful Moment in Life: Young Forever']"
+62,250,writer,['The Most Beautiful Moment in Life: Young Forever']
+63,241,writer,"['The Most Beautiful Moment in Life, Pt. 2']"
+63,241,producer,"['The Most Beautiful Moment in Life, Pt. 2']"
+63,250,writer,"['The Most Beautiful Moment in Life, Pt. 2']"
+64,30,writer,"['The Most Beautiful Moment in Life, Pt. 2', 'The Most Beautiful Moment in Life: Young Forever']"
+64,105,writer,"['The Most Beautiful Moment in Life, Pt. 2', 'The Most Beautiful Moment in Life: Young Forever']"
+64,203,writer,"['The Most Beautiful Moment in Life, Pt. 2', 'The Most Beautiful Moment in Life: Young Forever']"
+64,203,producer,"['The Most Beautiful Moment in Life, Pt. 2', 'The Most Beautiful Moment in Life: Young Forever']"
+64,215,writer,"['The Most Beautiful Moment in Life, Pt. 2', 'The Most Beautiful Moment in Life: Young Forever']"
+64,250,writer,"['The Most Beautiful Moment in Life, Pt. 2', 'The Most Beautiful Moment in Life: Young Forever']"
+65,30,writer,"['The Most Beautiful Moment in Life, Pt. 2']"
+65,40,writer,"['The Most Beautiful Moment in Life, Pt. 2']"
+65,241,writer,"['The Most Beautiful Moment in Life, Pt. 2']"
+65,241,producer,"['The Most Beautiful Moment in Life, Pt. 2']"
+66,30,writer,"['Proof (album)', 'Run (BTS song)', 'The Most Beautiful Moment in Life, Pt. 2', 'The Most Beautiful Moment in Life: Young Forever']"
+66,105,writer,"['Proof (album)', 'Run (BTS song)', 'The Most Beautiful Moment in Life, Pt. 2', 'The Most Beautiful Moment in Life: Young Forever']"
+66,138,writer,"['Proof (album)', 'Run (BTS song)', 'The Most Beautiful Moment in Life, Pt. 2', 'The Most Beautiful Moment in Life: Young Forever']"
+66,203,writer,"['Proof (album)', 'Run (BTS song)', 'The Most Beautiful Moment in Life, Pt. 2', 'The Most Beautiful Moment in Life: Young Forever']"
+66,203,producer,"['Proof (album)', 'Run (BTS song)', 'The Most Beautiful Moment in Life, Pt. 2', 'The Most Beautiful Moment in Life: Young Forever']"
+66,215,writer,"['Proof (album)', 'Run (BTS song)', 'The Most Beautiful Moment in Life, Pt. 2', 'The Most Beautiful Moment in Life: Young Forever']"
+66,250,writer,"['Proof (album)', 'Run (BTS song)', 'The Most Beautiful Moment in Life, Pt. 2', 'The Most Beautiful Moment in Life: Young Forever']"
+66,271,writer,"['Proof (album)', 'Run (BTS song)', 'The Most Beautiful Moment in Life, Pt. 2', 'The Most Beautiful Moment in Life: Young Forever']"
+67,203,writer,"[Permission to Dance on Stage – Live, 'The Most Beautiful Moment in Life, Pt. 2', 'The Most Beautiful Moment in Life: Young Forever']"
+67,203,producer,"['The Most Beautiful Moment in Life, Pt. 2', 'The Most Beautiful Moment in Life: Young Forever']"
+67,215,writer,"[Permission to Dance on Stage – Live, 'The Most Beautiful Moment in Life, Pt. 2', 'The Most Beautiful Moment in Life: Young Forever']"
+67,241,writer,"[Permission to Dance on Stage – Live, 'The Most Beautiful Moment in Life, Pt. 2', 'The Most Beautiful Moment in Life: Young Forever']"
+67,253,writer,"[Permission to Dance on Stage – Live, 'The Most Beautiful Moment in Life, Pt. 2', 'The Most Beautiful Moment in Life: Young Forever']"
+68,30,producer,"['The Most Beautiful Moment in Life, Pt. 2']"
+68,203,producer,"['The Most Beautiful Moment in Life, Pt. 2']"
+68,241,producer,"['The Most Beautiful Moment in Life, Pt. 2']"
+69,30,writer,"['The Most Beautiful Moment in Life, Pt. 2', 'The Most Beautiful Moment in Life: Young Forever']"
+69,40,writer,"['The Most Beautiful Moment in Life, Pt. 2', 'The Most Beautiful Moment in Life: Young Forever']"
+69,105,writer,"['The Most Beautiful Moment in Life, Pt. 2', 'The Most Beautiful Moment in Life: Young Forever']"
+69,203,writer,"['The Most Beautiful Moment in Life, Pt. 2', 'The Most Beautiful Moment in Life: Young Forever']"
+69,203,producer,"['The Most Beautiful Moment in Life, Pt. 2', 'The Most Beautiful Moment in Life: Young Forever']"
+69,215,writer,"['The Most Beautiful Moment in Life, Pt. 2', 'The Most Beautiful Moment in Life: Young Forever']"
+69,241,writer,"['The Most Beautiful Moment in Life, Pt. 2', 'The Most Beautiful Moment in Life: Young Forever']"
+69,250,writer,"['The Most Beautiful Moment in Life, Pt. 2', 'The Most Beautiful Moment in Life: Young Forever']"
+70,105,writer,"['Run (BTS song)', 'Youth (BTS album)']"
+70,172,writer,['Run (BTS song)']
+70,172,producer,"['Run (BTS song)', 'Youth (BTS album)']"
+70,215,writer,"['Run (BTS song)', 'Youth (BTS album)']"
+70,225,writer,"['Run (BTS song)', 'Youth (BTS album)']"
+70,225,producer,"['Run (BTS song)', 'Youth (BTS album)']"
+70,250,writer,"['Run (BTS song)', 'Youth (BTS album)']"
+71,30,writer,"[Permission to Dance on Stage – Live, 'Proof (album)', 'The Most Beautiful Moment in Life: Young Forever']"
+71,66,writer,"[Permission to Dance on Stage – Live, 'Proof (album)', 'The Most Beautiful Moment in Life: Young Forever']"
+71,105,writer,['Proof (album)']
+71,203,writer,"[Permission to Dance on Stage – Live, 'Proof (album)', 'The Most Beautiful Moment in Life: Young Forever']"
+71,203,producer,"['Proof (album)', 'The Most Beautiful Moment in Life: Young Forever']"
+71,215,writer,"[Permission to Dance on Stage – Live, 'Proof (album)', 'The Most Beautiful Moment in Life: Young Forever']"
+71,250,writer,"[Permission to Dance on Stage – Live, 'Proof (album)', 'The Most Beautiful Moment in Life: Young Forever']"
+72,30,writer,['The Most Beautiful Moment in Life: Young Forever']
+72,105,writer,['The Most Beautiful Moment in Life: Young Forever']
+72,215,writer,['The Most Beautiful Moment in Life: Young Forever']
+72,215,producer,['The Most Beautiful Moment in Life: Young Forever']
+72,241,writer,['The Most Beautiful Moment in Life: Young Forever']
+72,241,producer,['The Most Beautiful Moment in Life: Young Forever']
+72,250,writer,['The Most Beautiful Moment in Life: Young Forever']
+73,25,writer,['The Most Beautiful Moment in Life: Young Forever']
+73,105,writer,['The Most Beautiful Moment in Life: Young Forever']
+73,203,writer,['The Most Beautiful Moment in Life: Young Forever']
+73,203,producer,['The Most Beautiful Moment in Life: Young Forever']
+73,212,writer,['The Most Beautiful Moment in Life: Young Forever']
+73,215,writer,['The Most Beautiful Moment in Life: Young Forever']
+73,228,writer,['The Most Beautiful Moment in Life: Young Forever']
+73,250,writer,['The Most Beautiful Moment in Life: Young Forever']
+74,30,writer,['Youth (BTS album)']
+74,40,writer,['Youth (BTS album)']
+74,66,writer,['Youth (BTS album)']
+74,98,writer,['Youth (BTS album)']
+74,105,writer,['Youth (BTS album)']
+74,138,writer,['Youth (BTS album)']
+74,203,writer,['Youth (BTS album)']
+74,215,writer,['Youth (BTS album)']
+74,225,writer,['Youth (BTS album)']
+74,225,producer,['Youth (BTS album)']
+74,250,writer,['Youth (BTS album)']
+74,270,writer,['Youth (BTS album)']
+74,271,writer,['Youth (BTS album)']
+75,57,writer,['Youth (BTS album)']
+75,105,writer,['Youth (BTS album)']
+75,172,writer,['Youth (BTS album)']
+75,172,producer,['Youth (BTS album)']
+75,215,writer,['Youth (BTS album)']
+75,250,writer,['Youth (BTS album)']
+75,275,writer,['Youth (BTS album)']
+75,275,producer,['Youth (BTS album)']
+76,30,writer,['Wings (BTS album)']
+76,105,writer,['Wings (BTS album)']
+76,203,writer,['Wings (BTS album)']
+76,203,producer,['Wings (BTS album)']
+76,215,writer,['Wings (BTS album)']
+76,241,writer,['Wings (BTS album)']
+76,241,producer,['Wings (BTS album)']
+76,250,writer,['Wings (BTS album)']
+77,30,writer,['Wings (BTS album)']
+77,203,writer,['Wings (BTS album)']
+77,203,producer,['Wings (BTS album)']
+77,215,writer,['Wings (BTS album)']
+77,253,writer,['Wings (BTS album)']
+78,3,writer,['Wings (BTS album)']
+78,90,writer,['Wings (BTS album)']
+78,113,writer,['Wings (BTS album)']
+78,113,producer,['Wings (BTS album)']
+78,129,writer,['Wings (BTS album)']
+78,129,producer,['Wings (BTS album)']
+78,143,writer,['Wings (BTS album)']
+78,143,producer,['Wings (BTS album)']
+78,203,writer,['Wings (BTS album)']
+78,215,writer,['Wings (BTS album)']
+78,227,writer,['Wings (BTS album)']
+78,227,producer,['Wings (BTS album)']
+78,253,writer,['Wings (BTS album)']
+79,30,writer,['Wings (BTS album)']
+79,105,writer,['Wings (BTS album)']
+79,123,writer,['Wings (BTS album)']
+79,135,writer,['Wings (BTS album)']
+79,203,writer,['Wings (BTS album)']
+79,215,writer,['Wings (BTS album)']
+79,241,writer,['Wings (BTS album)']
+79,241,producer,['Wings (BTS album)']
+80,105,writer,['Wings (BTS album)']
+80,180,writer,['Wings (BTS album)']
+80,180,producer,['Wings (BTS album)']
+80,215,writer,['Wings (BTS album)']
+80,250,writer,['Wings (BTS album)']
+80,263,writer,['Wings (BTS album)']
+80,263,producer,['Wings (BTS album)']
+81,61,writer,['Wings (BTS album)']
+81,215,writer,['Wings (BTS album)']
+81,262,writer,['Wings (BTS album)']
+81,262,producer,['Wings (BTS album)']
+82,30,writer,"[Permission to Dance on Stage – Live, 'Proof (album)', 'Wings (BTS album)']"
+82,105,writer,"[Permission to Dance on Stage – Live, 'Proof (album)', 'Wings (BTS album)']"
+82,148,writer,"[Permission to Dance on Stage – Live, 'Proof (album)', 'Wings (BTS album)']"
+82,203,writer,"[Permission to Dance on Stage – Live, 'Proof (album)', 'Wings (BTS album)']"
+82,203,producer,"['Proof (album)', 'Wings (BTS album)']"
+82,215,writer,"[Permission to Dance on Stage – Live, 'Proof (album)', 'Wings (BTS album)']"
+82,250,writer,"[Permission to Dance on Stage – Live, 'Proof (album)', 'Wings (BTS album)']"
+83,188,writer,['Wings (BTS album)']
+83,188,producer,['Wings (BTS album)']
+83,250,writer,['Wings (BTS album)']
+83,250,producer,['Wings (BTS album)']
+84,3,writer,['Wings (BTS album)']
+84,105,writer,['Wings (BTS album)']
+84,203,writer,['Wings (BTS album)']
+84,203,producer,['Wings (BTS album)']
+84,215,writer,['Wings (BTS album)']
+84,250,writer,['Wings (BTS album)']
+85,105,writer,['Wings (BTS album)']
+85,203,writer,['Wings (BTS album)']
+85,203,producer,['Wings (BTS album)']
+85,215,writer,['Wings (BTS album)']
+86,30,writer,['Wings (BTS album)']
+86,69,writer,['Wings (BTS album)']
+86,69,producer,['Wings (BTS album)']
+86,122,writer,['Wings (BTS album)']
+86,203,writer,['Wings (BTS album)']
+86,251,writer,['Wings (BTS album)']
+87,85,writer,['Wings (BTS album)']
+87,135,writer,['Wings (BTS album)']
+87,159,writer,['Wings (BTS album)']
+87,203,writer,['Wings (BTS album)']
+87,203,producer,['Wings (BTS album)']
+87,204,writer,['Wings (BTS album)']
+87,215,writer,['Wings (BTS album)']
+87,253,writer,['Wings (BTS album)']
+88,105,writer,['Wings (BTS album)']
+88,203,writer,['Wings (BTS album)']
+88,203,producer,['Wings (BTS album)']
+88,208,writer,['Wings (BTS album)']
+88,208,producer,['Wings (BTS album)']
+89,215,writer,['Wings (BTS album)']
+89,215,producer,['Wings (BTS album)']
+89,241,writer,['Wings (BTS album)']
+89,241,producer,['Wings (BTS album)']
+90,30,writer,['Wings (BTS album)']
+90,205,writer,['Wings (BTS album)']
+90,205,producer,['Wings (BTS album)']
+90,241,writer,['Wings (BTS album)']
+90,271,writer,['Wings (BTS album)']
+91,30,writer,['Wings (BTS album)']
+91,105,writer,['Wings (BTS album)']
+91,203,writer,['Wings (BTS album)']
+91,203,producer,['Wings (BTS album)']
+91,215,writer,['Wings (BTS album)']
+91,250,writer,['Wings (BTS album)']
+91,253,writer,['Wings (BTS album)']
+92,30,writer,['Wings (BTS album)']
+92,135,writer,['Wings (BTS album)']
+92,203,writer,['Wings (BTS album)']
+92,203,producer,['Wings (BTS album)']
+92,215,writer,['Wings (BTS album)']
+92,253,writer,['Wings (BTS album)']
+93,3,writer,"[Permission to Dance on Stage – Live, 'Wings (BTS album)']"
+93,105,writer,"[Permission to Dance on Stage – Live, 'Wings (BTS album)']"
+93,203,writer,"[Permission to Dance on Stage – Live, 'Wings (BTS album)']"
+93,203,producer,['Wings (BTS album)']
+93,215,writer,"[Permission to Dance on Stage – Live, 'Wings (BTS album)']"
+93,250,writer,"[Permission to Dance on Stage – Live, 'Wings (BTS album)']"
+94,3,writer,"[Permission to Dance on Stage – Live, 'Proof (album)', 'Wings (BTS album)']"
+94,22,writer,"[Permission to Dance on Stage – Live, 'Proof (album)', 'Wings (BTS album)']"
+94,30,writer,"[Permission to Dance on Stage – Live, 'Proof (album)', 'Wings (BTS album)']"
+94,203,writer,"[Permission to Dance on Stage – Live, 'Proof (album)', 'Wings (BTS album)']"
+94,203,producer,"['Proof (album)', 'Wings (BTS album)']"
+94,204,writer,"[Permission to Dance on Stage – Live, 'Proof (album)', 'Wings (BTS album)']"
+94,215,writer,"[Permission to Dance on Stage – Live, 'Proof (album)', 'Wings (BTS album)']"
+94,250,writer,"[Permission to Dance on Stage – Live, 'Proof (album)', 'Wings (BTS album)']"
+96,3,writer,"['Love Yourself: Answer', 'Love Yourself: Her']"
+96,25,writer,"['Love Yourself: Answer', 'Love Yourself: Her']"
+96,30,writer,"['Love Yourself: Answer', 'Love Yourself: Her']"
+96,105,writer,"['Love Yourself: Answer', 'Love Yourself: Her']"
+96,203,writer,"['Love Yourself: Answer', 'Love Yourself: Her']"
+96,203,producer,"['Love Yourself: Answer', 'Love Yourself: Her']"
+96,212,writer,"['Love Yourself: Answer', 'Love Yourself: Her']"
+96,215,writer,"['Love Yourself: Answer', 'Love Yourself: Her']"
+96,227,writer,"['Love Yourself: Answer', 'Love Yourself: Her']"
+96,250,writer,"['Love Yourself: Answer', 'Love Yourself: Her']"
+96,256,writer,"['Love Yourself: Answer', 'Love Yourself: Her']"
+96,256,producer,"['Love Yourself: Answer', 'Love Yourself: Her']"
+97,30,writer,"['Love Yourself: Answer', 'Love Yourself: Her', Permission to Dance on Stage – Live, 'Proof (album)']"
+97,142,writer,"['Love Yourself: Answer', 'Love Yourself: Her', Permission to Dance on Stage – Live, 'Proof (album)']"
+97,203,writer,"['Love Yourself: Answer', 'Love Yourself: Her', Permission to Dance on Stage – Live, 'Proof (album)']"
+97,203,producer,"['Love Yourself: Answer', 'Love Yourself: Her', 'Proof (album)']"
+97,215,writer,"['Love Yourself: Answer', 'Love Yourself: Her', Permission to Dance on Stage – Live, 'Proof (album)']"
+97,250,writer,"['Love Yourself: Answer', 'Love Yourself: Her', Permission to Dance on Stage – Live, 'Proof (album)']"
+97,253,writer,"['Love Yourself: Answer', 'Love Yourself: Her', Permission to Dance on Stage – Live, 'Proof (album)']"
+98,14,writer,"['Love Yourself: Answer', 'Love Yourself: Her', 'Proof (album)']"
+98,55,producer,"['Love Yourself: Answer', 'Love Yourself: Her', 'Proof (album)']"
+98,173,writer,"['Love Yourself: Answer', 'Love Yourself: Her', 'Proof (album)']"
+98,173,producer,"['Love Yourself: Answer', 'Love Yourself: Her', 'Proof (album)']"
+98,215,writer,"['Love Yourself: Answer', 'Love Yourself: Her', 'Proof (album)']"
+99,30,writer,"['Love Yourself: Answer', 'Love Yourself: Her']"
+99,203,writer,"['Love Yourself: Answer', 'Love Yourself: Her']"
+99,203,producer,"['Love Yourself: Answer', 'Love Yourself: Her']"
+99,253,writer,"['Love Yourself: Answer', 'Love Yourself: Her']"
+100,105,writer,"['Love Yourself: Answer', 'Love Yourself: Her', 'Proof (album)']"
+100,215,writer,"['Love Yourself: Answer', 'Love Yourself: Her', 'Proof (album)']"
+100,241,writer,"['Love Yourself: Answer', 'Love Yourself: Her', 'Proof (album)']"
+100,241,producer,"['Love Yourself: Answer', 'Love Yourself: Her', 'Proof (album)']"
+100,250,writer,"['Love Yourself: Answer', 'Love Yourself: Her', 'Proof (album)']"
+100,250,producer,"['Love Yourself: Answer', 'Love Yourself: Her', 'Proof (album)']"
+101,25,writer,['Love Yourself: Her']
+101,30,writer,['Love Yourself: Her']
+101,212,writer,['Love Yourself: Her']
+101,215,writer,['Love Yourself: Her']
+101,241,writer,['Love Yourself: Her']
+101,241,producer,['Love Yourself: Her']
+102,30,writer,"['Love Yourself: Answer', 'Love Yourself: Her']"
+102,105,writer,"['Love Yourself: Answer', 'Love Yourself: Her']"
+102,203,writer,"['Love Yourself: Answer', 'Love Yourself: Her']"
+102,203,producer,"['Love Yourself: Answer', 'Love Yourself: Her']"
+102,215,writer,"['Love Yourself: Answer', 'Love Yourself: Her']"
+102,253,writer,"['Love Yourself: Answer', 'Love Yourself: Her']"
+103,30,writer,['Love Yourself: Her']
+103,105,writer,['Love Yourself: Her']
+103,124,writer,['Love Yourself: Her']
+103,142,writer,['Love Yourself: Her']
+103,203,writer,['Love Yourself: Her']
+103,203,producer,['Love Yourself: Her']
+103,215,writer,['Love Yourself: Her']
+103,250,writer,['Love Yourself: Her']
+105,203,writer,['Love Yourself: Her']
+105,203,producer,['Love Yourself: Her']
+107,140,writer,[Face Yourself]
+107,140,lyricist,"['BTS, the Best']"
+107,215,writer,[Face Yourself]
+107,215,lyricist,"['BTS, the Best']"
+107,242,writer,[Face Yourself]
+107,242,lyricist,"['BTS, the Best']"
+107,242,producer,"['BTS, the Best', Face Yourself]"
+109,30,writer,[Face Yourself]
+109,98,writer,[Face Yourself]
+109,98,lyricist,"['BTS, the Best']"
+109,203,writer,[Face Yourself]
+109,203,lyricist,"['BTS, the Best']"
+109,203,producer,"['BTS, the Best']"
+109,252,writer,[Face Yourself]
+109,252,lyricist,"['BTS, the Best']"
+109,270,writer,[Face Yourself]
+109,270,lyricist,"['BTS, the Best']"
+109,270,producer,"['BTS, the Best', Face Yourself]"
+110,3,writer,[Face Yourself]
+110,25,writer,[Face Yourself]
+110,30,writer,[Face Yourself]
+110,105,writer,[Face Yourself]
+110,203,writer,[Face Yourself]
+110,212,writer,[Face Yourself]
+110,215,writer,[Face Yourself]
+110,227,writer,[Face Yourself]
+110,250,writer,[Face Yourself]
+110,256,writer,[Face Yourself]
+110,270,writer,[Face Yourself]
+110,270,producer,[Face Yourself]
+111,98,writer,[Face Yourself]
+111,98,lyricist,"['BTS, the Best']"
+111,134,writer,[Face Yourself]
+111,134,lyricist,"['BTS, the Best']"
+111,252,writer,[Face Yourself]
+111,252,lyricist,"['BTS, the Best']"
+111,270,writer,[Face Yourself]
+111,270,lyricist,"['BTS, the Best']"
+111,270,producer,"['BTS, the Best', Face Yourself]"
+112,270,writer,[Face Yourself]
+112,270,producer,[Face Yourself]
+113,3,writer,['Love Yourself: Tear']
+113,35,writer,['Love Yourself: Tear']
+113,105,writer,['Love Yourself: Tear']
+113,170,writer,['Love Yourself: Tear']
+113,198,writer,['Love Yourself: Tear']
+113,203,writer,['Love Yourself: Tear']
+113,203,producer,['Love Yourself: Tear']
+113,215,writer,['Love Yourself: Tear']
+113,250,writer,['Love Yourself: Tear']
+114,12,writer,"['Love Yourself: Answer', 'Love Yourself: Tear', Permission to Dance on Stage – Live]"
+114,30,writer,"['Love Yourself: Answer', 'Love Yourself: Tear', Permission to Dance on Stage – Live]"
+114,105,writer,"['Love Yourself: Answer', 'Love Yourself: Tear', Permission to Dance on Stage – Live]"
+114,165,writer,"['Love Yourself: Answer', 'Love Yourself: Tear', Permission to Dance on Stage – Live]"
+114,203,writer,"['Love Yourself: Answer', 'Love Yourself: Tear', Permission to Dance on Stage – Live]"
+114,203,producer,"['Love Yourself: Answer', 'Love Yourself: Tear']"
+114,215,writer,"['Love Yourself: Answer', 'Love Yourself: Tear', Permission to Dance on Stage – Live]"
+114,219,writer,"['Love Yourself: Answer', 'Love Yourself: Tear', Permission to Dance on Stage – Live]"
+114,250,writer,"['Love Yourself: Answer', 'Love Yourself: Tear', Permission to Dance on Stage – Live]"
+115,30,writer,"['Love Yourself: Answer', 'Love Yourself: Tear']"
+115,124,writer,['Love Yourself: Tear']
+115,203,writer,"['Love Yourself: Answer', 'Love Yourself: Tear']"
+115,203,producer,"['Love Yourself: Answer', 'Love Yourself: Tear']"
+115,215,writer,['Love Yourself: Tear']
+115,250,writer,['Love Yourself: Tear']
+115,253,writer,"['Love Yourself: Answer', 'Love Yourself: Tear']"
+116,30,writer,"['Love Yourself: Answer', 'Love Yourself: Tear', Permission to Dance on Stage – Live, 'Proof (album)']"
+116,203,writer,"['Love Yourself: Answer', 'Love Yourself: Tear', Permission to Dance on Stage – Live, 'Proof (album)']"
+116,203,producer,"['Love Yourself: Answer', 'Love Yourself: Tear', 'Proof (album)']"
+116,215,writer,"['Love Yourself: Answer', 'Love Yourself: Tear', Permission to Dance on Stage – Live, 'Proof (album)']"
+117,3,writer,['Love Yourself: Tear']
+117,35,writer,['Love Yourself: Tear']
+117,42,writer,['Love Yourself: Tear']
+117,68,writer,['Love Yourself: Tear']
+117,105,writer,['Love Yourself: Tear']
+117,203,writer,['Love Yourself: Tear']
+117,203,producer,['Love Yourself: Tear']
+117,215,writer,['Love Yourself: Tear']
+117,250,writer,['Love Yourself: Tear']
+117,281,writer,['Love Yourself: Tear']
+118,3,writer,"['Love Yourself: Answer', 'Love Yourself: Tear']"
+118,3,producer,"['Love Yourself: Answer', 'Love Yourself: Tear']"
+118,42,writer,"['Love Yourself: Answer', 'Love Yourself: Tear']"
+118,68,writer,"['Love Yourself: Answer', 'Love Yourself: Tear']"
+118,99,writer,"['Love Yourself: Answer', 'Love Yourself: Tear']"
+118,99,producer,"['Love Yourself: Answer', 'Love Yourself: Tear']"
+118,105,writer,"['Love Yourself: Answer', 'Love Yourself: Tear']"
+118,138,writer,"['Love Yourself: Answer', 'Love Yourself: Tear']"
+118,138,producer,"['Love Yourself: Answer', 'Love Yourself: Tear']"
+118,215,writer,"['Love Yourself: Answer', 'Love Yourself: Tear']"
+118,250,writer,"['Love Yourself: Answer', 'Love Yourself: Tear']"
+119,105,writer,['Love Yourself: Tear']
+119,189,writer,['Love Yourself: Tear']
+119,215,writer,['Love Yourself: Tear']
+119,244,writer,['Love Yourself: Tear']
+119,250,writer,['Love Yourself: Tear']
+119,266,writer,['Love Yourself: Tear']
+119,266,producer,['Love Yourself: Tear']
+120,47,producer,['Proof (album)']
+120,48,writer,"['Love Yourself: Answer', 'Love Yourself: Tear', 'Proof (album)']"
+120,48,producer,"['Love Yourself: Answer', 'Love Yourself: Tear']"
+120,215,writer,"['Love Yourself: Answer', 'Love Yourself: Tear', 'Proof (album)']"
+121,3,writer,"['Love Yourself: Tear', Permission to Dance on Stage – Live]"
+121,30,writer,"['Love Yourself: Tear', Permission to Dance on Stage – Live]"
+121,105,writer,"['Love Yourself: Tear', Permission to Dance on Stage – Live]"
+121,203,writer,"['Love Yourself: Tear', Permission to Dance on Stage – Live]"
+121,203,producer,['Love Yourself: Tear']
+121,215,writer,"['Love Yourself: Tear', Permission to Dance on Stage – Live]"
+121,250,writer,"['Love Yourself: Tear', Permission to Dance on Stage – Live]"
+122,69,writer,"['Love Yourself: Answer', 'Love Yourself: Tear']"
+122,69,producer,"['Love Yourself: Answer', 'Love Yourself: Tear']"
+122,105,writer,"['Love Yourself: Answer', 'Love Yourself: Tear']"
+122,215,writer,"['Love Yourself: Answer', 'Love Yourself: Tear']"
+122,236,writer,"['Love Yourself: Answer', 'Love Yourself: Tear']"
+122,250,writer,"['Love Yourself: Answer', 'Love Yourself: Tear']"
+123,17,writer,"['Love Yourself: Answer', 'Love Yourself: Tear']"
+123,108,writer,"['Love Yourself: Answer', 'Love Yourself: Tear']"
+123,195,writer,"['Love Yourself: Answer', 'Love Yourself: Tear']"
+123,215,writer,"['Love Yourself: Answer', 'Love Yourself: Tear']"
+123,218,writer,"['Love Yourself: Answer', 'Love Yourself: Tear']"
+123,241,writer,"['Love Yourself: Answer', 'Love Yourself: Tear']"
+123,248,writer,"['Love Yourself: Answer', 'Love Yourself: Tear']"
+123,248,producer,"['Love Yourself: Answer', 'Love Yourself: Tear']"
+124,25,writer,['Love Yourself: Answer']
+124,42,writer,['Love Yourself: Answer']
+124,52,writer,['Love Yourself: Answer']
+124,68,writer,['Love Yourself: Answer']
+124,105,writer,['Love Yourself: Answer']
+124,137,writer,['Love Yourself: Answer']
+124,203,writer,['Love Yourself: Answer']
+124,203,producer,['Love Yourself: Answer']
+124,212,writer,['Love Yourself: Answer']
+124,215,writer,['Love Yourself: Answer']
+124,250,writer,['Love Yourself: Answer']
+125,3,writer,['Love Yourself: Answer']
+125,30,writer,['Love Yourself: Answer']
+125,241,writer,['Love Yourself: Answer']
+125,241,producer,['Love Yourself: Answer']
+126,3,writer,"['Love Yourself: Answer', 'Proof (album)']"
+126,30,writer,"['Love Yourself: Answer', 'Proof (album)']"
+126,42,writer,"['Love Yourself: Answer', 'Proof (album)']"
+126,68,writer,['Love Yourself: Answer']
+126,68,producer,['Love Yourself: Answer']
+126,181,writer,"['Love Yourself: Answer', 'Proof (album)']"
+126,215,writer,"['Love Yourself: Answer', 'Proof (album)']"
+126,253,writer,"['Love Yourself: Answer', 'Proof (album)']"
+126,282,writer,['Proof (album)']
+126,282,producer,['Proof (album)']
+127,25,writer,['Love Yourself: Answer']
+127,42,writer,['Love Yourself: Answer']
+127,68,writer,['Love Yourself: Answer']
+127,105,writer,['Love Yourself: Answer']
+127,137,writer,['Love Yourself: Answer']
+127,155,writer,['Love Yourself: Answer']
+127,203,writer,['Love Yourself: Answer']
+127,203,producer,['Love Yourself: Answer']
+127,212,writer,['Love Yourself: Answer']
+127,215,writer,['Love Yourself: Answer']
+127,228,writer,['Love Yourself: Answer']
+127,250,writer,['Love Yourself: Answer']
+127,280,writer,['Love Yourself: Answer']
+128,12,writer,"['Idol (BTS song)', 'Love Yourself: Answer', Permission to Dance on Stage – Live, 'Proof (album)']"
+128,12,lyricist,['Lights (BTS song)']
+128,30,writer,"['Idol (BTS song)', 'Love Yourself: Answer', Permission to Dance on Stage – Live, 'Proof (album)']"
+128,30,lyricist,['Lights (BTS song)']
+128,192,writer,"['Idol (BTS song)', 'Love Yourself: Answer']"
+128,203,writer,"['Idol (BTS song)', 'Love Yourself: Answer', Permission to Dance on Stage – Live, 'Proof (album)']"
+128,203,lyricist,['Lights (BTS song)']
+128,203,composer,['Lights (BTS song)']
+128,203,producer,"['Idol (BTS song)', 'Love Yourself: Answer', 'Proof (album)']"
+128,215,writer,"['Idol (BTS song)', 'Love Yourself: Answer', Permission to Dance on Stage – Live, 'Proof (album)']"
+128,215,lyricist,['Lights (BTS song)']
+128,219,writer,"['Idol (BTS song)', 'Love Yourself: Answer', Permission to Dance on Stage – Live, 'Proof (album)']"
+128,219,lyricist,['Lights (BTS song)']
+128,253,writer,"['Idol (BTS song)', 'Love Yourself: Answer', Permission to Dance on Stage – Live, 'Proof (album)']"
+128,253,lyricist,['Lights (BTS song)']
+130,99,writer,['Love Yourself: Answer']
+130,215,writer,['Love Yourself: Answer']
+130,241,writer,['Love Yourself: Answer']
+130,241,producer,['Love Yourself: Answer']
+131,99,writer,['Love Yourself: Answer']
+131,99,producer,['Love Yourself: Answer']
+131,105,writer,['Love Yourself: Answer']
+132,241,writer,"['Love Yourself: Answer', 'Proof (album)']"
+132,241,producer,"['Love Yourself: Answer', 'Proof (album)']"
+132,250,writer,"['Love Yourself: Answer', 'Proof (album)']"
+132,250,producer,"['Love Yourself: Answer', 'Proof (album)']"
+133,30,writer,"['Map of the Soul: 7', 'Map of the Soul: Persona', Permission to Dance on Stage – Live, 'Proof (album)']"
+133,30,lyricist,['Lights (BTS song)']
+133,79,writer,"['Map of the Soul: 7', 'Map of the Soul: Persona', Permission to Dance on Stage – Live, 'Proof (album)']"
+133,79,lyricist,['Lights (BTS song)']
+133,96,writer,"['Map of the Soul: 7', 'Map of the Soul: Persona', Permission to Dance on Stage – Live, 'Proof (album)']"
+133,96,lyricist,['Lights (BTS song)']
+133,105,writer,"['Map of the Soul: 7', 'Map of the Soul: Persona', Permission to Dance on Stage – Live, 'Proof (album)']"
+133,105,lyricist,['Lights (BTS song)']
+133,181,writer,"['Map of the Soul: 7', 'Map of the Soul: Persona', Permission to Dance on Stage – Live, 'Proof (album)']"
+133,183,writer,"['Map of the Soul: 7', 'Map of the Soul: Persona', Permission to Dance on Stage – Live, 'Proof (album)']"
+133,183,lyricist,['Lights (BTS song)']
+133,203,writer,"['Map of the Soul: 7', 'Map of the Soul: Persona', Permission to Dance on Stage – Live, 'Proof (album)']"
+133,203,lyricist,['Lights (BTS song)']
+133,203,composer,['Lights (BTS song)']
+133,203,producer,"['Map of the Soul: 7', 'Map of the Soul: Persona', 'Proof (album)']"
+133,215,writer,"['Map of the Soul: 7', 'Map of the Soul: Persona', Permission to Dance on Stage – Live, 'Proof (album)']"
+133,215,lyricist,['Lights (BTS song)']
+133,250,writer,"['Map of the Soul: 7', 'Map of the Soul: Persona', Permission to Dance on Stage – Live, 'Proof (album)']"
+133,250,lyricist,['Lights (BTS song)']
+134,105,writer,"['Map of the Soul: 7', 'Map of the Soul: Persona']"
+134,203,writer,"['Map of the Soul: 7', 'Map of the Soul: Persona']"
+134,203,producer,"['Map of the Soul: 7', 'Map of the Soul: Persona']"
+134,215,writer,"['Map of the Soul: 7', 'Map of the Soul: Persona']"
+134,219,writer,"['Map of the Soul: 7', 'Map of the Soul: Persona']"
+134,250,writer,"['Map of the Soul: 7', 'Map of the Soul: Persona']"
+134,253,writer,"['Map of the Soul: 7', 'Map of the Soul: Persona']"
+135,3,writer,['Map of the Soul: Persona']
+135,35,writer,['Map of the Soul: Persona']
+135,105,writer,['Map of the Soul: Persona']
+135,132,writer,['Map of the Soul: Persona']
+135,151,writer,['Map of the Soul: Persona']
+135,155,writer,['Map of the Soul: Persona']
+135,203,writer,['Map of the Soul: Persona']
+135,203,producer,['Map of the Soul: Persona']
+135,215,writer,['Map of the Soul: Persona']
+135,244,writer,['Map of the Soul: Persona']
+135,250,writer,['Map of the Soul: Persona']
+135,265,writer,['Map of the Soul: Persona']
+136,99,writer,"['Map of the Soul: 7', 'Map of the Soul: Persona', 'Proof (album)']"
+136,99,producer,"['Map of the Soul: 7', 'Map of the Soul: Persona', 'Proof (album)']"
+136,203,writer,"['Map of the Soul: 7', 'Map of the Soul: Persona', 'Proof (album)']"
+136,215,writer,"['Map of the Soul: 7', 'Map of the Soul: Persona', 'Proof (album)']"
+137,21,producer,"['Map of the Soul: 7', 'Map of the Soul: Persona', 'Proof (album)']"
+137,29,producer,"['Map of the Soul: 7', 'Map of the Soul: Persona', 'Proof (album)']"
+137,30,writer,"['Map of the Soul: 7', 'Map of the Soul: Persona', 'Proof (album)']"
+137,41,writer,"['Map of the Soul: 7', 'Proof (album)']"
+137,105,writer,"['Map of the Soul: 7', 'Map of the Soul: Persona', 'Proof (album)']"
+137,168,writer,"['Map of the Soul: 7', 'Map of the Soul: Persona', 'Proof (album)']"
+137,168,producer,"['Map of the Soul: 7', 'Map of the Soul: Persona', 'Proof (album)']"
+137,174,writer,"['Map of the Soul: 7', 'Map of the Soul: Persona', 'Proof (album)']"
+137,175,writer,"['Map of the Soul: 7', 'Map of the Soul: Persona', 'Proof (album)']"
+137,199,writer,"['Map of the Soul: 7', 'Map of the Soul: Persona', 'Proof (album)']"
+137,213,writer,"['Map of the Soul: 7', 'Map of the Soul: Persona']"
+137,215,writer,"['Map of the Soul: 7', 'Map of the Soul: Persona', 'Proof (album)']"
+138,32,writer,"['Map of the Soul: 7', 'Map of the Soul: Persona']"
+138,73,writer,"['Map of the Soul: 7', 'Map of the Soul: Persona']"
+138,82,producer,"['Map of the Soul: 7', 'Map of the Soul: Persona']"
+138,89,writer,"['Map of the Soul: 7', 'Map of the Soul: Persona']"
+138,105,writer,"['Map of the Soul: 7', 'Map of the Soul: Persona']"
+138,125,writer,"['Map of the Soul: 7', 'Map of the Soul: Persona']"
+138,215,writer,"['Map of the Soul: 7', 'Map of the Soul: Persona']"
+138,250,writer,"['Map of the Soul: 7', 'Map of the Soul: Persona']"
+139,21,producer,['Map of the Soul: Persona']
+139,42,writer,['Map of the Soul: Persona']
+139,68,writer,['Map of the Soul: Persona']
+139,88,writer,['Map of the Soul: Persona']
+139,105,writer,['Map of the Soul: Persona']
+139,111,writer,['Map of the Soul: Persona']
+139,163,writer,['Map of the Soul: Persona']
+139,168,writer,['Map of the Soul: Persona']
+139,174,writer,['Map of the Soul: Persona']
+139,175,writer,['Map of the Soul: Persona']
+139,215,writer,['Map of the Soul: Persona']
+139,250,writer,['Map of the Soul: Persona']
+139,258,writer,['Map of the Soul: Persona']
+140,35,writer,['BTS World: Original Soundtrack']
+140,46,writer,['BTS World: Original Soundtrack']
+140,224,writer,['BTS World: Original Soundtrack']
+140,245,writer,['BTS World: Original Soundtrack']
+140,245,producer,['BTS World: Original Soundtrack']
+141,105,writer,['BTS World: Original Soundtrack']
+141,154,writer,['BTS World: Original Soundtrack']
+141,177,writer,['BTS World: Original Soundtrack']
+141,190,writer,['BTS World: Original Soundtrack']
+141,190,producer,['BTS World: Original Soundtrack']
+141,231,writer,['BTS World: Original Soundtrack']
+141,279,writer,['BTS World: Original Soundtrack']
+142,131,writer,['BTS World: Original Soundtrack']
+142,169,writer,['BTS World: Original Soundtrack']
+142,210,writer,['BTS World: Original Soundtrack']
+142,210,producer,['BTS World: Original Soundtrack']
+142,215,writer,['BTS World: Original Soundtrack']
+142,215,producer,['BTS World: Original Soundtrack']
+142,250,writer,['BTS World: Original Soundtrack']
+143,162,writer,['BTS World: Original Soundtrack']
+143,187,writer,['BTS World: Original Soundtrack']
+144,38,writer,['BTS World: Original Soundtrack']
+144,141,writer,['BTS World: Original Soundtrack']
+145,239,writer,['BTS World: Original Soundtrack']
+145,272,writer,['BTS World: Original Soundtrack']
+146,136,writer,['BTS World: Original Soundtrack']
+147,30,writer,['BTS World: Original Soundtrack']
+147,54,writer,['BTS World: Original Soundtrack']
+147,68,producer,['BTS World: Original Soundtrack']
+147,105,writer,['BTS World: Original Soundtrack']
+147,158,writer,['BTS World: Original Soundtrack']
+147,215,writer,['BTS World: Original Soundtrack']
+148,100,writer,['BTS World: Original Soundtrack']
+148,187,writer,['BTS World: Original Soundtrack']
+149,136,writer,['BTS World: Original Soundtrack']
+150,187,writer,['BTS World: Original Soundtrack']
+151,252,writer,['Map of the Soul: 7 – The Journey']
+151,252,lyricist,"['BTS, the Best', 'Lights (BTS song)']"
+151,270,writer,['Map of the Soul: 7 – The Journey']
+151,270,lyricist,"['BTS, the Best', 'Lights (BTS song)']"
+151,270,composer,['Lights (BTS song)']
+151,270,producer,"['BTS, the Best', 'Map of the Soul: 7 – The Journey']"
+151,278,writer,['Map of the Soul: 7 – The Journey']
+151,278,lyricist,"['BTS, the Best', 'Lights (BTS song)']"
+152,27,writer,"['Map of the Soul: 7', Permission to Dance on Stage – Live]"
+152,51,writer,"['Map of the Soul: 7', Permission to Dance on Stage – Live]"
+152,203,writer,"['Map of the Soul: 7', Permission to Dance on Stage – Live]"
+152,203,producer,['Map of the Soul: 7']
+152,215,writer,"['Map of the Soul: 7', Permission to Dance on Stage – Live]"
+152,273,writer,"['Map of the Soul: 7', Permission to Dance on Stage – Live]"
+153,20,writer,"['Map of the Soul: 7', 'Proof (album)']"
+153,121,writer,"['Map of the Soul: 7', 'Proof (album)']"
+153,203,writer,"['Map of the Soul: 7', 'Proof (album)']"
+153,203,producer,"['Map of the Soul: 7', 'Proof (album)']"
+153,215,writer,"['Map of the Soul: 7', 'Proof (album)']"
+154,5,writer,"['Map of the Soul: 7', 'Proof (album)']"
+154,30,writer,"['Map of the Soul: 7', 'Proof (album)']"
+154,35,writer,"['Map of the Soul: 7', 'Proof (album)']"
+154,60,writer,"['Map of the Soul: 7', 'Proof (album)']"
+154,84,writer,"['Map of the Soul: 7', 'Proof (album)']"
+154,97,writer,"['Map of the Soul: 7', 'Proof (album)']"
+154,109,writer,"['Map of the Soul: 7', 'Proof (album)']"
+154,167,writer,"['Map of the Soul: 7', 'Proof (album)']"
+154,191,writer,"['Map of the Soul: 7', 'Proof (album)']"
+154,261,writer,"['Map of the Soul: 7', 'Proof (album)']"
+154,261,producer,"['Map of the Soul: 7', 'Proof (album)']"
+155,3,writer,"['Map of the Soul: 7', 'Proof (album)']"
+155,122,writer,"['Map of the Soul: 7', 'Proof (album)']"
+155,122,producer,"['Map of the Soul: 7', 'Proof (album)']"
+155,171,writer,"['Map of the Soul: 7', 'Proof (album)']"
+155,203,writer,"['Map of the Soul: 7', 'Proof (album)']"
+155,203,producer,"['Map of the Soul: 7', 'Proof (album)']"
+155,246,writer,"['Map of the Soul: 7', 'Proof (album)']"
+155,253,writer,"['Map of the Soul: 7', 'Proof (album)']"
+156,2,writer,['Map of the Soul: 7']
+156,21,writer,['Map of the Soul: 7']
+156,21,producer,['Map of the Soul: 7']
+156,77,writer,['Map of the Soul: 7']
+156,111,writer,['Map of the Soul: 7']
+156,203,writer,['Map of the Soul: 7']
+156,215,writer,['Map of the Soul: 7']
+156,258,writer,['Map of the Soul: 7']
+156,271,writer,['Map of the Soul: 7']
+157,74,writer,['Map of the Soul: 7']
+157,74,producer,['Map of the Soul: 7']
+157,91,writer,['Map of the Soul: 7']
+157,91,producer,['Map of the Soul: 7']
+157,203,writer,['Map of the Soul: 7']
+157,215,writer,['Map of the Soul: 7']
+157,250,writer,['Map of the Soul: 7']
+157,250,producer,['Map of the Soul: 7']
+158,13,writer,['Map of the Soul: 7']
+158,36,writer,['Map of the Soul: 7']
+158,36,producer,['Map of the Soul: 7']
+158,105,writer,['Map of the Soul: 7']
+158,160,writer,['Map of the Soul: 7']
+158,215,writer,['Map of the Soul: 7']
+158,250,writer,['Map of the Soul: 7']
+158,264,writer,['Map of the Soul: 7']
+159,3,writer,"['Map of the Soul: 7', 'Proof (album)']"
+159,10,writer,"['Map of the Soul: 7', 'Proof (album)']"
+159,42,writer,"['Map of the Soul: 7', 'Proof (album)']"
+159,68,writer,"['Map of the Soul: 7', 'Proof (album)']"
+159,123,writer,"['Map of the Soul: 7', 'Proof (album)']"
+159,185,writer,"['Map of the Soul: 7', 'Proof (album)']"
+159,215,writer,"['Map of the Soul: 7', 'Proof (album)']"
+159,241,writer,"['Map of the Soul: 7', 'Proof (album)']"
+159,241,producer,"['Map of the Soul: 7', 'Proof (album)']"
+160,116,writer,['Map of the Soul: 7']
+160,138,writer,['Map of the Soul: 7']
+160,203,writer,['Map of the Soul: 7']
+160,203,producer,['Map of the Soul: 7']
+160,209,writer,['Map of the Soul: 7']
+160,214,writer,['Map of the Soul: 7']
+160,215,writer,['Map of the Soul: 7']
+160,240,writer,['Map of the Soul: 7']
+160,240,producer,['Map of the Soul: 7']
+161,20,writer,"['Map of the Soul: 7', Permission to Dance on Stage – Live, 'Proof (album)']"
+161,27,writer,"['Map of the Soul: 7', Permission to Dance on Stage – Live, 'Proof (album)']"
+161,88,writer,"['Map of the Soul: 7', 'Proof (album)']"
+161,105,writer,"['Map of the Soul: 7', Permission to Dance on Stage – Live, 'Proof (album)']"
+161,132,writer,"['Map of the Soul: 7', Permission to Dance on Stage – Live, 'Proof (album)']"
+161,151,writer,"['Map of the Soul: 7', Permission to Dance on Stage – Live, 'Proof (album)']"
+161,183,writer,"['Map of the Soul: 7', Permission to Dance on Stage – Live, 'Proof (album)']"
+161,203,writer,"['Map of the Soul: 7', Permission to Dance on Stage – Live, 'Proof (album)']"
+161,203,producer,"['Map of the Soul: 7', 'Proof (album)']"
+161,215,writer,"['Map of the Soul: 7', Permission to Dance on Stage – Live, 'Proof (album)']"
+161,250,writer,"['Map of the Soul: 7', Permission to Dance on Stage – Live, 'Proof (album)']"
+162,99,writer,"['Map of the Soul: 7', 'Proof (album)']"
+162,99,producer,"['Map of the Soul: 7', 'Proof (album)']"
+162,105,writer,"['Map of the Soul: 7', 'Proof (album)']"
+162,253,writer,"['Map of the Soul: 7', 'Proof (album)']"
+163,74,writer,['Map of the Soul: 7']
+163,74,producer,['Map of the Soul: 7']
+163,99,writer,['Map of the Soul: 7']
+163,99,producer,['Map of the Soul: 7']
+163,215,writer,['Map of the Soul: 7']
+163,250,writer,['Map of the Soul: 7']
+163,250,producer,['Map of the Soul: 7']
+164,99,writer,['Map of the Soul: 7']
+164,101,writer,['Map of the Soul: 7']
+164,105,writer,['Map of the Soul: 7']
+164,215,writer,['Map of the Soul: 7']
+164,250,writer,['Map of the Soul: 7']
+164,253,writer,['Map of the Soul: 7']
+164,253,producer,['Map of the Soul: 7']
+165,9,writer,['Map of the Soul: 7']
+165,11,writer,['Map of the Soul: 7']
+165,20,writer,['Map of the Soul: 7']
+165,26,writer,['Map of the Soul: 7']
+165,26,producer,['Map of the Soul: 7']
+165,42,writer,['Map of the Soul: 7']
+165,44,writer,['Map of the Soul: 7']
+165,68,writer,['Map of the Soul: 7']
+165,76,producer,['Map of the Soul: 7']
+165,78,writer,['Map of the Soul: 7']
+165,81,writer,['Map of the Soul: 7']
+165,93,writer,['Map of the Soul: 7']
+165,105,writer,['Map of the Soul: 7']
+165,133,writer,['Map of the Soul: 7']
+165,215,writer,['Map of the Soul: 7']
+165,250,writer,['Map of the Soul: 7']
+165,274,writer,['Map of the Soul: 7']
+166,134,writer,['Map of the Soul: 7 – The Journey']
+166,134,lyricist,"['BTS, the Best']"
+166,150,writer,['Map of the Soul: 7 – The Journey']
+166,150,lyricist,"['BTS, the Best']"
+166,181,writer,['Map of the Soul: 7 – The Journey']
+166,181,lyricist,"['BTS, the Best']"
+166,183,writer,['Map of the Soul: 7 – The Journey']
+166,183,lyricist,"['BTS, the Best']"
+166,252,writer,['Map of the Soul: 7 – The Journey']
+166,252,lyricist,"['BTS, the Best']"
+166,270,writer,['Map of the Soul: 7 – The Journey']
+166,270,lyricist,"['BTS, the Best']"
+166,270,producer,"['BTS, the Best', 'Map of the Soul: 7 – The Journey']"
+167,134,writer,['Map of the Soul: 7 – The Journey']
+167,150,writer,['Map of the Soul: 7 – The Journey']
+167,181,writer,['Map of the Soul: 7 – The Journey']
+167,183,writer,['Map of the Soul: 7 – The Journey']
+167,252,writer,['Map of the Soul: 7 – The Journey']
+167,270,writer,['Map of the Soul: 7 – The Journey']
+167,270,producer,['Map of the Soul: 7 – The Journey']
+168,92,writer,['Map of the Soul: 7 – The Journey']
+168,134,writer,['Map of the Soul: 7 – The Journey']
+168,138,writer,['Map of the Soul: 7 – The Journey']
+168,270,writer,['Map of the Soul: 7 – The Journey']
+168,270,producer,['Map of the Soul: 7 – The Journey']
+169,92,writer,['Map of the Soul: 7 – The Journey']
+169,92,lyricist,"['BTS, the Best']"
+169,92,producer,"['BTS, the Best', 'Map of the Soul: 7 – The Journey']"
+169,134,writer,['Map of the Soul: 7 – The Journey']
+169,134,lyricist,"['BTS, the Best']"
+169,138,writer,['Map of the Soul: 7 – The Journey']
+169,138,lyricist,"['BTS, the Best']"
+169,270,writer,['Map of the Soul: 7 – The Journey']
+169,270,lyricist,"['BTS, the Best']"
+169,270,producer,['Map of the Soul: 7 – The Journey']
+170,62,writer,"['Be (BTS album)', Permission to Dance on Stage – Live, 'Proof (album)']"
+170,62,lyricist,"['BTS, the Best']"
+170,62,producer,"['BTS, the Best', 'Be (BTS album)', 'Proof (album)']"
+170,120,writer,"['Be (BTS album)', Permission to Dance on Stage – Live, 'Proof (album)']"
+170,120,lyricist,"['BTS, the Best']"
+172,99,writer,"['Be (BTS album)', Permission to Dance on Stage – Live]"
+172,99,producer,['Be (BTS album)']
+172,105,writer,"['Be (BTS album)', Permission to Dance on Stage – Live]"
+172,161,writer,"['Be (BTS album)', Permission to Dance on Stage – Live]"
+172,161,producer,['Be (BTS album)']
+172,182,writer,"['Be (BTS album)', Permission to Dance on Stage – Live]"
+172,194,writer,[Permission to Dance on Stage – Live]
+172,202,writer,['Be (BTS album)']
+172,202,producer,['Be (BTS album)']
+172,215,writer,"['Be (BTS album)', Permission to Dance on Stage – Live]"
+172,250,writer,"['Be (BTS album)', Permission to Dance on Stage – Live]"
+172,271,writer,"['Be (BTS album)', Permission to Dance on Stage – Live]"
+172,271,producer,['Be (BTS album)']
+173,39,writer,"['Be (BTS album)', Permission to Dance on Stage – Live]"
+173,39,producer,['Be (BTS album)']
+173,91,writer,"['Be (BTS album)', Permission to Dance on Stage – Live]"
+173,105,writer,"['Be (BTS album)', Permission to Dance on Stage – Live]"
+173,122,writer,"['Be (BTS album)', Permission to Dance on Stage – Live]"
+173,203,writer,"['Be (BTS album)', Permission to Dance on Stage – Live]"
+173,211,writer,"['Be (BTS album)', Permission to Dance on Stage – Live]"
+173,215,writer,"['Be (BTS album)', Permission to Dance on Stage – Live]"
+173,250,writer,"['Be (BTS album)', Permission to Dance on Stage – Live]"
+174,53,writer,['Be (BTS album)']
+174,53,producer,['Be (BTS album)']
+174,105,writer,['Be (BTS album)']
+174,126,writer,['Be (BTS album)']
+174,215,writer,['Be (BTS album)']
+174,250,writer,['Be (BTS album)']
+175,20,writer,"['Be (BTS album)', Permission to Dance on Stage – Live, 'Proof (album)']"
+175,34,writer,[Permission to Dance on Stage – Live]
+175,49,writer,"['Be (BTS album)', Permission to Dance on Stage – Live, 'Proof (album)']"
+175,105,writer,"['Be (BTS album)', Permission to Dance on Stage – Live, 'Proof (album)']"
+175,203,writer,"['Be (BTS album)', Permission to Dance on Stage – Live, 'Proof (album)']"
+175,203,producer,"['Be (BTS album)', 'Proof (album)']"
+175,215,writer,"['Be (BTS album)', Permission to Dance on Stage – Live, 'Proof (album)']"
+175,222,writer,"['Be (BTS album)', 'Proof (album)']"
+175,250,writer,"['Be (BTS album)', Permission to Dance on Stage – Live, 'Proof (album)']"
+176,105,writer,['Be (BTS album)']
+176,105,producer,['Be (BTS album)']
+176,122,writer,['Be (BTS album)']
+176,122,producer,['Be (BTS album)']
+176,123,writer,['Be (BTS album)']
+176,123,producer,['Be (BTS album)']
+176,138,writer,['Be (BTS album)']
+176,138,producer,['Be (BTS album)']
+176,215,writer,['Be (BTS album)']
+176,215,producer,['Be (BTS album)']
+176,250,writer,['Be (BTS album)']
+176,250,producer,['Be (BTS album)']
+176,271,writer,['Be (BTS album)']
+176,271,producer,['Be (BTS album)']
+177,23,writer,"['Be (BTS album)', Permission to Dance on Stage – Live, 'Proof (album)']"
+177,23,producer,"['Be (BTS album)', 'Proof (album)']"
+177,123,writer,"['Be (BTS album)', Permission to Dance on Stage – Live, 'Proof (album)']"
+177,138,writer,"['Be (BTS album)', Permission to Dance on Stage – Live, 'Proof (album)']"
+177,215,writer,"['Be (BTS album)', Permission to Dance on Stage – Live, 'Proof (album)']"
+178,74,writer,"['Be (BTS album)', Permission to Dance on Stage – Live]"
+178,74,producer,['Be (BTS album)']
+178,99,writer,"['Be (BTS album)', Permission to Dance on Stage – Live]"
+178,99,producer,['Be (BTS album)']
+178,138,writer,"['Be (BTS album)', Permission to Dance on Stage – Live]"
+178,215,writer,"['Be (BTS album)', Permission to Dance on Stage – Live]"
+178,250,writer,"['Be (BTS album)', Permission to Dance on Stage – Live]"
+179,28,producer,"['BTS, the Best']"
+179,104,lyricist,"['BTS, the Best']"
+179,138,lyricist,"['BTS, the Best']"
+179,270,producer,"['BTS, the Best']"
+180,8,writer,"[Permission to Dance on Stage – Live, 'Proof (album)']"
+180,118,writer,"[Permission to Dance on Stage – Live, 'Proof (album)']"
+180,215,writer,"[Permission to Dance on Stage – Live, 'Proof (album)']"
+180,216,writer,"[Permission to Dance on Stage – Live, 'Proof (album)']"
+180,216,producer,['Proof (album)']
+180,220,writer,"[Permission to Dance on Stage – Live, 'Proof (album)']"
+180,220,producer,['Proof (album)']
+180,234,writer,"[Permission to Dance on Stage – Live, 'Proof (album)']"
+180,247,writer,"[Permission to Dance on Stage – Live, 'Proof (album)']"
+180,247,producer,['Proof (album)']
+181,16,writer,[Permission to Dance on Stage – Live]
+181,73,writer,[Permission to Dance on Stage – Live]
+181,128,writer,[Permission to Dance on Stage – Live]
+181,249,writer,[Permission to Dance on Stage – Live]
+182,19,writer,['Proof (album)']
+182,43,writer,['Proof (album)']
+182,70,writer,['Proof (album)']
+182,105,writer,['Proof (album)']
+182,106,writer,['Proof (album)']
+182,112,writer,['Proof (album)']
+182,139,writer,['Proof (album)']
+182,215,writer,['Proof (album)']
+182,250,writer,['Proof (album)']
+183,1,writer,['Proof (album)']
+183,30,writer,['Proof (album)']
+183,33,writer,['Proof (album)']
+183,99,writer,['Proof (album)']
+183,102,writer,['Proof (album)']
+183,102,producer,['Proof (album)']
+183,105,writer,['Proof (album)']
+183,215,writer,['Proof (album)']
+183,217,writer,['Proof (album)']
+183,217,producer,['Proof (album)']
+183,241,writer,['Proof (album)']
+183,250,writer,['Proof (album)']
+183,259,writer,['Proof (album)']
+184,59,writer,['Proof (album)']
+184,64,writer,['Proof (album)']
+184,64,producer,['Proof (album)']
+184,72,writer,['Proof (album)']
+184,86,writer,['Proof (album)']
+184,88,writer,['Proof (album)']
+184,91,writer,['Proof (album)']
+184,91,producer,['Proof (album)']
+184,105,writer,['Proof (album)']
+184,138,writer,['Proof (album)']
+184,166,writer,['Proof (album)']
+184,197,writer,['Proof (album)']
+184,215,writer,['Proof (album)']
+184,230,writer,['Proof (album)']
+184,250,writer,['Proof (album)']
+185,138,writer,['Proof (album)']
+185,138,producer,['Proof (album)']
+186,4,writer,['Proof (album)']
+186,4,producer,['Proof (album)']
+186,203,producer,['Proof (album)']
+186,253,writer,['Proof (album)']
+186,253,producer,['Proof (album)']
+187,58,writer,['Proof (album)']
+187,105,writer,['Proof (album)']
+187,176,writer,['Proof (album)']
+187,203,writer,['Proof (album)']
+187,203,producer,['Proof (album)']
+187,215,writer,['Proof (album)']
+187,250,writer,['Proof (album)']
+194,45,writer,['Arirang (album)']
+194,65,writer,['Arirang (album)']
+194,103,writer,['Arirang (album)']
+194,105,writer,['Arirang (album)']
+194,127,writer,['Arirang (album)']
+194,138,writer,['Arirang (album)']
+194,186,producer,['Arirang (album)']
+194,203,writer,['Arirang (album)']
+194,207,writer,['Arirang (album)']
+194,207,producer,['Arirang (album)']
+194,215,writer,['Arirang (album)']
+194,250,writer,['Arirang (album)']
+194,271,writer,['Arirang (album)']
+194,276,writer,['Arirang (album)']
+196,37,writer,['Arirang (album)']
+196,37,producer,['Arirang (album)']
+196,45,writer,['Arirang (album)']
+196,65,writer,['Arirang (album)']
+196,105,writer,['Arirang (album)']
+196,110,writer,['Arirang (album)']
+196,117,writer,['Arirang (album)']
+196,127,writer,['Arirang (album)']
+196,138,writer,['Arirang (album)']
+196,146,writer,['Arirang (album)']
+196,146,producer,['Arirang (album)']
+196,186,writer,['Arirang (album)']
+196,186,producer,['Arirang (album)']
+196,203,writer,['Arirang (album)']
+196,203,producer,['Arirang (album)']
+196,207,writer,['Arirang (album)']
+196,207,producer,['Arirang (album)']
+196,215,writer,['Arirang (album)']
+196,250,writer,['Arirang (album)']
+197,6,writer,['Arirang (album)']
+197,67,writer,['Arirang (album)']
+197,67,producer,['Arirang (album)']
+197,105,writer,['Arirang (album)']
+197,149,writer,['Arirang (album)']
+197,178,writer,['Arirang (album)']
+197,203,writer,['Arirang (album)']
+197,203,producer,['Arirang (album)']
+197,206,producer,['Arirang (album)']
+197,215,writer,['Arirang (album)']
+197,223,writer,['Arirang (album)']
+197,223,producer,['Arirang (album)']
+197,250,writer,['Arirang (album)']
+197,255,writer,['Arirang (album)']
+198,7,writer,['Arirang (album)']
+198,67,writer,['Arirang (album)']
+198,67,producer,['Arirang (album)']
+198,87,writer,['Arirang (album)']
+198,87,producer,['Arirang (album)']
+198,130,writer,['Arirang (album)']
+198,138,writer,['Arirang (album)']
+198,152,writer,['Arirang (album)']
+198,193,writer,['Arirang (album)']
+198,193,producer,['Arirang (album)']
+198,215,writer,['Arirang (album)']
+198,250,writer,['Arirang (album)']
+199,63,writer,['Arirang (album)']
+199,65,writer,['Arirang (album)']
+199,75,writer,['Arirang (album)']
+199,75,producer,['Arirang (album)']
+199,80,writer,['Arirang (album)']
+199,83,producer,['Arirang (album)']
+199,91,producer,['Arirang (album)']
+199,105,writer,['Arirang (album)']
+199,115,writer,['Arirang (album)']
+199,115,producer,['Arirang (album)']
+199,138,writer,['Arirang (album)']
+199,149,writer,['Arirang (album)']
+199,184,writer,['Arirang (album)']
+199,201,writer,['Arirang (album)']
+199,203,writer,['Arirang (album)']
+199,215,writer,['Arirang (album)']
+199,250,writer,['Arirang (album)']
+199,257,writer,['Arirang (album)']
+200,67,writer,['Arirang (album)']
+200,67,producer,['Arirang (album)']
+200,91,writer,['Arirang (album)']
+200,91,producer,['Arirang (album)']
+200,105,writer,['Arirang (album)']
+200,122,writer,['Arirang (album)']
+200,147,writer,['Arirang (album)']
+200,179,writer,['Arirang (album)']
+200,193,producer,['Arirang (album)']
+200,203,writer,['Arirang (album)']
+200,203,producer,['Arirang (album)']
+200,215,writer,['Arirang (album)']
+200,250,writer,['Arirang (album)']
+200,255,writer,['Arirang (album)']
+200,267,writer,['Arirang (album)']
+200,267,producer,['Arirang (album)']
+200,271,writer,['Arirang (album)']
+201,24,writer,['Arirang (album)']
+201,24,producer,['Arirang (album)']
+201,31,writer,['Arirang (album)']
+201,67,writer,['Arirang (album)']
+201,67,producer,['Arirang (album)']
+201,119,writer,['Arirang (album)']
+201,145,writer,['Arirang (album)']
+201,145,producer,['Arirang (album)']
+201,149,writer,['Arirang (album)']
+201,215,writer,['Arirang (album)']
+201,260,writer,['Arirang (album)']
+201,260,producer,['Arirang (album)']
+202,7,writer,['Arirang (album)']
+202,7,producer,['Arirang (album)']
+202,65,writer,['Arirang (album)']
+202,91,producer,['Arirang (album)']
+202,105,writer,['Arirang (album)']
+202,144,writer,['Arirang (album)']
+202,144,producer,['Arirang (album)']
+202,203,writer,['Arirang (album)']
+202,215,writer,['Arirang (album)']
+202,226,writer,['Arirang (album)']
+202,226,producer,['Arirang (album)']
+202,229,writer,['Arirang (album)']
+202,229,producer,['Arirang (album)']
+202,250,writer,['Arirang (album)']
+203,65,writer,['Arirang (album)']
+203,105,writer,['Arirang (album)']
+203,149,writer,['Arirang (album)']
+203,164,writer,['Arirang (album)']
+203,203,writer,['Arirang (album)']
+203,215,writer,['Arirang (album)']
+203,223,writer,['Arirang (album)']
+203,223,producer,['Arirang (album)']
+203,232,writer,['Arirang (album)']
+203,232,producer,['Arirang (album)']
+203,233,writer,['Arirang (album)']
+203,250,writer,['Arirang (album)']
+205,18,writer,['Arirang (album)']
+205,31,writer,['Arirang (album)']
+205,67,writer,['Arirang (album)']
+205,67,producer,['Arirang (album)']
+205,105,writer,['Arirang (album)']
+205,179,writer,['Arirang (album)']
+205,193,producer,['Arirang (album)']
+205,203,writer,['Arirang (album)']
+205,203,producer,['Arirang (album)']
+205,215,writer,['Arirang (album)']
+205,250,writer,['Arirang (album)']
+206,105,writer,['Arirang (album)']
+206,110,writer,['Arirang (album)']
+206,215,writer,['Arirang (album)']
+206,223,writer,['Arirang (album)']
+206,250,writer,['Arirang (album)']
+206,268,writer,['Arirang (album)']
+206,268,producer,['Arirang (album)']
+207,65,writer,['Arirang (album)']
+207,110,writer,['Arirang (album)']
+207,114,writer,['Arirang (album)']
+207,149,writer,['Arirang (album)']
+207,156,producer,['Arirang (album)']
+207,203,writer,['Arirang (album)']
+207,203,producer,['Arirang (album)']
+207,215,writer,['Arirang (album)']
+207,223,writer,['Arirang (album)']
+207,233,writer,['Arirang (album)']
+207,268,writer,['Arirang (album)']
+207,268,producer,['Arirang (album)']
+208,91,writer,['Arirang (album)']
+208,91,producer,['Arirang (album)']
+208,105,writer,['Arirang (album)']
+208,122,writer,['Arirang (album)']
+208,152,writer,['Arirang (album)']
+208,203,writer,['Arirang (album)']
+208,203,producer,['Arirang (album)']
+208,215,writer,['Arirang (album)']
+208,221,writer,['Arirang (album)']
+208,250,writer,['Arirang (album)']
+208,277,writer,['Arirang (album)']
+208,277,producer,['Arirang (album)']
+210,7,writer,['Arirang (album)']
+210,15,writer,['Arirang (album)']
+210,15,producer,['Arirang (album)']
+210,50,writer,['Arirang (album)']
+210,50,producer,['Arirang (album)']
+210,74,writer,['Arirang (album)']
+210,105,writer,['Arirang (album)']
+210,107,writer,['Arirang (album)']
+210,215,writer,['Arirang (album)']
+210,250,writer,['Arirang (album)']
+210,250,producer,['Arirang (album)']

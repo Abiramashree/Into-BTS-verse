@@ -1,0 +1,56 @@
+attribute,iri,classes,datatype,unit,table_name,column_name,sources,changes_each_build,label,definition
+acousticness,"https://abiramashree.github.io/Into-BTS-verse/ontology#acousticness",[song],UnitInterval,,song_audio,acousticness,[ReccoBeats],false,acousticness,
+audio_confidence,"https://abiramashree.github.io/Into-BTS-verse/ontology#audio_confidence",[song],xsd:string,,song_intelligence,audio_confidence,[],false,audio confidence,verified: Spotify's values via ReccoBeats. estimated: tempo and energy from previews.
+current_streams,"https://abiramashree.github.io/Into-BTS-verse/ontology#current_streams",[song],xsd:nonNegativeInteger,streams,song_intelligence,current_streams,[Kworb],true,Spotify streams,Total Spotify streams at the latest snapshot.
+danceability,"https://abiramashree.github.io/Into-BTS-verse/ontology#danceability",[song],UnitInterval,,song_audio,danceability,[ReccoBeats],false,danceability,
+display_name,"https://abiramashree.github.io/Into-BTS-verse/ontology#display_name",[person],xsd:string,,person,display_name,[],false,display name,
+energy,"https://abiramashree.github.io/Into-BTS-verse/ontology#energy",[song],UnitInterval,,song_audio,energy,"[Previews, ReccoBeats]",false,energy,Intensity and activity.
+first_release_date,"https://abiramashree.github.io/Into-BTS-verse/ontology#first_release_date","[recording, song]",xsd:date,,,first_release_date,[],false,first release date,
+first_release_precision,"https://abiramashree.github.io/Into-BTS-verse/ontology#first_release_precision",[recording],xsd:string,,recording,first_release_precision,[MusicBrainz],false,first release precision,"year, month or day: how much of a recording's first release date is known."
+first_week,"https://abiramashree.github.io/Into-BTS-verse/ontology#first_week",[chart_run],xsd:date,,,first_week,[],false,first week,
+growth_acceleration,"https://abiramashree.github.io/Into-BTS-verse/ontology#growth_acceleration",[song],xsd:decimal,ratio,song_intelligence,growth_acceleration,[Kworb],true,growth acceleration,This 90-day growth rate minus the previous one.
+has_revival,"https://abiramashree.github.io/Into-BTS-verse/ontology#has_revival",[song],xsd:boolean,,song_intelligence,has_revival,[],true,has a revival,The revival month at least doubled the song's usual level (revival score of 1 or more).
+has_tracklist,"https://abiramashree.github.io/Into-BTS-verse/ontology#has_tracklist",[release],xsd:boolean,,album,has_tracklist,[Apple],false,has tracklist,
+hot100_peak,"https://abiramashree.github.io/Into-BTS-verse/ontology#hot100_peak",[song],ChartPosition,,song_intelligence,hot100_peak,[Billboard],true,Hot 100 peak,
+hot100_weeks,"https://abiramashree.github.io/Into-BTS-verse/ontology#hot100_weeks",[song],xsd:positiveInteger,weeks,song_intelligence,hot100_weeks,[Billboard],true,Hot 100 weeks,
+instrumentalness,"https://abiramashree.github.io/Into-BTS-verse/ontology#instrumentalness",[song],UnitInterval,,song_audio,instrumentalness,[ReccoBeats],false,instrumentalness,
+is_feature,"https://abiramashree.github.io/Into-BTS-verse/ontology#is_feature","[track, video]",xsd:boolean,,,is_feature,[],false,BTS featured,BTS appears as a featured artist.
+is_generic_title,"https://abiramashree.github.io/Into-BTS-verse/ontology#is_generic_title",[song],xsd:boolean,,song,is_generic_title,[],false,has a generic title,"Titled Intro, Outro, Skit or Interlude with nothing else."
+is_single,"https://abiramashree.github.io/Into-BTS-verse/ontology#is_single",[song],xsd:boolean,,song,is_single,[Wikipedia],false,is a single,
+is_video,"https://abiramashree.github.io/Into-BTS-verse/ontology#is_video",[recording],xsd:boolean,,recording,is_video,[MusicBrainz],false,is a video recording,
+key,"https://abiramashree.github.io/Into-BTS-verse/ontology#key",[song],PitchClass,,song_audio,key,[ReccoBeats],false,key,
+last_week,"https://abiramashree.github.io/Into-BTS-verse/ontology#last_week",[chart_run],xsd:date,,,last_week,[],false,last week,
+length,"https://abiramashree.github.io/Into-BTS-verse/ontology#length",[recording],xsd:nonNegativeInteger,milliseconds,recording,length_ms,[MusicBrainz],false,length,
+liveness,"https://abiramashree.github.io/Into-BTS-verse/ontology#liveness",[song],UnitInterval,,song_audio,liveness,[ReccoBeats],false,liveness,Presence of a live audience.
+long_tail_score,"https://abiramashree.github.io/Into-BTS-verse/ontology#long_tail_score",[song],Percentile,,song_intelligence,long_tail_score,[Kworb],true,long tail,Percentile of 2025 streams per day among songs released before 2023.
+loudness,"https://abiramashree.github.io/Into-BTS-verse/ontology#loudness",[song],xsd:decimal,decibels,song_audio,loudness,[ReccoBeats],false,loudness,
+member_writer_share,"https://abiramashree.github.io/Into-BTS-verse/ontology#member_writer_share",[song],UnitInterval,,song_intelligence,member_writer_share,[Wikipedia],false,member writer share,Share of a song's writers who are members.
+mode,"https://abiramashree.github.io/Into-BTS-verse/ontology#mode",[song],xsd:integer,,song_audio,mode,[ReccoBeats],false,mode,"1 = major, 0 = minor."
+mv_growth_rate,"https://abiramashree.github.io/Into-BTS-verse/ontology#mv_growth_rate",[song],xsd:decimal,ratio,song_intelligence,mv_growth_rate,[Kworb],true,music video growth,"Last 90 days' video views per day against the 90 before, minus 1."
+mv_views_per_day,"https://abiramashree.github.io/Into-BTS-verse/ontology#mv_views_per_day",[song],xsd:decimal,views per day,song_intelligence,mv_views_per_day,[Kworb],true,music video views per day,Average daily official music video views over the last 90 days.
+name,"https://abiramashree.github.io/Into-BTS-verse/ontology#name",[person],xsd:string,,person,name,[],false,name,Name as credited.
+peak_position,"https://abiramashree.github.io/Into-BTS-verse/ontology#peak_position",[chart_run],ChartPosition,,,peak_position,[Billboard],false,peak position,
+peak_streams_per_day,"https://abiramashree.github.io/Into-BTS-verse/ontology#peak_streams_per_day",[song],xsd:nonNegativeInteger,streams per day,song_intelligence,peak_streams_per_day_since_2023,[Kworb],true,peak streams per day,Highest monthly average of daily streams since April 2023.
+platform,"https://abiramashree.github.io/Into-BTS-verse/ontology#platform",[track],xsd:string,,track,platform,[],false,platform,spotify or deezer.
+popularity_score,"https://abiramashree.github.io/Into-BTS-verse/ontology#popularity_score",[song],Percentile,,song_intelligence,popularity_score,[Kworb],true,popularity,Percentile of streams per day among songs that have it.
+producer_count,"https://abiramashree.github.io/Into-BTS-verse/ontology#producer_count",[song],xsd:nonNegativeInteger,,song_intelligence,producer_count,[Wikipedia],false,producers,
+published_month,"https://abiramashree.github.io/Into-BTS-verse/ontology#published_month",[video],xsd:date,first day of the month,video,published_month,[],false,month published,
+release_age_years,"https://abiramashree.github.io/Into-BTS-verse/ontology#release_age_years",[song],xsd:decimal,years,song_intelligence,release_age_years,[],true,release age,
+release_date,"https://abiramashree.github.io/Into-BTS-verse/ontology#release_date",[release],xsd:date,,album,release_date,[Apple],false,release date,
+retention,"https://abiramashree.github.io/Into-BTS-verse/ontology#retention",[song],UnitInterval,ratio,song_intelligence,retention_since_2023,[Kworb],true,retention,Latest month's streams per day against the peak month since April 2023.
+revival_month,"https://abiramashree.github.io/Into-BTS-verse/ontology#revival_month",[song],xsd:date,first day of the month,song_intelligence,revival_month,[],true,revival month,
+revival_score,"https://abiramashree.github.io/Into-BTS-verse/ontology#revival_score",[song],xsd:decimal,ratio,song_intelligence,revival_score,[Kworb],true,revival score,"Largest monthly surge against the song's prior six-month median, net of the same surge for songs a year or more old. Songs a year or more old with at least 5,000 streams per day."
+slug,"https://abiramashree.github.io/Into-BTS-verse/ontology#slug","[person, release, song]",xsd:string,,,slug,[],false,slug,"Readable identifier, unique per table."
+speechiness,"https://abiramashree.github.io/Into-BTS-verse/ontology#speechiness",[song],UnitInterval,,song_audio,speechiness,[ReccoBeats],false,speechiness,"Presence of spoken words, such as rap."
+stream_growth_rate,"https://abiramashree.github.io/Into-BTS-verse/ontology#stream_growth_rate",[song],xsd:decimal,ratio,song_intelligence,stream_growth_rate,[Kworb],true,stream growth,"Last 90 days' streams per day against the 90 before, minus 1."
+streams_per_day,"https://abiramashree.github.io/Into-BTS-verse/ontology#streams_per_day",[song],xsd:decimal,streams per day,song_intelligence,streams_per_day,[Kworb],true,streams per day,Average daily Spotify streams over the last 90 days.
+tempo,"https://abiramashree.github.io/Into-BTS-verse/ontology#tempo",[song],xsd:decimal,beats per minute,song_audio,tempo,"[Previews, ReccoBeats]",false,tempo,
+title,"https://abiramashree.github.io/Into-BTS-verse/ontology#title","[recording, release, song, track, video]",xsd:string,,,title,[],false,title,
+title_ko,"https://abiramashree.github.io/Into-BTS-verse/ontology#title_ko",[song],xsd:string,,song,title_ko,[],false,Korean title,
+track_count,"https://abiramashree.github.io/Into-BTS-verse/ontology#track_count",[release],xsd:nonNegativeInteger,,album,track_count,[Apple],false,track count,
+valence,"https://abiramashree.github.io/Into-BTS-verse/ontology#valence",[song],UnitInterval,,song_audio,valence,[ReccoBeats],false,valence,Musical positiveness.
+version,"https://abiramashree.github.io/Into-BTS-verse/ontology#version","[recording, track, video]",xsd:string,,,version,[],false,version,"original, live, remix, instrumental, demo, japanese, korean, alternate or atmos."
+version_label,"https://abiramashree.github.io/Into-BTS-verse/ontology#version_label",[recording],xsd:string,,recording,version_label,[MusicBrainz],false,version label,"The version as the source words it, such as 'V demo ver.'."
+video_kind,"https://abiramashree.github.io/Into-BTS-verse/ontology#video_kind",[video],xsd:string,,video,kind,[],false,video kind,"mv, dance_practice, lyric_video, teaser, performance or other."
+weeks_on_chart,"https://abiramashree.github.io/Into-BTS-verse/ontology#weeks_on_chart",[chart_run],xsd:positiveInteger,,,weeks_on_chart,[Billboard],false,weeks on chart,
+writer_count,"https://abiramashree.github.io/Into-BTS-verse/ontology#writer_count",[song],xsd:nonNegativeInteger,,song_intelligence,writer_count,[Wikipedia],false,writers,

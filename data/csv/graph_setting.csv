@@ -1,0 +1,3 @@
+setting,iri,value,label,definition
+HiddenGemWeight,"https://abiramashree.github.io/Into-BTS-verse/ontology#HiddenGemWeight",0.1,Hidden gem weight,"Relevance is lowered by this times the song's popularity percentile / 100, so a much-streamed song needs a closer match to be picked."
+VarietyLambda,"https://abiramashree.github.io/Into-BTS-verse/ontology#VarietyLambda",0.7,Variety lambda,"MMR: each pick maximizes lambda x relevance - (1 - lambda) x its similarity to songs already picked (audio closeness, or 1 for the same first release). 1 = relevance only."

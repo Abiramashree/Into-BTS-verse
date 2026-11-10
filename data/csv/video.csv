@@ -1,0 +1,592 @@
+video_id,song_id,version,kind,title,is_feature,published_month,match
+1,,,mv,"Jeong Jin Woon ""You Walking Toward Me"" MV",false,2011-08-01,not_group
+2,,,other,학교의눈물 by 방탄소년단,false,2013-01-01,not_one_song
+3,,,dance_practice,Dance practice by 정국 of 방탄소년단,false,2013-02-01,not_one_song
+4,,,dance_practice,Dance practice by J-HOPE&지민&정국,false,2013-03-01,not_group
+5,,original,dance_practice,Dance practice by 지민 of 방탄소년단 - Bait,false,2013-03-01,not_one_song
+6,,,teaser,BTS (방탄소년단) Debut Trailer,false,2013-05-01,not_one_song
+7,4,original,mv,BTS (방탄소년단) 'No More Dream' Official MV,false,2013-06-01,song
+8,4,original,mv,BTS (방탄소년단) 'No More Dream' Official MV (Choreography Version),false,2013-06-01,song
+9,4,original,teaser,"BTS (방탄소년단) 'No More Dream' Official Teaser #1",false,2013-06-01,song
+10,4,original,teaser,"BTS (방탄소년단) 'No More Dream' Official Teaser #2",false,2013-06-01,song
+11,,,other,[Episode] BTS Debut day 130613,false,2013-06-01,not_one_song
+12,4,original,mv,[MV] BTS(방탄소년단) _ No More Dream (Dance ver.),false,2013-06-01,song
+13,4,original,mv,[MV] BTS(방탄소년단) _ No More Dream(노 모어 드림),false,2013-06-01,song
+14,,original,dance_practice,방탄소년단 -No More Dream- Dance Practice,false,2013-06-01,not_one_song
+15,,,other,방탄소년단 No More Dream (Bus scene long take ver.),false,2013-06-01,not_one_song
+16,9,original,mv,BTS (방탄소년단) 'We Are Bulletproof Pt.2' Official MV,false,2013-07-01,song
+17,,original,dance_practice,[BANGTAN BOMB] V's hard dance practice - BTS (방탄소년단),false,2013-07-01,not_one_song
+18,9,original,dance_practice,[CHOREOGRAPHY] BTS (방탄소년단) 'We Are Bulletproof Pt.2' dance practice,false,2013-07-01,song
+19,,,dance_practice,[CHOREOGRAPHY] BTS (방탄소년단) Dance break Practice,false,2013-07-01,not_one_song
+20,,,other,[Episode] Like (Showcase sketch),false,2013-07-01,not_group
+21,9,original,mv,[MV] BTS(방탄소년단)_ We Are Bulletproof Pt2(위 아 불렛프루프 Pt.2),false,2013-07-01,song
+22,,,other,[BANGTAN BOMB] BTS with helium-filled Balloon,false,2013-08-01,not_one_song
+23,15,original,mv,BTS (방탄소년단) 'N.O' Official MV,false,2013-09-01,song
+24,,,teaser,"BTS (방탄소년단) O!RUL8,2? Comeback Trailer",false,2013-09-01,not_one_song
+25,15,original,mv,[MV] BTS(방탄소년단) _ N.O(엔.오),false,2013-09-01,song
+26,15,original,dance_practice,방탄소년단 'N.O' dance practice,false,2013-09-01,song
+27,,,other,[BANGTAN BOMB] Kings of Jump rope,false,2013-10-01,not_group
+28,,,other,[BANGTAN BOMB] Shy shy shy JungKook,false,2013-10-01,not_group
+29,,,dance_practice,방탄소년단 팔도강산(Paldogangsan) Dance practice,false,2013-10-01,not_one_song
+30,,,dance_practice,[BANGTAN BOMB] Attack on BTS at dance practice,false,2013-11-01,not_one_song
+31,,,other,[BANGTAN BOMB] naughty boys V&Jimin!,false,2013-11-01,not_group
+32,10,original,dance_practice,[CHOREOGRAPHY] BTS (방탄소년단) '진격의 방탄 (Attack on BTS)' Dance Practice,false,2013-11-01,song
+33,,original,dance_practice,[BANGTAN BOMB] Attack on BTS at dance practice 2 - BTS (방탄소년단),false,2013-12-01,not_one_song
+34,,,other,[BANGTAN BOMB] Dancing by Jimin & shooting by Jung Kook,false,2014-01-01,not_group
+35,21,original,mv,BTS (방탄소년단) '상남자 (Boy In Luv)' Official MV,false,2014-02-01,song
+36,21,original,mv,BTS (방탄소년단) '상남자 (Boy In Luv)' Official MV (Choreography Version),false,2014-02-01,song
+37,21,original,teaser,BTS (방탄소년단) '상남자 (Boy In Luv)' Official Teaser,false,2014-02-01,song
+38,,original,teaser,BTS (방탄소년단) Skool Luv Affair 'Skool Luv Affair' Comeback Trailer,false,2014-02-01,not_one_song
+39,21,original,mv,[MV] BTS(방탄소년단) _ Boy In Luv(상남자),false,2014-02-01,song
+40,21,original,mv,[MV] BTS(방탄소년단) _ Boy In Luv(상남자) (Dance ver.),false,2014-02-01,song
+41,,,teaser,[Teaser 1] BTS(방탄소년단) Comeback Trailer,false,2014-02-01,not_one_song
+42,21,original,dance_practice,방탄소년단 '상남자(Boy In Luv)' dance practice,false,2014-02-01,song
+43,24,original,mv,BTS (방탄소년단) '하루만 (Just one day)' Official MV,false,2014-04-01,song
+44,24,original,teaser,BTS (방탄소년단) '하루만 (Just one day)' Official Teaser,false,2014-04-01,song
+45,24,original,dance_practice,BTS (방탄소년단) '하루만(Just one day)' dance practice,false,2014-04-01,song
+46,24,original,mv,[MV] BTS(방탄소년단) _ Just One Day(하루만),false,2014-04-01,song
+47,4,japanese,mv,BTS (防弾少年団) 'NO MORE DREAM -Japanese Ver.-' Official MV,false,2014-05-01,song
+48,,original,dance_practice,[CHOREOGRAPHY] BTS (방탄소년단) 'Beautiful' dance practice,false,2014-06-01,not_one_song
+49,,original,dance_practice,[CHOREOGRAPHY] BTS (방탄소년단) '어른아이' dance practice,false,2014-06-01,not_one_song
+50,,,other,[Episode] 1st anniversary - so 4 more,false,2014-06-01,not_group
+51,21,japanese,mv,BTS (防弾少年団) 'BOY IN LUV -Japanese Ver.-' Official MV,false,2014-07-01,song
+52,,,other,"[BANGTAN BOMB] BTS run way ! (95z cam #2)",false,2014-07-01,not_one_song
+53,35,original,mv,BTS (방탄소년단) 'Danger' Official MV,false,2014-08-01,song
+54,35,original,teaser,"BTS (방탄소년단) 'Danger' Official Teaser #1",false,2014-08-01,song
+55,35,original,teaser,"BTS (방탄소년단) 'Danger' Official Teaser #2",false,2014-08-01,song
+56,,original,teaser,BTS (방탄소년단) DARK & WILD 'What Am I To You' Comeback Trailer,false,2014-08-01,not_one_song
+57,,,teaser,BTS(방탄소년단) Comeback Trailer,false,2014-08-01,not_one_song
+58,,,other,[BANGTAN BOMB] Friday & Some with BTS,false,2014-08-01,not_one_song
+59,,,other,"[BANGTAN BOMB] You're a holiday , such a holiday~ (Bee Gees - Holiday)",false,2014-08-01,not_group
+60,35,original,dance_practice,[CHOREOGRAPHY] BTS (방탄소년단) 'Danger' dance practice,false,2014-08-01,song
+61,35,original,mv,[MV] BTS(방탄소년단) _ Danger,false,2014-08-01,song
+62,,original,other,[MelOn Premiere Showcase] BTS(방탄소년단) _ Danger & War of Hormone & Let Me Know [ENG/JPN/CHN SUB],false,2014-08-01,not_one_song
+63,,,other,[BANGTAN BOMB] stretching doing dance in BTS free time,false,2014-09-01,not_one_song
+64,45,original,mv,BTS (방탄소년단) '호르몬전쟁' Official MV,false,2014-10-01,song
+65,,,other,[BANGTAN BOMB] BTS Cypher Fan no.1 V,false,2014-10-01,not_one_song
+66,45,original,dance_practice,[CHOREOGRAPHY] BTS (방탄소년단) '호르몬전쟁' Dance practice,false,2014-10-01,song
+67,45,original,mv,[MV] BTS(방탄소년단) _ War of Hormone(호르몬 전쟁),false,2014-10-01,song
+68,35,japanese,mv,BTS (防弾少年団) 'Danger -Japanese Ver.-' Official MV,false,2014-11-01,song
+69,35,remix,mv,[MV] BTS(방탄소년단) _ Danger (Mo-Blue-Mix) (feat. THANH),false,2014-11-01,song
+70,,,other,가요대축제 제이홉 독무 practice ver.,false,2014-12-01,not_group
+71,,,other,[BANGTAN BOMB] MAL dance made by j-hope,false,2015-01-01,not_group
+72,,,teaser,BTS (방탄소년단) 2015 BTS LIVE TRILOGY: EPISODE I. BTS BEGINS Official Teaser,false,2015-02-01,not_one_song
+73,,,other,[BANGTAN BOMB] Boys over Flowers,false,2015-02-01,not_group
+74,,,mv,Rap Monster 'Do You' MV,false,2015-03-01,not_group
+75,,,mv,Rap Monster '각성 (覺醒)' MV,false,2015-03-01,not_group
+76,,,mv,Rap Monster '농담' MV,false,2015-03-01,not_group
+77,55,original,mv,BTS (방탄소년단) 'I NEED U' Official MV,false,2015-04-01,song
+78,,original,teaser,BTS (방탄소년단) 화양연화 pt.1 '花樣年華' Comeback Trailer,false,2015-04-01,not_one_song
+79,,,other,BTS (방탄소년단) 화양연화 pt.1 Preview,false,2015-04-01,not_one_song
+80,55,original,mv,[MV] BTS(방탄소년단) _ I NEED U,false,2015-04-01,song
+81,55,alternate,mv,BTS (방탄소년단) 'I NEED U' Official MV (Original ver.),false,2015-05-01,song
+82,55,original,dance_practice,[CHOREOGRAPHY] BTS (방탄소년단) 'I NEED U' Dance Practice,false,2015-05-01,song
+83,55,alternate,mv,[MV] BTS(방탄소년단) _ I NEED U (Original ver.),false,2015-05-01,song
+84,60,original,mv,BTS 'FOR YOU' Official MV,false,2015-06-01,song
+85,60,original,mv,BTS (防弾少年団) 'FOR YOU' Official MV (Dance Ver.),false,2015-06-01,song
+86,53,original,mv,BTS (방탄소년단) '쩔어' Official MV,false,2015-06-01,song
+87,,,performance,[BANGTAN BOMB] '호르몬전쟁' dance performance (Real WAR ver.),false,2015-06-01,not_group
+88,53,original,dance_practice,[CHOREOGRAPHY] BTS (방탄소년단) '쩔어' Dance Practice,false,2015-06-01,song
+89,53,original,mv,[MV] BTS(방탄소년단) _ DOPE(쩔어),false,2015-06-01,song
+90,,,other,"[BTS in NAVER STAR CAST] 방탄소년단의 복불복 #1",false,2015-07-01,not_one_song
+91,55,japanese,teaser,BTS (防弾少年団) 'I NEED U (Japanese Ver.)' Official Teaser,false,2015-11-01,song
+92,66,original,mv,BTS (방탄소년단) 'RUN' Official MV,false,2015-11-01,song
+93,,original,teaser,BTS (방탄소년단) 화양연화 pt.2 'Never Mind' Comeback Trailer,false,2015-11-01,not_one_song
+94,,,other,[BTS NAVER STAR CAST] Halloween party with BTS,false,2015-11-01,not_one_song
+95,66,original,mv,[MV] BTS(방탄소년단) _ Run,false,2015-11-01,song
+96,,,teaser,[Teaser] BTS (방탄소년단) Comeback Trailer : Never Mind,false,2015-11-01,not_one_song
+97,55,japanese,mv,BTS (防弾少年団) 'I NEED U (Japanese Ver.)' Official MV,false,2015-12-01,song
+98,66,original,dance_practice,[CHOREOGRAPHY] BTS (방탄소년단) 'RUN' Dance practice,false,2015-12-01,song
+99,,,other,"[BANGTAN BOMB] Hide and seek with JM, V, JK (#2)",false,2016-01-01,not_group
+100,66,japanese,mv,BTS (防弾少年団) 'RUN -Japanese Ver.-' Official MV,false,2016-03-01,song
+101,,original,teaser,2016 BTS LIVE '화양연화 on stage : epilogue' Concert Teaser,false,2016-04-01,not_one_song
+102,72,original,mv,BTS (방탄소년단) 'EPILOGUE : Young Forever' Official MV,false,2016-04-01,song
+103,,original,other,[BANGTAN BOMB] j-hope is trying to wear contact lenses. - BTS (방탄소년단),false,2016-04-01,not_one_song
+104,72,original,mv,[MV] BTS(방탄소년단) _ EPILOGUE : Young Forever,false,2016-04-01,song
+105,73,original,mv,BTS (방탄소년단) 'Save ME' Official MV,false,2016-05-01,song
+106,71,original,mv,BTS (방탄소년단) '불타오르네 (FIRE)' Official MV,false,2016-05-01,song
+107,71,original,mv,BTS (방탄소년단) '불타오르네 (FIRE)' Official MV (Choreography Version),false,2016-05-01,song
+108,71,original,dance_practice,[CHOREOGRAPHY] BTS (방탄소년단) '불타오르네 (FIRE)' Dance Practice,false,2016-05-01,song
+109,71,original,mv,[MV] BTS(방탄소년단) _ FIRE (불타오르네),false,2016-05-01,song
+110,,,other,160624 밥 먹는 김석진,false,2016-06-01,not_group
+111,67,original,dance_practice,BTS 'Silver Spoon (Baepsae)' mirrored Dance Practice,false,2016-06-01,song
+112,67,remix,dance_practice,[BANGTAN BOMB] '뱁새' Dance Practice (흥 ver.) - BTS (방탄소년단),false,2016-06-01,song
+113,,,dance_practice,[CHOREOGRAPHY] BTS (방탄소년단) j-hope Dance Practice for 2015 Begins Concert,false,2016-06-01,not_one_song
+114,,original,other,[EPISODE] BTS (방탄소년단) FESTA 2016 - Real Family photo Shooting,false,2016-06-01,not_one_song
+115,,,other,[EPISODE] BTS (방탄소년단) SKT ad shooting sketch,false,2016-06-01,not_one_song
+116,,,mv,Agust D 'Agust D' MV,false,2016-08-01,not_group
+117,,,mv,Agust D ‘give it to me’ MV,false,2016-08-01,not_group
+118,,original,dance_practice,[CHOREOGRAPHY] BTS (방탄소년단) 정국이랑 지민이 ('Own it' choreography by Brian puspose) Dance practice,false,2016-08-01,not_one_song
+119,,original,teaser,BTS (방탄소년단) WINGS 'Boy Meets Evil' Comeback Trailer,false,2016-09-01,not_one_song
+120,,original,other,[BANGTAN BOMB] Free dance time with JIMIN & V - BTS (방탄소년단),false,2016-09-01,not_one_song
+121,82,original,dance_practice,BTS 'Blood Sweat & Tears' mirrored Dance Practice,false,2016-10-01,song
+122,82,original,mv,BTS (방탄소년단) '피 땀 눈물 (Blood Sweat & Tears)' Official MV,false,2016-10-01,song
+123,,,lyric_video,BTS (방탄소년단) Blood Sweat and Tears Lyrics (피 땀 눈물) Han|Rom|Eng Color Coded,false,2016-10-01,not_one_song
+124,77,remix,dance_practice,[BANGTAN BOMB] '21세기 소녀 (21st Century Girl)' Dance Practice (Halloween ver.) - BTS (방탄소년단),false,2016-10-01,song
+125,,original,performance,[BTS - Blood Sweat & Tears] Comeback Stage | M COUNTDOWN 161013 EP.496,false,2016-10-01,not_one_song
+126,82,original,dance_practice,[CHOREOGRAPHY] BTS (방탄소년단) '피 땀 눈물 (Blood Sweat & Tears)' Dance Practice,false,2016-10-01,song
+127,82,original,other,[EPISODE] BTS (방탄소년단) 'Blood Sweat & Tears' Win,false,2016-10-01,song
+128,,original,other,[BANGTAN BOMB] 'WINGS' Short Film Special - First Love (SUGA's Playing the piano) - BTS (방탄소년단),false,2016-11-01,not_one_song
+129,,original,other,[BANGTAN BOMB] 'WINGS' Short Film Special - Stigma (Camera Director: V) - BTS (방탄소년단),false,2016-11-01,not_one_song
+130,,original,other,[BANGTAN BOMB] Jimin's selfie cam – interview time with BTS - BTS (방탄소년단),false,2016-11-01,not_one_song
+131,,original,other,[BANGTAN BOMB] This is how V warms up his voice before singing - BTS (방탄소년단),false,2016-11-01,not_one_song
+132,,,other,[EPISODE] BTS (방탄소년단) @ 2016 MMA,false,2016-11-01,not_one_song
+133,,,other,161227 밥 먹는 김석진,false,2016-12-01,not_group
+134,,original,other,[BANGTAN BOMB] Eat Jin @ BANGTAN BOMB - BTS (방탄소년단),false,2016-12-01,not_one_song
+135,,,other,BTS (방탄소년단) Ballad & Cover Songs || Best Song Of BTS pt.6 (updated 1/2017),false,2017-01-01,not_one_song
+136,,original,performance,[BANGTAN BOMB] stage greeting the New Year @ MBC 가요대제전 2016 - BTS (방탄소년단),false,2017-01-01,not_one_song
+137,92,original,mv,BTS (방탄소년단) 'Not Today' Official MV,false,2017-02-01,song
+138,92,original,mv,BTS (방탄소년단) 'Not Today' Official MV (Choreography Version),false,2017-02-01,song
+139,94,original,mv,BTS (방탄소년단) '봄날 (Spring Day)' Official MV,false,2017-02-01,song
+140,,,other,"RM, Wale ‘Change’",false,2017-03-01,not_group
+141,,original,other,[BANGTAN BOMB] Funny Dance time @ ISAC 2017 - BTS (방탄소년단),false,2017-03-01,not_one_song
+142,,original,performance,[BANGTAN BOMB] Special Stage @ SBS 가요대전 2016 - BTS (방탄소년단),false,2017-03-01,not_one_song
+143,94,original,dance_practice,[CHOREOGRAPHY] BTS (방탄소년단) '봄날 (Spring Day)' Dance Practice,false,2017-03-01,song
+144,,original,other,[EPISODE] BTS (방탄소년단) This is 한성 of '화랑 (Hwa Rang)' (a.k.a. BTS V ^ㅁ^),false,2017-03-01,not_one_song
+145,82,japanese,mv,BTS (防弾少年団) '血、汗、涙 -Japanese Ver.-' Official MV,false,2017-05-01,song
+146,,original,other,[BANGTAN BOMB] Hi~ I'm V who don't know what giving up ^ⓥ^ - BTS (방탄소년단),false,2017-05-01,not_one_song
+147,92,original,dance_practice,[CHOREOGRAPHY] BTS (방탄소년단) 'Not Today' Dance Practice,false,2017-06-01,song
+148,,original,dance_practice,[CHOREOGRAPHY] BTS (방탄소년단) '좋아요 Part 2' Dance Practice,false,2017-06-01,not_one_song
+149,95,original,mv,BTS (방탄소년단) - Come Back Home MV,false,2017-07-01,song
+150,,,other,170521 V,false,2017-08-01,not_group
+151,97,original,mv,BTS (방탄소년단) 'DNA' Official MV,false,2017-09-01,song
+152,129,original,teaser,BTS (방탄소년단) LOVE YOURSELF 承 Her 'Serendipity' Comeback Trailer,false,2017-09-01,song
+153,97,original,dance_practice,[CHOREOGRAPHY] BTS (방탄소년단) 'DNA' Dance Practice,false,2017-09-01,song
+154,,,other,170902 JIMIN,false,2017-10-01,not_group
+155,97,original,performance,[BANGTAN BOMB] 'DNA' Special Stage (BTS focus.) @COMEBACK SHOW - BTS (방탄소년단),false,2017-10-01,song
+156,55,original,performance,[BANGTAN BOMB] 'I NEED U' Stage @COMEBACK SHOW 'BTS DNA' - BTS (방탄소년단),false,2017-10-01,song
+157,102,original,performance,[BANGTAN BOMB] 'MIC Drop' Special Stage (BTS focus.) @COMEBACK SHOW - BTS (방탄소년단),false,2017-10-01,song
+158,99,remix,dance_practice,[BANGTAN BOMB] '고민보다 GO (GOGO)' Dance Practice (Halloween ver.) - BTS (방탄소년단),false,2017-10-01,song
+159,4,original,other,[BANGTAN BOMB] Again ‘No More Dream’ 2017! @BTS DNA COMEBACK SHOW - BTS (방탄소년단),false,2017-10-01,song
+160,97,original,other,[BANGTAN BOMB] BTS ‘DNA’ 2x Dance Time @BTS COUNTDOWN - BTS (방탄소년단),false,2017-10-01,song
+161,102,original,performance,[BANGTAN BOMB] Behind the stage of ‘MIC Drop’ @BTS DNA COMEBACK SHOW - BTS (방탄소년단),false,2017-10-01,song
+162,99,original,performance,[BANGTAN BOMB] Behind the stage of ‘고민보다Go’ @BTS DNA COMEBACK SHOW - BTS (방탄소년단),false,2017-10-01,song
+163,97,original,mv,[EPISODE] BTS (방탄소년단) 'DNA' MV Shooting,false,2017-10-01,song
+164,100,original,other,[EPISODE] BTS (방탄소년단) LOVE YOURSELF 承 'Her' Jacket shooting sketch,false,2017-10-01,song
+165,,,performance,[PREVIEW] BTS (방탄소년단) 2017 BTS Live Trilogy EPISODE III THE WINGS TOUR in Seoul,false,2017-10-01,not_one_song
+166,,,other,170918 SUGA,false,2017-11-01,not_group
+167,102,remix,mv,BTS (防弾少年団) 'MIC Drop -Japanese ver.-' (Short ver.) Official MV,false,2017-11-01,song
+168,102,remix,mv,BTS (방탄소년단) 'MIC Drop (Steve Aoki Remix)' Official MV,false,2017-11-01,song
+169,102,remix,teaser,BTS (방탄소년단) 'MIC Drop (Steve Aoki Remix)' Official Teaser,false,2017-11-01,song
+170,,,other,BTS (방탄소년단) LOVE MYSELF campaign video,false,2017-11-01,not_one_song
+171,,,other,G.C.F in Tokyo (정국&지민),false,2017-11-01,not_group
+172,99,remix,other,[BANGTAN BOMB] '고민보다 GO (Halloween ver.)' Behind - BTS (방탄소년단),false,2017-11-01,song
+173,102,original,mv,[BANGTAN BOMB] BTS 'MIC Drop' MV reaction - BTS (방탄소년단),false,2017-11-01,song
+174,,original,other,[BANGTAN BOMB] Jimin’s Surprise Birthday Party - BTS (방탄소년단),false,2017-11-01,not_one_song
+175,102,original,mv,[EPISODE] BTS (방탄소년단) 'MIC Drop' MV Shooting,false,2017-11-01,song
+176,,original,other,[EPISODE] BTS (방탄소년단) ‘Highlight Reel’ sketch,false,2017-11-01,not_one_song
+177,,,other,[PREVIEW] BTS (방탄소년단) 2018 Season’s greetings coming,false,2017-11-01,not_one_song
+178,,,other,[Shout-out] 2018학년도 대학수학능력시험을 보는 아미들에게!,false,2017-11-01,not_group
+179,102,japanese,mv,BTS (防弾少年団) 'MIC Drop -Japanese ver.-' Official MV,false,2017-12-01,song
+180,,original,other,[BANGTAN BOMB] Happy new year 2018! - BTS (방탄소년단),false,2017-12-01,not_one_song
+181,,,other,[EPISODE] BTS (방탄소년단) @ AMAs 2017,false,2017-12-01,not_one_song
+182,102,original,performance,[BANGTAN BOMB] 'MIC Drop' Special Stage (BTS focus) @MAMA - BTS (방탄소년단),false,2018-01-01,song
+183,94,original,performance,[BANGTAN BOMB] '봄날' Special Stage (BTS focus) @MMA - BTS (방탄소년단),false,2018-01-01,song
+184,,original,other,[BANGTAN BOMB] Jin’s Surprise Birthday Party - BTS (방탄소년단),false,2018-01-01,not_one_song
+185,,original,other,[BANGTAN BOMB] V’s Surprise Birthday Party - BTS (방탄소년단),false,2018-01-01,not_one_song
+186,,,other,[EPISODE] BTS @2017 MMA,false,2018-01-01,not_one_song
+187,,,other,[EPISODE] BTS @2017 SBS 가요대전,false,2018-01-01,not_one_song
+188,,,other,180111 Jin,false,2018-02-01,not_group
+189,102,original,performance,[BANGTAN BOMB] 'MIC Drop' Special Stage (BTS focus) @2017 MBC 가요대제전 - BTS (방탄소년단),false,2018-02-01,song
+190,99,original,performance,[BANGTAN BOMB] '고민보다 Go' Special Stage (BTS focus) @2017 MBC 가요대제전 - BTS (방탄소년단),false,2018-02-01,song
+191,,original,other,[BANGTAN BOMB] BTS with Special MC Jin @2017 KBS 가요대축제 - BTS (방탄소년단),false,2018-02-01,not_one_song
+192,,original,other,"[BANGTAN BOMB] BTS' exciting Game room #1 - BTS (방탄소년단)",false,2018-02-01,not_one_song
+193,,original,other,"[BANGTAN BOMB] BTS' exciting Game room #2 - BTS (방탄소년단)",false,2018-02-01,not_one_song
+194,,original,other,"[BANGTAN BOMB] BTS' exciting Game room #3 - BTS (방탄소년단)",false,2018-02-01,not_one_song
+195,,original,other,"[BANGTAN BOMB] BTS' exciting Game room #4 - BTS (방탄소년단)",false,2018-02-01,not_one_song
+196,99,remix,performance,[BANGTAN BOMB] Behind the stage of ‘고민보다Go' (heart ver.) @2017 MBC 가요대제전 - BTS (방탄소년단),false,2018-02-01,song
+197,,,performance,[BANGTAN BOMB] The cutest boy in the world is Hawaii-kkojili (suntanned JK in Hawaii) for BTS @VLIVE,false,2018-02-01,not_one_song
+198,,original,other,[BANGTAN BOMB] V&Jungkook Singing at standby time - BTS (방탄소년단),false,2018-02-01,not_one_song
+199,,original,other,[BANGTAN BOMB] j-hope & Jimin Dancing in Highlight Reel (Focus ver.) - BTS (방탄소년단),false,2018-02-01,not_one_song
+200,,,performance,I’d do it all | BTS: Burn the Stage Ep1,false,2018-03-01,not_one_song
+201,,,teaser,Special Trailer | BTS: Burn The Stage,false,2018-03-01,not_one_song
+202,,original,performance,[BANGTAN BOMB] BTS standby time @ Mcountdown for DNA & MIC Drop comeback stage - BTS (방탄소년단),false,2018-03-01,not_one_song
+203,,original,other,[BANGTAN BOMB] JIMIN's Piano solo showcase - BTS (방탄소년단),false,2018-03-01,not_one_song
+204,,,mv,"[EPISODE] j-hope 1st mixtape MV Shooting #1",false,2018-03-01,not_group
+205,,,mv,"[EPISODE] j-hope 1st mixtape MV Shooting #2",false,2018-03-01,not_group
+206,,,mv,j-hope 'Airplane' MV,false,2018-03-01,not_group
+207,,,mv,j-hope 'Daydream (백일몽)' MV,false,2018-03-01,not_group
+208,,original,other,BTS (방탄소년단) 'Euphoria : Theme of LOVE YOURSELF 起 Wonder',false,2018-04-01,not_one_song
+209,,,other,"BTS (방탄소년단) WORLD TOUR ""LOVE YOURSELF"" SPOT",false,2018-04-01,not_one_song
+210,,,other,G.C.F in Osaka,false,2018-04-01,not_group
+211,,original,other,[BANGTAN BOMB] (toy) MIC Drop by J-HOPE - BTS (방탄소년단),false,2018-04-01,not_one_song
+212,99,original,performance,[BANGTAN BOMB] BTS '고민보다 GO' stage with ARMY~perfect voice~ - BTS (방탄소년단),false,2018-04-01,song
+213,,original,other,[BANGTAN BOMB] BTS won 1st place (subtitle. Special MC day) @Mcountdown - BTS (방탄소년단),false,2018-04-01,not_one_song
+214,,original,other,[BANGTAN BOMB] VJ Hobi's self camera @Musicbank - BTS (방탄소년단),false,2018-04-01,not_one_song
+215,116,original,mv,BTS (방탄소년단) 'FAKE LOVE' Official MV,false,2018-05-01,song
+216,116,original,teaser,BTS (방탄소년단) 'FAKE LOVE' Official Teaser 1,false,2018-05-01,song
+217,116,original,teaser,BTS (방탄소년단) 'FAKE LOVE' Official Teaser 2,false,2018-05-01,song
+218,,original,other,BTS (방탄소년단) - Airplane pt.2 @BTS COMEBACK SHOW,false,2018-05-01,not_one_song
+219,,original,other,BTS (방탄소년단) - Anpanman @BTS COMEBACK SHOW,false,2018-05-01,not_one_song
+220,,original,other,BTS (방탄소년단) - FAKE LOVE @BTS COMEBACK SHOW,false,2018-05-01,not_one_song
+221,120,original,teaser,BTS (방탄소년단) LOVE YOURSELF 轉 Tear 'Singularity' Comeback Trailer,false,2018-05-01,song
+222,116,original,performance,[BANGTAN BOMB] ‘FAKE LOVE’ Live Performance @2018 BBMAs - BTS (방탄소년단),false,2018-05-01,song
+223,116,original,dance_practice,[CHOREOGRAPHY] BTS (방탄소년단) 'FAKE LOVE' Dance Practice,false,2018-05-01,song
+224,,original,other,[EPISODE] BTS (방탄소년단) 'Euphoria : Theme of LOVE YOURSELF 起 Wonder' Shooting,false,2018-05-01,not_one_song
+225,122,original,other,[EPISODE] BTS (방탄소년단) LOVE YOURSELF 轉 'Tear' Jacket shooting sketch,false,2018-05-01,song
+226,116,remix,mv,BTS (방탄소년단) 'FAKE LOVE' Official MV (Extended ver.),false,2018-06-01,song
+227,116,original,mv,BTS (방탄소년단) 'FAKE LOVE' Self MV @Music Bank Encore stage,false,2018-06-01,song
+228,,original,other,"BTS (방탄소년단) '방탄회식' #2018BTSFESTA",false,2018-06-01,not_one_song
+229,,original,teaser,"BTS (방탄소년단) '방탄회식' Teaser #2018BTSFESTA",false,2018-06-01,not_one_song
+230,96,original,performance,"BTS (방탄소년단) Rehearsal Stage CAM 'Best of Me' @4th MUSTER #2018BTSFESTA",false,2018-06-01,song
+231,,original,other,[2018 FESTA] BTS (방탄소년단) '소확행 List' - Jimin,false,2018-06-01,not_one_song
+232,,original,other,[2018 FESTA] BTS (방탄소년단) '소확행 List' - Jung Kook,false,2018-06-01,not_one_song
+233,,original,other,[2018 FESTA] BTS (방탄소년단) '소확행 List' - V,false,2018-06-01,not_one_song
+234,,original,dance_practice,"[CHOREOGRAPHY] BTS (방탄소년단) 'Golden Disk Awards 2018' Dance Practice #2018BTSFESTA",false,2018-06-01,not_one_song
+235,116,original,mv,[EPISODE] BTS (방탄소년단) 'FAKE LOVE' MV Shooting,false,2018-06-01,song
+236,,original,other,[PREVIEW] BTS (방탄소년단) 'BTS MEMORIES OF 2017' DVD,false,2018-06-01,not_one_song
+237,,original,other,BTS (방탄소년단) SUGA 가 응원하는 'HIT IT AUDITION 6',false,2018-07-01,not_one_song
+238,212,original,performance,[BANGTAN BOMB] BTS PROM PARTY : UNIT STAGE - 땡 - BTS (방탄소년단),false,2018-07-01,song
+239,,original,performance,[BANGTAN BOMB] BTS PROM PARTY : UNIT STAGE - 죽어도 너야 - BTS (방탄소년단),false,2018-07-01,not_one_song
+240,212,original,performance,[BANGTAN BOMB] BTS PROM PARTY : UNIT STAGE BEHIND - 땡 - BTS (방탄소년단),false,2018-07-01,song
+241,53,original,performance,[BANGTAN BOMB] Behind the stage of ‘Dope’ @BTS COUNTDOWN - BTS (방탄소년단),false,2018-07-01,song
+242,,original,other,[BANGTAN BOMB] Hobi's self camera @BTS COMEBACK SHOW - BTS (방탄소년단),false,2018-07-01,not_one_song
+243,129,original,other,​[BANGTAN BOMB] Jimin sings 'Serendipity' @BTS COUNTDOWN - BTS (방탄소년단) ​,false,2018-07-01,song
+244,115,original,performance,​[BANGTAN BOMB] ​'​Anpanman' Special Stage (BTS focus) @​BTS COMEBACK SHOW - BTS (방탄소년단),false,2018-07-01,song
+245,28,original,performance,​[BANGTAN BOMB] ​'​Tomorrow' Special Stage (BTS focus) @​BTS COUNTDOWN - BTS (방탄소년단),false,2018-07-01,song
+246,,original,other,​[BANGTAN BOMB] ​BTS on standby time @BTS COUNTDOWN - BTS (방탄소년단),false,2018-07-01,not_one_song
+247,128,original,mv,BTS (방탄소년단) 'IDOL' Official MV,false,2018-08-01,song
+248,128,original,teaser,BTS (방탄소년단) 'IDOL' Official Teaser,false,2018-08-01,song
+249,125,original,teaser,BTS (방탄소년단) LOVE YOURSELF 結 Answer 'Epiphany' Comeback Trailer,false,2018-08-01,song
+250,128,original,mv,BTS (방탄소년단) 'IDOL (Feat. Nicki Minaj)' Official MV,false,2018-09-01,song
+251,128,original,dance_practice,[CHOREOGRAPHY] BTS (방탄소년단) 'IDOL' Dance Practice,false,2018-09-01,song
+252,,,mv,RM 'forever rain' MV,false,2018-10-01,not_group
+253,,,lyric_video,RM 'moonchild' Lyric Video,false,2018-10-01,not_group
+254,,,lyric_video,RM 'seoul (prod. HONNE)' Lyric Video,false,2018-10-01,not_group
+255,,original,lyric_video,Steve Aoki - Waste It On Me feat. BTS (Lyric Video) [Ultra Music],true,2018-10-01,feature
+256,114,japanese,mv,BTS (防弾少年団) 'Airplane pt.2 -Japanese ver.-' Official MV,false,2018-11-01,song
+257,,original,other,Steve Aoki - Waste It On Me feat. BTS (Official Video) [Ultra Music],true,2018-11-01,feature
+258,,original,other,BTS (방탄소년단) WORLD TOUR 'LOVE YOURSELF: SPEAK YOURSELF' SPOT,false,2019-02-01,not_one_song
+259,,original,teaser,BTS (방탄소년단) MAP OF THE SOUL : PERSONA 'Persona' Comeback Trailer,false,2019-03-01,not_one_song
+260,,,other,"2019 BigHit Global Audition #BTS",false,2019-04-01,not_one_song
+261,133,original,mv,BTS (방탄소년단) '작은 것들을 위한 시 (Boy With Luv) (feat. Halsey)' Official MV,false,2019-04-01,song
+262,133,remix,mv,BTS (방탄소년단) '작은 것들을 위한 시 (Boy With Luv) (feat. Halsey)' Official MV ('ARMY With Luv' ver.),false,2019-04-01,song
+263,,original,teaser,BTS (방탄소년단) '작은 것들을 위한 시 (Boy With Luv) feat. Halsey' Official Teaser 1,false,2019-04-01,not_one_song
+264,,original,teaser,BTS (방탄소년단) '작은 것들을 위한 시 (Boy With Luv) feat. Halsey' Official Teaser 2,false,2019-04-01,not_one_song
+265,133,original,dance_practice,[CHOREOGRAPHY] BTS (방탄소년단) '작은 것들을 위한 시 (Boy With Luv)' Dance Practice,false,2019-04-01,song
+266,133,remix,dance_practice,[BANGTAN BOMB] '작은 것들을 위한 시 (Boy With Luv)' Dance Practice (Eye contact ver.) - BTS (방탄소년단),false,2019-05-01,song
+267,134,original,dance_practice,[CHOREOGRAPHY] BTS (방탄소년단) 'Dionysus' Dance Practice,false,2019-05-01,song
+268,151,original,teaser,BTS 'Lights' Official Teaser,false,2019-06-01,song
+269,147,original,mv,BTS (방탄소년단) ‘Heartbeat (BTS WORLD OST)’ MV,false,2019-06-01,song
+270,102,remix,dance_practice,"[CHOREOGRAPHY] BTS (방탄소년단) 'MIC Drop' Dance Practice (MAMA dance break ver.) #2019BTSFESTA",false,2019-06-01,song
+271,94,remix,dance_practice,"[CHOREOGRAPHY] BTS (방탄소년단) '봄날 (Spring Day)' Dance Practice (Lovely ver.) #2019BTSFESTA",false,2019-06-01,song
+272,151,original,mv,BTS 'Lights' Official MV,false,2019-07-01,song
+273,,,other,BTS (방탄소년단) LOVE MYSELF Global Campaign Video,false,2019-07-01,not_one_song
+274,,,other,Winter Bear by V,false,2019-08-01,not_group
+275,,,mv,j-hope 'Chicken Noodle Soup (feat. Becky G)' MV,false,2019-09-01,not_group
+276,138,original,mv,BTS (방탄소년단) 'Make It Right (feat. Lauv)' Official MV,false,2019-10-01,song
+277,138,remix,mv,BTS (방탄소년단) 'Make It Right' Official MV (Vertical ver.),false,2019-10-01,song
+278,134,original,dance_practice,[CHOREOGRAPHY] BTS (방탄소년단) 2019 MMA 'Dionysus' Intro Performance Dance Practice,false,2019-12-01,song
+279,,original,other,[MMA 2019] 방탄소년단 뷔(BTS V) _ Dionysus | MultiCam,false,2019-12-01,not_one_song
+280,,original,other,[MMA 2019] 방탄소년단 뷔(BTS V) _ 상남자(Boy In Luv) + 작은 것들을 위한 시 (Boy With Luv) | MultiCam,false,2019-12-01,not_one_song
+281,,original,other,[MMA 2019] 방탄소년단 정국(BTS JUNGKOOK) _ Dionysus | MultiCam,false,2019-12-01,not_one_song
+282,,original,other,[MMA 2019] 방탄소년단 지민(BTS JIMIN) _ Dionysus | MultiCam,false,2019-12-01,not_one_song
+283,,,performance,[MMA 2019] 방탄소년단(BTS) | Full Live Performance,false,2019-12-01,not_one_song
+284,152,original,other,BTS (방탄소년단) 'Black Swan' Art Film performed by MN Dance Company,false,2020-01-01,song
+285,157,original,teaser,BTS (방탄소년단) MAP OF THE SOUL : 7 'Interlude : Shadow' Comeback Trailer,false,2020-01-01,song
+286,,,other,BTS (방탄소년단) MAP OF THE SOUL TOUR SEOUL SPOT,false,2020-01-01,not_one_song
+287,134,original,dance_practice,[CHOREOGRAPHY] BTS (방탄소년단) 2019 MMA 'Dionysus' Dance Practice,false,2020-01-01,song
+288,161,original,other,BTS (방탄소년단) 'ON' Kinetic Manifesto Film : Come Prima,false,2020-02-01,song
+289,161,original,mv,BTS (방탄소년단) 'ON' Official MV,false,2020-02-01,song
+290,162,original,teaser,BTS (방탄소년단) MAP OF THE SOUL : 7 'Outro : Ego' Comeback Trailer,false,2020-02-01,song
+291,152,original,dance_practice,[CHOREOGRAPHY] BTS (방탄소년단) 'Black Swan' Dance Practice,false,2020-02-01,song
+292,161,original,dance_practice,[CHOREOGRAPHY] BTS (방탄소년단) ‘ON’ Dance Practice,false,2020-02-01,song
+293,152,original,mv,BTS (방탄소년단) 'Black Swan' Official MV,false,2020-03-01,song
+294,,original,other,Lauv - Who (feat. BTS) [Official Visualizer],true,2020-03-01,feature
+295,161,remix,dance_practice,[CHOREOGRAPHY] BTS (방탄소년단) ‘ON’ Dance Practice (Fix ver.),false,2020-03-01,song
+296,,,mv,Agust D '대취타' MV,false,2020-05-01,not_group
+297,,original,other,BTS 'MAP OF THE SOUL : 7 ~ THE JOURNEY ~' SPOT,false,2020-05-01,not_one_song
+298,,original,mv,[MV] IU(아이유) _ eight(에잇) (Prod.&Feat. SUGA of BTS),true,2020-05-01,feature
+299,,original,teaser,[Teaser] IU(아이유) _ eight(에잇) (Prod.&Feat. SUGA of BTS) MV Teaser,false,2020-05-01,not_one_song
+300,166,original,mv,BTS (방탄소년단) 'Stay Gold' Official MV,false,2020-06-01,song
+301,165,original,mv,"[2020 FESTA] BTS (방탄소년단) 'We are Bulletproof : the Eternal' MV #2020BTSFESTA",false,2020-06-01,song
+302,,japanese,other,"[Big Hitㅣ2020 GLOBAL AUDITION] - #BTS (English & Japanese version)",false,2020-06-01,not_one_song
+303,,remix,other,"[Big Hitㅣ2020 GLOBAL AUDITION] - #BTS (Korean & Chinese version)",false,2020-06-01,not_one_song
+304,169,original,other,BTS 'Your eyes tell' (映画『きみの瞳が問いかけている』特別映像),false,2020-08-01,song
+305,170,original,mv,BTS (방탄소년단) 'Dynamite' Official MV,false,2020-08-01,song
+306,170,original,mv,BTS (방탄소년단) 'Dynamite' Official MV (B-side),false,2020-08-01,song
+307,170,original,teaser,BTS (방탄소년단) 'Dynamite' Official Teaser,false,2020-08-01,song
+308,170,original,other,BTS (방탄소년단) 'Dynamite' ONLINE GLOBAL MEDIA DAY (+ENG),false,2020-09-01,song
+309,170,original,mv,BTS (방탄소년단) 'Dynamite' Official MV (Choreography ver.),false,2020-09-01,song
+310,170,original,dance_practice,[CHOREOGRAPHY] BTS (방탄소년단) 'Dynamite' Dance Practice,false,2020-09-01,song
+311,,original,lyric_video,BTS (방탄소년단) 'Savage Love' (Laxed – Siren Beat) [BTS Remix] Lyric Video,false,2020-10-01,not_one_song
+312,,,teaser,BTS (방탄소년단) MAP OF THE SOUL ON:E Teaser 1,false,2020-10-01,not_one_song
+313,,,teaser,BTS (방탄소년단) MAP OF THE SOUL ON:E Teaser 2,false,2020-10-01,not_one_song
+314,175,original,mv,BTS (방탄소년단) 'Life Goes On' Official MV,false,2020-11-01,song
+315,175,original,mv,BTS (방탄소년단) 'Life Goes On' Official MV : in the forest,false,2020-11-01,song
+316,175,original,mv,BTS (방탄소년단) 'Life Goes On' Official MV : like an arrow,false,2020-11-01,song
+317,175,original,mv,BTS (방탄소년단) ‘Life Goes On’ Official MV : on my pillow,false,2020-11-01,song
+318,161,original,dance_practice,[CHOREOGRAPHY] BTS (방탄소년단) 2020 MAMA ‘ON’ Dance Practice,false,2020-12-01,song
+319,170,original,dance_practice,[CHOREOGRAPHY] BTS (방탄소년단) 2020 MMA 'Dynamite' Dance Break Practice,false,2020-12-01,song
+320,,,other,"[MMA 2020] Melon Music Awards 2020 Full ver. | BTS, MONSTA X, IZ*ONE, OH MY GIRL, THE BOYZ",false,2020-12-01,not_one_song
+321,,original,dance_practice,[BANGTAN BOMB] SUGA's Daechwita Sword Dance Practice - BTS (방탄소년단),false,2021-01-01,not_one_song
+322,179,original,mv,BTS (방탄소년단) 'Film out' Official MV,false,2021-04-01,song
+323,180,remix,mv,BTS (방탄소년단) 'Butter (Hotter Remix)' Official MV,false,2021-05-01,song
+324,180,original,mv,BTS (방탄소년단) 'Butter' Official MV,false,2021-05-01,song
+325,180,original,dance_practice,[CHOREOGRAPHY] BTS (방탄소년단) 'Butter' Dance Practice,false,2021-05-01,song
+326,180,original,dance_practice,[CHOREOGRAPHY] BTS (방탄소년단) 'Butter' Special Performance Video,false,2021-05-01,song
+327,180,remix,mv,BTS (방탄소년단) 'Butter (Cooler Remix)' Official MV,false,2021-06-01,song
+328,15,remix,dance_practice,"[CHOREOGRAPHY] BTS (방탄소년단) 'N.O' Dance Practice (MOS ON:E dance break ver.) #2021BTSFESTA",false,2021-06-01,song
+329,152,original,dance_practice,"[CHOREOGRAPHY] BTS (방탄소년단) 2020 MMA 'Black Swan' Intro Performance Dance Practice #2021BTSFESTA",false,2021-06-01,song
+330,170,remix,dance_practice,"[CHOREOGRAPHY] BTS (방탄소년단) ‘Dynamite’ Dance Practice (Cute & Lovely ver.) #2021BTSFESTA",false,2021-06-01,song
+331,181,original,mv,BTS (방탄소년단) 'Permission to Dance' Official MV,false,2021-07-01,song
+332,181,original,dance_practice,[CHOREOGRAPHY] BTS (방탄소년단) 'Permission to Dance' Dance Practice,false,2021-07-01,song
+333,,original,lyric_video,Coldplay X BTS - My Universe (Official Lyric Video),true,2021-09-01,feature
+334,,original,other,Coldplay X BTS - My Universe (Official Video),true,2021-09-01,feature
+335,180,original,dance_practice,[CHOREOGRAPHY] BTS (방탄소년단) 'Butter (feat. Megan Thee Stallion)' Special Performance Video,false,2021-09-01,song
+336,180,remix,dance_practice,[CHOREOGRAPHY] BTS (방탄소년단) ‘Butter (Holiday Remix)’ Dance Practice,false,2021-12-01,song
+337,,original,mv,PSY - 'That That (prod. & feat. SUGA of BTS)' MV,true,2022-04-01,feature
+338,,original,dance_practice,[BANGTAN BOMB] 'That That (prod. & ft. SUGA of BTS)' Dance Practice - BTS (방탄소년단),false,2022-05-01,not_one_song
+339,187,original,mv,BTS (방탄소년단) 'Yet To Come (The Most Beautiful Moment)' Official MV,false,2022-06-01,song
+340,,original,other,Charlie Puth - Left And Right (feat. Jung Kook of BTS) [Official Video],true,2022-06-01,feature
+341,,,mv,j-hope 'MORE' Official MV,false,2022-07-01,not_group
+342,,,mv,j-hope '방화 (Arson)' Official MV,false,2022-07-01,not_group
+343,,,mv,NewJeans (뉴진스) 'Hype Boy' Official MV (Performance ver.1),false,2022-08-01,not_group
+344,,,mv,NewJeans (뉴진스) 'Hype Boy' Official MV (Performance ver.2),false,2022-08-01,not_group
+345,170,remix,dance_practice,[CHOREOGRAPHY] BTS 'Dynamite (Tropical Remix)' Dance Practice (Lolla 2022 j-hope ver.),false,2022-08-01,song
+346,,,dance_practice,[CHOREOGRAPHY] j-hope 'Hope World' Dance Practice (Lolla 2022 ver.),false,2022-08-01,not_group
+347,,original,lyric_video,"benny blanco, BTS & Snoop Dogg 'Bad Decisions' Lyric Video",false,2022-08-01,not_one_song
+348,,,mv,진 (Jin) 'The Astronaut' Official MV,false,2022-10-01,not_group
+349,184,original,dance_practice,[CHOREOGRAPHY] BTS (방탄소년단) '달려라 방탄 (Run BTS)' Dance Practice,false,2022-11-01,song
+350,,original,other,정국 Jung Kook (of BTS) featuring Fahad Al Kubaisi - Dreamers | FIFA World Cup 2022 Soundtrack,false,2022-11-01,not_one_song
+351,,,lyric_video,진 (Jin) 'The Astronaut' Lyric Video,false,2022-11-01,not_group
+352,,,mv,RM 'Still Life (with Anderson .Paak)' Official MV,false,2022-12-01,not_group
+353,,,mv,RM '들꽃놀이 (with 조유진)' Official MV,false,2022-12-01,not_group
+354,,,dance_practice,[CHOREOGRAPHY] j-hope ‘MORE’ Dance Practice (MAMA 2022 ver.),false,2022-12-01,not_group
+355,,,dance_practice,[CHOREOGRAPHY] 지민 (Jimin) 'Like Crazy' Dance Practice,false,2023-03-01,not_group
+356,,,dance_practice,[CHOREOGRAPHY] 지민 (Jimin) ‘Set Me Free Pt.2’ Dance Practice,false,2023-03-01,not_group
+357,,,mv,j-hope 'on the street (with J. Cole)' Official MV,false,2023-03-01,not_group
+358,,,mv,지민 (Jimin) 'Like Crazy' Official MV,false,2023-03-01,not_group
+359,,,mv,지민 (Jimin) 'Set Me Free Pt.2' Official MV,false,2023-03-01,not_group
+360,,,mv,Agust D 'AMYGDALA' Official MV,false,2023-04-01,not_group
+361,,,mv,Agust D '사람 Pt.2 (feat. 아이유)' Official MV,false,2023-04-01,not_group
+362,,,mv,Agust D '해금' Official MV,false,2023-04-01,not_group
+363,,,dance_practice,[CHOREOGRAPHY] Agust D ‘해금 (Haegeum)’ Dance Practice,false,2023-04-01,not_group
+364,,,mv,&TEAM 'FIREWORK (Korean ver.)' Official Performance MV,false,2023-06-01,not_group
+365,,,dance_practice,[CHOREOGRAPHY] 정국 (JungKook) 'Seven (feat. Latto)’ Dance Practice,false,2023-07-01,not_group
+366,,,mv,정국 (Jung Kook) 'Seven (feat. Latto)' Official MV,false,2023-07-01,not_group
+367,,,dance_practice,정국 (Jung Kook) ‘Seven (feat. Latto)’ Dance Practice Behind,false,2023-08-01,not_group
+368,,,mv,정국 (Jung Kook) '3D (feat. Jack Harlow)' Official MV,false,2023-09-01,not_group
+369,,,dance_practice,[CHOREOGRAPHY] 정국 (Jung Kook) '3D (feat. Jack Harlow)’ Dance Practice,false,2023-10-01,not_group
+370,,,dance_practice,V 'Layover' Band & Dance Practice Behind,false,2023-11-01,not_group
+371,,,dance_practice,[CHOREOGRAPHY] 정국 (Jung Kook) 'Standing Next to You' Dance Practice,false,2023-11-01,not_group
+372,,,lyric_video,정국 (Jung Kook) 'Standing Next to You' Lyric Video,false,2023-11-01,not_group
+373,,,mv,정국 (Jung Kook) 'Standing Next to You' Official MV,false,2023-11-01,not_group
+374,,,mv,정국 (Jung Kook) 'Standing Next to You' Official MV (Choreography ver.),false,2023-11-01,not_group
+375,,,mv,지민 (Jimin) 'Closer Than This' Official MV,false,2023-12-01,not_group
+376,,,mv,RM 'Come back to me' Official MV,false,2024-05-01,not_group
+377,,,mv,RM 'Domodachi (feat. Little Simz)' Official MV,false,2024-05-01,not_group
+378,,,mv,RM 'Groin' Official MV,false,2024-05-01,not_group
+379,,,mv,RM 'LOST!' Official MV,false,2024-05-01,not_group
+380,,,mv,RM 'ㅠㅠ (Credit Roll)' Official MV,false,2024-06-01,not_group
+381,,,lyric_video,정국 (Jung Kook) 'Never Let Go' Lyric Video,false,2024-06-01,not_group
+382,,,dance_practice,[CHOREOGRAPHY] 지민 (Jimin) ‘Who’ Dance Practice,false,2024-07-01,not_group
+383,,,mv,지민 (Jimin) 'Who' Official MV,false,2024-07-01,not_group
+384,,,dance_practice,지민 (Jimin) 'MUSE' Dance Practice Behind,false,2024-08-01,not_group
+385,,,mv,진 (Jin) 'I'll Be There' Official MV,false,2024-10-01,not_group
+386,,,lyric_video,진 (Jin) ‘I'll Be There’ Lyric Video,false,2024-10-01,not_group
+387,,,mv,진 (Jin) 'Running Wild' Official MV,false,2024-11-01,not_group
+388,,,mv,RM 'Around the world in a day (feat. Moses Sumney)' Official MV,false,2024-12-01,not_group
+389,,,mv,THE 8 ‘Orbit (轨道) (feat. JinJiBeWater_隼)’ Official MV,false,2024-12-01,not_group
+390,,,dance_practice,[CHOREOGRAPHY] j-hope ‘MONA LISA’ Dance Practice,false,2025-03-01,not_group
+391,,,mv,j-hope ‘MONA LISA’ Official MV,false,2025-03-01,not_group
+392,,,mv,j-hope ‘Sweet Dreams (feat. Miguel)’ Official MV,false,2025-03-01,not_group
+393,,,lyric_video,진 (Jin) 'Don't Say You Love Me' Lyric Video,false,2025-05-01,not_group
+394,,,mv,진 (Jin) 'Don't Say You Love Me' Official MV,false,2025-05-01,not_group
+395,,,dance_practice,[CHOREOGRAPHY] j-hope ‘Killin’ It Girl (Solo Version)’ Dance Practice,false,2025-06-01,not_group
+396,,,dance_practice,[CHOREOGRAPHY] j-hope ‘Killin’ It Girl (Solo Version)’ Dance Practice (Wide ver.),false,2025-06-01,not_group
+397,,,mv,j-hope ‘Killin' It Girl (Solo Version)’ Official MV (Choreography ver.),false,2025-06-01,not_group
+398,,,mv,j-hope ‘Killin' It Girl (feat. GloRilla)’ Official MV,false,2025-06-01,not_group
+399,,original,dance_practice,j-hope ‘Killin' It Girl’ Dance Practice Behind - BTS (방탄소년단),false,2025-06-01,not_one_song
+400,,,lyric_video,j-hope ‘Killin’ It Girl (Solo Version)’ Lyric Video,false,2025-06-01,not_group
+401,,original,other,"#hashtag(해시태그): BTS(방탄소년단) _ I NEED U [ENG/JPN/CHN SUB]",false,,not_one_song
+402,,,other,161206 정국,false,,not_group
+403,82,original,other,ASK IN A BOX: BTS(방탄소년단) 'Blood Sweat & Tears(피 땀 눈물)',false,,song
+404,82,japanese,teaser,BTS (防弾少年団) '血、汗、涙 -Japanese Ver.-' Official Teaser,false,,song
+405,97,original,teaser,BTS (방탄소년단) 'DNA' Official Teaser 1,false,,song
+406,55,original,teaser,BTS (방탄소년단) 'I NEED U' Official Teaser,false,,song
+407,92,original,teaser,BTS (방탄소년단) 'Not Today' Official Teaser,false,,song
+408,66,original,teaser,BTS (방탄소년단) 'RUN' Official Teaser,false,,song
+409,94,original,teaser,BTS (방탄소년단) '봄날 (Spring Day)' Official Teaser,false,,song
+410,71,original,teaser,BTS (방탄소년단) '불타오르네 (FIRE)' Official Teaser,false,,song
+411,82,original,teaser,BTS (방탄소년단) '피 땀 눈물 (Blood Sweat & Tears)' Official Teaser,false,,song
+412,,,teaser,BTS (방탄소년단) 2017 BTS LIVE TRILOGY EPISODE III THE WINGS TOUR Trailer,false,,not_one_song
+413,,,other,BTS (방탄소년단) LOGO ANIMATION,false,,not_one_song
+414,,original,other,BTS (방탄소년단) LOVE YOURSELF Highlight Reel '承',false,,not_one_song
+415,,original,other,BTS (방탄소년단) LOVE YOURSELF Highlight Reel '起',false,,not_one_song
+416,,original,other,BTS (방탄소년단) LOVE YOURSELF Highlight Reel '起承轉結',false,,not_one_song
+417,,original,other,BTS (방탄소년단) LOVE YOURSELF Highlight Reel '轉',false,,not_one_song
+418,,,other,"BTS (방탄소년단) WINGS Short Film #1 BEGIN",false,,not_one_song
+419,,,other,"BTS (방탄소년단) WINGS Short Film #2 LIE",false,,not_one_song
+420,,,other,"BTS (방탄소년단) WINGS Short Film #3 STIGMA",false,,not_one_song
+421,,,other,"BTS (방탄소년단) WINGS Short Film #4 FIRST LOVE",false,,not_one_song
+422,,,other,"BTS (방탄소년단) WINGS Short Film #5 REFLECTION",false,,not_one_song
+423,,,other,"BTS (방탄소년단) WINGS Short Film #6 MAMA",false,,not_one_song
+424,,,other,"BTS (방탄소년단) WINGS Short Film #7 AWAKE",false,,not_one_song
+425,,,teaser,BTS (방탄소년단) 가요대제전 Intro performance Trailer,false,,not_one_song
+426,,,performance,BTS (방탄소년단) 화양연화 on stage : prologue,false,,not_one_song
+427,,,other,BTS (방탄소년단) 화양연화 pt.2 Preview,false,,not_one_song
+428,97,original,teaser,BTS (방탄소년단) 'DNA' Official Teaser 2,false,,song
+429,,,other,BTS' Summer out of the country in 2014,false,,not_one_song
+430,,,teaser,BTS(방탄소년단) Comeback Trailer : 花樣年華,false,,not_one_song
+431,,,teaser,BTS(방탄소년단) Concept Trailer,false,,not_one_song
+432,,,teaser,BTS(방탄소년단) 가요대제전 Intro performance Trailer,false,,not_one_song
+433,,,other,Beautiful by 방탄소년단,false,,not_one_song
+434,,,other,Born Singer by 방탄소년단,false,,not_one_song
+435,,,other,Christmas Day by Jimin & Jung Kook (Origin. Justin Bieber - Mistletoe),false,,not_group
+436,,,dance_practice,Dance practice by 지민 of 방탄소년단,false,,not_one_song
+437,,original,other,IDOL ARCADE(대기실 옆 오락실): BTS(방탄소년단)_What if BTS Members Go to the Arcade?_Spring Day(봄날),false,,not_one_song
+438,94,original,other,IDOL ARCADE(대기실 옆 오락실): BTS(방탄소년단)비하인드 영상!_Spring Day(봄날)(큐트ver.),false,,song
+439,,original,other,Let's Dance: BTS(방탄소년단) _ Boy In Luv(상남자) [ENG/JPN/CHN SUB],false,,not_one_song
+440,,,other,Lost Stars by Jung Kook,false,,not_group
+441,,,other,Vocal practice by 정국 of 방탄소년단,false,,not_one_song
+442,,,other,We don't talk anymore by JK,false,,not_group
+443,,,other,[1theK Short Clip] BTS Performs Boy In Luv at Showcase,false,,not_one_song
+444,,,other,[Announcement] 방탄소년단 The Manual(BTS 등신대 사용법),false,,not_one_song
+445,,,other,[BANGTAN BOMB] 'A guy like me' lip-sync by JungKook (V cam),false,,not_group
+446,,original,other,[BANGTAN BOMB] 'Coming of age ceremony' Dance cover by Jimin & Jung Kook - BTS (방탄소년단),false,,not_one_song
+447,,original,other,[BANGTAN BOMB] 'Don't tease me' dance by BTS,false,,not_one_song
+448,,,other,[BANGTAN BOMB] 'Just one day' practice (Appeal ver.),false,,not_group
+449,,,other,[BANGTAN BOMB] 'RUN' christmas ver.,false,,not_group
+450,,original,performance,[BANGTAN BOMB] 'Rainism' Special stage @ MBC 가요대제전 2016 - BTS (방탄소년단),false,,not_one_song
+451,,,other,[BANGTAN BOMB] 'This Love' practice for Show Champion,false,,not_group
+452,,original,other,[BANGTAN BOMB] 'WINGS' Short Film Special - Lie (Jimin solo dance) - BTS (방탄소년단),false,,not_one_song
+453,,original,other,[BANGTAN BOMB] 'You don't love me of SPICA' dance by BTS,false,,not_one_song
+454,,original,other,[BANGTAN BOMB] '네시' Recording Moment for 613 BTS HOME PARTY by 'R&V' - BTS (방탄소년단),false,,not_one_song
+455,,original,performance,[BANGTAN BOMB] '말하자면' Special stage @ MBC 가요대제전 2016 - BTS (방탄소년단),false,,not_one_song
+456,82,original,mv,[BANGTAN BOMB] '피 땀 눈물' MV Reaction by BTS - BTS (방탄소년단),false,,song
+457,,original,performance,[BANGTAN BOMB] 613 BTS HOME PARTY Practice - Unit stage 'R&V' - BTS (방탄소년단),false,,not_one_song
+458,,original,performance,[BANGTAN BOMB] 613 BTS HOME PARTY Practice - Unit stage 'SIN' - BTS (방탄소년단),false,,not_one_song
+459,,original,performance,[BANGTAN BOMB] 613 BTS HOME PARTY Practice - Unit stage '삼줴이(3J)' - BTS (방탄소년단),false,,not_one_song
+460,,,other,[BANGTAN BOMB] 95z dance time with a Beat app,false,,not_group
+461,,original,other,[BANGTAN BOMB] Arirang arirang~Arariyo~~ - BTS (방탄소년단),false,,not_one_song
+462,97,original,mv,[BANGTAN BOMB] BTS 'DNA' MV REAL reaction @6:00PM (170918) - BTS (방탄소년단),false,,song
+463,,,other,[BANGTAN BOMB] BTS (방탄소년단) Became an archer! SUGA & JIMIN's new challenge for ISAC,false,,not_one_song
+464,,,other,[BANGTAN BOMB] BTS (방탄소년단) Perfect boys 2015,false,,not_one_song
+465,,,other,[BANGTAN BOMB] BTS (방탄소년단) SUGA is trying to wear contact lenses.,false,,not_one_song
+466,,,other,[BANGTAN BOMB] BTS (방탄소년단) a 400-meter relay race @ 2016 설특집 아육대,false,,not_one_song
+467,,,other,[BANGTAN BOMB] BTS Jenga championship thanks to Twitter,false,,not_one_song
+468,,,other,[BANGTAN BOMB] BTS Magic show,false,,not_one_song
+469,,,other,[BANGTAN BOMB] BTS Waking-up HOBI CAM @Dream concert,false,,not_one_song
+470,,,other,[BANGTAN BOMB] BTS likes 문을 여시오 (Open the Door) of 임창정,false,,not_one_song
+471,,,other,[BANGTAN BOMB] BTS on runway like Model,false,,not_one_song
+472,,,other,[BANGTAN BOMB] BTS rookie Camera Director Jung Kookie :D,false,,not_one_song
+473,,,other,[BANGTAN BOMB] BTS stretching Time,false,,not_one_song
+474,,original,other,[BANGTAN BOMB] BTS style 'Hush' of Miss A,false,,not_one_song
+475,,original,other,[BANGTAN BOMB] BTS' Relay race @ 2016 추석특집 아육대 - BTS (방탄소년단),false,,not_one_song
+476,,original,performance,[BANGTAN BOMB] BTS' Vocal Duet 'SOPE-ME' Stage behind the scene - BTS (방탄소년단),false,,not_one_song
+477,,,other,[BANGTAN BOMB] BTS' rhythmical farce! LOL,false,,not_one_song
+478,,,other,"[BANGTAN BOMB] Cheerleader jin with ARMY Bomb ─○""",false,,not_group
+479,,,other,[BANGTAN BOMB] Congratulations to Jimin!,false,,not_group
+480,,,other,[BANGTAN BOMB] Drawing their 2014!,false,,not_group
+481,,,other,[BANGTAN BOMB] Enjoy 2014 Halloween,false,,not_group
+482,,,other,[BANGTAN BOMB] Finding Jung Kook by Jimin PD,false,,not_group
+483,92,original,other,[BANGTAN BOMB] Follow Cam of 'Not Today' @ M countdown - BTS (방탄소년단),false,,song
+484,,,other,[BANGTAN BOMB] Forest of Dreams(by Kinetic Flow) in Beijing,false,,not_group
+485,,,other,[BANGTAN BOMB] Free Dance Time in front of A.R.M.Y _140113,false,,not_group
+486,,original,other,[BANGTAN BOMB] Happy Birthday song for JIMIN (21세기 소녀) - BTS (방탄소년단),false,,not_one_song
+487,,original,other,[BANGTAN BOMB] Happy Birthday to V @ KBS 가요대축제 2016 - BTS (방탄소년단),false,,not_one_song
+488,,,other,"[BANGTAN BOMB] Hide and seek with JM, V, JK (#1)",false,,not_group
+489,,,other,[BANGTAN BOMB] Hunter Jungkook and V rabbit,false,,not_group
+490,,,other,[BANGTAN BOMB] It's the pose when BTS sleep normally,false,,not_one_song
+491,,original,performance,[BANGTAN BOMB] Jimin Opening show stage @ SBS 가요대전 2016 - BTS (방탄소년단),false,,not_one_song
+492,,,other,[BANGTAN BOMB] Jimin's 'GIRL'S DAY- FEMALE PRESIDENT' dance,false,,not_group
+493,,original,other,[BANGTAN BOMB] Jimin's Birthday at M countdown - BTS (방탄소년단),false,,not_one_song
+494,,,other,[BANGTAN BOMB] Jimin's Sexy dance one point lesson,false,,not_group
+495,,,other,[BANGTAN BOMB] Jimin's tumbling skill,false,,not_group
+496,,,other,[BANGTAN BOMB] Jimin: I got yes jam,false,,not_group
+497,,original,other,[BANGTAN BOMB] Jimin’s best dance imitation by Jung Kook - BTS (방탄소년단),false,,not_one_song
+498,,,other,[BANGTAN BOMB] Jin and Jimin's Push-up time,false,,not_group
+499,,,other,[BANGTAN BOMB] Jin and Jimin's Push-up time 2,false,,not_group
+500,,,other,[BANGTAN BOMB] Jin's Bithday party (shooting by V PD),false,,not_group
+501,,,other,[BANGTAN BOMB] Jump! Jimin entered the high jump!,false,,not_group
+502,,original,other,[BANGTAN BOMB] Jung Kook is still a baby.... - BTS (방탄소년단),false,,not_one_song
+503,,original,other,[BANGTAN BOMB] Jung Kook went to High school with BTS for graduation! - BTS (방탄소년단),false,,not_one_song
+504,,,other,"[BANGTAN BOMB] Jung kook is drawing ""좋아요""",false,,not_group
+505,,,other,[BANGTAN BOMB] Just watching Jung Kook lip sync show,false,,not_group
+506,,,other,[BANGTAN BOMB] Let's speak English!,false,,not_group
+507,,original,other,[BANGTAN BOMB] Let's test BTS' nerve!,false,,not_one_song
+508,,original,other,[BANGTAN BOMB] Mission! Make Jung Kook laugh! - BTS (방탄소년단),false,,not_one_song
+509,,,other,[BANGTAN BOMB] N.O (Trot ver.) by Jungkook and (Opera ver.) by BTS,false,,not_one_song
+510,,,other,"[BANGTAN BOMB] Nick Name T-shirts! (95z cam #1)",false,,not_group
+511,,,other,[BANGTAN BOMB] RINGA LINGA (by TAEYANG of BIGBANG) DANCE PARTY,false,,not_group
+512,,original,performance,[BANGTAN BOMB] RM and Jin Dance Stage Behind the scene for BTS DAY PARTY 2016 - BTS (방탄소년단),false,,not_one_song
+513,,,other,[BANGTAN BOMB] Rap making by Jimin & Jung Kook,false,,not_group
+514,,,other,[BANGTAN BOMB] Recording I NEED U chorus in BTS choir,false,,not_one_song
+515,,,other,[BANGTAN BOMB] Runway in the night,false,,not_group
+516,,,other,[BANGTAN BOMB] SUGA free...? HOPE free..? MON free!,false,,not_group
+517,,,other,[BANGTAN BOMB] Shooting guard SUGA with cheerleader 2 Jimin,false,,not_group
+518,,original,other,[BANGTAN BOMB] Show Me Your BBA SAE!?!? - BTS (방탄소년단),false,,not_one_song
+519,,,other,[BANGTAN BOMB] Sleeping Baby bothered with Jin,false,,not_group
+520,,,other,[BANGTAN BOMB] Someone like you (sung & produced by V),false,,not_group
+521,,,other,"[BANGTAN BOMB] Something by Jung kook, Jimin and JIN",false,,not_group
+522,,,other,[BANGTAN BOMB] Sudden...Suddenly attack!,false,,not_group
+523,,,other,[BANGTAN BOMB] Touch my body (of SISTAR),false,,not_group
+524,,,other,[BANGTAN BOMB] UP DOWN UP UP DOWN (by EXID),false,,not_group
+525,,,other,[BANGTAN BOMB] V thinks Jungkook like baby! lol,false,,not_group
+526,,original,performance,[BANGTAN BOMB] V's Dream came true - 'His Cypher pt.3 Solo Stage' - BTS (방탄소년단),false,,not_one_song
+527,,,other,[BANGTAN BOMB] V's birthday episode,false,,not_group
+528,,original,other,[BANGTAN BOMB] V's new game (Feat. a water bottle) - BTS (방탄소년단),false,,not_one_song
+529,,,other,[BANGTAN BOMB] V's solo dance in the night,false,,not_group
+530,,,mv,[BANGTAN BOMB] V's trot medley on the move to MV shooting place,false,,not_group
+531,,,other,[BANGTAN BOMB] War of hormone  in Halloween,false,,not_group
+532,,,other,[BANGTAN BOMB] Whatcha Doin' Today?,false,,not_group
+533,,,other,[BANGTAN BOMB] Why are you shaking my heart? - V show time!,false,,not_group
+534,,,other,[BANGTAN BOMB] a 400-meter relay race @ 아육대,false,,not_group
+535,,original,other,[BANGTAN BOMB] at the 30th Golden Disc Awards 2016 - BTS (방탄소년단),false,,not_one_song
+536,,,other,[BANGTAN BOMB] follow BTS! (j-hope Cam),false,,not_one_song
+537,,,other,[BANGTAN BOMB] follow BTS! 2222 (Jimin Cam),false,,not_one_song
+538,,,other,"[BANGTAN BOMB] it's tricky is title! BTS, here we go! (by Run–D.M.C.)",false,,not_one_song
+539,,,other,[BANGTAN BOMB] j-hope vs 95z,false,,not_group
+540,,,mv,[BANGTAN BOMB] j-hope&Jimin's 'DOPE' Music Video Reaction,false,,not_group
+541,,,other,[BANGTAN BOMB] like in a singing room,false,,not_group
+542,,,other,[BANGTAN BOMB] medley show time! (performed by BTS),false,,not_one_song
+543,,,other,[BANGTAN BOMB] when BTS was practicing the showcase,false,,not_one_song
+544,102,original,performance,[BANGTAN BOMB] ‘MIC Drop’ stage @COMEBACK SHOW ‘BTS DNA’ - BTS (방탄소년단),false,,song
+545,4,original,performance,[BANGTAN BOMB] ‘No More Dream’ stage @COMEBACK SHOW ‘BTS DNA’ - BTS (방탄소년단),false,,song
+546,99,original,performance,[BANGTAN BOMB] ‘고민보다GO’ stage @COMEBACK SHOW ‘BTS DNA’ - BTS (방탄소년단),false,,song
+547,,,other,"[BANGTAN BOMB] 눈,코,입 (EYES, NOSE, LIPS) of BTS",false,,not_one_song
+548,,,other,"[BANGTAN BOMB] 눈,코,입 (EYES, NOSE, LIPS) of Jung Kook (Feat.Jimin)",false,,not_group
+549,,,other,[BANGTAN BOMB] 방탄도령단 - 危險 (Appeal ver.),false,,not_group
+550,,,performance,[BTS in NAVER STAR CAST] BTS commentary about 가요대전 Performance (feat. 핑크소년단),false,,not_one_song
+551,,original,other,[BTS 꿀 FM 06.13] 1st BTS birthday 'BTS FESTA 2014',false,,not_one_song
+552,,original,other,[BTS 꿀 FM 06.13] 2nd BTS birthday 'BTS FESTA 2015',false,,not_one_song
+553,,,other,[BTS(방탄소년단) Showcase] Boy In Luv(상남자) + Jump(점프) [ENG/JPN/CHN SUB],false,,not_one_song
+554,,,other,[BTS(방탄소년단) Showcase] No more dream(노 모어 드림)+ We Are Bulletproof PT.2 + Waiting room interview(인터뷰),false,,not_one_song
+555,92,original,mv,[EPISODE] BTS (방탄소년단) 'Not Today' MV Shooting,false,,song
+556,73,original,mv,[EPISODE] BTS (방탄소년단) 'Save Me' MV Shooting,false,,song
+557,94,original,mv,[EPISODE] BTS (방탄소년단) '봄날' MV Shooting Sketch,false,,song
+558,71,original,mv,[EPISODE] BTS (방탄소년단) '불타오르네 (FIRE)' MV Shooting,false,,song
+559,82,original,mv,[EPISODE] BTS (방탄소년단) '피 땀 눈물' MV Shooting Sketch,false,,song
+560,,,other,[EPISODE] BTS (방탄소년단) @ Billboard Music Awards 2017,false,,not_one_song
+561,,,mv,[Episode] 'War of Hormone' MV & Photo shooting,false,,not_group
+562,,,mv,[Episode] '상남자(Boy In Luv)' MV shooting Sketch,false,,not_group
+563,,,mv,[Episode] '하루만(Just one day)' MV shooting Sketch,false,,not_group
+564,,,other,[Episode] 1st BTS Birthday Party (Jin chef of BTS),false,,not_one_song
+565,,,other,[Episode] BTS Surprise Birthday Party for Jung Kook!,false,,not_one_song
+566,,,other,[Episode] Jung Kook went to High school with BTS!,false,,not_one_song
+567,35,original,mv,[Episode] 방탄소년단 'Danger' MV Shooting,false,,song
+568,55,original,mv,[Episode] 방탄소년단 'I NEED U' MV shooting,false,,song
+569,66,original,mv,[Episode] 방탄소년단 'RUN' MV shooting,false,,song
+570,53,original,mv,[Episode] 방탄소년단(BTS) '쩔어' Concept photo & MV shooting,false,,song
+571,,,other,[FESTA 2016] BTS (방탄소년단) 꿀 FM 06.13 3rd BTS birthday,false,,not_one_song
+572,,original,performance,[FESTA 2017] BTS (방탄소년단) EXCLUSIVE STAGE 'Wings' (BTS Focus.),false,,not_one_song
+573,,original,other,"[FESTA 2017] BTS (방탄소년단) Jimin, JK 'We don't talk anymore'",false,,not_one_song
+574,,,other,[FESTA 2017] BTS (방탄소년단) 꿀 FM 06.13 Happy BTS birthday!,false,,not_one_song
+575,,original,other,[PREVIEW] BTS (방탄소년단) 'BTS 2017 Summer Package',false,,not_one_song
+576,,original,other,[PREVIEW] BTS (방탄소년단) 'BTS MEMORIES OF 2016' DVD,false,,not_one_song
+577,,original,other,[PREVIEW] BTS (방탄소년단) 'NOW 3' coming soon,false,,not_one_song
+578,,,other,[PREVIEW] BTS (방탄소년단) 2016 Summer Package in DUBAI,false,,not_one_song
+579,71,original,teaser,[Teaser] BTS(방탄소년단) _ FIRE (불타오르네),false,,song
+580,55,original,teaser,[Teaser] BTS(방탄소년단) _ I NEED U,false,,song
+581,66,original,teaser,[Teaser] BTS(방탄소년단) _ Run,false,,song
+582,,,dance_practice,방탄소년단 Concept Trailer dance practice,false,,not_one_song
+583,,,performance,방탄소년단 MBC 가요대제전 performance practice,false,,not_one_song
+584,,,performance,방탄소년단 SBS 가요대전 performance practice,false,,not_one_song
+585,,,performance,"방탄소년단 STAGE #TOMORROW @ THE RED BULLET IN SEOUL Dress Rehearsal",false,,not_one_song
+586,,,other,방탄소년단(BTS) 2015 SUMMER Vacation!???,false,,not_one_song
+587,,,dance_practice,"방탄소년단-BTS- Special choreography Stage #2. 이불킥(Embarrassed) for 2015 FESTA",false,,not_one_song
+588,,original,other,방탄소년단이 응원하는 'Hit It Audition 5',false,,not_one_song
+589,,,other,방탄소년들의 졸업,false,,not_group
+590,,,other,"안아줘 (Hug me) performed by V, j-hope",false,,not_group
+591,,,other,어른아이 by 방탄소년단,false,,not_one_song

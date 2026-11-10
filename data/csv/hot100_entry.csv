@@ -1,0 +1,186 @@
+week,rank,title,performer,peak,weeks_on_chart,song_id
+2017-10-07,85,DNA,BTS,85,1,97
+2017-10-14,67,DNA,BTS,67,2,97
+2017-10-21,87,DNA,BTS,67,3,97
+2017-10-28,98,DNA,BTS,67,4,97
+2017-12-16,28,MIC Drop,BTS Featuring Desiigner,28,1,102
+2017-12-23,71,MIC Drop,BTS Featuring Desiigner,28,2,102
+2017-12-30,79,MIC Drop,BTS Featuring Desiigner,28,3,102
+2018-01-06,82,MIC Drop,BTS Featuring Desiigner,28,5,102
+2018-01-13,66,MIC Drop,BTS Featuring Desiigner,28,6,102
+2018-01-20,74,MIC Drop,BTS Featuring Desiigner,28,7,102
+2018-01-27,79,MIC Drop,BTS Featuring Desiigner,28,8,102
+2018-02-03,84,MIC Drop,BTS Featuring Desiigner,28,9,102
+2018-02-10,98,MIC Drop,BTS Featuring Desiigner,28,10,102
+2018-06-02,10,Fake Love,BTS,10,1,116
+2018-06-09,51,Fake Love,BTS,10,2,116
+2018-06-16,48,Fake Love,BTS,10,3,116
+2018-06-23,71,Fake Love,BTS,10,4,116
+2018-06-30,65,Fake Love,BTS,10,5,116
+2018-07-07,76,Fake Love,BTS,10,6,116
+2018-09-08,11,IDOL,BTS Featuring Nicki Minaj,11,1,128
+2018-09-15,81,IDOL,BTS Featuring Nicki Minaj,11,2,128
+2018-09-22,92,IDOL,BTS Featuring Nicki Minaj,11,3,128
+2018-11-10,89,Waste It On Me,Steve Aoki Featuring BTS,89,1,
+2019-04-27,8,Boy With Luv,BTS Featuring Halsey,8,1,133
+2019-04-27,95,Make It Right,BTS Featuring Lauv,95,1,138
+2019-05-04,40,Boy With Luv,BTS Featuring Halsey,8,2,133
+2019-05-11,40,Boy With Luv,BTS Featuring Halsey,8,3,133
+2019-05-18,51,Boy With Luv,BTS Featuring Halsey,8,4,133
+2019-05-25,61,Boy With Luv,BTS Featuring Halsey,8,5,133
+2019-06-01,71,Boy With Luv,BTS Featuring Halsey,8,6,133
+2019-06-08,81,Boy With Luv,BTS Featuring Halsey,8,7,133
+2019-06-15,90,Boy With Luv,BTS Featuring Halsey,8,8,133
+2019-11-02,76,Make It Right,BTS Featuring Lauv,76,2,138
+2020-02-01,57,Black Swan,BTS,57,1,152
+2020-03-07,4,ON,BTS,4,1,161
+2020-03-07,84,My Time,BTS,84,1,160
+2020-03-07,87,Filter,BTS,87,1,154
+2020-03-14,68,ON,BTS,4,2,161
+2020-09-05,1,Dynamite,BTS,1,1,170
+2020-09-12,1,Dynamite,BTS,1,2,170
+2020-09-19,2,Dynamite,BTS,1,3,170
+2020-09-26,2,Dynamite,BTS,1,4,170
+2020-10-03,1,Dynamite,BTS,1,5,170
+2020-10-10,2,Dynamite,BTS,1,6,170
+2020-10-17,2,Dynamite,BTS,1,7,170
+2020-10-24,5,Dynamite,BTS,1,8,170
+2020-10-31,7,Dynamite,BTS,1,9,170
+2020-11-07,12,Dynamite,BTS,1,10,170
+2020-11-14,16,Dynamite,BTS,1,11,170
+2020-11-21,17,Dynamite,BTS,1,12,170
+2020-11-28,14,Dynamite,BTS,1,13,170
+2020-12-05,1,Life Goes On,BTS,1,1,175
+2020-12-05,3,Dynamite,BTS,1,14,170
+2020-12-05,13,Blue & Grey,BTS,13,1,172
+2020-12-05,22,Stay,BTS,22,1,177
+2020-12-05,69,Fly To My Room,BTS,69,1,174
+2020-12-05,70,Telepathy,BTS,70,1,178
+2020-12-05,72,Dis-ease,BTS,72,1,173
+2020-12-12,10,Dynamite,BTS,1,15,170
+2020-12-12,28,Life Goes On,BTS,1,2,175
+2020-12-19,24,Dynamite,BTS,1,16,170
+2020-12-19,93,Life Goes On,BTS,1,3,175
+2020-12-26,9,Dynamite,BTS,1,17,170
+2021-01-02,44,Dynamite,BTS,1,18,170
+2021-01-09,5,Dynamite,BTS,1,19,170
+2021-01-16,25,Dynamite,BTS,1,20,170
+2021-01-23,35,Dynamite,BTS,1,21,170
+2021-01-30,45,Dynamite,BTS,1,22,170
+2021-02-06,46,Dynamite,BTS,1,23,170
+2021-02-13,46,Dynamite,BTS,1,24,170
+2021-02-20,43,Dynamite,BTS,1,25,170
+2021-02-27,45,Dynamite,BTS,1,26,170
+2021-03-06,50,Dynamite,BTS,1,27,170
+2021-03-13,43,Dynamite,BTS,1,28,170
+2021-03-20,43,Dynamite,BTS,1,29,170
+2021-03-27,34,Dynamite,BTS,1,30,170
+2021-04-03,26,Dynamite,BTS,1,31,170
+2021-04-10,30,Dynamite,BTS,1,32,170
+2021-04-17,81,Film Out,BTS,81,1,179
+2021-06-05,1,Butter,BTS,1,1,180
+2021-06-12,1,Butter,BTS,1,2,180
+2021-06-19,1,Butter,BTS,1,3,180
+2021-06-26,1,Butter,BTS,1,4,180
+2021-07-03,1,Butter,BTS,1,5,180
+2021-07-10,1,Butter,BTS,1,6,180
+2021-07-17,1,Butter,BTS,1,7,180
+2021-07-24,1,Permission To Dance,BTS,1,1,181
+2021-07-24,7,Butter,BTS,1,8,180
+2021-07-31,1,Butter,BTS,1,9,180
+2021-07-31,7,Permission To Dance,BTS,1,2,181
+2021-08-07,1,Butter,BTS,1,10,180
+2021-08-07,9,Permission To Dance,BTS,1,3,181
+2021-08-14,4,Butter,BTS,1,11,180
+2021-08-14,27,Permission To Dance,BTS,1,4,181
+2021-08-21,7,Butter,BTS,1,12,180
+2021-08-21,55,Permission To Dance,BTS,1,5,181
+2021-08-28,8,Butter,BTS,1,13,180
+2021-08-28,66,Permission To Dance,BTS,1,6,181
+2021-09-04,7,Butter,BTS,1,14,180
+2021-09-04,97,Permission To Dance,BTS,1,7,181
+2021-09-11,1,Butter,BTS,1,15,180
+2021-09-18,17,Butter,BTS,1,16,180
+2021-09-25,14,Butter,BTS,1,17,180
+2021-10-02,24,Butter,BTS,1,18,180
+2021-10-09,1,My Universe,Coldplay x BTS,1,1,
+2021-10-09,36,Butter,BTS,1,19,180
+2021-10-16,12,My Universe,Coldplay x BTS,1,2,
+2021-10-16,58,Butter,BTS,1,20,180
+2021-10-23,18,My Universe,Coldplay x BTS,1,3,
+2021-10-30,13,My Universe,Coldplay x BTS,1,4,
+2021-11-06,20,My Universe,Coldplay x BTS,1,5,
+2021-11-13,23,My Universe,Coldplay x BTS,1,6,
+2021-11-20,43,My Universe,Coldplay x BTS,1,7,
+2021-11-27,37,My Universe,Coldplay x BTS,1,8,
+2021-12-04,29,My Universe,Coldplay x BTS,1,9,
+2021-12-11,51,My Universe,Coldplay x BTS,1,10,
+2021-12-18,59,My Universe,Coldplay x BTS,1,11,
+2021-12-25,74,My Universe,Coldplay x BTS,1,12,
+2022-01-01,84,My Universe,Coldplay x BTS,1,13,
+2022-01-08,72,My Universe,Coldplay x BTS,1,14,
+2022-01-15,58,My Universe,Coldplay x BTS,1,15,
+2022-01-22,94,My Universe,Coldplay x BTS,1,16,
+2022-01-29,92,My Universe,Coldplay x BTS,1,17,
+2022-06-25,13,Yet To Come,BTS,13,1,187
+2022-06-25,73,Run BTS,BTS,73,1,184
+2022-07-02,68,Yet To Come,BTS,13,2,187
+2022-08-20,10,Bad Decisions,"benny blanco, BTS & Snoop Dogg",10,1,
+2022-08-27,57,Bad Decisions,"benny blanco, BTS & Snoop Dogg",10,2,
+2022-09-03,60,Bad Decisions,"benny blanco, BTS & Snoop Dogg",10,3,
+2022-09-10,89,Bad Decisions,"benny blanco, BTS & Snoop Dogg",10,4,
+2022-09-17,90,Bad Decisions,"benny blanco, BTS & Snoop Dogg",10,5,
+2023-06-24,48,Take Two,BTS,48,1,193
+2026-04-04,1,Swim,BTS,1,1,207
+2026-04-04,25,Body To Body,BTS,25,1,197
+2026-04-04,35,Hooligan,BTS,35,1,199
+2026-04-04,36,FYA,BTS,36,1,198
+2026-04-04,41,Normal,BTS,41,1,203
+2026-04-04,47,Aliens,BTS,47,1,196
+2026-04-04,50,2.0,BTS,50,1,194
+2026-04-04,52,Merry Go Round,BTS,52,1,202
+2026-04-04,53,Like Animals,BTS,53,1,201
+2026-04-04,56,They Don't Know 'bout Us,BTS,56,1,208
+2026-04-04,61,One More Night,BTS,61,1,205
+2026-04-04,63,Please,BTS,63,1,206
+2026-04-04,68,Into The Sun,BTS,68,1,200
+2026-04-11,2,Swim,BTS,1,2,207
+2026-04-11,42,Body To Body,BTS,25,2,197
+2026-04-11,64,Hooligan,BTS,35,2,199
+2026-04-11,73,Normal,BTS,41,2,203
+2026-04-11,74,FYA,BTS,36,2,198
+2026-04-11,75,2.0,BTS,50,2,194
+2026-04-11,84,Aliens,BTS,47,2,196
+2026-04-11,90,Like Animals,BTS,53,2,201
+2026-04-11,94,They Don't Know 'bout Us,BTS,56,2,208
+2026-04-11,96,Merry Go Round,BTS,52,2,202
+2026-04-18,5,Swim,BTS,1,3,207
+2026-04-18,52,Body To Body,BTS,25,3,197
+2026-04-18,67,2.0,BTS,50,3,194
+2026-04-18,72,Hooligan,BTS,35,3,199
+2026-04-18,82,Normal,BTS,41,3,203
+2026-04-18,90,FYA,BTS,36,3,198
+2026-04-25,10,Swim,BTS,1,4,207
+2026-04-25,69,Body To Body,BTS,25,4,197
+2026-04-25,88,2.0,BTS,50,4,194
+2026-04-25,90,Hooligan,BTS,35,4,199
+2026-05-02,22,Swim,BTS,1,5,207
+2026-05-02,95,Body To Body,BTS,25,5,197
+2026-05-09,32,Swim,BTS,1,6,207
+2026-05-16,30,Swim,BTS,1,7,207
+2026-05-23,34,Swim,BTS,1,8,207
+2026-05-30,55,Swim,BTS,1,9,207
+2026-06-06,44,Swim,BTS,1,10,207
+2026-06-13,41,Swim,BTS,1,11,207
+2026-06-20,43,Swim,BTS,1,12,207
+2026-06-27,55,Swim,BTS,1,13,207
+2026-06-27,69,Come Over,BTS,69,1,210
+2026-07-04,63,Swim,BTS,1,14,207
+2026-07-11,76,Swim,BTS,1,15,207
+2026-07-18,84,Swim,BTS,1,16,207
+2026-07-25,100,Swim,BTS,1,17,207
+2026-08-01,33,Normal,BTS,33,4,203
+2026-08-01,85,Swim,BTS,1,18,207
+2026-08-08,82,Swim,BTS,1,19,207
+2026-08-08,89,Normal,BTS,33,5,203
+2026-08-15,91,Swim,BTS,1,20,207

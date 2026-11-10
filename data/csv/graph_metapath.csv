@@ -1,0 +1,4 @@
+metapath,iri,route,weight,reason,label,definition
+SameFirstRelease,"https://abiramashree.github.io/Into-BTS-verse/ontology#SameFirstRelease",song -first_released_on-> release <-first_released_on- song,0.25,same first release,Same first release,Both songs first released on the same release: 1.
+SoundsLike,"https://abiramashree.github.io/Into-BTS-verse/ontology#SoundsLike",song -sounds_like- song,1.0,sounds like,Sounds like,"The sounds_like similarity, against the nearest for the song. The reason gives tempo, energy and speechiness: the recommended song's, then this song's."
+SoundsLikeEstimated,"https://abiramashree.github.io/Into-BTS-verse/ontology#SoundsLikeEstimated",song -sounds_like_estimated- song,0.5,sounds like (estimated),Sounds like (estimated),"The sounds_like_estimated similarity, against the nearest for the song. Connects songs with only estimated audio to the catalog. The reason gives tempo and energy: the recommended song's, then this song's."

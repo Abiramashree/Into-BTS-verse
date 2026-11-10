@@ -1,0 +1,210 @@
+song_id,slug,title,title_ko,is_generic_title,is_single,first_release_date,album_id,album_from
+1,interlude-2-cool-4-skool,Interlude,,true,false,2013-06-12,1,apple
+2,intro-2-cool-4-skool,Intro: 2 Cool 4 Skool,,false,false,2013-06-12,1,apple
+3,like,Like,좋아요,false,false,2013-06-12,1,apple
+4,no-more-dream,No More Dream,,false,true,2013-06-12,1,apple
+5,outro-circle-room-cypher,Outro: Circle Room Cypher,,false,false,2013-06-12,1,apple
+6,path,Path,길,false,false,2013-06-12,1,musicbrainz
+7,skit-on-the-start-line,Skit : On the Start Line,,false,false,2013-06-12,1,musicbrainz
+8,skit-circle-room-talk,Skit: Circle Room Talk,,false,false,2013-06-12,1,apple
+9,we-are-bulletproof-pt-2,We Are Bulletproof Pt.2,,false,true,2013-06-12,1,apple
+10,attack-on-bangtan,Attack on Bangtan,진격의 방탄,false,false,2013-09-11,2,apple
+11,bts-cypher-pt-1,BTS Cypher Pt.1,,false,false,2013-09-11,2,apple
+12,coffee,Coffee,,false,false,2013-09-11,2,apple
+13,if-i-ruled-the-world,If I Ruled the World,,false,false,2013-09-11,2,apple
+14,intro-o-rul8-2,"Intro: O!RUL8,2?",,false,false,2013-09-11,2,apple
+15,n-o,N.O,,false,true,2013-09-11,2,apple
+16,outro-luv-in-skool,Outro: Luv in Skool,,false,false,2013-09-11,2,apple
+17,paldogangsan,Paldogangsan,팔도강산,false,false,2013-09-11,2,apple
+18,skit-r-u-happy-now,Skit: R U Happy Now?,,false,false,2013-09-11,2,apple
+19,we-on,We On,,false,false,2013-09-11,2,apple
+20,bts-cypher-pt-2-triptych,BTS Cypher Pt.2: Triptych,,false,false,2014-02-12,3,apple
+21,boy-in-luv,Boy in Luv,상남자,false,true,2014-02-12,3,apple
+22,intro-skool-luv-affair,Intro: Skool Luv Affair,,false,false,2014-02-12,3,apple
+23,jump,Jump,,false,false,2014-02-12,3,apple
+24,just-one-day,Just One Day,하루만,false,true,2014-02-12,3,apple
+25,outro-propose,Outro: Propose,,false,false,2014-02-12,3,apple
+26,skit-soulmate,Skit: Soulmate,,false,false,2014-02-12,3,apple
+27,spine-breaker,Spine Breaker,등골브레이커,false,false,2014-02-12,3,apple
+28,tomorrow,Tomorrow,,false,false,2014-02-12,3,apple
+29,where-you-from,Where You From,어디에서 왔는지,false,false,2014-02-12,3,apple
+31,miss-right,Miss Right,,false,false,2014-05-14,4,apple
+32,24-7-heaven,24/7=Heaven,,false,false,2014-08-20,5,apple
+33,bts-cypher-pt-3-killer,BTS Cypher PT.3 : KILLER,,false,false,2014-08-20,5,apple
+34,could-you-turn-off-your-cell-phone,Could You Turn off Your Cell Phone,핸드폰 좀 꺼줄래,false,false,2014-08-20,5,apple
+35,danger,Danger,,false,true,2014-08-20,5,apple
+36,embarrassed,Embarrassed,이불킥,false,false,2014-08-20,5,apple
+37,hip-hop-phile,Hip Hop Phile,힙합성애자,false,false,2014-08-20,5,apple
+38,interlude-what-are-you-doing-now,Interlude: What Are You Doing Now,Interlude : 뭐해,false,false,2014-08-20,5,apple
+39,intro-what-am-i-to-you,Intro: What Am I to You,,false,false,2014-08-20,5,apple
+40,let-me-know,Let Me Know,,false,false,2014-08-20,5,apple
+41,look-here,Look Here,여기 봐,false,false,2014-08-20,5,apple
+42,outro-do-you-think-it-makes-sense,Outro: Do You Think It Makes Sense?,Outro : 그게 말이 돼?,false,false,2014-08-20,5,apple
+43,rain,Rain,,false,false,2014-08-20,5,apple
+44,so-4-more,So 4 more,2학년,false,false,2014-08-20,5,apple
+45,war-of-hormone,War of Hormone,호르몬 전쟁,false,true,2014-08-20,5,apple
+46,intro-wake-up,INTRO.,,true,false,2014-12-24,6,apple
+47,iine-pt-2,Iine!Pt.2,,false,false,2014-12-24,6,apple
+48,outro-wake-up,OUTRO.,,true,false,2014-12-24,6,apple
+49,the-stars,THE STARS,,false,false,2014-12-24,6,apple
+50,wake-up,WAKE UP,,false,false,2014-12-24,6,apple
+51,boyz-with-fun,Boyz with Fun,흥탄소년단,false,false,2015-04-29,7,apple
+52,converse-high,Converse High,,false,false,2015-04-29,7,apple
+53,dope,Dope,쩔어,false,true,2015-04-29,7,apple
+54,hold-me-tight,Hold Me Tight,잡아줘,false,false,2015-04-29,7,apple
+55,i-need-u,I Need U,,false,true,2015-04-29,7,apple
+56,intro-the-most-beautiful-moment-in-life,Intro: The Most Beautiful Moment in Life,INTRO : 화양연화,false,false,2015-04-29,7,apple
+57,moving-on,Moving On,이사,false,false,2015-04-29,7,apple
+58,outro-love-is-not-over,Outro: Love Is Not Over,,false,false,2015-04-29,7,apple
+59,skit-expectation,Skit: Expectation!,,false,false,2015-04-29,7,apple
+60,for-you,For You,,false,true,2015-06-17,8,apple
+61,autumn-leaves,Autumn Leaves,고엽,false,false,2015-11-30,9,apple
+62,butterfly,Butterfly,,false,false,2015-11-30,9,apple
+63,intro-never-mind,Intro: Never Mind,,false,false,2015-11-30,9,apple
+64,ma-city,Ma City,,false,false,2015-11-30,9,apple
+65,outro-house-of-cards,Outro: House of Cards,,false,false,2015-11-30,9,apple
+66,run,Run,,false,true,2015-11-30,9,apple
+67,silver-spoon,Silver Spoon,뱁새,false,false,2015-11-30,9,apple
+68,skit-one-night-in-a-strange-city,Skit: One Night in a Strange City,,false,false,2015-11-30,9,apple
+69,whalien-52,Whalien 52,,false,false,2015-11-30,9,apple
+70,good-day,Good Day,,false,false,2016-03-15,10,apple
+71,burning-up,Burning Up,불타오르네,false,true,2016-05-02,11,apple
+72,epilogue-young-forever,Epilogue: Young Forever,,false,true,2016-05-02,11,apple
+73,save-me,Save Me,,false,true,2016-05-02,11,apple
+74,introduction-youth,Introduction : Youth,,false,false,2016-09-07,12,apple
+75,wishing-on-a-star,Wishing on a Star,,false,false,2016-09-07,12,apple
+76,2-3,2! 3!,둘! 셋!,false,false,2016-10-10,13,apple
+77,21st-century-girl,21st Century Girl,21세기 소녀,false,false,2016-10-10,13,apple
+78,am-i-wrong,Am I Wrong,,false,false,2016-10-10,13,apple
+79,awake,Awake,,false,false,2016-10-10,13,apple
+80,bts-cypher-4,BTS Cypher 4,,false,false,2016-10-10,13,apple
+81,begin,Begin,,false,false,2016-10-10,13,apple
+82,blood-sweat-tears,Blood Sweat & Tears,피 땀 눈물,false,true,2016-10-10,13,apple
+83,first-love,First Love,,false,false,2016-10-10,13,apple
+84,interlude-wings,Interlude: Wings,,false,false,2016-10-10,13,apple
+85,intro-boy-meets-evil,Intro: Boy Meets Evil,,false,false,2016-10-10,13,apple
+86,lie,Lie,,false,false,2016-10-10,13,apple
+87,lost,Lost,,false,false,2016-10-10,13,apple
+88,mama,MAMA,,false,false,2016-10-10,13,apple
+89,reflection,Reflection,,false,false,2016-10-10,13,apple
+90,stigma,Stigma,,false,false,2016-10-10,13,apple
+91,a-supplementary-story-you-never-walk-alone,A Supplementary Story: You Never Walk Alone,,false,false,2017-02-13,15,apple
+92,not-today,Not Today,,false,true,2017-02-13,15,apple
+93,outro-wings,Outro: Wings,,false,false,2017-02-13,15,apple
+94,spring-day,Spring Day,봄날,false,true,2017-02-13,15,apple
+95,come-back-home,Come Back Home,,false,false,2017-07-04,16,apple
+96,best-of-me,Best Of Me,,false,false,2017-09-18,17,apple
+97,dna,DNA,,false,true,2017-09-18,17,apple
+98,dimple,Dimple,보조개,false,false,2017-09-18,17,apple
+99,go-go,Go Go,고민보다 Go,false,false,2017-09-18,17,apple
+100,her,Her,,false,false,2017-09-18,17,apple
+101,intro-serendipity,Intro: Serendipity,,false,false,2017-09-18,17,apple
+102,mic-drop,Mic Drop,,false,true,2017-09-18,17,apple
+103,pied-piper,Pied Piper,,false,false,2017-09-18,17,apple
+104,skit-망설임과-두려움,Skit : 망설임과 두려움,Skit : 망설임과 두려움,false,false,2017-09-18,17,musicbrainz
+105,skit-billboard-music-awards-speech,Skit: Billboard Music Awards Speech,,false,false,2017-09-18,17,apple
+106,바다,바다,바다,false,false,2017-09-18,17,musicbrainz
+107,crystal-snow,Crystal Snow,,false,false,2017-12-06,18,apple
+108,with-seoul,With Seoul,,false,false,2017-12-13,,
+109,dont-leave-me,Don't Leave Me,,false,true,2018-04-04,19,apple
+110,intro-ringwanderung,INTRO : Ringwanderung,,false,false,2018-04-04,19,apple
+111,let-go,Let Go,,false,false,2018-04-04,19,apple
+112,outro-crack,OUTRO : Crack,,false,false,2018-04-04,19,apple
+113,134340,134340,,false,false,2018-05-18,20,apple
+114,airplane-pt-2,Airplane pt.2,,false,true,2018-05-18,20,apple
+115,anpanman,Anpanman,,false,false,2018-05-18,20,apple
+116,fake-love,FAKE LOVE,,false,true,2018-05-18,20,apple
+117,love-maze,Love Maze,,false,false,2018-05-18,20,apple
+118,magic-shop,Magic Shop,,false,false,2018-05-18,20,apple
+119,paradise,Paradise,낙원,false,false,2018-05-18,20,apple
+120,singularity,Singularity,,false,false,2018-05-18,20,apple
+121,so-what,So What,,false,false,2018-05-18,20,apple
+122,tear,Tear,,false,false,2018-05-18,20,apple
+123,the-truth-untold,The Truth Untold,전하지 못한 진심,false,false,2018-05-18,20,apple
+124,answer-love-myself,Answer : Love Myself,,false,false,2018-08-24,21,apple
+125,epiphany,Epiphany,,false,false,2018-08-24,21,apple
+126,euphoria,Euphoria,,false,false,2018-08-24,21,apple
+127,im-fine,I'm Fine,,false,false,2018-08-24,21,apple
+128,idol,IDOL,,false,true,2018-08-24,21,apple
+129,serendipity,Serendipity,,false,false,2018-08-24,21,musicbrainz
+130,trivia-承-love,Trivia 承 : Love,,false,false,2018-08-24,21,apple
+131,trivia-起-just-dance,Trivia 起 : Just Dance,,false,false,2018-08-24,21,apple
+132,trivia-轉-seesaw,Trivia 轉 : Seesaw,,false,false,2018-08-24,21,apple
+133,boy-with-luv,Boy With Luv,작은 것들을 위한 시,false,true,2019-04-12,22,apple
+134,dionysus,Dionysus,,false,false,2019-04-12,22,apple
+135,home,HOME,,false,false,2019-04-12,22,apple
+136,intro-persona,Intro : Persona,,false,false,2019-04-12,22,apple
+137,jamais-vu,Jamais Vu,,false,false,2019-04-12,22,apple
+138,make-it-right,Make It Right,,false,true,2019-04-12,22,apple
+139,mikrokosmos,Mikrokosmos,소우주,false,false,2019-04-12,22,apple
+140,dream-glow,Dream Glow,,false,true,2019-06-07,23,apple
+141,a-brand-new-day,A Brand New Day,,false,true,2019-06-14,24,apple
+142,all-night,All Night,,false,true,2019-06-21,25,apple
+143,cake-waltz-jimin-theme,Cake Waltz (Jimin theme),,false,false,2019-06-28,26,apple
+144,captain-namjun-theme,Captain (Namjun theme),,false,false,2019-06-28,26,apple
+145,flying-taehyung-theme,Flying (Taehyung theme),,false,false,2019-06-28,26,apple
+146,friends-hoseok-theme,Friends (Hoseok theme),,false,false,2019-06-28,26,apple
+147,heartbeat,Heartbeat,,false,true,2019-06-28,26,apple
+148,not-alone-jeongguk-theme,Not Alone (Jeongguk theme),,false,false,2019-06-28,26,apple
+149,shine-yunki-theme,Shine (Yunki theme),,false,false,2019-06-28,26,apple
+150,wish-seok-jin-theme,Wish (Seok Jin theme),,false,false,2019-06-28,26,apple
+151,lights,Lights,,false,true,2019-07-03,27,apple
+152,black-swan,Black Swan,,false,true,2020-01-17,28,apple
+153,00-00,00:00,,false,false,2020-02-21,29,apple
+154,filter,Filter,,false,false,2020-02-21,29,apple
+155,friends,Friends,친구,false,false,2020-02-21,29,apple
+156,inner-child,Inner Child,,false,false,2020-02-21,29,apple
+157,interlude-shadow,Interlude : Shadow,,false,false,2020-02-21,29,apple
+158,louder-than-bombs,Louder than bombs,,false,false,2020-02-21,29,apple
+159,moon,Moon,,false,false,2020-02-21,29,apple
+160,my-time,My Time,시차,false,false,2020-02-21,29,apple
+161,on,ON,,false,true,2020-02-21,29,apple
+162,outro-ego,Outro : Ego,,false,false,2020-02-21,29,apple
+163,respect,Respect,,false,false,2020-02-21,29,apple
+164,ugh,UGH!,욱,false,false,2020-02-21,29,apple
+165,we-are-bulletproof-the-eternal,We are Bulletproof : the Eternal,,false,false,2020-02-21,29,apple
+166,stay-gold,Stay Gold,,false,true,2020-06-19,30,apple
+167,intro-calling,INTRO : Calling,,false,false,2020-07-14,30,apple
+168,outro-the-journey,OUTRO : The Journey,,false,false,2020-07-14,30,apple
+169,your-eyes-tell,Your eyes tell,,false,false,2020-07-14,30,apple
+170,dynamite,Dynamite,,false,true,2020-08-21,31,apple
+171,ioniq-im-on-it,IONIQ: I'm on It,,false,false,2020-08-31,,
+172,blue-grey,Blue & Grey,,false,false,2020-11-20,32,apple
+173,dis-ease,Dis-ease,병,false,false,2020-11-20,32,apple
+174,fly-to-my-room,Fly To My Room,내 방을 여행하는 법,false,false,2020-11-20,32,apple
+175,life-goes-on,Life Goes On,,false,true,2020-11-20,32,apple
+176,skit-be,Skit,,true,false,2020-11-20,32,apple
+177,stay,Stay,,false,false,2020-11-20,32,apple
+178,telepathy,Telepathy,잠시,false,false,2020-11-20,32,apple
+179,film-out,Film out,,false,true,2021-04-02,33,apple
+180,butter,Butter,,false,true,2021-05-21,34,apple
+181,permission-to-dance,Permission to Dance,,false,true,2021-07-09,36,apple
+182,born-singer,Born Singer,,false,false,2022-06-10,37,apple
+183,for-youth,For Youth,,false,false,2022-06-10,37,apple
+184,run-bts,Run BTS,달려라 방탄,false,false,2022-06-10,37,apple
+185,still-with-you,Still With You,,false,false,2022-06-10,37,musicbrainz
+186,tony-montana,Tony Montana,,false,false,2022-06-10,37,musicbrainz
+187,yet-to-come,Yet To Come,,false,true,2022-06-10,37,apple
+188,따옴표,따옴표,따옴표,false,false,2022-06-10,37,musicbrainz
+189,애매한-사이,애매한 사이,애매한 사이,false,false,2022-06-10,37,musicbrainz
+191,intro-busan-audio-liner,Intro,,true,false,2022-10-21,,
+192,the-planet,The Planet,,false,false,2023-05-12,38,apple
+193,take-two,Take Two,,false,true,2023-06-09,39,apple
+194,2-0,2.0,,false,false,2026-03-20,41,apple
+195,armyrang,ARMYRANG,,false,false,2026-03-20,41,musicbrainz
+196,aliens,Aliens,,false,false,2026-03-20,41,apple
+197,body-to-body,Body to Body,,false,false,2026-03-20,41,apple
+198,fya,FYA,,false,false,2026-03-20,41,apple
+199,hooligan,Hooligan,,false,true,2026-03-20,41,apple
+200,into-the-sun,Into the Sun,,false,false,2026-03-20,41,apple
+201,like-animals,Like Animals,,false,false,2026-03-20,41,apple
+202,merry-go-round,Merry Go Round,,false,false,2026-03-20,41,apple
+203,normal,NORMAL,,false,true,2026-03-20,41,apple
+204,no-29,No. 29,,false,false,2026-03-20,41,apple
+205,one-more-night,One More Night,,false,false,2026-03-20,41,apple
+206,please,Please,,false,false,2026-03-20,41,apple
+207,swim,SWIM,,false,true,2026-03-20,41,apple
+208,they-dont-know-bout-us,they don’t know ’bout us,,false,false,2026-03-20,41,apple
+210,come-over,Come Over,,false,false,2026-04-03,41,musicbrainz
+211,intro-love-is-not-over,Intro : Love is Not Over,,false,false,,,
+212,땡,땡,땡,false,false,,,

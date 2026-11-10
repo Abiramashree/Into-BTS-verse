@@ -1,0 +1,431 @@
+recording_id,song_id,version,version_label,title,length_ms,first_release_date,first_release_precision,is_video
+1,153,original,,00:00 (Zero O’Clock),250000,2020-02-21,day,false
+2,153,atmos,Dolby Atmos mix,00:00 (Zero O’Clock),250000,2022-06-10,day,false
+3,113,original,,134340,230000,2018-05-18,day,false
+4,194,atmos,Dolby Atmos mix,2.0,170000,2026-03-20,day,false
+5,194,original,,2.0,169929,2026-03-20,day,false
+6,194,live,"live, 2026‐03‐23: Rooftop at Pier 17, New York, NY, USA",2.0,190281,2026-04-06,day,true
+7,76,original,,둘! 셋! (그래도 좋은 날이 더 많기를),273000,2016-10-10,day,false
+8,77,original,,21세기 소녀,193000,2016-10-10,day,false
+9,32,original,,24/7=Heaven,226000,2014-08-20,day,false
+10,141,original,,A Brand New Day,205000,2019-06-14,day,false
+11,91,original,,A Supplementary Story : You Never Walk Alone,156000,2017-02-12,day,false
+12,114,original,,Airplane pt.2,219000,2018-05-18,day,false
+13,114,japanese,Japanese ver.,Airplane pt.2 -Japanese ver.-,,2018-11-07,day,true
+14,114,japanese,Japanese ver.,Airplane pt.2 -Japanese ver.-,219000,2018-11-07,day,false
+15,114,japanese,Japanese ver.,Airplane pt.2 -Japanese ver.-,,2018-11-07,day,true
+16,114,live,Live,Airplane pt.2 - Live,115956,2025-07-18,day,false
+17,196,original,,Aliens,167751,2026-03-20,day,false
+18,196,atmos,Dolby Atmos mix,Aliens,168000,2026-03-20,day,false
+19,142,original,,All Night,217000,2019-06-21,day,false
+20,78,original,,Am I Wrong,213000,2016-10-10,day,false
+21,115,original,,Anpanman,234000,2018-05-18,day,false
+22,124,original,,Answer : Love Myself,251000,2018-08-24,day,false
+23,195,original,,ARMYRANG,37000,2026-03-20,day,false
+24,10,original,,진격의 방탄,247000,2013-09-11,day,false
+25,10,japanese,Japanese ver.,進撃の防弾 -Japanese ver.-,247000,2014-06-04,day,false
+26,10,remix,SONPUB REMIX,進撃の防弾 (SONPUB REMIX),242000,2014-11-19,day,false
+27,61,original,,고엽,267000,2015-11-30,day,false
+28,79,original,,Awake,226000,2016-10-10,day,false
+29,81,original,,Begin,230000,2016-10-10,day,false
+30,96,original,,Best of Me,227000,2017-04-10,day,false
+31,96,japanese,Japanese ver.,Best of Me -Japanese ver.-,228213,2018-04-04,day,false
+32,152,original,,Black Swan,198000,2020-01-17,day,false
+33,152,japanese,Japanese ver.,Black Swan -Japanese ver.-,199306,2020-07-14,day,false
+34,152,atmos,Dolby Atmos mix,Black Swan,198260,2023-06-20,day,false
+35,152,live,Live,Black Swan - Live,203691,2025-07-18,day,false
+36,82,original,,피 땀 눈물,217000,2016-10-10,day,false
+37,82,japanese,Japanese ver.,血、汗、涙 -Japanese ver.-,216453,2017-05-10,day,false
+38,82,japanese,Japanese ver.,血、汗、涙 -Japanese ver.-,,2018-04-04,day,true
+39,82,japanese,Japanese ver.,血、汗、涙 -Japanese ver.-,,2021-06-16,day,true
+40,82,atmos,Dolby Atmos mix,피 땀 눈물,217000,2022-06-10,day,false
+41,82,live,Live,Blood Sweat & Tears - Live,46410,2025-07-18,day,false
+42,172,original,,Blue & Grey,254950,2020-11-20,day,false
+43,172,atmos,Dolby Atmos mix,Blue & Grey,254000,2023-06-20,day,false
+44,172,live,Live,Blue & Grey - Live,271141,2025-07-18,day,false
+45,197,atmos,Dolby Atmos mix,Body to Body,190000,2026-03-20,day,false
+46,197,original,,Body to Body,189725,2026-03-20,day,false
+47,182,original,,Born Singer,239000,2022-06-10,day,false
+48,182,atmos,Dolby Atmos mix,Born Singer,239000,2022-06-10,day,false
+49,21,original,,상남자 (Boy in Luv),230400,2014-02-12,day,false
+50,21,instrumental,inst.,상남자 (Boy in Luv) (inst.),230360,2014-05-14,day,false
+51,21,japanese,Japanese ver.,BOY IN LUV -Japanese ver.-,232000,2014-07-16,day,false
+52,21,atmos,Dolby Atmos mix,상남자 (Boy in Luv),230000,2022-06-10,day,false
+53,21,demo,demo ver.,상남자 (demo ver.),219000,2022-06-10,day,false
+54,133,live,"2019-04-13: Saturday Night Live, New York, NY, USA",Boy With Luv,251000,2014-04-13,day,false
+55,133,original,,작은 것들을 위한 시 (Boy With Luv),229000,2019-04-12,day,false
+56,133,japanese,Japanese ver.,Boy With Luv -Japanese ver.-,230400,2019-07-03,day,false
+57,133,atmos,Dolby Atmos mix,작은 것들을 위한 시 (Boy With Luv),229773,2022-06-10,day,false
+58,133,live,Live,Boy With Luv - Live,236019,2025-07-18,day,false
+59,51,original,,흥탄소년단,244000,2015-04-29,day,false
+60,51,japanese,Japanese ver.,フンタン少年団 (Japanese ver.),245000,2015-12-08,day,false
+61,51,demo,demo ver.,흥탄소년단 (demo ver.),248000,2022-06-10,day,false
+62,80,original,,BTS Cypher 4,294000,2016-10-10,day,false
+63,11,original,,BTS Cypher PT.1,131000,2013-09-11,day,false
+64,20,original,,BTS Cypher PT. 2 : Triptych,288771,2014-02-12,day,false
+65,33,original,,BTS Cypher PT.3 : KILLER,268000,2014-08-20,day,false
+66,33,atmos,Dolby Atmos mix,BTS Cypher PT.3 : KILLER,268000,2022-06-10,day,false
+67,71,original,,불타오르네 (FIRE),203000,2016-05-02,day,false
+68,71,japanese,Japanese ver.,FIRE -Japanese ver.-,205000,2016-09-07,day,false
+69,71,atmos,Dolby Atmos mix,불타오르네 (FIRE),203000,2022-06-10,day,false
+70,71,live,Live,Burning Up (FIRE) - Live,212565,2025-07-18,day,false
+71,180,original,,Butter,164441,2021-05-21,day,false
+72,180,instrumental,instrumental,Butter (instrumental),162146,2021-05-21,day,false
+73,180,remix,Hotter remix,Butter (Hotter remix),166962,2021-05-28,day,false
+74,180,remix,Cooler remix,Butter (Cooler remix),161632,2021-06-04,day,false
+75,180,remix,Sweeter remix,Butter (Sweeter remix),161934,2021-06-04,day,false
+76,180,original,,Butter,164457,2021-08-27,day,false
+77,180,remix,Holiday remix,Butter (Holiday remix),161894,2021-12-03,day,false
+78,180,atmos,Dolby Atmos mix,Butter,164000,2022-06-10,day,false
+79,180,live,Live,Butter - Live,196552,2025-07-18,day,false
+80,62,original,,Butterfly,235000,2015-11-30,day,false
+81,62,japanese,Japanese ver.,Butterfly -Japanese ver.-,240000,2016-03-15,day,false
+82,62,remix,alternative mix,Butterfly (alternative mix),241000,2016-05-02,day,false
+83,62,remix,prologue mix,Butterfly (prologue mix),295000,2016-05-02,day,false
+84,143,instrumental,instrumental,Cake Waltz (지민 테마),224000,2019-06-28,day,false
+85,144,instrumental,instrumental,Captain (남준 테마),199000,2019-06-28,day,false
+86,12,original,,Coffee,260000,2013-09-11,day,false
+87,95,original,,Come Back Home,251000,2017-07-04,day,false
+88,210,original,,Come Over,177000,2026-04-03,day,false
+89,210,atmos,Dolby Atmos mix,Come Over,179000,2026-06-12,day,false
+90,52,original,,Converse High,210000,2015-04-29,day,false
+91,34,original,,핸드폰 좀 꺼줄래,234000,2014-08-20,day,false
+92,107,original,,Crystal Snow,322626,2017-12-06,day,false
+93,35,original,,Danger,245000,2014-08-20,day,false
+94,35,japanese,Japanese ver.,Danger -Japanese ver.-,247000,2014-11-19,day,false
+95,35,remix,Mo-Blue-Mix,Danger (Mo-Blue-Mix),264000,2014-11-21,day,false
+96,35,atmos,Dolby Atmos mix,Danger,245000,2022-06-10,day,false
+97,98,original,,보조개,196000,2017-04-10,day,false
+98,98,atmos,Dolby Atmos mix,보조개,196000,2022-06-10,day,false
+99,134,original,,Dionysus,249187,2019-04-12,day,false
+100,134,japanese,Japanese ver.,Dionysus -Japanese ver.-,249386,2020-07-14,day,false
+101,134,atmos,Dolby Atmos mix,Dionysus,249000,2023-06-20,day,false
+102,173,original,,병,239722,2020-11-20,day,false
+103,173,atmos,Dolby Atmos mix,병,239000,2023-06-20,day,false
+104,173,live,Live,Dis‐ease - Live,236479,2025-07-18,day,false
+105,97,original,,DNA,223000,2017-04-10,day,false
+106,97,japanese,Japanese ver.,DNA -Japanese ver.-,223573,2017-12-06,day,false
+107,97,remix,Pedal 2 LA mix,DNA (Pedal 2 LA mix),247000,2018-08-24,day,false
+108,97,atmos,Dolby Atmos mix,DNA,223000,2022-06-10,day,false
+109,97,demo,j-hope demo ver.,DNA (j-hope demo ver.),111000,2022-06-10,day,false
+110,97,live,Live,DNA - Live,228727,2025-07-18,day,false
+111,109,original,,Don’t Leave Me,226480,2018-04-04,day,false
+112,53,original,,쩔어,240000,2015-04-29,day,false
+113,53,japanese,Japanese ver.,DOPE -超ヤベー!- (Japanese ver.),241000,2015-12-08,day,false
+114,53,live,Live,Dope - Live,261795,2025-07-18,day,false
+115,140,original,,Dream Glow,187000,2019-06-07,day,false
+116,140,original,,Dream Glow (BTS World Original Soundtrack) (Pt. 1),187000,2023-07-02,day,false
+117,170,original,,Dynamite,199000,2020-08-21,day,false
+118,170,remix,EDM remix,Dynamite (EDM remix),198000,2020-08-21,day,false
+119,170,remix,Poolside remix,Dynamite (Poolside remix),182000,2020-08-21,day,false
+120,170,remix,Tropical remix,Dynamite (Tropical remix),197000,2020-08-21,day,false
+121,170,remix,acoustic remix,Dynamite (acoustic remix),197000,2020-08-21,day,false
+122,170,instrumental,instrumental,Dynamite (instrumental),198000,2020-08-21,day,false
+123,170,remix,Bedroom Remix,Dynamite (Bedroom Remix),207000,2020-09-18,day,false
+124,170,remix,Midnight Remix,Dynamite (Midnight Remix),196000,2020-09-18,day,false
+125,170,remix,Retro Remix,Dynamite (Retro Remix),208000,2020-09-18,day,false
+126,170,remix,Slow Jam Remix,Dynamite (Slow Jam Remix),199000,2020-09-18,day,false
+127,170,remix,Holiday remix,Dynamite (Holiday remix),213315,2020-12-11,day,false
+128,170,atmos,Dolby Atmos mix,Dynamite,199000,2022-06-10,day,false
+129,170,live,Live,Dynamite - Live,196951,2025-07-18,day,false
+130,36,original,,이불킥,242000,2014-08-20,day,false
+132,72,original,,EPILOGUE : Young Forever,172000,2016-05-02,day,false
+133,72,japanese,Japanese ver.,EPILOGUE : Young Forever -Japanese ver.-,173000,2016-09-07,day,false
+134,72,demo,RM demo ver.,Young Forever (RM demo ver.),137000,2022-06-10,day,false
+135,125,original,,Epiphany,240000,2018-08-24,day,false
+136,125,demo,Jin demo ver.,Epiphany (Jin demo ver.),226000,2022-06-10,day,false
+137,126,original,,Euphoria,229000,2018-08-24,day,false
+138,126,remix,JUSEVA! Remix,Euphoria (JUSEVA! Remix),188000,2019-08-01,day,false
+139,126,atmos,Dolby Atmos mix,Euphoria,229000,2022-06-10,day,false
+140,116,original,,FAKE LOVE,242000,2018-05-18,day,false
+141,116,remix,Rocking Vibe mix,FAKE LOVE (Rocking Vibe mix),238000,2018-06-04,day,false
+142,116,japanese,Japanese ver.,FAKE LOVE -Japanese ver.-,242853,2018-11-07,day,false
+143,116,remix,Japanese ver.; remix,FAKE LOVE -Japanese ver.- (remix),246000,2018-11-07,day,false
+144,116,atmos,Dolby Atmos mix,FAKE LOVE,242000,2022-06-10,day,false
+145,116,live,Live,FAKE LOVE - Live,253446,2025-07-18,day,false
+146,179,original,,Film out,216586,2021-04-01,day,false
+147,154,original,,Filter,180000,2020-02-21,day,false
+148,154,atmos,Dolby Atmos mix,Filter,180000,2022-06-10,day,false
+149,83,original,,First Love,189000,2016-10-10,day,false
+150,174,original,,내 방을 여행하는 법,222000,2020-11-20,day,false
+151,174,atmos,Dolby Atmos mix,내 방을 여행하는 법,222000,2023-06-20,day,false
+152,145,instrumental,instrumental,Flying (태형 테마),216000,2019-06-28,day,false
+153,60,original,,FOR YOU,284000,2015-06-17,day,false
+154,183,atmos,Dolby Atmos mix,For Youth,264000,2022-06-10,day,false
+155,183,original,,For Youth,265000,2022-06-10,day,false
+156,155,original,,친구,199000,2020-02-21,day,false
+157,155,atmos,Dolby Atmos mix,친구,199000,2022-06-10,day,false
+158,146,instrumental,instrumental,Friends (호석 테마),210000,2019-06-28,day,false
+159,198,atmos,Dolby Atmos mix,FYA,181000,2026-03-20,day,false
+160,198,original,,FYA,180543,2026-03-20,day,false
+161,99,original,,고민보다 Go,235000,2017-04-10,day,false
+162,99,japanese,Japanese ver.,Go Go -Japanese ver.-,236946,2018-04-04,day,false
+163,70,original,,Good Day,267000,2016-03-15,day,false
+164,147,original,,Heartbeat,253000,2019-06-28,day,false
+165,100,original,,Her,229000,2017-04-10,day,false
+166,100,atmos,Dolby Atmos mix,Her,229000,2022-06-10,day,false
+167,37,original,,힙합성애자,257000,2014-08-20,day,false
+168,54,original,,잡아줘 (Hold Me Tight),275000,2015-04-29,day,false
+169,135,original,,HOME,235866,2019-04-12,day,false
+170,135,atmos,Dolby Atmos mix,HOME,234000,2023-06-20,day,false
+171,199,atmos,Dolby Atmos mix,Hooligan,182000,2026-03-20,day,false
+172,199,original,,Hooligan,182046,2026-03-20,day,false
+173,55,alternate,original ver.,I NEED U (original ver.),272000,2015-01-01,year,false
+174,55,original,,I NEED U,211000,2015-04-29,day,false
+175,55,japanese,Japanese ver.,I NEED U (Japanese ver.),212000,2015-12-08,day,false
+176,55,remix,remix,I NEED U (remix),223000,2016-05-02,day,false
+177,55,remix,urban mix,I NEED U (urban mix),233000,2016-05-02,day,false
+178,55,atmos,Dolby Atmos mix,I NEED U,211000,2022-06-10,day,false
+179,55,demo,demo ver.,I NEED U (demo ver.),162000,2022-06-10,day,false
+180,128,original,,IDOL,260000,2018-08-24,day,false
+181,128,original,,IDOL,223000,2018-08-24,day,false
+182,128,remix,Stadium remix,IDOL (Stadium remix),253000,2018-11-07,day,false
+183,128,japanese,Japanese ver.,IDOL -Japanese ver.-,223200,2019-07-03,day,false
+184,128,atmos,Dolby Atmos mix,IDOL,223000,2022-06-10,day,false
+185,128,live,Live,IDOL - Live,262062,2025-07-18,day,false
+186,13,original,,If I Ruled the World,247000,2013-09-11,day,false
+187,47,original,,いいね! Pt.2 ～あの場所で～,235000,2014-12-24,day,false
+188,127,original,,I’m Fine,240000,2018-08-24,day,false
+189,156,original,,Inner Child,233000,2020-02-21,day,false
+190,156,atmos,Dolby Atmos mix,Inner Child,233265,2023-06-20,day,false
+191,1,original,,Interlude,52000,2013-06-12,day,false
+192,157,original,,Interlude : Shadow,260000,2020-02-21,day,false
+193,157,atmos,Dolby Atmos mix,Interlude : Shadow,259821,2023-06-20,day,false
+194,38,original,,Interlude : 뭐해,42000,2014-08-20,day,false
+195,84,original,,Interlude : Wings,144000,2016-10-10,day,false
+196,200,original,,Into the Sun,227660,2026-03-20,day,false
+197,200,atmos,Dolby Atmos mix,Into the Sun,228000,2026-03-20,day,false
+198,2,original,,Intro : 2 COOL 4 SKOOL,63000,2013-06-12,day,false
+199,85,original,,Intro : Boy Meets Evil,122000,2016-10-10,day,false
+200,191,original,,Intro,14414,2022-10-21,day,false
+201,167,original,,INTRO : Calling,84613,2020-07-14,day,false
+202,211,instrumental,instrumental ver.,Intro : Love is Not Over (instrumental ver.),53000,2015-01-01,year,false
+203,63,original,,INTRO : Never Mind,136000,2015-11-30,day,false
+204,14,original,,"INTRO : O!RUL8,2?",71000,2013-09-11,day,false
+205,136,original,,Intro : Persona,171333,2019-04-12,day,false
+206,136,atmos,Dolby Atmos mix,Intro : Persona,171023,2022-06-10,day,false
+207,110,original,,INTRO : Ringwanderung,86000,2018-04-04,day,false
+208,101,original,,Intro : Serendipity,139000,2017-04-10,day,false
+209,22,original,,Intro : Skool Luv Affair,178000,2014-02-12,day,false
+210,56,original,,INTRO : 화양연화,123000,2015-04-29,day,false
+211,46,original,,INTRO.,75000,2014-12-24,day,false
+212,39,original,,Intro : What am I to you,165000,2014-08-20,day,false
+213,74,original,,INTRODUCTION : YOUTH,138000,2016-09-07,day,false
+214,171,original,,IONIQ: I'm on It,150000,2020-08-31,day,false
+215,137,original,,Jamais vu,226880,2019-04-12,day,false
+216,137,atmos,Dolby Atmos mix,Jamais vu,227000,2022-06-10,day,false
+217,23,original,,JUMP,237000,2014-02-12,day,false
+218,23,instrumental,inst.,JUMP (inst.),237186,2014-05-14,day,false
+219,23,japanese,Japanese ver.,JUMP -Japanese ver.-,237000,2014-12-24,day,false
+220,23,demo,demo ver.,Jump (demo ver.),146000,2022-06-10,day,false
+221,24,original,,하루만,240000,2014-02-12,day,false
+222,24,instrumental,inst.,하루만 (inst.),239853,2014-05-14,day,false
+223,24,japanese,Japanese ver.,JUST ONE DAY -Japanese ver.-,241000,2014-07-16,day,false
+224,24,japanese,Japanese ver. extended,JUST ONE DAY -Japanese ver. extended-,333000,2014-12-24,day,false
+225,111,original,,Let Go,297920,2018-04-04,day,false
+226,40,original,,Let Me Know,255000,2014-08-20,day,false
+227,40,japanese,Japanese ver.,Let Me Know -Japanese ver.-,256000,2015-06-17,day,false
+228,86,original,,Lie,216000,2016-10-10,day,false
+229,175,original,,Life Goes On,207000,2020-11-20,day,false
+230,175,atmos,Dolby Atmos mix,Life Goes On,207000,2022-06-10,day,false
+231,175,live,Live,Life Goes On - Live,221619,2025-07-18,day,false
+232,151,original,,Lights,290960,2019-07-03,day,false
+233,3,original,,좋아요,231000,2013-06-12,day,false
+234,3,remix,Slow Jam remix,좋아요 (Slow Jam remix),233000,2014-05-14,day,false
+235,3,japanese,Japanese ISRC,いいね!,232000,2014-06-04,day,false
+236,201,atmos,Dolby Atmos mix,Like Animals,190000,2026-03-20,day,false
+237,201,original,,Like Animals,189746,2026-03-20,day,false
+238,41,original,,여기 봐,219000,2014-08-20,day,false
+239,87,original,,Lost,241787,2016-10-10,day,false
+240,158,original,,Louder than bombs,217000,2020-02-21,day,false
+241,158,atmos,Dolby Atmos mix,Louder than bombs,217404,2023-06-20,day,false
+242,117,original,,Love Maze,221213,2018-05-18,day,false
+243,64,original,,Ma City,256000,2015-11-30,day,false
+244,118,original,,Magic Shop,276000,2018-05-18,day,false
+245,138,original,,Make It Right,226040,2019-04-12,day,false
+246,138,original,,Make It Right,223693,2019-10-18,day,false
+247,138,remix,EDM remix,Make It Right (EDM remix),246322,2019-11-01,day,false
+248,138,remix,acoustic remix,Make It Right (acoustic remix),255542,2019-11-08,day,false
+249,138,japanese,Japanese ver.,Make It Right -Japanese ver.-,225560,2020-07-14,day,false
+250,138,atmos,Dolby Atmos mix,Make It Right,226000,2023-06-20,day,false
+251,88,original,,MAMA,212275,2016-10-10,day,false
+252,202,atmos,Dolby Atmos mix,Merry Go Round,230000,2026-03-20,day,false
+253,202,original,,Merry Go Round,229855,2026-03-20,day,false
+254,102,live,"2019-04-13: Saturday Night Live, New York, NY, USA",Mic Drop,260000,2014-04-13,day,false
+255,102,original,,MIC Drop,238000,2017-04-10,day,false
+256,102,remix,Steve Aoki remix,MIC Drop (Steve Aoki remix),238000,2017-11-24,day,false
+257,102,japanese,Japanese ver.,MIC Drop -Japanese ver.-,239226,2017-12-06,day,false
+258,102,japanese,Japanese ver.,MIC Drop -Japanese ver.-,,2018-04-04,day,true
+259,102,alternate,Steve Aoki remix; full length edition,MIC Drop (Steve Aoki remix) (full length edition),308000,2018-08-24,day,false
+260,102,japanese,Japanese ver.,MIC Drop -Japanese ver.-,,2021-06-16,day,true
+261,139,original,,소우주 (Mikrokosmos),224346,2019-04-12,day,false
+262,139,atmos,Dolby Atmos mix,소우주 (Mikrokosmos),224000,2023-06-20,day,false
+263,31,original,,Miss Right,241000,2014-05-14,day,false
+264,31,japanese,Japanese ver.,MISS RIGHT -Japanese ver.-,242000,2014-11-19,day,false
+265,159,original,,Moon,209000,2020-02-21,day,false
+266,159,atmos,Dolby Atmos mix,Moon,208589,2022-06-10,day,false
+267,57,original,,이사,293000,2015-04-29,day,false
+268,160,original,,시차,234000,2020-02-21,day,false
+269,160,atmos,Dolby Atmos mix,My Time,234457,2023-06-20,day,false
+270,15,original,,N.O,210000,2013-09-11,day,false
+271,15,japanese,Japanese ver.,N.O -Japanese ver.-,211000,2014-07-16,day,false
+272,15,atmos,Dolby Atmos mix,N.O,210000,2022-06-10,day,false
+273,204,atmos,Dolby Atmos mix,No. 29,98000,2026-03-20,day,false
+274,204,original,,No. 29,98453,2026-03-20,day,false
+275,4,original,,No More Dream,222000,2013-06-12,day,false
+276,4,japanese,Japanese ver.,NO MORE DREAM -Japanese ver.-,221000,2014-06-04,day,false
+277,4,atmos,Dolby Atmos mix,No More Dream,222000,2022-06-10,day,false
+278,203,original,,NORMAL,184480,2026-03-20,day,false
+279,203,original,,NORMAL,181649,2026-03-20,day,false
+280,203,atmos,"Dolby Atmos mix, explicit",NORMAL,182000,2026-03-20,day,false
+281,203,atmos,"Dolby Atmos mix, clean",NORMAL,184000,2026-03-20,day,false
+282,203,atmos,"Korean ver.; Dolby Atmos mix, clean",NORMAL (Korean ver.),185000,2026-07-17,day,false
+283,203,korean,Korean ver.,NORMAL (Korean ver.),184760,2026-07-17,day,false
+284,203,atmos,"Korean ver.; Dolby Atmos mix, explicit",NORMAL (Korean ver.),185000,2026-07-17,day,false
+285,203,korean,Korean ver.,NORMAL (Korean ver.),184760,2026-07-17,day,false
+286,203,instrumental,instrumental,NORMAL (instrumental),182120,2026-07-17,day,false
+287,203,atmos,instrumental; Dolby Atmos mix,NORMAL (instrumental),182000,2026-07-17,day,false
+288,148,instrumental,instrumental,Not Alone (정국 테마),225000,2019-06-28,day,false
+289,92,original,,Not Today,232000,2017-02-12,day,false
+290,92,japanese,Japanese ver.,Not Today -Japanese ver.-,234000,2017-05-10,day,false
+291,161,original,,ON,246000,2020-02-21,day,false
+292,161,original,,ON,246816,2020-02-21,day,false
+293,161,japanese,Japanese ver.,ON -Japanese ver.-,247266,2020-07-14,day,false
+294,161,atmos,Dolby Atmos mix,ON,246000,2022-06-10,day,false
+295,161,atmos,Dolby Atmos mix,ON,246816,2023-06-20,day,false
+296,161,live,Live,ON - Live,331414,2025-07-18,day,false
+297,205,original,,One More Night,167589,2026-03-20,day,false
+298,205,atmos,Dolby Atmos mix,One More Night,168000,2026-03-20,day,false
+299,5,original,,Outro : Circle Room Cypher,321000,2013-06-12,day,false
+300,112,original,,OUTRO : Crack,75000,2018-04-04,day,false
+301,42,original,,Outro : 그게 말이 돼?,173000,2014-08-20,day,false
+302,162,original,,Outro : Ego,196000,2020-02-21,day,false
+303,162,atmos,Dolby Atmos mix,Outro : Ego,196000,2022-06-10,day,false
+304,65,original,,OUTRO : House of Cards,172000,2015-11-30,day,false
+305,65,alternate,full length edition,House of Cards (full length edition),226000,2016-05-02,day,false
+306,58,original,,Outro : Love is Not Over,144000,2015-04-29,day,false
+307,58,alternate,full length edition,Love Is Not Over (full length edition),222000,2016-05-02,day,false
+308,16,original,,OUTRO : LUV IN SKOOL,86000,2013-09-11,day,false
+309,25,original,,Outro : Propose,122533,2014-02-12,day,false
+310,168,original,,OUTRO : The Journey,76506,2020-07-14,day,false
+311,48,original,,OUTRO.,96000,2014-12-24,day,false
+312,93,original,,Outro : Wings,225000,2017-02-12,day,false
+313,93,live,Live,Outro : Wings - Live,226093,2025-07-18,day,false
+314,17,original,,팔도강산,205000,2013-09-11,day,false
+315,119,original,,낙원,211000,2018-05-18,day,false
+316,6,original,,길,228000,2013-06-12,day,false
+317,181,original,,Permission to Dance,187585,2021-07-09,day,false
+318,181,instrumental,instrumental,Permission to Dance (instrumental),187585,2021-07-09,day,false
+319,181,remix,R&B remix,Permission to Dance (R&B remix),216156,2021-07-23,day,false
+320,181,live,Live,Permission to Dance - Live,279286,2025-07-18,day,false
+321,103,original,,Pied Piper,245000,2017-04-10,day,false
+322,206,original,,Please,172796,2026-03-20,day,false
+323,206,atmos,Dolby Atmos mix,Please,173000,2026-03-20,day,false
+324,43,original,,Rain,265000,2014-08-20,day,false
+325,89,original,,Reflection,234000,2016-10-10,day,false
+326,163,original,,Respect,238000,2020-02-21,day,false
+327,163,atmos,Dolby Atmos mix,Respect,237540,2023-06-20,day,false
+328,66,original,,RUN,236000,2015-11-30,day,false
+329,66,japanese,Japanese ver.,RUN -Japanese ver.-,237000,2016-03-15,day,false
+330,66,remix,Ballad mix,RUN (Ballad mix),257000,2016-05-02,day,false
+331,66,remix,alternative mix,RUN (alternative mix),237000,2016-05-02,day,false
+332,66,atmos,Dolby Atmos mix,RUN,237000,2022-06-10,day,false
+333,184,atmos,Dolby Atmos mix,달려라 방탄,205000,2022-06-10,day,false
+334,184,original,,달려라 방탄,205000,2022-06-10,day,false
+335,73,original,,Save ME,197000,2016-05-02,day,false
+336,73,japanese,Japanese ver.,Save ME -Japanese ver.-,199000,2016-09-07,day,false
+337,129,alternate,full length edition,Serendipity (full length edition),277000,2018-08-24,day,false
+338,149,instrumental,instrumental,Shine (윤기 테마),232000,2019-06-28,day,false
+339,67,original,,뱁새,232000,2015-11-30,day,false
+340,67,japanese,Japanese ver.,ペップセ -Japanese ver.-,236000,2016-09-07,day,false
+341,67,live,Live,Silver Spoon - Live,93273,2025-07-18,day,false
+342,120,original,,Singularity,197000,2018-05-18,day,false
+343,120,atmos,Dolby Atmos mix,Singularity,197000,2022-06-10,day,false
+344,176,original,,Skit,179548,2020-11-20,day,false
+345,176,atmos,Dolby Atmos mix,Skit,179000,2023-06-20,day,false
+346,105,original,,Skit : Billboard Music Awards Speech,107000,2017-04-10,day,false
+347,8,original,,Skit : Circle Room Talk,131000,2013-06-12,day,false
+348,59,original,,SKIT : Expectation!,148000,2015-04-29,day,false
+349,7,original,,Skit : On the Start Line,153000,2013-06-12,day,false
+350,68,original,,SKIT : One night in a strange city,263000,2015-11-30,day,false
+351,18,original,,Skit : R U Happy Now?,148000,2013-09-11,day,false
+352,26,original,,Skit : Soulmate,92791,2014-02-12,day,false
+353,104,original,,Skit : 망설임과 두려움,540000,2017-09-18,day,false
+354,44,original,,2학년,235000,2014-08-20,day,false
+355,121,original,,So What,282186,2018-05-18,day,false
+356,121,live,Live,So What - Live,174327,2025-07-18,day,false
+357,27,original,,등골브레이커,238573,2014-02-12,day,false
+358,27,instrumental,inst.,등골 브레이귀 (inst.),237680,2014-05-14,day,false
+359,94,original,,봄날,274000,2017-02-12,day,false
+360,94,japanese,Japanese ver.,Spring Day -Japanese ver.-,276693,2017-05-10,day,false
+361,94,atmos,Dolby Atmos mix,봄날,274000,2022-06-10,day,false
+362,94,demo,V demo ver.,봄날 (V demo ver.),133000,2022-06-10,day,false
+363,94,live,Live,Spring Day - Live,296931,2025-07-18,day,false
+364,177,original,,Stay,205000,2020-11-20,day,false
+365,177,atmos,Dolby Atmos mix,Stay,204000,2022-06-10,day,false
+366,177,live,Live,Stay - Live,136045,2025-07-18,day,false
+367,166,original,,Stay Gold,243800,2020-06-19,day,false
+368,90,original,,Stigma,216000,2016-10-10,day,false
+369,185,original,,Still With You (acapella),240000,2022-06-10,day,false
+370,207,atmos,Dolby Atmos mix,SWIM,159000,2026-03-20,day,false
+371,207,original,,SWIM,159007,2026-03-20,day,false
+372,207,instrumental,instrumental,SWIM (instrumental),157880,2026-03-20,day,false
+373,207,remix,slow jam R&B remix,SWIM with Jimin (slow jam R&B remix),149000,2026-03-27,day,false
+374,207,remix,alternative rock remix,SWIM with Jin (alternative rock remix),194000,2026-03-27,day,false
+375,207,remix,alternative rock remix,SWIM with Jin (alternative rock remix),190814,2026-03-27,day,true
+376,207,remix,acoustic lofi remix,SWIM with Jung Kook (acoustic lofi remix),158000,2026-03-27,day,false
+377,207,remix,chill hip hop remix,SWIM with RM (chill hip hop remix),163000,2026-03-27,day,false
+378,207,remix,melodic techno remix,SWIM with SUGA (melodic techno remix),219000,2026-03-27,day,false
+379,207,remix,electronic remix,SWIM with V (electronic remix),140871,2026-03-27,day,false
+380,207,remix,afrobeat remix,SWIM with j‐hope (afrobeat remix),153000,2026-03-27,day,false
+381,207,remix,slow jam R&B remix,SWIM with Jimin (slow jam R&B remix),147977,2026-03-28,day,true
+382,207,remix,acoustic lofi remix,SWIM with Jung Kook (acoustic lofi remix),156980,2026-03-28,day,true
+383,207,remix,chill hip hop remix,SWIM with RM (chill hip hop remix),160116,2026-03-28,day,true
+384,207,remix,melodic techno remix,SWIM with SUGA (melodic techno remix),217012,2026-03-28,day,true
+385,207,remix,electronic remix,SWIM with V (electronic remix),139465,2026-03-28,day,true
+386,207,remix,afrobeat remix,SWIM with j‐hope (afrobeat remix),153182,2026-03-28,day,true
+387,207,live,"live, 2026‐03‐23: Rooftop at Pier 17, New York, NY, USA",SWIM,162163,2026-03-31,day,true
+388,207,remix,Underwater remix,SWIM (Underwater remix),164415,2026-04-10,day,false
+389,207,remix,Spring Waves remix,SWIM (Spring Waves remix),164347,2026-04-17,day,false
+392,193,original,,Take Two,229953,2023-06-09,day,false
+393,193,atmos,Dolby Atmos mix,Take Two,229953,2023-06-09,day,false
+394,122,original,,Tear,285000,2018-05-18,day,false
+395,178,original,,잠시,202000,2020-11-20,day,false
+396,178,atmos,Dolby Atmos mix,잠시,202000,2023-06-20,day,false
+397,178,live,Live,Telepathy - Live,266690,2025-07-18,day,false
+398,192,original,,The Planet,178156,2023-05-12,day,false
+399,49,original,,THE STARS,255000,2014-12-24,day,false
+400,123,original,,전하지 못한 진심,242000,2018-05-18,day,false
+401,208,original,,they don’t know ’bout us,164241,2026-03-20,day,false
+402,208,atmos,Dolby Atmos mix,they don’t know ’bout us,164000,2026-03-20,day,false
+403,28,original,,Tomorrow,261853,2014-02-12,day,false
+404,28,instrumental,inst.,Tomorrow (inst.),261160,2014-05-14,day,false
+405,186,original,,Tony Montana,200000,2022-06-10,day,false
+406,130,original,,Trivia 承 : Love,226000,2018-08-24,day,false
+407,131,original,,Trivia 起 : Just Dance,225000,2018-08-24,day,false
+408,132,original,,Trivia 轉 : Seesaw,246000,2018-08-24,day,false
+409,132,demo,demo ver.,Seesaw (demo ver.),189000,2022-06-10,day,false
+410,132,atmos,Dolby Atmos mix,Trivia 轉 : Seesaw,246000,2022-06-10,day,false
+411,164,original,,욱 (UGH!),225000,2020-02-21,day,false
+412,164,atmos,Dolby Atmos mix,욱 (UGH!),225012,2023-06-20,day,false
+413,50,original,,WAKE UP,352000,2014-12-24,day,false
+414,45,original,,호르몬 전쟁,266000,2014-08-20,day,false
+415,45,japanese,Japanese ver.,ホルモン戦争 -Japanese ver.-,268000,2015-06-17,day,false
+416,9,original,,We Are Bulletproof PT.2,223000,2013-06-12,day,false
+417,165,original,,We are Bulletproof : the Eternal,262000,2020-02-21,day,false
+418,165,atmos,Dolby Atmos mix,We are Bulletproof : the Eternal,261542,2023-06-20,day,false
+419,19,original,,We On,231000,2013-09-11,day,false
+420,69,original,,Whalien 52,243000,2015-11-30,day,false
+421,29,original,,어디에서 왔는지,240000,2014-02-12,day,false
+422,29,instrumental,inst.,어디에서 왔는지 (inst.),240520,2014-05-14,day,false
+423,150,instrumental,instrumental,Wish (석진 테마),237000,2019-06-28,day,false
+424,75,original,,Wishing on a Star,271000,2016-09-07,day,false
+425,108,original,,With Seoul,208000,2017-12-13,day,false
+426,187,atmos,Dolby Atmos mix,Yet to Come (The Most Beautiful Moment),199000,2022-06-10,day,false
+427,187,original,,Yet to Come (The Most Beautiful Moment),199000,2022-06-10,day,false
+428,187,remix,Hyundai ver.,Yet to Come (Hyundai ver.),223535,2022-09-23,day,false
+429,169,original,,Your eyes tell,245120,2020-07-14,day,false
+430,188,original,,따옴표,179000,2022-06-10,day,false
+431,212,original,,땡,236000,,,false
+432,106,original,,바다,312000,2017-09-18,day,false
+433,189,original,,애매한 사이,158000,2022-06-10,day,false

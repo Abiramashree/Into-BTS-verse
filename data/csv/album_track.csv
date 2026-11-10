@@ -1,0 +1,404 @@
+album_id,disc,position,title,song_id,version
+1,1,1,Intro: 2 Cool 4 Skool (feat. DJ Friz),2,original
+1,1,2,"We Are Bulletproof, Pt. 2",9,original
+1,1,3,Skit: Circle Room Talk,8,original
+1,1,4,No More Dream,4,original
+1,1,5,Interlude,1,original
+1,1,6,Like,3,original
+1,1,7,Outro: Circle Room Cypher,5,original
+2,1,1,"Intro: O!RUL8,2?",14,original
+2,1,2,N.O,15,original
+2,1,3,We On,19,original
+2,1,4,Skit: R U Happy Now?,18,original
+2,1,5,If I Ruled the World,13,original
+2,1,6,Coffee,12,original
+2,1,7,"BTS Cypher, Pt.1",11,original
+2,1,8,Attack on Bangtan,10,original
+2,1,9,Paldogangsan,17,original
+2,1,10,Outro: Luv in Skool,16,original
+3,1,1,Intro: Skool Luv Affair,22,original
+3,1,2,Boy in Luv,21,original
+3,1,3,Skit: Soulmate,26,original
+3,1,4,Where You From,29,original
+3,1,5,Just One Day,24,original
+3,1,6,Tomorrow,28,original
+3,1,7,"BTS Cypher, Pt. 2: Triptych",20,original
+3,1,8,Spine Breaker,27,original
+3,1,9,Jump,23,original
+3,1,10,Outro: Propose,25,original
+4,1,1,Miss Right,31,original
+4,1,2,Like (Slow Jam Remix),3,remix
+4,1,3,Intro: Skool Luv Affair,22,original
+4,1,4,Boy in Luv,21,original
+4,1,5,Skit: Soulmate,26,original
+4,1,6,Where You From,29,original
+4,1,7,Just One Day,24,original
+4,1,8,Tomorrow,28,original
+4,1,9,"BTS Cypher, Pt. 2: Triptych",20,original
+4,1,10,Spine Breaker,27,original
+4,1,11,Jump,23,original
+4,1,12,Outro: Propose,25,original
+5,1,1,Intro: What Am I to You,39,original
+5,1,2,Danger,35,original
+5,1,3,War of Hormone,45,original
+5,1,4,Hip Hop Phile,37,original
+5,1,5,Let Me Know,40,original
+5,1,6,Rain,43,original
+5,1,7,"BTS Cypher, Pt. 3: KILLER (feat. Supreme Boi)",33,original
+5,1,8,Interlude: What Are You Doing Now,38,original
+5,1,9,Could You Turn off Your Cell Phone,34,original
+5,1,10,Embarrassed,36,original
+5,1,11,24/7=Heaven,32,original
+5,1,12,Look Here,41,original
+5,1,13,2nd Grade,44,original
+5,1,14,Outro: Do You Think It Makes Sense?,42,original
+6,1,1,Intro.,46,original
+6,1,2,The Stars,49,original
+6,1,3,Jump -Japanese Ver.- (Japanese Ver.),23,japanese
+6,1,4,Danger -Japanese Ver.- (Japanese Ver.),35,japanese
+6,1,5,Boy In Luv -Japanese Ver.- (Japanese Ver.),21,japanese
+6,1,6,Just One Day -Japanese Ver. Extended- (Japanese Ver. Extended),24,japanese
+6,1,7,Iine!,3,original
+6,1,8,Iine!Pt.2 - Ano Bashode -,47,original
+6,1,9,No More Dream -Japanese Ver.- (Japanese Ver.),4,japanese
+6,1,10,Shingeki no Boudan -Japanese Ver.- (Japanese Ver.),10,japanese
+6,1,11,N.O -Japanese Ver.- (Japanese Ver.),15,japanese
+6,1,12,Wake Up,50,original
+6,1,13,Outro.,48,original
+7,1,1,Intro: The Most Beautiful Moment in Life,56,original
+7,1,2,I NEED U,55,original
+7,1,3,Hold Me Tight,54,original
+7,1,4,Skit: Expectation!,59,original
+7,1,5,Dope,53,original
+7,1,6,Boyz with Fun,51,original
+7,1,7,Converse High,52,original
+7,1,8,Moving On,57,original
+7,1,9,Outro: Love Is Not Over,58,original
+8,1,1,For You,60,original
+8,1,2,Hormone Sensou(Japanese Ver.) [Japanese Ver.],45,japanese
+8,1,3,Let Me Know(Japanese Ver.) [Japanese Ver.],40,japanese
+9,1,1,INTRO : Never Mind,63,original
+9,1,2,RUN,66,original
+9,1,3,Butterfly,62,original
+9,1,4,Whalien 52,69,original
+9,1,5,Ma City,64,original
+9,1,6,Silver Spoon,67,original
+9,1,7,SKIT : One night in a strange city,68,original
+9,1,8,Autumn Leaves,61,original
+9,1,9,OUTRO : House Of Cards,65,original
+10,1,1,Run-Japanese Ver.- (Japanese Ver.),66,japanese
+10,1,2,Butterfly-Japanese Ver.- (Japanese Ver.),62,japanese
+10,1,3,Good Day (Japanese Ver.),70,japanese
+11,1,1,Intro: The Most Beautiful Moment in Life,56,original
+11,1,2,I NEED U,55,original
+11,1,3,Hold Me Tight,54,original
+11,1,4,Autumn Leaves,61,original
+11,1,5,Butterfly (Prologue Mix),62,remix
+11,1,6,RUN,66,original
+11,1,7,Ma City,64,original
+11,1,8,Silver Spoon,67,original
+11,1,9,Dope,53,original
+11,1,10,Burning Up (FIRE),71,original
+11,1,11,Save ME,73,original
+11,1,12,Epilogue: Young Forever,72,original
+11,2,1,Converse High,52,original
+11,2,2,Moving On,57,original
+11,2,3,Whalien 52,69,original
+11,2,4,Butterfly,62,original
+11,2,5,House of Cards (Full Length Edition),65,alternate
+11,2,6,Love Is Not Over (Full Length Edition),58,alternate
+11,2,7,I Need U (Urban Mix),55,remix
+11,2,8,I Need U (Remix),55,remix
+11,2,9,Run (Ballad Mix),66,remix
+11,2,10,Run (Alternative Mix),66,remix
+11,2,11,Butterfly (Alternative Mix),62,remix
+12,1,1,Introduction : Youth,74,original
+12,1,2,Run - Japanese Ver. - (Japanese Ver.),66,japanese
+12,1,3,Fire - Japanese Ver. - (Japanese Ver.),71,japanese
+12,1,4,Dope - Chou Yabee! - (Japanese Ver.) [Japanese Ver.],53,japanese
+12,1,5,Good Day,70,original
+12,1,6,Save Me -Japanese Ver.- (Japanese Ver.),73,japanese
+12,1,7,Funtan Syounendan (Japanese Ver.) [Japanese Ver.],51,japanese
+12,1,8,Peppuse -Japanese Ver.- (Japanese Ver.),67,japanese
+12,1,9,Wishing On a Star,75,original
+12,1,10,Butterfly -Japanese Ver.- (Japanese Ver.),62,japanese
+12,1,11,For You,60,original
+12,1,12,I Need U(Japanese Ver.) [Japanese Ver.],55,japanese
+12,1,13,Epilogue : Young Forever -Japanese Ver.- (Japanese Ver.),72,japanese
+13,1,1,Intro: Boy Meets Evil,85,original
+13,1,2,Blood Sweat & Tears,82,original
+13,1,3,Begin,81,original
+13,1,4,Lie,86,original
+13,1,5,Stigma,90,original
+13,1,6,First Love,83,original
+13,1,7,Reflection,89,original
+13,1,8,MAMA,88,original
+13,1,9,Awake,79,original
+13,1,10,Lost,87,original
+13,1,11,BTS Cypher 4,80,original
+13,1,12,Am I Wrong,78,original
+13,1,13,21st Century Girl,77,original
+13,1,14,2! 3!,76,original
+13,1,15,Interlude: Wings,84,original
+14,1,1,No More Dream (Japanese Ver.),4,japanese
+14,1,2,Boy In Luv (Japanese Ver.),21,japanese
+14,1,3,Danger (Japanese Ver.),35,japanese
+14,1,4,Shingeki No Boudan (Japanese Ver.),10,japanese
+14,1,5,Miss Right (Japanese Ver.),31,japanese
+14,1,6,"Iine!, Pt. 2 - Ano Basho De (Japanese Ver.)",47,japanese
+14,1,7,For You (Japanese Ver.),60,japanese
+14,1,8,Hormone Sensou (Japanese Ver.),45,japanese
+14,1,9,I Need U (Japanese Ver.),55,japanese
+14,1,10,Dope ‐ Chou Yabe-! (Japanese Ver.),,japanese
+14,1,11,Run (Japanese Ver.),66,japanese
+14,1,12,Fire (Japanese Ver.),71,japanese
+14,1,13,Save Me (Japanese Ver.),73,japanese
+14,1,14,Epilogue: Young Forever (Japanese Ver.),72,japanese
+15,1,1,Intro: Boy Meets Evil,85,original
+15,1,2,Blood Sweat & Tears,82,original
+15,1,3,Begin,81,original
+15,1,4,Lie,86,original
+15,1,5,Stigma,90,original
+15,1,6,First Love,83,original
+15,1,7,Reflection,89,original
+15,1,8,MAMA,88,original
+15,1,9,Awake,79,original
+15,1,10,Lost,87,original
+15,1,11,BTS Cypher 4,80,original
+15,1,12,Am I Wrong,78,original
+15,1,13,21st Century Girl,77,original
+15,1,14,2! 3!,76,original
+15,1,15,Spring Day,94,original
+15,1,16,Not Today,92,original
+15,1,17,Outro: Wings,93,original
+15,1,18,A Supplementary Story: You Never Walk Alone,91,original
+16,1,1,Come Back Home,95,original
+17,1,1,Intro: Serendipity,101,original
+17,1,2,DNA,97,original
+17,1,3,Best Of Me,96,original
+17,1,4,Dimple,98,original
+17,1,5,Pied Piper,103,original
+17,1,6,Skit: Billboard Music Awards Speech,105,original
+17,1,7,MIC Drop,102,original
+17,1,8,Go Go,99,original
+17,1,9,Outro: Her,100,original
+18,1,1,MIC Drop (Japanese Version),102,japanese
+18,1,2,DNA (Japanese Version),97,japanese
+18,1,3,Crystal Snow (Japanese Version),107,japanese
+19,1,1,INTRO : Ringwanderung,110,original
+19,1,2,Best Of Me (Japanese Version),96,japanese
+19,1,3,Blood Sweat & Tears (Japanese Version),82,japanese
+19,1,4,DNA (Japanese Version),97,japanese
+19,1,5,Not Today (Japanese Version),92,japanese
+19,1,6,MIC Drop (Japanese Version),102,japanese
+19,1,7,Don't Leave Me,109,original
+19,1,8,Go Go (Japanese Version),99,japanese
+19,1,9,Crystal Snow,107,original
+19,1,10,Spring Day (Japanese Version),94,japanese
+19,1,11,Let Go,111,original
+19,1,12,OUTRO : Crack,112,original
+20,1,1,Intro: Singularity,120,original
+20,1,2,FAKE LOVE,116,original
+20,1,3,The Truth Untold (feat. Steve Aoki),123,original
+20,1,4,134340,113,original
+20,1,5,Paradise,119,original
+20,1,6,Love Maze,117,original
+20,1,7,Magic Shop,118,original
+20,1,8,"Airplane, Pt. 2",114,original
+20,1,9,Anpanman,115,original
+20,1,10,So What,121,original
+20,1,11,Outro: Tear,122,original
+21,1,1,Euphoria,126,original
+21,1,2,Trivia 起 : Just Dance,131,original
+21,1,3,Serendipity (Full Length Edition),129,alternate
+21,1,4,DNA,97,original
+21,1,5,Dimple,98,original
+21,1,6,Trivia 承 : Love,130,original
+21,1,7,Her,100,original
+21,1,8,Singularity,120,original
+21,1,9,FAKE LOVE,116,original
+21,1,10,The Truth Untold (feat. Steve Aoki),123,original
+21,1,11,Trivia 轉 : Seesaw,132,original
+21,1,12,Tear,122,original
+21,1,13,Epiphany,125,original
+21,1,14,I'm Fine,127,original
+21,1,15,IDOL,128,original
+21,1,16,Answer : Love Myself,124,original
+21,2,1,Magic Shop,118,original
+21,2,2,Best of Me,96,original
+21,2,3,Airplane Pt.2,114,original
+21,2,4,Go Go,99,original
+21,2,5,Anpanman,115,original
+21,2,6,MIC Drop,102,original
+21,2,7,DNA (Pedal 2 LA Mix),97,remix
+21,2,8,FAKE LOVE (Rocking Vibe Mix),116,remix
+21,2,9,MIC Drop (Steve Aoki Remix) [Full Length Edition],102,alternate
+21,2,10,IDOL (feat. Nicki Minaj),128,original
+22,1,1,Intro : Persona,136,original
+22,1,2,Boy With Luv (feat. Halsey),133,original
+22,1,3,Mikrokosmos,139,original
+22,1,4,Make It Right,138,original
+22,1,5,HOME,135,original
+22,1,6,Jamais Vu,137,original
+22,1,7,Dionysus,134,original
+23,1,1,"Dream Glow (BTS World Original Soundtrack, Pt. 1)",140,original
+24,1,1,A Brand New Day (BTS World Original Soundtrack) [Pt. 2],141,original
+25,1,1,All Night (BTS World Original Soundtrack) [Pt. 3],142,original
+26,1,1,Heartbeat,147,original
+26,1,2,Dream Glow (Pt. 1),140,original
+26,1,3,A Brand New Day (Pt. 2),141,original
+26,1,4,All Night (Pt. 3),142,original
+26,1,5,Captain (Namjun Theme),144,original
+26,1,6,Cake Waltz (Jimin Theme),143,original
+26,1,7,Shine (Yunki Theme),149,original
+26,1,8,Not Alone (Jeongguk Theme),148,original
+26,1,9,Friends (Hoseok Theme),146,original
+26,1,10,Wish (Seok Jin Theme),150,original
+26,1,11,Flying (Taehyung Theme),145,original
+26,1,12,LaLaLa,,original
+26,1,13,You Are Here,,original
+26,1,14,You Are Here [Instrumental],,instrumental
+27,1,1,Lights,151,original
+27,1,2,Boy with Luv (Japanese Version),133,japanese
+27,1,3,IDOL (Japanese Version),128,japanese
+28,1,1,Black Swan,152,original
+29,1,1,Intro : Persona,136,original
+29,1,2,Boy With Luv (feat. Halsey),133,original
+29,1,3,Make It Right,138,original
+29,1,4,Jamais Vu,137,original
+29,1,5,Dionysus,134,original
+29,1,6,Interlude : Shadow,157,original
+29,1,7,Black Swan,152,original
+29,1,8,Filter,154,original
+29,1,9,My Time,160,original
+29,1,10,Louder Than Bombs,158,original
+29,1,11,ON,161,original
+29,1,12,UGH!,164,original
+29,1,13,00:00 (Zero O'Clock),153,original
+29,1,14,Inner Child,156,original
+29,1,15,Friends,155,original
+29,1,16,Moon,159,original
+29,1,17,Respect,163,original
+29,1,18,We are Bulletproof : The Eternal,165,original
+29,1,19,Outro : Ego,162,original
+29,1,20,ON (feat. Sia),161,original
+30,1,1,INTRO : Calling,167,original
+30,1,2,Stay Gold,166,original
+30,1,3,Boy With Luv (Japanese Version),133,japanese
+30,1,4,Make It Right (Japanese Version),138,japanese
+30,1,5,Dionysus (Japanese Version),134,japanese
+30,1,6,IDOL (Japanese Version),128,japanese
+30,1,7,Airplane pt. 2 (Japanese Version),114,japanese
+30,1,8,FAKE LOVE (Japanese Version),116,japanese
+30,1,9,Black Swan (Japanese Version),152,japanese
+30,1,10,ON (Japanese Version),161,japanese
+30,1,11,Lights,151,original
+30,1,12,Your eyes tell,169,original
+30,1,13,OUTRO : The Journey,168,original
+31,1,1,Dynamite,170,original
+32,1,1,Life Goes On,175,original
+32,1,2,Fly To My Room,174,original
+32,1,3,Blue & Grey,172,original
+32,1,4,Skit,176,original
+32,1,5,Telepathy,178,original
+32,1,6,Dis-Ease,173,original
+32,1,7,Stay,177,original
+32,1,8,Dynamite,170,original
+33,1,1,Film out,179,original
+34,1,1,Butter,180,original
+35,1,1,Film out,179,original
+35,1,2,DNA (Japanese Version),97,japanese
+35,1,3,Best Of Me (Japanese Version),96,japanese
+35,1,4,Lights,151,original
+35,1,5,Blood Sweat & Tears (Japanese Version),82,japanese
+35,1,6,FAKE LOVE (Japanese Version),116,japanese
+35,1,7,Black Swan (Japanese Version),152,japanese
+35,1,8,"Airplane, Pt. 2 (Japanese Version)",114,japanese
+35,1,9,Go Go (Japanese Version),99,japanese
+35,1,10,IDOL (Japanese Version),128,japanese
+35,1,11,Dionysus (Japanese Version),134,japanese
+35,1,12,MIC Drop (Japanese Version),102,japanese
+35,2,1,Boy With Luv (Japanese Version),133,japanese
+35,2,2,Stay Gold,166,original
+35,2,3,Let Go,111,original
+35,2,4,Spring Day (Japanese Version),94,japanese
+35,2,5,ON (Japanese Version),161,japanese
+35,2,6,Don't Leave Me,109,original
+35,2,7,Not Today (Japanese Version),92,japanese
+35,2,8,Make It Right (Japanese Version),138,japanese
+35,2,9,Your eyes tell,169,original
+35,2,10,Crystal Snow,107,original
+36,1,1,Permission to Dance,181,original
+37,1,1,Born Singer,182,original
+37,1,2,No More Dream,4,original
+37,1,3,N.O,15,original
+37,1,4,Boy In Luv,21,original
+37,1,5,Danger,35,original
+37,1,6,I NEED U,55,original
+37,1,7,RUN,66,original
+37,1,8,Burning Up (FIRE),71,original
+37,1,9,Blood Sweat & Tears,82,original
+37,1,10,Spring Day,94,original
+37,1,11,DNA,97,original
+37,1,12,FAKE LOVE,116,original
+37,1,13,IDOL,128,original
+37,1,14,Boy With Luv (feat. Halsey),133,original
+37,1,15,ON,161,original
+37,1,16,Dynamite,170,original
+37,1,17,Life Goes On,175,original
+37,1,18,Butter,180,original
+37,1,19,Yet To Come,187,original
+37,2,1,Run BTS,184,original
+37,2,2,Intro : Persona,136,original
+37,2,3,Stay,177,original
+37,2,4,Moon,159,original
+37,2,5,Jamais Vu,137,original
+37,2,6,Trivia 轉 : Seesaw,132,original
+37,2,7,BTS Cypher PT.3 : KILLER (feat. Supreme Boi),33,original
+37,2,8,Outro : Ego,162,original
+37,2,9,Her,100,original
+37,2,10,Filter,154,original
+37,2,11,Friends,155,original
+37,2,12,Singularity,120,original
+37,2,13,00:00 (Zero O'Clock),153,original
+37,2,14,Euphoria,126,original
+37,2,15,Dimple,98,original
+37,3,1,For Youth,183,original
+38,1,1,The Planet,192,original
+39,1,1,Take Two,193,original
+40,1,1,ON (Live),161,live
+40,1,2,Burning Up (FIRE) [Live],71,live
+40,1,3,Dope (Live),53,live
+40,1,4,DNA (Live),97,live
+40,1,5,Blue & Grey (Live),172,live
+40,1,6,Black Swan (Live),152,live
+40,1,7,Blood Sweat & Tears (Live),82,live
+40,1,8,FAKE LOVE (Live),116,live
+40,1,9,Life Goes On (Live),175,live
+40,1,10,Boy With Luv (Live) [feat. Halsey],133,live
+40,1,11,Dynamite (Live),170,live
+40,1,12,Butter (Live),180,live
+40,1,13,Telepathy (Live),178,live
+40,1,14,Outro : Wings (Live),93,live
+40,1,15,Stay (Live),177,live
+40,1,16,So What (Live),121,live
+40,1,17,IDOL (Live),128,live
+40,1,18,Airplane pt.2 (Live),114,live
+40,1,19,Silver Spoon (Live),67,live
+40,1,20,Dis-ease (Live),173,live
+40,1,21,Spring Day (Live),94,live
+40,1,22,Permission to Dance (Live),181,live
+41,1,1,Body to Body,197,original
+41,1,2,Hooligan,199,original
+41,1,3,Aliens,196,original
+41,1,4,FYA,198,original
+41,1,5,2.0,194,original
+41,1,6,No. 29,204,original
+41,1,7,SWIM,207,original
+41,1,8,Merry Go Round,202,original
+41,1,9,NORMAL,203,original
+41,1,10,Like Animals,201,original
+41,1,11,they don’t know ’bout us,208,original
+41,1,12,One More Night,205,original
+41,1,13,Please,206,original
+41,1,14,Into the Sun,200,original
