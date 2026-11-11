@@ -10,6 +10,28 @@ owl:Class rdfs:subClassOf rdfs:Class .
 
 owl:DatatypeProperty rdfs:subClassOf rdf:Property .
 
+bvs:AlbumSeries a sh:NodeShape ;
+    sh:property [ sh:minCount 1 ;
+            sh:path bv:title ],
+        [ sh:message "A series has at least two releases." ;
+            sh:minCount 2 ;
+            sh:path [ sh:inversePath bv:in_series ] ] ;
+    sh:targetClass bv:AlbumSeries .
+
+bvs:AudioAnalysis a sh:NodeShape ;
+    sh:property [ sh:minCount 1 ;
+            sh:path bv:observed_at ],
+        [ sh:minCount 1 ;
+            sh:path bv:tempo ],
+        [ sh:in ( 0 1 ) ;
+            sh:path bv:mode ] ;
+    sh:targetClass bv:AudioAnalysis .
+
+bvs:EstimatedAnalysis a sh:NodeShape ;
+    sh:property [ sh:minCount 1 ;
+            sh:path bv:analyses_song ] ;
+    sh:targetClass bv:EstimatedAnalysis .
+
 bvs:Member a sh:NodeShape ;
     sh:property [ sh:hasValue bv:BTS ;
             sh:minCount 1 ;
@@ -60,8 +82,6 @@ bvs:Release a sh:NodeShape ;
 bvs:Song a sh:NodeShape ;
     sh:property [ sh:minCount 1 ;
             sh:path bv:title ],
-        [ sh:in ( 0 1 ) ;
-            sh:path bv:mode ],
         [ sh:minCount 1 ;
             sh:path bv:slug ],
         [ sh:minCount 1 ;
@@ -94,6 +114,11 @@ bvs:Track a sh:NodeShape ;
                 sh:path bv:track_of ] [ sh:minCount 1 ;
                 sh:path bv:track_of_song ] ) .
 
+bvs:VerifiedAnalysis a sh:NodeShape ;
+    sh:property [ sh:minCount 1 ;
+            sh:path bv:analyses_track ] ;
+    sh:targetClass bv:VerifiedAnalysis .
+
 bvs:Video a sh:NodeShape ;
     sh:property [ sh:minCount 1 ;
             sh:path bv:title ],
@@ -109,22 +134,37 @@ bvs:Video a sh:NodeShape ;
     sh:targetClass bv:Video .
 
 bvs:acousticness a sh:NodeShape ;
-    sh:class bv:Song ;
+    sh:class bv:AudioAnalysis ;
     sh:property bvs:acousticness-value ;
     sh:targetSubjectsOf bv:acousticness .
+
+bvs:analyses_song a sh:NodeShape ;
+    sh:class bv:EstimatedAnalysis ;
+    sh:property bvs:analyses_song-target ;
+    sh:targetSubjectsOf bv:analyses_song .
+
+bvs:analyses_track a sh:NodeShape ;
+    sh:class bv:VerifiedAnalysis ;
+    sh:property bvs:analyses_track-target ;
+    sh:targetSubjectsOf bv:analyses_track .
 
 bvs:audio_confidence a sh:NodeShape ;
     sh:class bv:Song ;
     sh:property bvs:audio_confidence-value ;
     sh:targetSubjectsOf bv:audio_confidence .
 
+bvs:audio_profile a sh:NodeShape ;
+    sh:or ( bvs:audio_profile-interlude bvs:audio_profile-intro bvs:audio_profile-outro bvs:audio_profile-skit bvs:audio_profile-song ) ;
+    sh:property bvs:audio_profile-target ;
+    sh:targetSubjectsOf bv:audio_profile .
+
 bvs:by_artist a sh:NodeShape ;
-    sh:or ( bvs:by_artist-album bvs:by_artist-ep bvs:by_artist-single bvs:by_artist-song ) ;
+    sh:or ( bvs:by_artist-album bvs:by_artist-ep bvs:by_artist-interlude bvs:by_artist-intro bvs:by_artist-outro bvs:by_artist-single bvs:by_artist-skit bvs:by_artist-song ) ;
     sh:property bvs:by_artist-target ;
     sh:targetSubjectsOf bv:by_artist .
 
 bvs:charted_on a sh:NodeShape ;
-    sh:or ( bvs:charted_on-album bvs:charted_on-ep bvs:charted_on-single bvs:charted_on-song ) ;
+    sh:or ( bvs:charted_on-album bvs:charted_on-ep bvs:charted_on-interlude bvs:charted_on-intro bvs:charted_on-outro bvs:charted_on-single bvs:charted_on-skit bvs:charted_on-song ) ;
     sh:property bvs:charted_on-target ;
     sh:targetSubjectsOf bv:charted_on .
 
@@ -134,7 +174,7 @@ bvs:collaborated_with a sh:NodeShape ;
     sh:targetSubjectsOf bv:collaborated_with .
 
 bvs:credited a sh:NodeShape ;
-    sh:class bv:Song ;
+    sh:or ( bvs:credited-interlude bvs:credited-intro bvs:credited-outro bvs:credited-skit bvs:credited-song ) ;
     sh:property bvs:credited-target ;
     sh:targetSubjectsOf bv:credited .
 
@@ -144,7 +184,7 @@ bvs:current_streams a sh:NodeShape ;
     sh:targetSubjectsOf bv:current_streams .
 
 bvs:danceability a sh:NodeShape ;
-    sh:class bv:Song ;
+    sh:class bv:AudioAnalysis ;
     sh:property bvs:danceability-value ;
     sh:targetSubjectsOf bv:danceability .
 
@@ -154,7 +194,7 @@ bvs:display_name a sh:NodeShape ;
     sh:targetSubjectsOf bv:display_name .
 
 bvs:energy a sh:NodeShape ;
-    sh:class bv:Song ;
+    sh:class bv:AudioAnalysis ;
     sh:property bvs:energy-value ;
     sh:targetSubjectsOf bv:energy .
 
@@ -169,7 +209,7 @@ bvs:first_release_precision a sh:NodeShape ;
     sh:targetSubjectsOf bv:first_release_precision .
 
 bvs:first_released_on a sh:NodeShape ;
-    sh:class bv:Song ;
+    sh:or ( bvs:first_released_on-interlude bvs:first_released_on-intro bvs:first_released_on-outro bvs:first_released_on-skit bvs:first_released_on-song ) ;
     sh:property bvs:first_released_on-target ;
     sh:targetSubjectsOf bv:first_released_on .
 
@@ -198,8 +238,13 @@ bvs:hot100_weeks a sh:NodeShape ;
     sh:property bvs:hot100_weeks-value ;
     sh:targetSubjectsOf bv:hot100_weeks .
 
+bvs:in_series a sh:NodeShape ;
+    sh:or ( bvs:in_series-album bvs:in_series-ep bvs:in_series-single ) ;
+    sh:property bvs:in_series-target ;
+    sh:targetSubjectsOf bv:in_series .
+
 bvs:instrumentalness a sh:NodeShape ;
-    sh:class bv:Song ;
+    sh:class bv:AudioAnalysis ;
     sh:property bvs:instrumentalness-value ;
     sh:targetSubjectsOf bv:instrumentalness .
 
@@ -224,7 +269,7 @@ bvs:is_video a sh:NodeShape ;
     sh:targetSubjectsOf bv:is_video .
 
 bvs:key a sh:NodeShape ;
-    sh:class bv:Song ;
+    sh:class bv:AudioAnalysis ;
     sh:property bvs:key-value ;
     sh:targetSubjectsOf bv:key .
 
@@ -234,7 +279,7 @@ bvs:length a sh:NodeShape ;
     sh:targetSubjectsOf bv:length .
 
 bvs:liveness a sh:NodeShape ;
-    sh:class bv:Song ;
+    sh:class bv:AudioAnalysis ;
     sh:property bvs:liveness-value ;
     sh:targetSubjectsOf bv:liveness .
 
@@ -244,12 +289,12 @@ bvs:long_tail_score a sh:NodeShape ;
     sh:targetSubjectsOf bv:long_tail_score .
 
 bvs:loudness a sh:NodeShape ;
-    sh:class bv:Song ;
+    sh:class bv:AudioAnalysis ;
     sh:property bvs:loudness-value ;
     sh:targetSubjectsOf bv:loudness .
 
 bvs:lyrics_by a sh:NodeShape ;
-    sh:class bv:Song ;
+    sh:or ( bvs:lyrics_by-interlude bvs:lyrics_by-intro bvs:lyrics_by-outro bvs:lyrics_by-skit bvs:lyrics_by-song ) ;
     sh:property bvs:lyrics_by-target ;
     sh:targetSubjectsOf bv:lyrics_by .
 
@@ -264,12 +309,12 @@ bvs:member_writer_share a sh:NodeShape ;
     sh:targetSubjectsOf bv:member_writer_share .
 
 bvs:mode a sh:NodeShape ;
-    sh:class bv:Song ;
+    sh:class bv:AudioAnalysis ;
     sh:property bvs:mode-value ;
     sh:targetSubjectsOf bv:mode .
 
 bvs:music_by a sh:NodeShape ;
-    sh:class bv:Song ;
+    sh:or ( bvs:music_by-interlude bvs:music_by-intro bvs:music_by-outro bvs:music_by-skit bvs:music_by-song ) ;
     sh:property bvs:music_by-target ;
     sh:targetSubjectsOf bv:music_by .
 
@@ -288,8 +333,13 @@ bvs:name a sh:NodeShape ;
     sh:property bvs:name-value ;
     sh:targetSubjectsOf bv:name .
 
+bvs:observed_at a sh:NodeShape ;
+    sh:class bv:AudioAnalysis ;
+    sh:property bvs:observed_at-value ;
+    sh:targetSubjectsOf bv:observed_at .
+
 bvs:on_album a sh:NodeShape ;
-    sh:class bv:Song ;
+    sh:or ( bvs:on_album-interlude bvs:on_album-intro bvs:on_album-outro bvs:on_album-skit bvs:on_album-song ) ;
     sh:property bvs:on_album-target ;
     sh:targetSubjectsOf bv:on_album .
 
@@ -309,7 +359,7 @@ bvs:popularity_score a sh:NodeShape ;
     sh:targetSubjectsOf bv:popularity_score .
 
 bvs:produced_by a sh:NodeShape ;
-    sh:class bv:Song ;
+    sh:or ( bvs:produced_by-interlude bvs:produced_by-intro bvs:produced_by-outro bvs:produced_by-skit bvs:produced_by-song ) ;
     sh:property bvs:produced_by-target ;
     sh:targetSubjectsOf bv:produced_by .
 
@@ -324,7 +374,7 @@ bvs:published_month a sh:NodeShape ;
     sh:targetSubjectsOf bv:published_month .
 
 bvs:recommends a sh:NodeShape ;
-    sh:class bv:Song ;
+    sh:or ( bvs:recommends-interlude bvs:recommends-intro bvs:recommends-outro bvs:recommends-skit bvs:recommends-song ) ;
     sh:property bvs:recommends-target ;
     sh:targetSubjectsOf bv:recommends .
 
@@ -359,27 +409,27 @@ bvs:revival_score a sh:NodeShape ;
     sh:targetSubjectsOf bv:revival_score .
 
 bvs:shares_writers a sh:NodeShape ;
-    sh:class bv:Song ;
+    sh:or ( bvs:shares_writers-interlude bvs:shares_writers-intro bvs:shares_writers-outro bvs:shares_writers-skit bvs:shares_writers-song ) ;
     sh:property bvs:shares_writers-target ;
     sh:targetSubjectsOf bv:shares_writers .
 
 bvs:slug a sh:NodeShape ;
-    sh:or ( bvs:slug-person bvs:slug-release bvs:slug-song ) ;
+    sh:or ( bvs:slug-album_series bvs:slug-person bvs:slug-release bvs:slug-song ) ;
     sh:property bvs:slug-value ;
     sh:targetSubjectsOf bv:slug .
 
 bvs:sounds_like a sh:NodeShape ;
-    sh:class bv:Song ;
+    sh:or ( bvs:sounds_like-interlude bvs:sounds_like-intro bvs:sounds_like-outro bvs:sounds_like-skit bvs:sounds_like-song ) ;
     sh:property bvs:sounds_like-target ;
     sh:targetSubjectsOf bv:sounds_like .
 
 bvs:sounds_like_estimated a sh:NodeShape ;
-    sh:class bv:Song ;
+    sh:or ( bvs:sounds_like_estimated-interlude bvs:sounds_like_estimated-intro bvs:sounds_like_estimated-outro bvs:sounds_like_estimated-skit bvs:sounds_like_estimated-song ) ;
     sh:property bvs:sounds_like_estimated-target ;
     sh:targetSubjectsOf bv:sounds_like_estimated .
 
 bvs:speechiness a sh:NodeShape ;
-    sh:class bv:Song ;
+    sh:class bv:AudioAnalysis ;
     sh:property bvs:speechiness-value ;
     sh:targetSubjectsOf bv:speechiness .
 
@@ -394,12 +444,12 @@ bvs:streams_per_day a sh:NodeShape ;
     sh:targetSubjectsOf bv:streams_per_day .
 
 bvs:tempo a sh:NodeShape ;
-    sh:class bv:Song ;
+    sh:class bv:AudioAnalysis ;
     sh:property bvs:tempo-value ;
     sh:targetSubjectsOf bv:tempo .
 
 bvs:title a sh:NodeShape ;
-    sh:or ( bvs:title-recording bvs:title-release bvs:title-song bvs:title-track bvs:title-video ) ;
+    sh:or ( bvs:title-album_series bvs:title-recording bvs:title-release bvs:title-song bvs:title-track bvs:title-video ) ;
     sh:property bvs:title-value ;
     sh:targetSubjectsOf bv:title .
 
@@ -424,7 +474,7 @@ bvs:track_of_song a sh:NodeShape ;
     sh:targetSubjectsOf bv:track_of_song .
 
 bvs:valence a sh:NodeShape ;
-    sh:class bv:Song ;
+    sh:class bv:AudioAnalysis ;
     sh:property bvs:valence-value ;
     sh:targetSubjectsOf bv:valence .
 
@@ -454,7 +504,7 @@ bvs:writer_count a sh:NodeShape ;
     sh:targetSubjectsOf bv:writer_count .
 
 bvs:written_by a sh:NodeShape ;
-    sh:class bv:Song ;
+    sh:or ( bvs:written_by-interlude bvs:written_by-intro bvs:written_by-outro bvs:written_by-skit bvs:written_by-song ) ;
     sh:property bvs:written_by-target ;
     sh:targetSubjectsOf bv:written_by .
 
@@ -464,15 +514,59 @@ bvs:acousticness-value sh:datatype xsd:decimal ;
     sh:minInclusive 0 ;
     sh:path bv:acousticness .
 
+bvs:analyses_song-target sh:maxCount 1 ;
+    sh:or ( bvs:analyses_song-target-interlude bvs:analyses_song-target-intro bvs:analyses_song-target-outro bvs:analyses_song-target-skit bvs:analyses_song-target-song ) ;
+    sh:path bv:analyses_song .
+
+bvs:analyses_song-target-interlude sh:class bv:Interlude .
+
+bvs:analyses_song-target-intro sh:class bv:Intro .
+
+bvs:analyses_song-target-outro sh:class bv:Outro .
+
+bvs:analyses_song-target-skit sh:class bv:Skit .
+
+bvs:analyses_song-target-song sh:class bv:Song .
+
+bvs:analyses_track-target sh:class bv:Track ;
+    sh:maxCount 1 ;
+    sh:path bv:analyses_track .
+
 bvs:audio_confidence-value sh:datatype xsd:string ;
     sh:maxCount 1 ;
     sh:path bv:audio_confidence .
+
+bvs:audio_profile-interlude sh:class bv:Interlude .
+
+bvs:audio_profile-intro sh:class bv:Intro .
+
+bvs:audio_profile-outro sh:class bv:Outro .
+
+bvs:audio_profile-skit sh:class bv:Skit .
+
+bvs:audio_profile-song sh:class bv:Song .
+
+bvs:audio_profile-target sh:maxCount 1 ;
+    sh:or ( bvs:audio_profile-target-estimated_analysis bvs:audio_profile-target-verified_analysis ) ;
+    sh:path bv:audio_profile .
+
+bvs:audio_profile-target-estimated_analysis sh:class bv:EstimatedAnalysis .
+
+bvs:audio_profile-target-verified_analysis sh:class bv:VerifiedAnalysis .
 
 bvs:by_artist-album sh:class bv:Album .
 
 bvs:by_artist-ep sh:class bv:EP .
 
+bvs:by_artist-interlude sh:class bv:Interlude .
+
+bvs:by_artist-intro sh:class bv:Intro .
+
+bvs:by_artist-outro sh:class bv:Outro .
+
 bvs:by_artist-single sh:class bv:Single .
+
+bvs:by_artist-skit sh:class bv:Skit .
 
 bvs:by_artist-song sh:class bv:Song .
 
@@ -484,7 +578,15 @@ bvs:charted_on-album sh:class bv:Album .
 
 bvs:charted_on-ep sh:class bv:EP .
 
+bvs:charted_on-interlude sh:class bv:Interlude .
+
+bvs:charted_on-intro sh:class bv:Intro .
+
+bvs:charted_on-outro sh:class bv:Outro .
+
 bvs:charted_on-single sh:class bv:Single .
+
+bvs:charted_on-skit sh:class bv:Skit .
 
 bvs:charted_on-song sh:class bv:Song .
 
@@ -501,6 +603,16 @@ bvs:collaborated_with-target sh:or ( bvs:collaborated_with-target-member bvs:col
 bvs:collaborated_with-target-member sh:class bv:Member .
 
 bvs:collaborated_with-target-person sh:class bv:Person .
+
+bvs:credited-interlude sh:class bv:Interlude .
+
+bvs:credited-intro sh:class bv:Intro .
+
+bvs:credited-outro sh:class bv:Outro .
+
+bvs:credited-skit sh:class bv:Skit .
+
+bvs:credited-song sh:class bv:Song .
 
 bvs:credited-target sh:or ( bvs:credited-target-member bvs:credited-target-person ) ;
     sh:path bv:credited .
@@ -541,6 +653,16 @@ bvs:first_release_precision-value sh:datatype xsd:string ;
     sh:maxCount 1 ;
     sh:path bv:first_release_precision .
 
+bvs:first_released_on-interlude sh:class bv:Interlude .
+
+bvs:first_released_on-intro sh:class bv:Intro .
+
+bvs:first_released_on-outro sh:class bv:Outro .
+
+bvs:first_released_on-skit sh:class bv:Skit .
+
+bvs:first_released_on-song sh:class bv:Song .
+
 bvs:first_released_on-target sh:maxCount 1 ;
     sh:or ( bvs:first_released_on-target-album bvs:first_released_on-target-ep bvs:first_released_on-target-single ) ;
     sh:path bv:first_released_on .
@@ -572,6 +694,16 @@ bvs:hot100_peak-value sh:datatype xsd:integer ;
 bvs:hot100_weeks-value sh:datatype xsd:positiveInteger ;
     sh:maxCount 1 ;
     sh:path bv:hot100_weeks .
+
+bvs:in_series-album sh:class bv:Album .
+
+bvs:in_series-ep sh:class bv:EP .
+
+bvs:in_series-single sh:class bv:Single .
+
+bvs:in_series-target sh:class bv:AlbumSeries ;
+    sh:maxCount 1 ;
+    sh:path bv:in_series .
 
 bvs:instrumentalness-value sh:datatype xsd:decimal ;
     sh:maxCount 1 ;
@@ -625,6 +757,16 @@ bvs:loudness-value sh:datatype xsd:decimal ;
     sh:maxCount 1 ;
     sh:path bv:loudness .
 
+bvs:lyrics_by-interlude sh:class bv:Interlude .
+
+bvs:lyrics_by-intro sh:class bv:Intro .
+
+bvs:lyrics_by-outro sh:class bv:Outro .
+
+bvs:lyrics_by-skit sh:class bv:Skit .
+
+bvs:lyrics_by-song sh:class bv:Song .
+
 bvs:lyrics_by-target sh:or ( bvs:lyrics_by-target-member bvs:lyrics_by-target-person ) ;
     sh:path bv:lyrics_by .
 
@@ -650,6 +792,16 @@ bvs:mode-value sh:datatype xsd:integer ;
     sh:maxCount 1 ;
     sh:path bv:mode .
 
+bvs:music_by-interlude sh:class bv:Interlude .
+
+bvs:music_by-intro sh:class bv:Intro .
+
+bvs:music_by-outro sh:class bv:Outro .
+
+bvs:music_by-skit sh:class bv:Skit .
+
+bvs:music_by-song sh:class bv:Song .
+
 bvs:music_by-target sh:or ( bvs:music_by-target-member bvs:music_by-target-person ) ;
     sh:path bv:music_by .
 
@@ -668,6 +820,20 @@ bvs:mv_views_per_day-value sh:datatype xsd:decimal ;
 bvs:name-value sh:datatype xsd:string ;
     sh:maxCount 1 ;
     sh:path bv:name .
+
+bvs:observed_at-value sh:datatype xsd:date ;
+    sh:maxCount 1 ;
+    sh:path bv:observed_at .
+
+bvs:on_album-interlude sh:class bv:Interlude .
+
+bvs:on_album-intro sh:class bv:Intro .
+
+bvs:on_album-outro sh:class bv:Outro .
+
+bvs:on_album-skit sh:class bv:Skit .
+
+bvs:on_album-song sh:class bv:Song .
 
 bvs:on_album-target sh:or ( bvs:on_album-target-album bvs:on_album-target-ep bvs:on_album-target-single ) ;
     sh:path bv:on_album .
@@ -692,6 +858,16 @@ bvs:popularity_score-value sh:datatype xsd:decimal ;
     sh:minInclusive 0 ;
     sh:path bv:popularity_score .
 
+bvs:produced_by-interlude sh:class bv:Interlude .
+
+bvs:produced_by-intro sh:class bv:Intro .
+
+bvs:produced_by-outro sh:class bv:Outro .
+
+bvs:produced_by-skit sh:class bv:Skit .
+
+bvs:produced_by-song sh:class bv:Song .
+
 bvs:produced_by-target sh:or ( bvs:produced_by-target-member bvs:produced_by-target-person ) ;
     sh:path bv:produced_by .
 
@@ -707,12 +883,42 @@ bvs:published_month-value sh:datatype xsd:date ;
     sh:maxCount 1 ;
     sh:path bv:published_month .
 
-bvs:recommends-target sh:class bv:Song ;
+bvs:recommends-interlude sh:class bv:Interlude .
+
+bvs:recommends-intro sh:class bv:Intro .
+
+bvs:recommends-outro sh:class bv:Outro .
+
+bvs:recommends-skit sh:class bv:Skit .
+
+bvs:recommends-song sh:class bv:Song .
+
+bvs:recommends-target sh:or ( bvs:recommends-target-interlude bvs:recommends-target-intro bvs:recommends-target-outro bvs:recommends-target-skit bvs:recommends-target-song ) ;
     sh:path bv:recommends .
 
-bvs:recording_of-target sh:class bv:Song ;
-    sh:maxCount 1 ;
+bvs:recommends-target-interlude sh:class bv:Interlude .
+
+bvs:recommends-target-intro sh:class bv:Intro .
+
+bvs:recommends-target-outro sh:class bv:Outro .
+
+bvs:recommends-target-skit sh:class bv:Skit .
+
+bvs:recommends-target-song sh:class bv:Song .
+
+bvs:recording_of-target sh:maxCount 1 ;
+    sh:or ( bvs:recording_of-target-interlude bvs:recording_of-target-intro bvs:recording_of-target-outro bvs:recording_of-target-skit bvs:recording_of-target-song ) ;
     sh:path bv:recording_of .
+
+bvs:recording_of-target-interlude sh:class bv:Interlude .
+
+bvs:recording_of-target-intro sh:class bv:Intro .
+
+bvs:recording_of-target-outro sh:class bv:Outro .
+
+bvs:recording_of-target-skit sh:class bv:Skit .
+
+bvs:recording_of-target-song sh:class bv:Song .
 
 bvs:release_age_years-value sh:datatype xsd:decimal ;
     sh:maxCount 1 ;
@@ -736,8 +942,30 @@ bvs:revival_score-value sh:datatype xsd:decimal ;
     sh:maxCount 1 ;
     sh:path bv:revival_score .
 
-bvs:shares_writers-target sh:class bv:Song ;
+bvs:shares_writers-interlude sh:class bv:Interlude .
+
+bvs:shares_writers-intro sh:class bv:Intro .
+
+bvs:shares_writers-outro sh:class bv:Outro .
+
+bvs:shares_writers-skit sh:class bv:Skit .
+
+bvs:shares_writers-song sh:class bv:Song .
+
+bvs:shares_writers-target sh:or ( bvs:shares_writers-target-interlude bvs:shares_writers-target-intro bvs:shares_writers-target-outro bvs:shares_writers-target-skit bvs:shares_writers-target-song ) ;
     sh:path bv:shares_writers .
+
+bvs:shares_writers-target-interlude sh:class bv:Interlude .
+
+bvs:shares_writers-target-intro sh:class bv:Intro .
+
+bvs:shares_writers-target-outro sh:class bv:Outro .
+
+bvs:shares_writers-target-skit sh:class bv:Skit .
+
+bvs:shares_writers-target-song sh:class bv:Song .
+
+bvs:slug-album_series sh:class bv:AlbumSeries .
 
 bvs:slug-person sh:class bv:Person .
 
@@ -749,11 +977,51 @@ bvs:slug-value sh:datatype xsd:string ;
     sh:maxCount 1 ;
     sh:path bv:slug .
 
-bvs:sounds_like-target sh:class bv:Song ;
+bvs:sounds_like-interlude sh:class bv:Interlude .
+
+bvs:sounds_like-intro sh:class bv:Intro .
+
+bvs:sounds_like-outro sh:class bv:Outro .
+
+bvs:sounds_like-skit sh:class bv:Skit .
+
+bvs:sounds_like-song sh:class bv:Song .
+
+bvs:sounds_like-target sh:or ( bvs:sounds_like-target-interlude bvs:sounds_like-target-intro bvs:sounds_like-target-outro bvs:sounds_like-target-skit bvs:sounds_like-target-song ) ;
     sh:path bv:sounds_like .
 
-bvs:sounds_like_estimated-target sh:class bv:Song ;
+bvs:sounds_like-target-interlude sh:class bv:Interlude .
+
+bvs:sounds_like-target-intro sh:class bv:Intro .
+
+bvs:sounds_like-target-outro sh:class bv:Outro .
+
+bvs:sounds_like-target-skit sh:class bv:Skit .
+
+bvs:sounds_like-target-song sh:class bv:Song .
+
+bvs:sounds_like_estimated-interlude sh:class bv:Interlude .
+
+bvs:sounds_like_estimated-intro sh:class bv:Intro .
+
+bvs:sounds_like_estimated-outro sh:class bv:Outro .
+
+bvs:sounds_like_estimated-skit sh:class bv:Skit .
+
+bvs:sounds_like_estimated-song sh:class bv:Song .
+
+bvs:sounds_like_estimated-target sh:or ( bvs:sounds_like_estimated-target-interlude bvs:sounds_like_estimated-target-intro bvs:sounds_like_estimated-target-outro bvs:sounds_like_estimated-target-skit bvs:sounds_like_estimated-target-song ) ;
     sh:path bv:sounds_like_estimated .
+
+bvs:sounds_like_estimated-target-interlude sh:class bv:Interlude .
+
+bvs:sounds_like_estimated-target-intro sh:class bv:Intro .
+
+bvs:sounds_like_estimated-target-outro sh:class bv:Outro .
+
+bvs:sounds_like_estimated-target-skit sh:class bv:Skit .
+
+bvs:sounds_like_estimated-target-song sh:class bv:Song .
 
 bvs:speechiness-value sh:datatype xsd:decimal ;
     sh:maxCount 1 ;
@@ -772,6 +1040,8 @@ bvs:streams_per_day-value sh:datatype xsd:decimal ;
 bvs:tempo-value sh:datatype xsd:decimal ;
     sh:maxCount 1 ;
     sh:path bv:tempo .
+
+bvs:title-album_series sh:class bv:AlbumSeries .
 
 bvs:title-recording sh:class bv:Recording .
 
@@ -798,9 +1068,19 @@ bvs:track_of-target sh:class bv:Recording ;
     sh:maxCount 1 ;
     sh:path bv:track_of .
 
-bvs:track_of_song-target sh:class bv:Song ;
-    sh:maxCount 1 ;
+bvs:track_of_song-target sh:maxCount 1 ;
+    sh:or ( bvs:track_of_song-target-interlude bvs:track_of_song-target-intro bvs:track_of_song-target-outro bvs:track_of_song-target-skit bvs:track_of_song-target-song ) ;
     sh:path bv:track_of_song .
+
+bvs:track_of_song-target-interlude sh:class bv:Interlude .
+
+bvs:track_of_song-target-intro sh:class bv:Intro .
+
+bvs:track_of_song-target-outro sh:class bv:Outro .
+
+bvs:track_of_song-target-skit sh:class bv:Skit .
+
+bvs:track_of_song-target-song sh:class bv:Song .
 
 bvs:valence-value sh:datatype xsd:decimal ;
     sh:maxCount 1 ;
@@ -826,13 +1106,33 @@ bvs:video_kind-value sh:datatype xsd:string ;
     sh:maxCount 1 ;
     sh:path bv:video_kind .
 
-bvs:video_of-target sh:class bv:Song ;
-    sh:maxCount 1 ;
+bvs:video_of-target sh:maxCount 1 ;
+    sh:or ( bvs:video_of-target-interlude bvs:video_of-target-intro bvs:video_of-target-outro bvs:video_of-target-skit bvs:video_of-target-song ) ;
     sh:path bv:video_of .
+
+bvs:video_of-target-interlude sh:class bv:Interlude .
+
+bvs:video_of-target-intro sh:class bv:Intro .
+
+bvs:video_of-target-outro sh:class bv:Outro .
+
+bvs:video_of-target-skit sh:class bv:Skit .
+
+bvs:video_of-target-song sh:class bv:Song .
 
 bvs:writer_count-value sh:datatype xsd:nonNegativeInteger ;
     sh:maxCount 1 ;
     sh:path bv:writer_count .
+
+bvs:written_by-interlude sh:class bv:Interlude .
+
+bvs:written_by-intro sh:class bv:Intro .
+
+bvs:written_by-outro sh:class bv:Outro .
+
+bvs:written_by-skit sh:class bv:Skit .
+
+bvs:written_by-song sh:class bv:Song .
 
 bvs:written_by-target sh:or ( bvs:written_by-target-member bvs:written_by-target-person ) ;
     sh:path bv:written_by .

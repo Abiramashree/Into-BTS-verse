@@ -15,7 +15,7 @@ from rdflib import Graph
 from . import ontology, recommend, shacl
 
 ROOT = Path(__file__).resolve().parent.parent
-TABLES = ["edge", "node", "graph_relation", "graph_class", "graph_attribute", "graph_metapath", "graph_setting"]
+TABLES = ["edge", "node", "graph_relation", "graph_class", "graph_attribute", "graph_metapath", "graph_setting", "graph_term"]
 
 
 def main(db: str) -> int:

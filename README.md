@@ -24,6 +24,8 @@ All keys are Into BTSVerse IDs: permanent integers per table (`song_id` 1, 2, ..
 | Table | Key | Links to |
 |---|---|---|
 | `album` | `album_id` | |
+| `album_series` | `album_series_id` | |
+| `album_series_member` | `album_series_id`, `position` | `album_series`, `album` |
 | `song` | `song_id` | `album` (the release it first appeared on) |
 | `album_track` | `album_id`, `disc`, `position` | `album`, `song` |
 | `recording` | `recording_id` | `song` |
@@ -53,6 +55,7 @@ All keys are Into BTSVerse IDs: permanent integers per table (`song_id` 1, 2, ..
 | `song_longevity` | Streams per day in 2024, 2025 and since ARIRANG |
 | `song_streams_monthly` | Average daily streams per song per month |
 | `song_intelligence` | Analytical signals per song: popularity, growth, retention, long tail, revival, credits, audio confidence |
+| `verified_analysis`, `estimated_analysis` | Audio features per track (verified) and per song preview (estimated) |
 
 ## Graph
 
@@ -67,13 +70,15 @@ datatypes and ranges, required values, allowed values and the classes each relat
 | `graph_relation` | Each class pair a relation allows, with its `iri`, inverse, weight, evidence and rule |
 | `graph_attribute` | Attributes: classes, datatype, unit, sources; `changes_each_build` marks measures as of the latest snapshot |
 | `graph_metapath` | The routes that relate two songs for recommendations, with their weights and reason labels |
-| `graph_setting` | Numbers that tune recommendations: the hidden gem weight and the variety lambda (MMR) |
+| `graph_setting` | Numbers that tune recommendations: the hidden gem weight, the minimum length and the variety lambda (MMR) |
+| `graph_term` | The sources and confidence levels used in `edge.provenance` and `edge.confidence` |
 | `node` | One per entity, `table:id` with the table's ID (`song:94` is `song_id` 94); `class` is the most specific class |
-| `edge` | `source`, `relation`, `target`, `weight`, `evidence` |
+| `edge` | `source`, `relation`, `target`, `weight`, `evidence`, `provenance`, `confidence` |
 
 ```
 agent          group (BTS) · person → member
-creative_work  song → recording → track · video · release → album, EP, single
+creative_work  song (→ intro, outro, interlude, skit) → recording → track · video · release → album, EP, single
+audio_analysis verified_analysis (one track) · estimated_analysis (one preview)
 chart          Billboard Hot 100 · Billboard 200
 ```
 
@@ -88,6 +93,10 @@ chart          Billboard Hot 100 · Billboard 200
 | `track_of` | track → recording | |
 | `track_of_song` | track → song, where the recording is unknown | |
 | `video_of` | video → song | |
+| `in_series` | release → album series | |
+| `analyses_track` | verified analysis → track | |
+| `analyses_song` | estimated analysis → song | |
+| `audio_profile` | song → audio analysis (the one that stands for its sound) | |
 | `charted_on` | song → Hot 100, release → Billboard 200 | Weeks on chart |
 | `collaborated_with` | person ↔ person | Songs credited together |
 | `shares_writers` | song ↔ song | Cosine similarity of credits, rarer people weighted more (TF-IDF); ten strongest per song |

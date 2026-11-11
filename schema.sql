@@ -25,6 +25,22 @@ CREATE TABLE album (
     has_tracklist BOOLEAN NOT NULL
 );
 
+-- Series of releases.
+CREATE TABLE album_series (
+    album_series_id INTEGER PRIMARY KEY,
+    slug VARCHAR NOT NULL UNIQUE,
+    title VARCHAR NOT NULL
+);
+
+-- Releases in each series, in order.
+CREATE TABLE album_series_member (
+    album_series_id INTEGER NOT NULL REFERENCES album_series (album_series_id),
+    album_id INTEGER NOT NULL UNIQUE REFERENCES album (album_id),
+    position INTEGER NOT NULL,
+    evidence VARCHAR NOT NULL,
+    PRIMARY KEY (album_series_id, position)
+);
+
 -- Songs.
 CREATE TABLE song (
     song_id INTEGER PRIMARY KEY,

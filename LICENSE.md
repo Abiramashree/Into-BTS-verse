@@ -24,6 +24,10 @@ Attribution: "Into BTSVerse" by Abi, with sources as listed above.
 
 The code that collects and matches the source data is not part of this repository.
 
+## Ontology
+
+`ontology.ttl` and `shapes.ttl` are licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+
 ## Code
 
 The code in `graph/`, which rebuilds the graph and recommendations from `data/bts.duckdb`, is licensed under the MIT

@@ -205,6 +205,25 @@ SELECT t.day::DATE AS day, s.song_id, ((s.views - s.prev_views) / (s.observed_at
 FROM s, range(s.prev_at, s.observed_at, INTERVAL 1 DAY) t(day)
 WHERE s.prev_at IS NOT NULL AND s.views >= s.prev_views;
 
+-- Audio features per track (Spotify's values, via ReccoBeats): one verified analysis each.
+CREATE OR REPLACE VIEW verified_analysis AS
+SELECT track_id AS verified_analysis_id, track_id, max(observed_at) AS observed_at,
+    max(value) FILTER (WHERE feature = 'tempo') AS tempo, max(value) FILTER (WHERE feature = 'energy') AS energy,
+    max(value) FILTER (WHERE feature = 'danceability') AS danceability, max(value) FILTER (WHERE feature = 'valence') AS valence,
+    max(value) FILTER (WHERE feature = 'acousticness') AS acousticness, max(value) FILTER (WHERE feature = 'instrumentalness') AS instrumentalness,
+    max(value) FILTER (WHERE feature = 'liveness') AS liveness, max(value) FILTER (WHERE feature = 'speechiness') AS speechiness,
+    max(value) FILTER (WHERE feature = 'loudness') AS loudness, max(value) FILTER (WHERE feature = 'key') AS key,
+    max(value) FILTER (WHERE feature = 'mode') AS mode
+FROM track_audio GROUP BY track_id;
+
+-- Audio features estimated from a song's preview: one estimated analysis each.
+CREATE OR REPLACE VIEW estimated_analysis AS
+SELECT song_id AS estimated_analysis_id, song_id, max(observed_at) AS observed_at,
+    max(value) FILTER (WHERE feature = 'tempo') AS tempo, max(value) FILTER (WHERE feature = 'energy') AS energy,
+    NULL::DOUBLE AS danceability, NULL::DOUBLE AS valence, NULL::DOUBLE AS acousticness, NULL::DOUBLE AS instrumentalness,
+    NULL::DOUBLE AS liveness, NULL::DOUBLE AS speechiness, NULL::DOUBLE AS loudness, NULL::DOUBLE AS key, NULL::DOUBLE AS mode
+FROM song_audio_estimate GROUP BY song_id;
+
 -- Monthly average daily streams per song.
 CREATE OR REPLACE VIEW song_streams_monthly AS
 SELECT song_id, date_trunc('month', day)::DATE AS month, round(avg(streams), 0)::BIGINT AS streams_per_day, count(*) AS days

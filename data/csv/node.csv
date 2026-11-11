@@ -41,8 +41,34 @@ album:6,album,6,WAKE UP,Album · 2014
 album:7,album,7,"The Most Beautiful Moment in Life, Pt. 1",Album · 2015
 album:8,single,8,FOR YOU,Single · 2015
 album:9,album,9,"The Most Beautiful Moment in Life, Pt. 2",Album · 2015
+album_series:1,album_series,1,Love Yourself,
+album_series:2,album_series,2,Map of the Soul,
+album_series:3,album_series,3,The Most Beautiful Moment in Life,
 chart:1,chart,1,Billboard Hot 100,
 chart:2,chart,2,Billboard 200,
+estimated_analysis:143,estimated_analysis,143,Cake Waltz (Jimin theme),preview
+estimated_analysis:144,estimated_analysis,144,Captain (Namjun theme),preview
+estimated_analysis:145,estimated_analysis,145,Flying (Taehyung theme),preview
+estimated_analysis:146,estimated_analysis,146,Friends (Hoseok theme),preview
+estimated_analysis:147,estimated_analysis,147,Heartbeat,preview
+estimated_analysis:148,estimated_analysis,148,Not Alone (Jeongguk theme),preview
+estimated_analysis:149,estimated_analysis,149,Shine (Yunki theme),preview
+estimated_analysis:150,estimated_analysis,150,Wish (Seok Jin theme),preview
+estimated_analysis:194,estimated_analysis,194,2.0,preview
+estimated_analysis:196,estimated_analysis,196,Aliens,preview
+estimated_analysis:197,estimated_analysis,197,Body to Body,preview
+estimated_analysis:198,estimated_analysis,198,FYA,preview
+estimated_analysis:199,estimated_analysis,199,Hooligan,preview
+estimated_analysis:200,estimated_analysis,200,Into the Sun,preview
+estimated_analysis:201,estimated_analysis,201,Like Animals,preview
+estimated_analysis:202,estimated_analysis,202,Merry Go Round,preview
+estimated_analysis:203,estimated_analysis,203,NORMAL,preview
+estimated_analysis:204,estimated_analysis,204,No. 29,preview
+estimated_analysis:205,estimated_analysis,205,One More Night,preview
+estimated_analysis:206,estimated_analysis,206,Please,preview
+estimated_analysis:207,estimated_analysis,207,SWIM,preview
+estimated_analysis:208,estimated_analysis,208,they don’t know ’bout us,preview
+estimated_analysis:210,estimated_analysis,210,Come Over,preview
 group:1,group,1,BTS,
 person:1,person,1,4rest,
 person:10,person,10,Alex Ludwig Lindell,
@@ -756,22 +782,22 @@ recording:96,recording,96,Danger,Dolby Atmos mix · 2022
 recording:97,recording,97,보조개,original · 2017
 recording:98,recording,98,보조개,Dolby Atmos mix · 2022
 recording:99,recording,99,Dionysus,original · 2019
-song:1,song,1,Interlude,2013
+song:1,interlude,1,Interlude,2013
 song:10,song,10,Attack on Bangtan,2013
 song:100,song,100,Her,2017
-song:101,song,101,Intro: Serendipity,2017
+song:101,intro,101,Intro: Serendipity,2017
 song:102,song,102,Mic Drop,2017
 song:103,song,103,Pied Piper,2017
-song:104,song,104,Skit : 망설임과 두려움,2017
-song:105,song,105,Skit: Billboard Music Awards Speech,2017
+song:104,skit,104,Skit : 망설임과 두려움,2017
+song:105,skit,105,Skit: Billboard Music Awards Speech,2017
 song:106,song,106,바다,2017
 song:107,song,107,Crystal Snow,2017
 song:108,song,108,With Seoul,2017
 song:109,song,109,Don't Leave Me,2018
 song:11,song,11,BTS Cypher Pt.1,2013
-song:110,song,110,INTRO : Ringwanderung,2018
+song:110,intro,110,INTRO : Ringwanderung,2018
 song:111,song,111,Let Go,2018
-song:112,song,112,OUTRO : Crack,2018
+song:112,outro,112,OUTRO : Crack,2018
 song:113,song,113,134340,2018
 song:114,song,114,Airplane pt.2,2018
 song:115,song,115,Anpanman,2018
@@ -797,11 +823,11 @@ song:132,song,132,Trivia 轉 : Seesaw,2018
 song:133,song,133,Boy With Luv,2019
 song:134,song,134,Dionysus,2019
 song:135,song,135,HOME,2019
-song:136,song,136,Intro : Persona,2019
+song:136,intro,136,Intro : Persona,2019
 song:137,song,137,Jamais Vu,2019
 song:138,song,138,Make It Right,2019
 song:139,song,139,Mikrokosmos,2019
-song:14,song,14,"Intro: O!RUL8,2?",2013
+song:14,intro,14,"Intro: O!RUL8,2?",2013
 song:140,song,140,Dream Glow,2019
 song:141,song,141,A Brand New Day,2019
 song:142,song,142,All Night,2019
@@ -820,19 +846,19 @@ song:153,song,153,00:00,2020
 song:154,song,154,Filter,2020
 song:155,song,155,Friends,2020
 song:156,song,156,Inner Child,2020
-song:157,song,157,Interlude : Shadow,2020
+song:157,interlude,157,Interlude : Shadow,2020
 song:158,song,158,Louder than bombs,2020
 song:159,song,159,Moon,2020
-song:16,song,16,Outro: Luv in Skool,2013
+song:16,outro,16,Outro: Luv in Skool,2013
 song:160,song,160,My Time,2020
 song:161,song,161,ON,2020
-song:162,song,162,Outro : Ego,2020
+song:162,outro,162,Outro : Ego,2020
 song:163,song,163,Respect,2020
 song:164,song,164,UGH!,2020
 song:165,song,165,We are Bulletproof : the Eternal,2020
 song:166,song,166,Stay Gold,2020
-song:167,song,167,INTRO : Calling,2020
-song:168,song,168,OUTRO : The Journey,2020
+song:167,intro,167,INTRO : Calling,2020
+song:168,outro,168,OUTRO : The Journey,2020
 song:169,song,169,Your eyes tell,2020
 song:17,song,17,Paldogangsan,2013
 song:170,song,170,Dynamite,2020
@@ -841,11 +867,11 @@ song:172,song,172,Blue & Grey,2020
 song:173,song,173,Dis-ease,2020
 song:174,song,174,Fly To My Room,2020
 song:175,song,175,Life Goes On,2020
-song:176,song,176,Skit,2020
+song:176,skit,176,Skit,2020
 song:177,song,177,Stay,2020
 song:178,song,178,Telepathy,2020
 song:179,song,179,Film out,2021
-song:18,song,18,Skit: R U Happy Now?,2013
+song:18,skit,18,Skit: R U Happy Now?,2013
 song:180,song,180,Butter,2021
 song:181,song,181,Permission to Dance,2021
 song:182,song,182,Born Singer,2022
@@ -857,7 +883,7 @@ song:187,song,187,Yet To Come,2022
 song:188,song,188,따옴표,2022
 song:189,song,189,애매한 사이,2022
 song:19,song,19,We On,2013
-song:191,song,191,Intro,2022
+song:191,intro,191,Intro,2022
 song:192,song,192,The Planet,2023
 song:193,song,193,Take Two,2023
 song:194,song,194,2.0,2026
@@ -866,7 +892,7 @@ song:196,song,196,Aliens,2026
 song:197,song,197,Body to Body,2026
 song:198,song,198,FYA,2026
 song:199,song,199,Hooligan,2026
-song:2,song,2,Intro: 2 Cool 4 Skool,2013
+song:2,intro,2,Intro: 2 Cool 4 Skool,2013
 song:20,song,20,BTS Cypher Pt.2: Triptych,2014
 song:200,song,200,Into the Sun,2026
 song:201,song,201,Like Animals,2026
@@ -879,13 +905,13 @@ song:207,song,207,SWIM,2026
 song:208,song,208,they don’t know ’bout us,2026
 song:21,song,21,Boy in Luv,2014
 song:210,song,210,Come Over,2026
-song:211,song,211,Intro : Love is Not Over,
+song:211,intro,211,Intro : Love is Not Over,
 song:212,song,212,땡,
-song:22,song,22,Intro: Skool Luv Affair,2014
+song:22,intro,22,Intro: Skool Luv Affair,2014
 song:23,song,23,Jump,2014
 song:24,song,24,Just One Day,2014
-song:25,song,25,Outro: Propose,2014
-song:26,song,26,Skit: Soulmate,2014
+song:25,outro,25,Outro: Propose,2014
+song:26,skit,26,Skit: Soulmate,2014
 song:27,song,27,Spine Breaker,2014
 song:28,song,28,Tomorrow,2014
 song:29,song,29,Where You From,2014
@@ -897,59 +923,59 @@ song:34,song,34,Could You Turn off Your Cell Phone,2014
 song:35,song,35,Danger,2014
 song:36,song,36,Embarrassed,2014
 song:37,song,37,Hip Hop Phile,2014
-song:38,song,38,Interlude: What Are You Doing Now,2014
-song:39,song,39,Intro: What Am I to You,2014
+song:38,interlude,38,Interlude: What Are You Doing Now,2014
+song:39,intro,39,Intro: What Am I to You,2014
 song:4,song,4,No More Dream,2013
 song:40,song,40,Let Me Know,2014
 song:41,song,41,Look Here,2014
-song:42,song,42,Outro: Do You Think It Makes Sense?,2014
+song:42,outro,42,Outro: Do You Think It Makes Sense?,2014
 song:43,song,43,Rain,2014
 song:44,song,44,So 4 more,2014
 song:45,song,45,War of Hormone,2014
-song:46,song,46,INTRO.,2014
+song:46,intro,46,INTRO.,2014
 song:47,song,47,Iine!Pt.2,2014
-song:48,song,48,OUTRO.,2014
+song:48,outro,48,OUTRO.,2014
 song:49,song,49,THE STARS,2014
-song:5,song,5,Outro: Circle Room Cypher,2013
+song:5,outro,5,Outro: Circle Room Cypher,2013
 song:50,song,50,WAKE UP,2014
 song:51,song,51,Boyz with Fun,2015
 song:52,song,52,Converse High,2015
 song:53,song,53,Dope,2015
 song:54,song,54,Hold Me Tight,2015
 song:55,song,55,I Need U,2015
-song:56,song,56,Intro: The Most Beautiful Moment in Life,2015
+song:56,intro,56,Intro: The Most Beautiful Moment in Life,2015
 song:57,song,57,Moving On,2015
-song:58,song,58,Outro: Love Is Not Over,2015
-song:59,song,59,Skit: Expectation!,2015
+song:58,outro,58,Outro: Love Is Not Over,2015
+song:59,skit,59,Skit: Expectation!,2015
 song:6,song,6,Path,2013
 song:60,song,60,For You,2015
 song:61,song,61,Autumn Leaves,2015
 song:62,song,62,Butterfly,2015
-song:63,song,63,Intro: Never Mind,2015
+song:63,intro,63,Intro: Never Mind,2015
 song:64,song,64,Ma City,2015
-song:65,song,65,Outro: House of Cards,2015
+song:65,outro,65,Outro: House of Cards,2015
 song:66,song,66,Run,2015
 song:67,song,67,Silver Spoon,2015
-song:68,song,68,Skit: One Night in a Strange City,2015
+song:68,skit,68,Skit: One Night in a Strange City,2015
 song:69,song,69,Whalien 52,2015
-song:7,song,7,Skit : On the Start Line,2013
+song:7,skit,7,Skit : On the Start Line,2013
 song:70,song,70,Good Day,2016
 song:71,song,71,Burning Up,2016
 song:72,song,72,Epilogue: Young Forever,2016
 song:73,song,73,Save Me,2016
-song:74,song,74,Introduction : Youth,2016
+song:74,intro,74,Introduction : Youth,2016
 song:75,song,75,Wishing on a Star,2016
 song:76,song,76,2! 3!,2016
 song:77,song,77,21st Century Girl,2016
 song:78,song,78,Am I Wrong,2016
 song:79,song,79,Awake,2016
-song:8,song,8,Skit: Circle Room Talk,2013
+song:8,skit,8,Skit: Circle Room Talk,2013
 song:80,song,80,BTS Cypher 4,2016
 song:81,song,81,Begin,2016
 song:82,song,82,Blood Sweat & Tears,2016
 song:83,song,83,First Love,2016
-song:84,song,84,Interlude: Wings,2016
-song:85,song,85,Intro: Boy Meets Evil,2016
+song:84,interlude,84,Interlude: Wings,2016
+song:85,intro,85,Intro: Boy Meets Evil,2016
 song:86,song,86,Lie,2016
 song:87,song,87,Lost,2016
 song:88,song,88,MAMA,2016
@@ -958,7 +984,7 @@ song:9,song,9,We Are Bulletproof Pt.2,2013
 song:90,song,90,Stigma,2016
 song:91,song,91,A Supplementary Story: You Never Walk Alone,2017
 song:92,song,92,Not Today,2017
-song:93,song,93,Outro: Wings,2017
+song:93,outro,93,Outro: Wings,2017
 song:94,song,94,Spring Day,2017
 song:95,song,95,Come Back Home,2017
 song:96,song,96,Best Of Me,2017
@@ -1950,6 +1976,353 @@ track:983,track,983,Yet To Come,Spotify · original
 track:984,track,984,Yet To Come - Hyundai Ver.,Spotify · remix
 track:985,track,985,Your eyes tell,Spotify · original
 track:99,track,99,Butter - Live,Deezer · live
+verified_analysis:492,verified_analysis,492,00:00 (Zero O'Clock),original
+verified_analysis:493,verified_analysis,493,00:00 (Zero O’Clock),original
+verified_analysis:494,verified_analysis,494,134340,original
+verified_analysis:496,verified_analysis,496,2! 3!,original
+verified_analysis:497,verified_analysis,497,2! 3!,original
+verified_analysis:499,verified_analysis,499,21st Century Girl,original
+verified_analysis:500,verified_analysis,500,21st Century Girl,original
+verified_analysis:502,verified_analysis,502,24/7=Heaven,original
+verified_analysis:505,verified_analysis,505,A Brand New Day - BTS World Original Soundtrack (Pt. 2),original
+verified_analysis:507,verified_analysis,507,A Supplementary Story: You Never Walk Alone,original
+verified_analysis:508,verified_analysis,508,Airplane pt.2,original
+verified_analysis:509,verified_analysis,509,Airplane pt.2,original
+verified_analysis:510,verified_analysis,510,Airplane pt.2 - Japanese ver.,japanese
+verified_analysis:511,verified_analysis,511,Airplane pt.2 - Live,live
+verified_analysis:514,verified_analysis,514,All Night - BTS World Original Soundtrack (Pt. 3),original
+verified_analysis:515,verified_analysis,515,Am I Wrong,original
+verified_analysis:517,verified_analysis,517,Am I Wrong,original
+verified_analysis:518,verified_analysis,518,Anpanman,original
+verified_analysis:519,verified_analysis,519,Anpanman,original
+verified_analysis:520,verified_analysis,520,Answer : Love Myself,original
+verified_analysis:521,verified_analysis,521,Attack on Bangtan,original
+verified_analysis:522,verified_analysis,522,Shingeki no Boudan - Sonpub Remix,remix
+verified_analysis:526,verified_analysis,526,Autumn Leaves,original
+verified_analysis:527,verified_analysis,527,Autumn Leaves,original
+verified_analysis:529,verified_analysis,529,Awake,original
+verified_analysis:531,verified_analysis,531,Awake,original
+verified_analysis:532,verified_analysis,532,Begin,original
+verified_analysis:534,verified_analysis,534,Begin,original
+verified_analysis:535,verified_analysis,535,Best Of Me,original
+verified_analysis:536,verified_analysis,536,Best Of Me,original
+verified_analysis:537,verified_analysis,537,Best Of Me - Japanese ver.,japanese
+verified_analysis:539,verified_analysis,539,Black Swan,original
+verified_analysis:540,verified_analysis,540,Black Swan - Japanese ver.,japanese
+verified_analysis:541,verified_analysis,541,Black Swan - Live,live
+verified_analysis:542,verified_analysis,542,Blood Sweat & Tears,original
+verified_analysis:543,verified_analysis,543,Blood Sweat & Tears,original
+verified_analysis:544,verified_analysis,544,Blood Sweat & Tears - Live,live
+verified_analysis:545,verified_analysis,545,血、汗、涙 - Japanese ver.,japanese
+verified_analysis:548,verified_analysis,548,Blue & Grey,original
+verified_analysis:549,verified_analysis,549,Blue & Grey - Live,live
+verified_analysis:551,verified_analysis,551,Born Singer,original
+verified_analysis:552,verified_analysis,552,Boy In Luv,original
+verified_analysis:553,verified_analysis,553,Boy In Luv - Japanese Ver.,japanese
+verified_analysis:555,verified_analysis,555,Boy With Luv (Feat. Halsey),original
+verified_analysis:556,verified_analysis,556,Boy With Luv (Feat. Halsey),original
+verified_analysis:557,verified_analysis,557,Boy With Luv (Feat. Halsey) - Live,live
+verified_analysis:558,verified_analysis,558,Boy With Luv (feat. Halsey),original
+verified_analysis:559,verified_analysis,559,Boy With Luv - Japanese ver.,japanese
+verified_analysis:561,verified_analysis,561,Boyz with Fun,original
+verified_analysis:562,verified_analysis,562,Funtan Syounendan - Japanese Ver.,japanese
+verified_analysis:565,verified_analysis,565,BTS Cypher 4,original
+verified_analysis:566,verified_analysis,566,BTS Cypher 4,original
+verified_analysis:569,verified_analysis,569,BTS Cypher Pt.1,original
+verified_analysis:570,verified_analysis,570,BTS Cypher Pt.2: Triptych,original
+verified_analysis:571,verified_analysis,571,BTS Cypher Pt.2: Triptych,original
+verified_analysis:572,verified_analysis,572,BTS Cypher PT.3 : KILLER (Feat. Supreme Boi),original
+verified_analysis:573,verified_analysis,573,Burning Up (FIRE),original
+verified_analysis:574,verified_analysis,574,Burning Up (FIRE) - Live,live
+verified_analysis:578,verified_analysis,578,Fire - Japanese Ver.,japanese
+verified_analysis:580,verified_analysis,580,Butter,original
+verified_analysis:581,verified_analysis,581,Butter (Cooler Remix),remix
+verified_analysis:582,verified_analysis,582,Butter (Holiday Remix),remix
+verified_analysis:583,verified_analysis,583,Butter (Hotter Remix),remix
+verified_analysis:584,verified_analysis,584,Butter (Instrumental),instrumental
+verified_analysis:585,verified_analysis,585,Butter (Sweeter Remix),remix
+verified_analysis:586,verified_analysis,586,Butter - Instrumental,instrumental
+verified_analysis:587,verified_analysis,587,Butter - Live,live
+verified_analysis:588,verified_analysis,588,Butter - Megan Thee Stallion Remix,remix
+verified_analysis:589,verified_analysis,589,Butterfly,original
+verified_analysis:591,verified_analysis,591,Butterfly,original
+verified_analysis:593,verified_analysis,593,Butterfly - Alternative Mix,remix
+verified_analysis:594,verified_analysis,594,Butterfly - Japanese Ver.,japanese
+verified_analysis:596,verified_analysis,596,Butterfly - Prologue Mix,remix
+verified_analysis:598,verified_analysis,598,Coffee,original
+verified_analysis:600,verified_analysis,600,Come Back Home,original
+verified_analysis:602,verified_analysis,602,Converse High,original
+verified_analysis:604,verified_analysis,604,Converse High,original
+verified_analysis:605,verified_analysis,605,Could You Turn off Your Cell Phone,original
+verified_analysis:607,verified_analysis,607,Crystal Snow,original
+verified_analysis:608,verified_analysis,608,Danger,original
+verified_analysis:609,verified_analysis,609,Danger - Japanese Ver.,japanese
+verified_analysis:610,verified_analysis,610,Dimple,original
+verified_analysis:611,verified_analysis,611,Dimple,original
+verified_analysis:612,verified_analysis,612,dimple,original
+verified_analysis:613,verified_analysis,613,Dionysus,original
+verified_analysis:615,verified_analysis,615,Dionysus,original
+verified_analysis:616,verified_analysis,616,Dionysus - Japanese ver.,japanese
+verified_analysis:617,verified_analysis,617,Dis-ease,original
+verified_analysis:618,verified_analysis,618,Dis-ease - Live,live
+verified_analysis:620,verified_analysis,620,DNA,original
+verified_analysis:621,verified_analysis,621,DNA,original
+verified_analysis:622,verified_analysis,622,DNA,original
+verified_analysis:623,verified_analysis,623,DNA (Pedal 2 LA Mix),remix
+verified_analysis:624,verified_analysis,624,DNA - Japanese ver.,japanese
+verified_analysis:625,verified_analysis,625,DNA - Live,live
+verified_analysis:626,verified_analysis,626,Don't Leave Me,original
+verified_analysis:630,verified_analysis,630,Dope,original
+verified_analysis:631,verified_analysis,631,Dope,original
+verified_analysis:632,verified_analysis,632,Dope - Chou Yabee! - - Japanese Ver.,japanese
+verified_analysis:633,verified_analysis,633,Dope - Live,live
+verified_analysis:636,verified_analysis,636,Dream Glow - BTS World Original Soundtrack (Pt. 1),original
+verified_analysis:637,verified_analysis,637,Dynamite,original
+verified_analysis:638,verified_analysis,638,Dynamite,original
+verified_analysis:639,verified_analysis,639,Dynamite (Instrumental),instrumental
+verified_analysis:640,verified_analysis,640,Dynamite - Acoustic Remix,remix
+verified_analysis:641,verified_analysis,641,Dynamite - Bedroom Remix,remix
+verified_analysis:642,verified_analysis,642,Dynamite - EDM Remix,remix
+verified_analysis:643,verified_analysis,643,Dynamite - Holiday Remix,remix
+verified_analysis:644,verified_analysis,644,Dynamite - Instrumental,instrumental
+verified_analysis:645,verified_analysis,645,Dynamite - Live,live
+verified_analysis:646,verified_analysis,646,Dynamite - Midnight Remix,remix
+verified_analysis:647,verified_analysis,647,Dynamite - Poolside Remix,remix
+verified_analysis:648,verified_analysis,648,Dynamite - Retro Remix,remix
+verified_analysis:649,verified_analysis,649,Dynamite - Slow Jam Remix,remix
+verified_analysis:650,verified_analysis,650,Dynamite - Tropical Remix,remix
+verified_analysis:651,verified_analysis,651,Embarrassed,original
+verified_analysis:654,verified_analysis,654,Epilogue : Young Forever - Japanese Ver.,japanese
+verified_analysis:655,verified_analysis,655,Epilogue: Young Forever,original
+verified_analysis:657,verified_analysis,657,Epiphany,original
+verified_analysis:658,verified_analysis,658,Euphoria,original
+verified_analysis:659,verified_analysis,659,Euphoria,original
+verified_analysis:660,verified_analysis,660,FAKE LOVE,original
+verified_analysis:661,verified_analysis,661,FAKE LOVE,original
+verified_analysis:662,verified_analysis,662,FAKE LOVE,original
+verified_analysis:663,verified_analysis,663,FAKE LOVE (Rocking Vibe Mix),remix
+verified_analysis:664,verified_analysis,664,FAKE LOVE - Japanese ver.,japanese
+verified_analysis:665,verified_analysis,665,FAKE LOVE - Japanese ver. / Remix,japanese
+verified_analysis:667,verified_analysis,667,FAKE LOVE - Live,live
+verified_analysis:668,verified_analysis,668,Film out,original
+verified_analysis:669,verified_analysis,669,Filter,original
+verified_analysis:670,verified_analysis,670,Filter,original
+verified_analysis:672,verified_analysis,672,First Love,original
+verified_analysis:673,verified_analysis,673,First Love,original
+verified_analysis:674,verified_analysis,674,Fly To My Room,original
+verified_analysis:677,verified_analysis,677,For You,original
+verified_analysis:678,verified_analysis,678,For Youth,original
+verified_analysis:679,verified_analysis,679,Friends,original
+verified_analysis:680,verified_analysis,680,Friends,original
+verified_analysis:683,verified_analysis,683,Go Go,original
+verified_analysis:684,verified_analysis,684,Go Go,original
+verified_analysis:685,verified_analysis,685,Go Go - Japanese ver.,japanese
+verified_analysis:687,verified_analysis,687,Good Day,original
+verified_analysis:689,verified_analysis,689,Her,original
+verified_analysis:690,verified_analysis,690,Her,original
+verified_analysis:691,verified_analysis,691,Outro: Her,original
+verified_analysis:692,verified_analysis,692,Hip Hop Phile,original
+verified_analysis:694,verified_analysis,694,Hold Me Tight,original
+verified_analysis:695,verified_analysis,695,Hold Me Tight,original
+verified_analysis:698,verified_analysis,698,HOME,original
+verified_analysis:700,verified_analysis,700,I NEED U,original
+verified_analysis:702,verified_analysis,702,I Need U - Japanese Ver.,japanese
+verified_analysis:704,verified_analysis,704,I Need U - Remix,remix
+verified_analysis:706,verified_analysis,706,I Need U - Urban Mix,remix
+verified_analysis:707,verified_analysis,707,IDOL,original
+verified_analysis:708,verified_analysis,708,IDOL,original
+verified_analysis:709,verified_analysis,709,IDOL,original
+verified_analysis:710,verified_analysis,710,IDOL - Japanese ver.,japanese
+verified_analysis:711,verified_analysis,711,IDOL - Live,live
+verified_analysis:712,verified_analysis,712,IDOL - Stadium Remix,remix
+verified_analysis:714,verified_analysis,714,If I Ruled the World,original
+verified_analysis:715,verified_analysis,715,Iine!Pt.2 - Ano Bashode -,original
+verified_analysis:717,verified_analysis,717,I'm Fine,original
+verified_analysis:719,verified_analysis,719,Inner Child,original
+verified_analysis:721,verified_analysis,721,Interlude,original
+verified_analysis:722,verified_analysis,722,Interlude : Shadow,original
+verified_analysis:724,verified_analysis,724,Interlude: What Are You Doing Now,original
+verified_analysis:726,verified_analysis,726,Interlude: Wings,original
+verified_analysis:729,verified_analysis,729,Intro: 2 Cool 4 Skool,original
+verified_analysis:730,verified_analysis,730,Intro: Boy Meets Evil,original
+verified_analysis:732,verified_analysis,732,Intro: Boy Meets Evil,original
+verified_analysis:733,verified_analysis,733,INTRO : Calling,original
+verified_analysis:734,verified_analysis,734,Intro: Never Mind,original
+verified_analysis:737,verified_analysis,737,"Intro: O!RUL8,2?",original
+verified_analysis:738,verified_analysis,738,Intro : Persona,original
+verified_analysis:739,verified_analysis,739,Intro : Persona,original
+verified_analysis:740,verified_analysis,740,Intro : Persona,original
+verified_analysis:741,verified_analysis,741,INTRO : Ringwanderung,original
+verified_analysis:742,verified_analysis,742,Intro: Serendipity,original
+verified_analysis:743,verified_analysis,743,Intro: Skool Luv Affair,original
+verified_analysis:744,verified_analysis,744,Intro: Skool Luv Affair,original
+verified_analysis:745,verified_analysis,745,Intro: The Most Beautiful Moment in Life,original
+verified_analysis:746,verified_analysis,746,Intro: The Most Beautiful Moment in Life,original
+verified_analysis:748,verified_analysis,748,Intro.,original
+verified_analysis:750,verified_analysis,750,Intro: What Am I to You,original
+verified_analysis:752,verified_analysis,752,Introduction : Youth,original
+verified_analysis:753,verified_analysis,753,Jamais Vu,original
+verified_analysis:754,verified_analysis,754,Jamais Vu,original
+verified_analysis:755,verified_analysis,755,Jamais Vu,original
+verified_analysis:756,verified_analysis,756,Jump,original
+verified_analysis:757,verified_analysis,757,Jump,original
+verified_analysis:758,verified_analysis,758,Jump - Japanese Ver.,japanese
+verified_analysis:760,verified_analysis,760,Just One Day,original
+verified_analysis:761,verified_analysis,761,Just One Day,original
+verified_analysis:762,verified_analysis,762,Just One Day - Japanese Ver.,japanese
+verified_analysis:763,verified_analysis,763,Just One Day - Japanese Ver.,japanese
+verified_analysis:765,verified_analysis,765,Let Go,original
+verified_analysis:767,verified_analysis,767,Let Me Know,original
+verified_analysis:768,verified_analysis,768,Let Me Know - Japanese Ver.,japanese
+verified_analysis:770,verified_analysis,770,Lie,original
+verified_analysis:771,verified_analysis,771,Lie,original
+verified_analysis:772,verified_analysis,772,Life Goes On,original
+verified_analysis:773,verified_analysis,773,Life Goes On,original
+verified_analysis:774,verified_analysis,774,Life Goes On - Live,live
+verified_analysis:775,verified_analysis,775,Lights,original
+verified_analysis:776,verified_analysis,776,Iine!,japanese
+verified_analysis:777,verified_analysis,777,Like,original
+verified_analysis:778,verified_analysis,778,Like - Slow Jam Remix,remix
+verified_analysis:781,verified_analysis,781,Look Here,original
+verified_analysis:783,verified_analysis,783,Lost,original
+verified_analysis:785,verified_analysis,785,Lost,original
+verified_analysis:786,verified_analysis,786,Louder than bombs,original
+verified_analysis:788,verified_analysis,788,Love Maze,original
+verified_analysis:790,verified_analysis,790,Ma City,original
+verified_analysis:791,verified_analysis,791,Ma City,original
+verified_analysis:792,verified_analysis,792,Magic Shop,original
+verified_analysis:793,verified_analysis,793,Magic Shop,original
+verified_analysis:794,verified_analysis,794,Make It Right,original
+verified_analysis:795,verified_analysis,795,Make It Right,original
+verified_analysis:797,verified_analysis,797,Make It Right (feat. Lauv),original
+verified_analysis:798,verified_analysis,798,Make It Right (feat. Lauv) - Acoustic Remix,remix
+verified_analysis:799,verified_analysis,799,Make It Right (feat. Lauv) - EDM Remix,remix
+verified_analysis:800,verified_analysis,800,Make It Right - Japanese ver.,japanese
+verified_analysis:802,verified_analysis,802,MAMA,original
+verified_analysis:803,verified_analysis,803,MAMA,original
+verified_analysis:805,verified_analysis,805,MIC Drop,original
+verified_analysis:806,verified_analysis,806,MIC Drop,original
+verified_analysis:807,verified_analysis,807,MIC Drop (Steve Aoki Remix) (Full Length Edition),alternate
+verified_analysis:808,verified_analysis,808,MIC Drop (feat. Desiigner) [Steve Aoki Remix],remix
+verified_analysis:809,verified_analysis,809,MIC Drop - Japanese ver.,japanese
+verified_analysis:810,verified_analysis,810,Mikrokosmos,original
+verified_analysis:813,verified_analysis,813,Miss Right,original
+verified_analysis:814,verified_analysis,814,Moon,original
+verified_analysis:815,verified_analysis,815,Moon,original
+verified_analysis:816,verified_analysis,816,Moving On,original
+verified_analysis:817,verified_analysis,817,Moving On,original
+verified_analysis:819,verified_analysis,819,My Time,original
+verified_analysis:821,verified_analysis,821,N.O,original
+verified_analysis:822,verified_analysis,822,N.O - Japanese Ver.,japanese
+verified_analysis:824,verified_analysis,824,No More Dream,original
+verified_analysis:825,verified_analysis,825,No More Dream - Japanese Ver.,japanese
+verified_analysis:827,verified_analysis,827,NORMAL (Instrumental),instrumental
+verified_analysis:828,verified_analysis,828,NORMAL (Korean Ver.),korean
+verified_analysis:830,verified_analysis,830,Not Today,original
+verified_analysis:831,verified_analysis,831,Not Today - Japanese ver.,japanese
+verified_analysis:832,verified_analysis,832,ON,original
+verified_analysis:833,verified_analysis,833,ON,original
+verified_analysis:834,verified_analysis,834,ON (Feat. Sia),original
+verified_analysis:836,verified_analysis,836,ON - Japanese ver.,japanese
+verified_analysis:837,verified_analysis,837,ON - Live,live
+verified_analysis:840,verified_analysis,840,Outro: Circle Room Cypher,original
+verified_analysis:841,verified_analysis,841,OUTRO : Crack,original
+verified_analysis:842,verified_analysis,842,Outro: Do You Think It Makes Sense?,original
+verified_analysis:844,verified_analysis,844,Outro : Ego,original
+verified_analysis:845,verified_analysis,845,Outro : Ego,original
+verified_analysis:846,verified_analysis,846,House of Cards - Full Length Edition,alternate
+verified_analysis:848,verified_analysis,848,Outro: House of Cards,original
+verified_analysis:851,verified_analysis,851,Love Is Not Over - Full Length Edition,alternate
+verified_analysis:852,verified_analysis,852,Outro: Love Is Not Over,original
+verified_analysis:855,verified_analysis,855,Outro: Luv in Skool,original
+verified_analysis:856,verified_analysis,856,Outro: Propose,original
+verified_analysis:857,verified_analysis,857,Outro: Propose,original
+verified_analysis:858,verified_analysis,858,OUTRO : The Journey,original
+verified_analysis:859,verified_analysis,859,Outro.,original
+verified_analysis:860,verified_analysis,860,Outro : Wings - Live,live
+verified_analysis:862,verified_analysis,862,Outro: Wings,original
+verified_analysis:863,verified_analysis,863,Paldogangsan,original
+verified_analysis:865,verified_analysis,865,Paradise,original
+verified_analysis:866,verified_analysis,866,Permission to Dance,original
+verified_analysis:867,verified_analysis,867,Permission to Dance,original
+verified_analysis:868,verified_analysis,868,Permission to Dance (Instrumental),instrumental
+verified_analysis:869,verified_analysis,869,Permission to Dance (Instrumental),instrumental
+verified_analysis:870,verified_analysis,870,Permission to Dance (R&B Remix),remix
+verified_analysis:871,verified_analysis,871,Permission to Dance - Live,live
+verified_analysis:872,verified_analysis,872,Pied Piper,original
+verified_analysis:874,verified_analysis,874,Rain,original
+verified_analysis:876,verified_analysis,876,Reflection,original
+verified_analysis:878,verified_analysis,878,Reflection,original
+verified_analysis:880,verified_analysis,880,Respect,original
+verified_analysis:881,verified_analysis,881,RUN,original
+verified_analysis:884,verified_analysis,884,Run - Alternative Mix,remix
+verified_analysis:887,verified_analysis,887,Run - Ballad Mix,remix
+verified_analysis:888,verified_analysis,888,Run - Japanese Ver.,japanese
+verified_analysis:889,verified_analysis,889,Run BTS,original
+verified_analysis:892,verified_analysis,892,Save Me,original
+verified_analysis:893,verified_analysis,893,Save Me - Japanese Ver.,japanese
+verified_analysis:894,verified_analysis,894,Serendipity (Full Length Edition),alternate
+verified_analysis:895,verified_analysis,895,Peppuse - Japanese Ver.,japanese
+verified_analysis:896,verified_analysis,896,Silver Spoon,original
+verified_analysis:897,verified_analysis,897,Silver Spoon,original
+verified_analysis:898,verified_analysis,898,Silver Spoon - Live,live
+verified_analysis:901,verified_analysis,901,Intro: Singularity,original
+verified_analysis:902,verified_analysis,902,Singularity,original
+verified_analysis:903,verified_analysis,903,Singularity,original
+verified_analysis:904,verified_analysis,904,Skit,original
+verified_analysis:906,verified_analysis,906,Skit: Billboard Music Awards Speech,original
+verified_analysis:907,verified_analysis,907,Skit: Circle Room Talk,original
+verified_analysis:909,verified_analysis,909,Skit: Expectation!,original
+verified_analysis:911,verified_analysis,911,Skit: One Night in a Strange City,original
+verified_analysis:913,verified_analysis,913,Skit: R U Happy Now?,original
+verified_analysis:915,verified_analysis,915,Skit: Soulmate,original
+verified_analysis:916,verified_analysis,916,Skit: Soulmate,original
+verified_analysis:918,verified_analysis,918,So 4 more,original
+verified_analysis:919,verified_analysis,919,So What,original
+verified_analysis:920,verified_analysis,920,So What - Live,live
+verified_analysis:921,verified_analysis,921,Spine Breaker,original
+verified_analysis:922,verified_analysis,922,Spine Breaker,original
+verified_analysis:924,verified_analysis,924,Spring Day,original
+verified_analysis:925,verified_analysis,925,Spring Day,original
+verified_analysis:926,verified_analysis,926,Spring Day - Japanese ver.,japanese
+verified_analysis:927,verified_analysis,927,Spring Day - Live,live
+verified_analysis:929,verified_analysis,929,Stay,original
+verified_analysis:930,verified_analysis,930,Stay,original
+verified_analysis:931,verified_analysis,931,Stay - Live,live
+verified_analysis:932,verified_analysis,932,Stay Gold,original
+verified_analysis:933,verified_analysis,933,Stigma,original
+verified_analysis:934,verified_analysis,934,Stigma,original
+verified_analysis:939,verified_analysis,939,SWIM - Underwater Remix,remix
+verified_analysis:947,verified_analysis,947,Take Two,original
+verified_analysis:948,verified_analysis,948,Outro: Tear,original
+verified_analysis:949,verified_analysis,949,Tear,original
+verified_analysis:950,verified_analysis,950,Telepathy,original
+verified_analysis:951,verified_analysis,951,Telepathy - Live,live
+verified_analysis:953,verified_analysis,953,The Planet,original
+verified_analysis:954,verified_analysis,954,The Stars,original
+verified_analysis:955,verified_analysis,955,The Truth Untold,original
+verified_analysis:956,verified_analysis,956,The Truth Untold (feat. Steve Aoki),original
+verified_analysis:958,verified_analysis,958,Tomorrow,original
+verified_analysis:959,verified_analysis,959,Tomorrow,original
+verified_analysis:960,verified_analysis,960,Trivia 承 : Love,original
+verified_analysis:961,verified_analysis,961,Trivia 起 : Just Dance,original
+verified_analysis:962,verified_analysis,962,Trivia 轉 : Seesaw,original
+verified_analysis:963,verified_analysis,963,Trivia 轉 : Seesaw,original
+verified_analysis:964,verified_analysis,964,UGH!,original
+verified_analysis:966,verified_analysis,966,Wake Up,original
+verified_analysis:967,verified_analysis,967,Hormone Sensou - Japanese Ver.,japanese
+verified_analysis:968,verified_analysis,968,War of Hormone,original
+verified_analysis:970,verified_analysis,970,We Are Bulletproof Pt.2,original
+verified_analysis:972,verified_analysis,972,We are Bulletproof : the Eternal,original
+verified_analysis:975,verified_analysis,975,We On,original
+verified_analysis:976,verified_analysis,976,Whalien 52,original
+verified_analysis:977,verified_analysis,977,Whalien 52,original
+verified_analysis:979,verified_analysis,979,Where You From,original
+verified_analysis:980,verified_analysis,980,Where You From,original
+verified_analysis:981,verified_analysis,981,Wishing On A Star,original
+verified_analysis:983,verified_analysis,983,Yet To Come,original
+verified_analysis:984,verified_analysis,984,Yet To Come - Hyundai Ver.,remix
+verified_analysis:985,verified_analysis,985,Your eyes tell,original
 video:10,video,10,"BTS (방탄소년단) 'No More Dream' Official Teaser #2",teaser · 2013
 video:100,video,100,BTS (防弾少年団) 'RUN -Japanese Ver.-' Official MV,mv · 2016
 video:102,video,102,BTS (방탄소년단) 'EPILOGUE : Young Forever' Official MV,mv · 2016

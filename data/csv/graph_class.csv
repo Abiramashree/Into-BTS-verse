@@ -1,15 +1,23 @@
 class,iri,parent,is_abstract,label,definition,table_name,schema_org,wikidata
 agent,"https://abiramashree.github.io/Into-BTS-verse/ontology#Agent",,true,Agent,Makes or performs music.,,,
 album,"https://abiramashree.github.io/Into-BTS-verse/ontology#Album",release,false,Album,A release whose Apple title has no ' - Single' or ' - EP' suffix. Apple lists BTS's mini albums this way.,album,MusicAlbum,Q482994
+album_series,"https://abiramashree.github.io/Into-BTS-verse/ontology#AlbumSeries",creative_work,false,Album series,"Releases that form one creative series, such as Love Yourself.",album_series,,
+audio_analysis,"https://abiramashree.github.io/Into-BTS-verse/ontology#AudioAnalysis",,true,Audio analysis,"One measurement of audio features, from one track or preview. Features describe this audio, not the song across all its versions.",,,
 chart,"https://abiramashree.github.io/Into-BTS-verse/ontology#Chart",,false,Chart,A Billboard chart.,node,,Q373899
 creative_work,"https://abiramashree.github.io/Into-BTS-verse/ontology#CreativeWork",,true,Creative work,Music and its releases.,,CreativeWork,
 ep,"https://abiramashree.github.io/Into-BTS-verse/ontology#EP",release,false,EP,A release whose Apple title ends in ' - EP'.,album,,
+estimated_analysis,"https://abiramashree.github.io/Into-BTS-verse/ontology#EstimatedAnalysis",audio_analysis,false,Estimated analysis,Tempo and energy estimated with librosa from a 30-second preview of a song.,estimated_analysis,,
 group,"https://abiramashree.github.io/Into-BTS-verse/ontology#Group",agent,false,Group,A music group.,node,MusicGroup,Q215380
+interlude,"https://abiramashree.github.io/Into-BTS-verse/ontology#Interlude",song,false,Interlude,A song its release titles as an interlude.,song,,
+intro,"https://abiramashree.github.io/Into-BTS-verse/ontology#Intro",song,false,Intro,A song its release titles as an intro. Many are full-length songs.,song,,
 member,"https://abiramashree.github.io/Into-BTS-verse/ontology#Member",person,false,Member,A member of BTS.,person,,
+outro,"https://abiramashree.github.io/Into-BTS-verse/ontology#Outro",song,false,Outro,A song its release titles as an outro. Many are full-length songs.,song,,
 person,"https://abiramashree.github.io/Into-BTS-verse/ontology#Person",agent,false,Person,"Someone credited as writer, lyricist, composer or producer.",person,Person,Q5
 recording,"https://abiramashree.github.io/Into-BTS-verse/ontology#Recording",creative_work,false,Recording,"One version of a song: original, live, remix, demo, Japanese and so on.",recording,MusicRecording,
 release,"https://abiramashree.github.io/Into-BTS-verse/ontology#Release",creative_work,true,Release,"An album, EP or single.",album,MusicRelease,
 single,"https://abiramashree.github.io/Into-BTS-verse/ontology#Single",release,false,Single,A release whose Apple title ends in ' - Single'.,album,,Q134556
+skit,"https://abiramashree.github.io/Into-BTS-verse/ontology#Skit",song,false,Skit,A spoken track its release titles as a skit.,song,,
 song,"https://abiramashree.github.io/Into-BTS-verse/ontology#Song",creative_work,false,Song,"A composition, across all its versions.",song,MusicComposition,Q7366
 track,"https://abiramashree.github.io/Into-BTS-verse/ontology#Track",creative_work,false,Track,A song as listed on Spotify or Deezer.,track,,
+verified_analysis,"https://abiramashree.github.io/Into-BTS-verse/ontology#VerifiedAnalysis",audio_analysis,false,Verified analysis,"Spotify's audio features for one track, via ReccoBeats.",verified_analysis,,
 video,"https://abiramashree.github.io/Into-BTS-verse/ontology#Video",creative_work,false,Video,A video of one song on BTS's YouTube channel.,video,MusicVideoObject,Q193977

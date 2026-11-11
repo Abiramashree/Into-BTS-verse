@@ -1,0 +1,15 @@
+kind,name,iri,label,definition
+confidence,estimated,"https://abiramashree.github.io/Into-BTS-verse/ontology#estimated",estimated,"Derived from our own estimates, which are less reliable."
+confidence,inferred,"https://abiramashree.github.io/Into-BTS-verse/ontology#inferred",inferred,Derived by a rule from other claims.
+confidence,stated,"https://abiramashree.github.io/Into-BTS-verse/ontology#stated",stated,A source states it directly.
+confidence,verified,"https://abiramashree.github.io/Into-BTS-verse/ontology#verified",verified,Derived from measurements checked against Spotify's original values.
+source,Apple,"https://abiramashree.github.io/Into-BTS-verse/ontology#Apple",Apple Music,
+source,Billboard,"https://abiramashree.github.io/Into-BTS-verse/ontology#Billboard",Billboard,
+source,Deezer,"https://abiramashree.github.io/Into-BTS-verse/ontology#Deezer",Deezer,
+source,IntoBTSVerse,"https://abiramashree.github.io/Into-BTS-verse/ontology#IntoBTSVerse",Into BTSVerse,Decided by this dataset: its scope and its membership list.
+source,Kworb,"https://abiramashree.github.io/Into-BTS-verse/ontology#Kworb",kworb,
+source,MusicBrainz,"https://abiramashree.github.io/Into-BTS-verse/ontology#MusicBrainz",MusicBrainz,
+source,Previews,"https://abiramashree.github.io/Into-BTS-verse/ontology#Previews",30-second previews,Audio estimated with librosa from Apple and Deezer previews.
+source,ReccoBeats,"https://abiramashree.github.io/Into-BTS-verse/ontology#ReccoBeats",ReccoBeats,
+source,Wikipedia,"https://abiramashree.github.io/Into-BTS-verse/ontology#Wikipedia",Wikipedia,
+source,YouTube,"https://abiramashree.github.io/Into-BTS-verse/ontology#YouTube",YouTube,

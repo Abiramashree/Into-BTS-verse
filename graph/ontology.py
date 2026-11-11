@@ -15,7 +15,7 @@ from rdflib.namespace import DCTERMS, SKOS
 
 TTL = Path(__file__).parent / "ontology.ttl"
 BV = "https://abiramashree.github.io/Into-BTS-verse/ontology#"
-ROOTS = {"Agent", "CreativeWork", "Chart"}  # graph classes descend from these; Source and ChartRun don't
+ROOTS = {"Agent", "CreativeWork", "Chart", "AudioAnalysis"}  # graph classes descend from these; Source and ChartRun don't
 
 DDL = """
 CREATE TABLE graph_class (
@@ -64,6 +64,15 @@ CREATE TABLE graph_attribute (
     definition VARCHAR
 );
 
+CREATE TABLE graph_term (
+    kind VARCHAR NOT NULL,                 -- source or confidence
+    name VARCHAR NOT NULL,                 -- As used in edge.provenance and edge.confidence
+    iri VARCHAR NOT NULL UNIQUE,
+    label VARCHAR NOT NULL,
+    definition VARCHAR,
+    PRIMARY KEY (kind, name)
+);
+
 CREATE TABLE graph_setting (
     setting VARCHAR PRIMARY KEY,
     iri VARCHAR NOT NULL UNIQUE,
@@ -76,6 +85,7 @@ CREATE TABLE graph_metapath (
     metapath VARCHAR PRIMARY KEY,
     iri VARCHAR NOT NULL UNIQUE,
     route VARCHAR NOT NULL,
+    relations VARCHAR[] NOT NULL,          -- The relations it walks; the recommendation query reads these
     weight DOUBLE NOT NULL,                -- How much the path counts in a recommendation score
     reason VARCHAR NOT NULL,               -- Evidence label on recommends edges
     label VARCHAR NOT NULL,
@@ -193,6 +203,7 @@ def tables(g: Graph) -> dict[str, list[dict]]:
             "metapath": _local(m),
             "iri": str(m),
             "route": text(m, URIRef(BV + "route")),
+            "relations": sorted(_local(r) for r in g.objects(m, URIRef(BV + "uses_relation"))),
             "weight": float(g.value(m, URIRef(BV + "path_weight"))),
             "reason": text(m, URIRef(BV + "reason")),
             "label": text(m, RDFS.label),
@@ -205,10 +216,15 @@ def tables(g: Graph) -> dict[str, list[dict]]:
          "label": text(x, RDFS.label), "definition": text(x, SKOS.definition)}
         for x in g.subjects(RDF.type, URIRef(BV + "Setting"))
     ]
-    key = {"graph_class": "class", "graph_setting": "setting", "graph_relation": ("relation", "source_class", "target_class"), "graph_attribute": "attribute",
+    term_rows = [
+        {"kind": kind, "name": _local(x), "iri": str(x), "label": text(x, RDFS.label), "definition": text(x, SKOS.definition)}
+        for kind, cls in (("source", "Source"), ("confidence", "Confidence"))
+        for x in g.subjects(RDF.type, URIRef(BV + cls))
+    ]
+    key = {"graph_class": "class", "graph_setting": "setting", "graph_term": ("kind", "name"), "graph_relation": ("relation", "source_class", "target_class"), "graph_attribute": "attribute",
            "graph_metapath": "metapath"}
     out = {"graph_class": class_rows, "graph_relation": relation_rows, "graph_attribute": attribute_rows, "graph_metapath": metapath_rows,
-           "graph_setting": setting_rows}
+           "graph_setting": setting_rows, "graph_term": term_rows}
     for name, rows in out.items():
         k = key[name]
         rows.sort(key=lambda r: tuple(r[c] for c in k) if isinstance(k, tuple) else r[k])

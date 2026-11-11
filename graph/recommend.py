@@ -18,8 +18,8 @@ def pick(candidates: list[tuple], audio: dict, same_album: set, seed: str, gem: 
     """candidates: (song, score, popularity percentile, streams per day, track on the song's first release). Returns up
     to PICKS songs in order."""
     best = max(c[1] for c in candidates)
-    relevance = {y: score / best - gem * (popularity or 0) / 100 for y, score, popularity, _, _ in candidates}
-    streams = {y: s if s is not None else -1 for y, _, _, s, _ in candidates}  # no streaming data counts as least streamed
+    relevance = {y: score / best - gem * popularity / 100 for y, score, popularity, _, _ in candidates}
+    streams = {y: s for y, _, _, s, _ in candidates}
     track = {y: t if t is not None else 10**9 for y, _, _, _, t in candidates}
 
     def similarity(a, b):
@@ -54,4 +54,4 @@ def run(con: duckdb.DuckDBPyConnection) -> None:
     for x in sorted(candidates):
         for rank, y in enumerate(pick(candidates[x], audio, same_album, x, gem, lam), start=1):
             edges.append((x, y, round(1 / rank, 4), reasons[x, y]))
-    con.executemany("INSERT INTO edge VALUES (?, 'recommends', ?, ?, ?)", edges)
+    con.executemany("INSERT INTO edge VALUES (?, 'recommends', ?, ?, ?, 'IntoBTSVerse', 'inferred')", edges)
