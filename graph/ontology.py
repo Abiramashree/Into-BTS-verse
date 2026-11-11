@@ -19,77 +19,77 @@ ROOTS = {"Agent", "CreativeWork", "Chart", "AudioAnalysis"}  # graph classes des
 
 DDL = """
 CREATE TABLE graph_class (
-    class VARCHAR PRIMARY KEY,
-    iri VARCHAR NOT NULL UNIQUE,
-    parent VARCHAR,
+    class VARCHAR PRIMARY KEY,  -- Class name, as in node.class
+    iri VARCHAR NOT NULL UNIQUE,  -- The class's address in the ontology
+    parent VARCHAR,  -- The class it specialises
     is_abstract BOOLEAN NOT NULL,          -- No nodes of its own
-    label VARCHAR NOT NULL,
-    definition VARCHAR NOT NULL,
+    label VARCHAR NOT NULL,  -- Name for display
+    definition VARCHAR NOT NULL,  -- What the class means
     table_name VARCHAR,                    -- Warehouse table its nodes come from
-    schema_org VARCHAR,
-    wikidata VARCHAR
+    schema_org VARCHAR,  -- Close matches on schema.org
+    wikidata VARCHAR  -- Close matches on Wikidata
 );
 
 CREATE TABLE graph_relation (
-    relation VARCHAR NOT NULL,
-    source_class VARCHAR NOT NULL REFERENCES graph_class (class),
-    target_class VARCHAR NOT NULL REFERENCES graph_class (class),
-    iri VARCHAR NOT NULL,
-    parent VARCHAR,
-    inverse VARCHAR,
+    relation VARCHAR NOT NULL,  -- Relation name, as in edge.relation
+    source_class VARCHAR NOT NULL REFERENCES graph_class (class),  -- A class the relation may start from
+    target_class VARCHAR NOT NULL REFERENCES graph_class (class),  -- A class it may point to
+    iri VARCHAR NOT NULL,  -- The relation's address in the ontology
+    parent VARCHAR,  -- The relation it specialises
+    inverse VARCHAR,  -- Name of the inverse relation
     is_symmetric BOOLEAN NOT NULL,         -- Stored once, source < target
     is_functional BOOLEAN NOT NULL,        -- At most one target per source
     is_inferred BOOLEAN NOT NULL,          -- Derived from other facts by rule
     weight VARCHAR,                        -- NULL: always 1
     evidence VARCHAR,                      -- NULL: none required
-    rule VARCHAR,
-    label VARCHAR NOT NULL,
-    definition VARCHAR,
-    schema_org VARCHAR,
-    wikidata VARCHAR,
+    rule VARCHAR,  -- How an inferred relation is derived
+    label VARCHAR NOT NULL,  -- Name for display
+    definition VARCHAR,  -- What the relation means
+    schema_org VARCHAR,  -- Close matches on schema.org
+    wikidata VARCHAR,  -- Close matches on Wikidata
     PRIMARY KEY (relation, source_class, target_class)
 );
 
 CREATE TABLE graph_attribute (
-    attribute VARCHAR PRIMARY KEY,
-    iri VARCHAR NOT NULL UNIQUE,
-    classes VARCHAR[] NOT NULL,
-    datatype VARCHAR NOT NULL,
-    unit VARCHAR,
+    attribute VARCHAR PRIMARY KEY,  -- Attribute name
+    iri VARCHAR NOT NULL UNIQUE,  -- The attribute's address in the ontology
+    classes VARCHAR[] NOT NULL,  -- Classes it describes
+    datatype VARCHAR NOT NULL,  -- Type of its values
+    unit VARCHAR,  -- Unit of its values
     table_name VARCHAR,                    -- NULL: the table of the node's class
-    column_name VARCHAR NOT NULL,
-    sources VARCHAR[] NOT NULL,
+    column_name VARCHAR NOT NULL,  -- Column holding it
+    sources VARCHAR[] NOT NULL,  -- Sources its values come from
     changes_each_build BOOLEAN NOT NULL,   -- As of the latest snapshot
-    label VARCHAR NOT NULL,
-    definition VARCHAR
+    label VARCHAR NOT NULL,  -- Name for display
+    definition VARCHAR  -- What the attribute means
 );
 
 CREATE TABLE graph_term (
     kind VARCHAR NOT NULL,                 -- source or confidence
     name VARCHAR NOT NULL,                 -- As used in edge.provenance and edge.confidence
-    iri VARCHAR NOT NULL UNIQUE,
-    label VARCHAR NOT NULL,
-    definition VARCHAR,
+    iri VARCHAR NOT NULL UNIQUE,  -- The term's address in the ontology
+    label VARCHAR NOT NULL,  -- Name for display
+    definition VARCHAR,  -- What it means
     PRIMARY KEY (kind, name)
 );
 
 CREATE TABLE graph_setting (
-    setting VARCHAR PRIMARY KEY,
-    iri VARCHAR NOT NULL UNIQUE,
-    value DOUBLE NOT NULL,
-    label VARCHAR NOT NULL,
-    definition VARCHAR NOT NULL
+    setting VARCHAR PRIMARY KEY,  -- Setting name
+    iri VARCHAR NOT NULL UNIQUE,  -- The setting's address in the ontology
+    value DOUBLE NOT NULL,  -- Its value
+    label VARCHAR NOT NULL,  -- Name for display
+    definition VARCHAR NOT NULL  -- What it controls
 );
 
 CREATE TABLE graph_metapath (
-    metapath VARCHAR PRIMARY KEY,
-    iri VARCHAR NOT NULL UNIQUE,
-    route VARCHAR NOT NULL,
+    metapath VARCHAR PRIMARY KEY,  -- Route name
+    iri VARCHAR NOT NULL UNIQUE,  -- The route's address in the ontology
+    route VARCHAR NOT NULL,  -- The route as text
     relations VARCHAR[] NOT NULL,          -- The relations it walks; the recommendation query reads these
     weight DOUBLE NOT NULL,                -- How much the path counts in a recommendation score
     reason VARCHAR NOT NULL,               -- Evidence label on recommends edges
-    label VARCHAR NOT NULL,
-    definition VARCHAR NOT NULL
+    label VARCHAR NOT NULL,  -- Name for display
+    definition VARCHAR NOT NULL  -- How the route scores a pair of songs
 );
 """
 

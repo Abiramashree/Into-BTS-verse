@@ -323,6 +323,11 @@ bvs:mv_growth_rate a sh:NodeShape ;
     sh:property bvs:mv_growth_rate-value ;
     sh:targetSubjectsOf bv:mv_growth_rate .
 
+bvs:mv_views a sh:NodeShape ;
+    sh:class bv:Song ;
+    sh:property bvs:mv_views-value ;
+    sh:targetSubjectsOf bv:mv_views .
+
 bvs:mv_views_per_day a sh:NodeShape ;
     sh:class bv:Song ;
     sh:property bvs:mv_views_per_day-value ;
@@ -342,11 +347,6 @@ bvs:on_album a sh:NodeShape ;
     sh:or ( bvs:on_album-interlude bvs:on_album-intro bvs:on_album-outro bvs:on_album-skit bvs:on_album-song ) ;
     sh:property bvs:on_album-target ;
     sh:targetSubjectsOf bv:on_album .
-
-bvs:peak_streams_per_day a sh:NodeShape ;
-    sh:class bv:Song ;
-    sh:property bvs:peak_streams_per_day-value ;
-    sh:targetSubjectsOf bv:peak_streams_per_day .
 
 bvs:platform a sh:NodeShape ;
     sh:class bv:Track ;
@@ -393,11 +393,6 @@ bvs:release_date a sh:NodeShape ;
     sh:property bvs:release_date-value ;
     sh:targetSubjectsOf bv:release_date .
 
-bvs:retention a sh:NodeShape ;
-    sh:class bv:Song ;
-    sh:property bvs:retention-value ;
-    sh:targetSubjectsOf bv:retention .
-
 bvs:revival_month a sh:NodeShape ;
     sh:class bv:Song ;
     sh:property bvs:revival_month-value ;
@@ -442,6 +437,11 @@ bvs:streams_per_day a sh:NodeShape ;
     sh:class bv:Song ;
     sh:property bvs:streams_per_day-value ;
     sh:targetSubjectsOf bv:streams_per_day .
+
+bvs:streams_per_day_2025 a sh:NodeShape ;
+    sh:class bv:Song ;
+    sh:property bvs:streams_per_day_2025-value ;
+    sh:targetSubjectsOf bv:streams_per_day_2025 .
 
 bvs:tempo a sh:NodeShape ;
     sh:class bv:AudioAnalysis ;
@@ -813,6 +813,10 @@ bvs:mv_growth_rate-value sh:datatype xsd:decimal ;
     sh:maxCount 1 ;
     sh:path bv:mv_growth_rate .
 
+bvs:mv_views-value sh:datatype xsd:nonNegativeInteger ;
+    sh:maxCount 1 ;
+    sh:path bv:mv_views .
+
 bvs:mv_views_per_day-value sh:datatype xsd:decimal ;
     sh:maxCount 1 ;
     sh:path bv:mv_views_per_day .
@@ -843,10 +847,6 @@ bvs:on_album-target-album sh:class bv:Album .
 bvs:on_album-target-ep sh:class bv:EP .
 
 bvs:on_album-target-single sh:class bv:Single .
-
-bvs:peak_streams_per_day-value sh:datatype xsd:nonNegativeInteger ;
-    sh:maxCount 1 ;
-    sh:path bv:peak_streams_per_day .
 
 bvs:platform-value sh:datatype xsd:string ;
     sh:maxCount 1 ;
@@ -927,12 +927,6 @@ bvs:release_age_years-value sh:datatype xsd:decimal ;
 bvs:release_date-value sh:datatype xsd:date ;
     sh:maxCount 1 ;
     sh:path bv:release_date .
-
-bvs:retention-value sh:datatype xsd:decimal ;
-    sh:maxCount 1 ;
-    sh:maxInclusive 1 ;
-    sh:minInclusive 0 ;
-    sh:path bv:retention .
 
 bvs:revival_month-value sh:datatype xsd:date ;
     sh:maxCount 1 ;
@@ -1036,6 +1030,10 @@ bvs:stream_growth_rate-value sh:datatype xsd:decimal ;
 bvs:streams_per_day-value sh:datatype xsd:decimal ;
     sh:maxCount 1 ;
     sh:path bv:streams_per_day .
+
+bvs:streams_per_day_2025-value sh:datatype xsd:nonNegativeInteger ;
+    sh:maxCount 1 ;
+    sh:path bv:streams_per_day_2025 .
 
 bvs:tempo-value sh:datatype xsd:decimal ;
     sh:maxCount 1 ;

@@ -4,11 +4,11 @@
 -- Nodes: one per entity, keyed table:id with the warehouse ID (person:12 is person_id 12). class: the most specific
 -- ontology class (member, album, single).
 CREATE TABLE node (
-    node_id VARCHAR PRIMARY KEY,
-    class VARCHAR NOT NULL REFERENCES graph_class (class),
-    entity_id INTEGER NOT NULL,
-    label VARCHAR NOT NULL,
-    detail VARCHAR
+    node_id VARCHAR PRIMARY KEY,  -- table:id, such as song:94
+    class VARCHAR NOT NULL REFERENCES graph_class (class),  -- The node's most specific ontology class
+    entity_id INTEGER NOT NULL,  -- ID in that table
+    label VARCHAR NOT NULL,  -- Name for display
+    detail VARCHAR  -- Short context, such as year or version
 );
 
 INSERT INTO node VALUES
@@ -55,11 +55,11 @@ SELECT 'album_series:' || album_series_id, 'album_series', album_series_id, titl
 
 -- Edges. evidence: what supports the edge, as label-value pairs.
 CREATE TABLE edge (
-    source VARCHAR NOT NULL REFERENCES node (node_id),
-    relation VARCHAR NOT NULL,
-    target VARCHAR NOT NULL REFERENCES node (node_id),
-    weight DOUBLE NOT NULL,
-    evidence STRUCT(label VARCHAR, value VARCHAR)[] NOT NULL,
+    source VARCHAR NOT NULL REFERENCES node (node_id),  -- The node the edge starts from
+    relation VARCHAR NOT NULL,  -- The relation (graph_relation)
+    target VARCHAR NOT NULL REFERENCES node (node_id),  -- The node the edge points to
+    weight DOUBLE NOT NULL,  -- What it measures depends on the relation (graph_relation.weight); 1 if nothing
+    evidence STRUCT(label VARCHAR, value VARCHAR)[] NOT NULL,  -- Label-value pairs that support the edge
     provenance VARCHAR,                    -- The source of this claim (graph_term)
     confidence VARCHAR,                    -- stated, verified, estimated or inferred (graph_term)
     PRIMARY KEY (source, relation, target)

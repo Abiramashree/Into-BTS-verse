@@ -442,15 +442,13 @@ bv:hot100_weeks a owl:DatatypeProperty, owl:FunctionalProperty ;
     skos:scopeNote "As of the dataset's latest snapshot; changes with each build."@en ; rdfs:label "Hot 100 weeks"@en ;
     rdfs:domain bv:Song ; rdfs:range xsd:positiveInteger ; bv:unit "weeks" ;
     bv:table "song_intelligence" ; dcterms:source bv:Billboard .
-bv:peak_streams_per_day a owl:DatatypeProperty, owl:FunctionalProperty ; bv:column "peak_streams_per_day_since_2023" ;
-    skos:scopeNote "As of the dataset's latest snapshot; changes with each build."@en ; rdfs:label "peak streams per day"@en ;
-    skos:definition "Highest monthly average of daily streams since April 2023."@en ;
-    rdfs:domain bv:Song ; rdfs:range xsd:nonNegativeInteger ; bv:unit "streams per day" ;
-    bv:table "song_intelligence" ; dcterms:source bv:Kworb .
-bv:retention a owl:DatatypeProperty, owl:FunctionalProperty ; bv:column "retention_since_2023" ;
-    skos:scopeNote "As of the dataset's latest snapshot; changes with each build."@en ; rdfs:label "retention"@en ;
-    skos:definition "Latest month's streams per day against the peak month since April 2023."@en ;
-    rdfs:domain bv:Song ; rdfs:range bv:UnitInterval ; bv:unit "ratio" ; bv:table "song_intelligence" ; dcterms:source bv:Kworb .
+bv:mv_views a owl:DatatypeProperty, owl:FunctionalProperty ;
+    skos:scopeNote "As of the dataset's latest snapshot; changes with each build."@en ; rdfs:label "music video views"@en ;
+    skos:definition "Total official music video views at the latest snapshot."@en ;
+    rdfs:domain bv:Song ; rdfs:range xsd:nonNegativeInteger ; bv:unit "views" ; bv:table "song_intelligence" ; dcterms:source bv:Kworb .
+bv:streams_per_day_2025 a owl:DatatypeProperty, owl:FunctionalProperty ; rdfs:label "streams per day in 2025"@en ;
+    skos:definition "Average daily Spotify streams in 2025, for songs released by then with data on at least 75% of its days. The basis of long_tail_score."@en ;
+    rdfs:domain bv:Song ; rdfs:range xsd:nonNegativeInteger ; bv:unit "streams per day" ; bv:table "song_intelligence" ; dcterms:source bv:Kworb .
 bv:revival_score a owl:DatatypeProperty, owl:FunctionalProperty ;
     skos:scopeNote "As of the dataset's latest snapshot; changes with each build."@en ; rdfs:label "revival score"@en ;
     skos:definition "Largest monthly surge against the song's prior six-month median, net of the same surge for songs a year or more old. Songs a year or more old with at least 5,000 streams per day."@en ;
@@ -475,7 +473,7 @@ bv:popularity_score a owl:DatatypeProperty, owl:FunctionalProperty ;
     rdfs:domain bv:Song ; rdfs:range bv:Percentile ; bv:table "song_intelligence" ; dcterms:source bv:Kworb .
 bv:long_tail_score a owl:DatatypeProperty, owl:FunctionalProperty ;
     skos:scopeNote "As of the dataset's latest snapshot; changes with each build."@en ; rdfs:label "long tail"@en ;
-    skos:definition "Percentile of 2025 streams per day among songs released before 2023."@en ;
+    skos:definition "Percentile of 2025 streams per day among songs released before 2023: the dataset's one measure of staying power."@en ;
     rdfs:domain bv:Song ; rdfs:range bv:Percentile ; bv:table "song_intelligence" ; dcterms:source bv:Kworb .
 
 # Recommendation: meta-paths (routes that relate two songs), their weights, and the relation they produce.
@@ -588,8 +586,6 @@ bv:current_streams bv:derived_from bv:TrackObservation .
 bv:streams_per_day bv:derived_from bv:TrackObservation .
 bv:stream_growth_rate bv:derived_from bv:TrackObservation .
 bv:growth_acceleration bv:derived_from bv:TrackObservation .
-bv:peak_streams_per_day bv:derived_from bv:TrackObservation .
-bv:retention bv:derived_from bv:TrackObservation .
 bv:revival_score bv:derived_from bv:TrackObservation .
 bv:revival_month bv:derived_from bv:TrackObservation .
 bv:has_revival bv:derived_from bv:TrackObservation .
@@ -599,3 +595,5 @@ bv:mv_views_per_day bv:derived_from bv:VideoObservation .
 bv:mv_growth_rate bv:derived_from bv:VideoObservation .
 
 bv:series_contains a owl:ObjectProperty ; rdfs:label "series contains"@en ; skos:definition "The releases in a series."@en ; rdfs:domain bv:AlbumSeries ; rdfs:range bv:Release .
+bv:mv_views bv:derived_from bv:VideoObservation .
+bv:streams_per_day_2025 bv:derived_from bv:TrackObservation .

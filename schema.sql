@@ -19,7 +19,7 @@ CREATE TABLE album (
     album_id INTEGER PRIMARY KEY,
     slug VARCHAR NOT NULL UNIQUE,
     title VARCHAR NOT NULL,
-    kind album_kind NOT NULL,
+    kind album_kind NOT NULL,  -- Album, EP or Single, from the suffix of Apple's title
     release_date DATE NOT NULL,
     track_count INTEGER NOT NULL,
     has_tracklist BOOLEAN NOT NULL
@@ -36,8 +36,8 @@ CREATE TABLE album_series (
 CREATE TABLE album_series_member (
     album_series_id INTEGER NOT NULL REFERENCES album_series (album_series_id),
     album_id INTEGER NOT NULL UNIQUE REFERENCES album (album_id),
-    position INTEGER NOT NULL,
-    evidence VARCHAR NOT NULL,
+    position INTEGER NOT NULL,  -- Order of the release within the series
+    evidence VARCHAR NOT NULL,  -- Where the membership is stated
     PRIMARY KEY (album_series_id, position)
 );
 
@@ -57,11 +57,11 @@ CREATE TABLE song (
 -- Tracklists.
 CREATE TABLE album_track (
     album_id INTEGER NOT NULL REFERENCES album (album_id),
-    disc INTEGER NOT NULL,
-    position INTEGER NOT NULL,
-    title VARCHAR NOT NULL,
+    disc INTEGER NOT NULL,  -- Disc number on the release
+    position INTEGER NOT NULL,  -- Track number on its disc
+    title VARCHAR NOT NULL,  -- Track title as Apple lists it
     song_id INTEGER REFERENCES song (song_id),
-    version version_kind NOT NULL,
+    version version_kind NOT NULL,  -- Which version the track is: original, live, remix and so on
     PRIMARY KEY (album_id, disc, position)
 );
 
@@ -98,52 +98,52 @@ CREATE TABLE video (
     title VARCHAR NOT NULL,
     is_feature BOOLEAN NOT NULL,
     published_month DATE,
-    match video_match NOT NULL
+    match video_match NOT NULL  -- How the video relates to BTS songs: song (one song), feature, not_group or not_one_song
 );
 
 -- Streaming metrics per track, by date.
 CREATE TABLE track_snapshot (
     track_id INTEGER NOT NULL REFERENCES track (track_id),
     metric metric_kind NOT NULL,           -- streams: cumulative; daily: per day; rank: higher is more popular
-    observed_at DATE NOT NULL,
-    value BIGINT NOT NULL,
-    source snapshot_source NOT NULL,
+    observed_at DATE NOT NULL,  -- Date of the reading
+    value BIGINT NOT NULL,  -- The reading: total streams, daily streams or rank, by metric
+    source snapshot_source NOT NULL,  -- Where the reading came from: kworb, the Wayback Machine or Deezer
     PRIMARY KEY (track_id, metric, observed_at)
 );
 
 -- Video views, by date.
 CREATE TABLE video_snapshot (
     video_id INTEGER NOT NULL REFERENCES video (video_id),
-    observed_at DATE NOT NULL,
-    views BIGINT NOT NULL,
-    source snapshot_source NOT NULL,
+    observed_at DATE NOT NULL,  -- Date of the reading
+    views BIGINT NOT NULL,  -- Total YouTube views on that date
+    source snapshot_source NOT NULL,  -- Where the reading came from
     PRIMARY KEY (video_id, observed_at)
 );
 
 -- Audio features per track.
 CREATE TABLE track_audio (
     track_id INTEGER NOT NULL REFERENCES track (track_id),
-    feature audio_feature NOT NULL,
-    value DOUBLE NOT NULL,
-    observed_at DATE NOT NULL,
+    feature audio_feature NOT NULL,  -- Which audio feature
+    value DOUBLE NOT NULL,  -- The feature's value for the track
+    observed_at DATE NOT NULL,  -- Date ReccoBeats returned it
     PRIMARY KEY (track_id, feature)
 );
 
 -- Audio features estimated from 30-second previews.
 CREATE TABLE song_audio_estimate (
     song_id INTEGER NOT NULL REFERENCES song (song_id),
-    feature audio_feature NOT NULL,
-    value DOUBLE NOT NULL,
-    observed_at DATE NOT NULL,
+    feature audio_feature NOT NULL,  -- Which audio feature
+    value DOUBLE NOT NULL,  -- The value estimated from the song's preview
+    observed_at DATE NOT NULL,  -- Date the preview was downloaded
     PRIMARY KEY (song_id, feature)
 );
 
 -- Estimates compared with reference values.
 CREATE TABLE audio_validation (
     song_id INTEGER NOT NULL REFERENCES song (song_id),
-    feature audio_feature NOT NULL,
-    reccobeats DOUBLE NOT NULL,
-    librosa DOUBLE NOT NULL,
+    feature audio_feature NOT NULL,  -- The feature compared
+    reccobeats DOUBLE NOT NULL,  -- Spotify's value, via ReccoBeats
+    librosa DOUBLE NOT NULL,  -- Our estimate from the preview
     PRIMARY KEY (song_id, feature)
 );
 
@@ -159,37 +159,37 @@ CREATE TABLE person (
     slug VARCHAR NOT NULL UNIQUE,
     name VARCHAR NOT NULL,                 -- As credited
     display_name VARCHAR NOT NULL,
-    is_member BOOLEAN NOT NULL
+    is_member BOOLEAN NOT NULL  -- A member of BTS
 );
 
 -- Song credits.
 CREATE TABLE credit (
     song_id INTEGER NOT NULL REFERENCES song (song_id),
     person_id INTEGER NOT NULL REFERENCES person (person_id),
-    role credit_role NOT NULL,
+    role credit_role NOT NULL,  -- writer, lyricist, composer or producer, as credited
     pages VARCHAR[] NOT NULL,              -- Wikipedia pages listing the credit
     PRIMARY KEY (song_id, person_id, role)
 );
 
 -- Billboard Hot 100 weeks.
 CREATE TABLE hot100_entry (
-    week DATE NOT NULL,
-    rank INTEGER NOT NULL,
+    week DATE NOT NULL,  -- Chart week
+    rank INTEGER NOT NULL,  -- Position that week
     title VARCHAR NOT NULL,                -- As charted
-    performer VARCHAR NOT NULL,
-    peak INTEGER,
-    weeks_on_chart INTEGER,
+    performer VARCHAR NOT NULL,  -- Artist as credited on the chart
+    peak INTEGER,  -- Peak position to date, as published that week
+    weeks_on_chart INTEGER,  -- Weeks on the chart to date, as published that week
     song_id INTEGER REFERENCES song (song_id),   -- NULL when BTS is a featured artist
     PRIMARY KEY (week, rank)
 );
 
 -- Billboard 200 weeks.
 CREATE TABLE billboard200_entry (
-    week DATE NOT NULL,
-    rank INTEGER NOT NULL,
-    title VARCHAR NOT NULL,
-    peak INTEGER,
-    weeks_on_chart INTEGER,
+    week DATE NOT NULL,  -- Chart week
+    rank INTEGER NOT NULL,  -- Position that week
+    title VARCHAR NOT NULL,  -- Album title as charted
+    peak INTEGER,  -- Peak position to date, as published that week
+    weeks_on_chart INTEGER,  -- Weeks on the chart to date, as published that week
     album_id INTEGER NOT NULL REFERENCES album (album_id),
     PRIMARY KEY (week, rank)
 );
@@ -198,8 +198,8 @@ CREATE TABLE billboard200_entry (
 CREATE TABLE song_link (
     a VARCHAR NOT NULL,                    -- Title key
     b VARCHAR NOT NULL,                    -- Title key
-    kind link_kind NOT NULL,
+    kind link_kind NOT NULL,  -- How the titles were linked: alias, Wikipedia note, shared ISRC or reviewed override
     song_id INTEGER NOT NULL REFERENCES song (song_id),
-    evidence STRUCT(source VARCHAR, text VARCHAR)[] NOT NULL,
+    evidence STRUCT(source VARCHAR, text VARCHAR)[] NOT NULL,  -- Where the link was seen: source and text
     PRIMARY KEY (a, b, kind)
 );

@@ -11,6 +11,7 @@ charts, as one normalized warehouse.
 - `shapes.ttl`: the rules every build checks the graph against (SHACL).
 - `graph/`: rebuilds the graph and recommendations from the tables and validates them.
 - `graph.sql`: the knowledge graph built on the tables.
+- `DICTIONARY.md`: every column of every table and view, and what it means.
 
 ```sh
 duckdb data/bts.duckdb
@@ -21,41 +22,44 @@ duckdb data/bts.duckdb
 All keys are Into BTSVerse IDs: permanent integers per table (`song_id` 1, 2, ...), never reused or renumbered. `song`,
 `album` and `person` also have a readable `slug` (`spring-day`, `arirang`).
 
-| Table | Key | Links to |
-|---|---|---|
-| `album` | `album_id` | |
-| `album_series` | `album_series_id` | |
-| `album_series_member` | `album_series_id`, `position` | `album_series`, `album` |
-| `song` | `song_id` | `album` (the release it first appeared on) |
-| `album_track` | `album_id`, `disc`, `position` | `album`, `song` |
-| `recording` | `recording_id` | `song` |
-| `track` | `track_id` | `song`, `recording` |
-| `video` | `video_id` | `song` |
-| `track_snapshot` | `track_id`, `metric`, `observed_at` | `track` |
-| `video_snapshot` | `video_id`, `observed_at` | `video` |
-| `track_audio` | `track_id`, `feature` | `track` |
-| `song_audio_track` | `song_id` | `song`, `track` |
-| `song_audio_estimate` | `song_id`, `feature` | `song` |
-| `audio_validation` | `song_id`, `feature` | `song` |
-| `person` | `person_id` | |
-| `credit` | `song_id`, `person_id`, `role` | `song`, `person` |
-| `hot100_entry` | `week`, `rank` | `song` |
-| `billboard200_entry` | `week`, `rank` | `album` |
-| `song_link` | `a`, `b`, `kind` | `song` |
+| Table | Holds | Key | Links to |
+|---|---|---|---|
+| `album` | Albums, EPs and singles. | `album_id` |  |
+| `album_series` | Series of releases. | `album_series_id` |  |
+| `album_series_member` | Releases in each series, in order. | `album_series_id`, `position` | `album`, `album_series` |
+| `song` | Songs. | `song_id` | `album` |
+| `album_track` | Tracklists. | `album_id`, `disc`, `position` | `album`, `song` |
+| `recording` | Recordings of each song, by version. | `recording_id` | `song` |
+| `track` | Spotify and Deezer tracks. | `track_id` | `recording`, `song` |
+| `video` | YouTube videos. | `video_id` | `song` |
+| `track_snapshot` | Streaming metrics per track, by date. | `track_id`, `metric`, `observed_at` | `track` |
+| `video_snapshot` | Video views, by date. | `video_id`, `observed_at` | `video` |
+| `track_audio` | Audio features per track. | `track_id`, `feature` | `track` |
+| `song_audio_estimate` | Audio features estimated from 30-second previews. | `song_id`, `feature` | `song` |
+| `audio_validation` | Estimates compared with reference values. | `song_id`, `feature` | `song` |
+| `song_audio_track` | Track that supplies each song's audio features. | `song_id` | `song`, `track` |
+| `person` | Writers, composers, lyricists and producers. | `person_id` |  |
+| `credit` | Song credits. | `song_id`, `person_id`, `role` | `person`, `song` |
+| `hot100_entry` | Billboard Hot 100 weeks. | `week`, `rank` | `song` |
+| `billboard200_entry` | Billboard 200 weeks. | `week`, `rank` | `album` |
+| `song_link` | Links between titles of the same song. | `a`, `b`, `kind` | `song` |
 
 ## Views
 
-| View | |
+| View | Holds |
 |---|---|
-| `song_summary`, `album_summary`, `person_summary` | One row each, with latest totals |
-| `song_audio` | Audio features per song |
-| `song_credit` | Credits folded to writer and producer |
-| `song_spotify_streams`, `song_mv_views` | Streams and music video views per song per snapshot |
-| `song_streams_daily`, `album_streams_monthly` | Streams per day between snapshots, and per album per month |
-| `song_longevity` | Streams per day in 2024, 2025 and since ARIRANG |
-| `song_streams_monthly` | Average daily streams per song per month |
-| `song_intelligence` | Analytical signals per song: popularity, growth, retention, long tail, revival, credits, audio confidence |
-| `verified_analysis`, `estimated_analysis` | Audio features per track (verified) and per song preview (estimated) |
+| `song_audio` | Audio features per song: its audio profile, the verified analysis of the track on its album or else its preview estimate. key: pitch class, 0 = C, -1 = none. mode: 1 = major, 0 = minor. loudness: dB. |
+| `song_spotify_streams` | Spotify streams per song per snapshot. Tracks of one song within 1% of each other count once. |
+| `song_streams_daily` | Streams gained between snapshots, per song. NULL where the total decreases or exceeds three times the daily figure. |
+| `album_streams_monthly` | Streams per album per calendar month. |
+| `song_streams_monthly` | Monthly average daily streams per song. |
+| `song_intelligence` | One row per song: catalog facts, latest totals and analytical signals. Rates compare the last 90 days with the 90 before. long_tail_score: percentile of 2025 streams per day among songs released before 2023, the measure of staying power. revival_score: largest monthly surge against the song's prior 6-month median (at least 5,000 streams per day), net of the same surge for songs a year or more old, for songs released a year or more before. has_revival: that month at least doubled. |
+| `song_mv_views` | Music video views per song per snapshot. |
+| `song_credit` | Credits per song and person, as writer or producer. |
+| `album_summary` | One row per album, EP or single. Totals cover songs first released on it. |
+| `person_summary` | One row per credited person. |
+| `verified_analysis` | Audio features per track (Spotify's values, via ReccoBeats): one verified analysis each. |
+| `estimated_analysis` | Audio features estimated from a song's preview: one estimated analysis each. |
 
 ## Graph
 
@@ -64,16 +68,16 @@ defined in `ontology.ttl` (OWL 2), under `https://abiramashree.github.io/Into-BT
 checked against them. Every build also validates the nodes, edges and attributes against `shapes.ttl` (SHACL):
 datatypes and ranges, required values, allowed values and the classes each relation connects.
 
-| Table | |
+| Table | Holds |
 |---|---|
-| `graph_class` | Classes, their parents and `iri`, with schema.org and Wikidata equivalents |
-| `graph_relation` | Each class pair a relation allows, with its `iri`, inverse, weight, evidence and rule |
-| `graph_attribute` | Attributes: classes, datatype, unit, sources; `changes_each_build` marks measures as of the latest snapshot |
-| `graph_metapath` | The routes that relate two songs for recommendations, with their weights and reason labels |
-| `graph_setting` | Numbers that tune recommendations: the hidden gem weight, the minimum length and the variety lambda (MMR) |
-| `graph_term` | The sources and confidence levels used in `edge.provenance` and `edge.confidence` |
-| `node` | One per entity, `table:id` with the table's ID (`song:94` is `song_id` 94); `class` is the most specific class |
-| `edge` | `source`, `relation`, `target`, `weight`, `evidence`, `provenance`, `confidence` |
+| `graph_class` | The ontology's classes, generated from ontology.ttl. |
+| `graph_relation` | Each class pair a relation allows, generated from ontology.ttl. |
+| `graph_attribute` | The ontology's attributes, generated from ontology.ttl. |
+| `graph_metapath` | The routes recommendations walk, generated from ontology.ttl. |
+| `graph_setting` | Numbers that tune recommendations, generated from ontology.ttl. |
+| `graph_term` | The sources and confidence levels claims refer to, generated from ontology.ttl. |
+| `node` | ontology class (member, album, single). |
+| `edge` | Edges. evidence: what supports the edge, as label-value pairs. |
 
 ```
 agent          group (BTS) · person → member
@@ -82,27 +86,31 @@ audio_analysis verified_analysis (one track) · estimated_analysis (one preview)
 chart          Billboard Hot 100 · Billboard 200
 ```
 
-| Relation | Connects | Weight |
-|---|---|---|
-| `member_of` | member → group | |
-| `by_artist` | song, release → group | |
-| `written_by`, `lyrics_by`, `music_by`, `produced_by` | song → person | |
-| `on_album` | song → release (each listing) | |
-| `first_released_on` | song → release (the first) | |
-| `recording_of` | recording → song | |
-| `track_of` | track → recording | |
-| `track_of_song` | track → song, where the recording is unknown | |
-| `video_of` | video → song | |
-| `in_series` | release → album series | |
-| `analyses_track` | verified analysis → track | |
-| `analyses_song` | estimated analysis → song | |
-| `audio_profile` | song → audio analysis (the one that stands for its sound) | |
-| `charted_on` | song → Hot 100, release → Billboard 200 | Weeks on chart |
-| `collaborated_with` | person ↔ person | Songs credited together |
-| `shares_writers` | song ↔ song | Cosine similarity of credits, rarer people weighted more (TF-IDF); ten strongest per song |
-| `sounds_like` | song ↔ song | Audio similarity, verified audio only; five nearest per song |
-| `sounds_like_estimated` | song ↔ song | Tempo and energy for songs with only estimated audio, against verified songs; five nearest each |
-| `recommends` | song → song | 1 / rank: five per song, from sounds like (verified or estimated) and same first release, picked for variety |
+| Relation | Connects | Meaning | Weight |
+|---|---|---|---|
+| `analyses_song` | estimated analysis → song | The song whose preview an estimated analysis measures. |  |
+| `analyses_track` | verified analysis → track | The streaming track a verified analysis measures. |  |
+| `audio_profile` | song → audio analysis | The analysis that stands for a song's sound: of the track on its own album, or else a preview estimate. |  |
+| `by_artist` | release, song → group | The group a song or release is by. |  |
+| `charted_on` | release, song → chart | A song charted on the Hot 100, or a release on the Billboard 200. | Weeks on chart |
+| `collaborated_with` | person ↔ person | Two people credited together on at least one song. | Songs credited together |
+| `credited` | song → person | Someone credited on a song, in any role. |  |
+| `first_released_on` | song → release | The release a song first appeared on. |  |
+| `in_series` | release → album series | The series a release belongs to. |  |
+| `lyrics_by` | song → person | Credited as lyricist. |  |
+| `member_of` | person → group | A person belongs to a group. |  |
+| `music_by` | song → person | Credited as composer. |  |
+| `on_album` | song → release | A song is on a release's tracklist, in any version. |  |
+| `produced_by` | song → person | Credited as producer. |  |
+| `recommends` | song → song | A song to listen to next after another. | 1 / rank |
+| `recording_of` | recording → song | A recording is one version of a song. |  |
+| `shares_writers` | song ↔ song | Two songs with credited people in common. | Cosine similarity |
+| `sounds_like` | song ↔ song | Two songs with verified audio that are close on audio features. | 1 / (1 + d) |
+| `sounds_like_estimated` | song ↔ song | A song with only estimated audio that is close to a song with verified audio on tempo and energy. | 1 / (1 + d) |
+| `track_of` | track → recording | The recording a streaming track carries, where its ISRC identifies one. |  |
+| `track_of_song` | track → song | The song a streaming track carries. |  |
+| `video_of` | video → song | A video shows one song. |  |
+| `written_by` | song → person | Credited as writer, lyricist or composer. |  |
 
 Symmetric relations (↔) are stored once, with `source` < `target` compared as text (`song:10` before `song:9`).
 `collaborated_with`, `shares_writers`, `sounds_like` and `recommends` are inferred from credits, audio features and
