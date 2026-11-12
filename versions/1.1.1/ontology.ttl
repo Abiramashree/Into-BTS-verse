@@ -1,0 +1,601 @@
+@prefix bv: <https://abiramashree.github.io/Into-BTS-verse/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix schema: <https://schema.org/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix mm: <https://w3id.org/polifonia/ontology/music-meta/> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+
+# Into BTSVerse ontology: the classes, relations and attributes of the BTS catalog.
+
+bv: a owl:Ontology ;
+    dcterms:title "Into BTSVerse ontology"@en ;
+    dcterms:created "2026-11-08"^^xsd:date ;
+    dcterms:modified "2026-11-11"^^xsd:date ;
+    dcterms:issued "2026-11-08"^^xsd:date ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:creator "Abi" ;
+    dcterms:publisher "Abi" ;
+    dcterms:description "An ontology of the BTS catalog: songs, recordings, releases, credits, charts, audio analyses and recommendations."@en ;
+    dcterms:source <https://github.com/Abiramashree/Into-BTS-verse> ;
+    dcterms:bibliographicCitation "Abi. Into BTSVerse ontology. 2026. https://abiramashree.github.io/Into-BTS-verse/ontology" ;
+    bibo:status <http://purl.org/ontology/bibo/status/draft> ;
+    vann:preferredNamespacePrefix "bv" ;
+    vann:preferredNamespaceUri "https://abiramashree.github.io/Into-BTS-verse/ontology#" ;
+    owl:versionIRI <https://abiramashree.github.io/Into-BTS-verse/versions/1.1.1/ontology.ttl> ;
+    owl:versionInfo "1.1.1" ;
+    owl:priorVersion <https://abiramashree.github.io/Into-BTS-verse/versions/1.1.0/ontology.ttl> ;
+    skos:changeNote "1.1.1: the sounds-like weights say what their distance is. No terms added or removed."@en ;
+    rdfs:comment "Songs, their versions and releases, the people credited on them, charts and streaming measures."@en .
+
+# Annotations used on terms below.
+
+bv:unit a owl:AnnotationProperty ; rdfs:label "unit"@en .
+bv:abstract a owl:AnnotationProperty ; rdfs:label "abstract"@en ;
+    skos:definition "A class with no nodes of its own; its subclasses have them."@en .
+bv:column a owl:AnnotationProperty ; rdfs:label "column"@en ;
+    skos:definition "The warehouse column holding an attribute, where its name differs."@en .
+bv:table a owl:AnnotationProperty ; rdfs:label "table or view"@en ;
+    skos:definition "Where the warehouse holds the term's values."@en .
+bv:weight a owl:AnnotationProperty ; rdfs:label "weight"@en ;
+    skos:definition "What an edge's weight measures. Absent: always 1."@en .
+bv:evidence a owl:AnnotationProperty ; rdfs:label "evidence"@en ;
+    skos:definition "What each edge of the relation must carry to support it. Absent: none required."@en .
+bv:rule a owl:AnnotationProperty ; rdfs:label "rule"@en ;
+    skos:definition "How an inferred relation is derived from other facts."@en .
+
+# Sources.
+
+prov:Entity a owl:Class ; rdfs:label "Entity"@en .
+
+bv:Source a owl:Class ; rdfs:subClassOf prov:Entity ;
+    rdfs:label "Source"@en ; skos:definition "A dataset or site the warehouse is built from."@en .
+bv:Apple a bv:Source ; rdfs:label "Apple Music"@en .
+bv:MusicBrainz a bv:Source ; rdfs:label "MusicBrainz"@en .
+bv:Wikipedia a bv:Source ; rdfs:label "Wikipedia"@en .
+bv:Billboard a bv:Source ; rdfs:label "Billboard"@en .
+bv:Kworb a bv:Source ; rdfs:label "kworb"@en .
+bv:YouTube a bv:Source ; rdfs:label "YouTube"@en .
+bv:Deezer a bv:Source ; rdfs:label "Deezer"@en .
+bv:ReccoBeats a bv:Source ; rdfs:label "ReccoBeats"@en .
+bv:Previews a bv:Source ; rdfs:label "30-second previews"@en ;
+    skos:definition "Audio estimated with librosa from Apple and Deezer previews."@en .
+
+bv:IntoBTSVerse a bv:Source ; rdfs:label "Into BTSVerse"@en ;
+    skos:definition "Decided by this dataset: its scope and its membership list."@en .
+
+# Confidence of a claim (edge.confidence).
+
+bv:Confidence a owl:Class ; rdfs:label "Confidence"@en ; skos:definition "How a claim in the graph is known."@en .
+bv:stated a bv:Confidence ; rdfs:label "stated"@en ; skos:definition "A source states it directly."@en .
+bv:verified a bv:Confidence ; rdfs:label "verified"@en ; skos:definition "Derived from measurements checked against Spotify's original values."@en .
+bv:estimated a bv:Confidence ; rdfs:label "estimated"@en ; skos:definition "Derived from our own estimates, which are less reliable."@en .
+bv:inferred a bv:Confidence ; rdfs:label "inferred"@en ; skos:definition "Derived by a rule from other claims."@en .
+
+# Datatypes.
+
+bv:UnitInterval a rdfs:Datatype ; rdfs:label "0 to 1"@en ;
+    owl:equivalentClass [ a rdfs:Datatype ; owl:onDatatype xsd:decimal ;
+        owl:withRestrictions ( [ xsd:minInclusive 0 ] [ xsd:maxInclusive 1 ] ) ] .
+bv:Percentile a rdfs:Datatype ; rdfs:label "0 to 100"@en ;
+    owl:equivalentClass [ a rdfs:Datatype ; owl:onDatatype xsd:decimal ;
+        owl:withRestrictions ( [ xsd:minInclusive 0 ] [ xsd:maxInclusive 100 ] ) ] .
+bv:ChartPosition a rdfs:Datatype ; rdfs:label "1 to 200"@en ;
+    owl:equivalentClass [ a rdfs:Datatype ; owl:onDatatype xsd:integer ;
+        owl:withRestrictions ( [ xsd:minInclusive 1 ] [ xsd:maxInclusive 200 ] ) ] .
+bv:PitchClass a rdfs:Datatype ; rdfs:label "-1 to 11"@en ;
+    skos:definition "0 = C, 1 = C#, ... 11 = B; -1 = no key detected."@en ;
+    owl:equivalentClass [ a rdfs:Datatype ; owl:onDatatype xsd:integer ;
+        owl:withRestrictions ( [ xsd:minInclusive -1 ] [ xsd:maxInclusive 11 ] ) ] .
+
+# Classes.
+
+bv:Agent a owl:Class ; rdfs:label "Agent"@en ; bv:abstract true ;
+    skos:definition "Makes or performs music."@en .
+bv:Group a owl:Class ; rdfs:subClassOf bv:Agent ; rdfs:label "Group"@en ;
+    skos:definition "A music group."@en ; bv:table "node" ;
+    skos:closeMatch schema:MusicGroup, wd:Q215380, mo:MusicGroup, mm:MusicEnsenble .
+bv:Person a owl:Class ; rdfs:subClassOf bv:Agent ; rdfs:label "Person"@en ;
+    skos:definition "Someone credited as writer, lyricist, composer or producer."@en ; bv:table "person" ;
+    skos:closeMatch schema:Person, wd:Q5, mm:MusicArtist .
+bv:Member a owl:Class ; rdfs:subClassOf bv:Person ; rdfs:label "Member"@en ;
+    skos:definition "A member of BTS."@en ; bv:table "person" ;
+    owl:equivalentClass [ a owl:Restriction ; owl:onProperty bv:member_of ; owl:hasValue bv:BTS ] .
+
+bv:CreativeWork a owl:Class ; rdfs:label "Creative work"@en ; bv:abstract true ;
+    skos:definition "Music and its releases."@en ;
+    skos:closeMatch schema:CreativeWork .
+bv:Song a owl:Class ; rdfs:subClassOf bv:CreativeWork ; rdfs:label "Song"@en ;
+    skos:definition "A composition, across all its versions."@en ; bv:table "song" ;
+    skos:closeMatch schema:MusicComposition, wd:Q7366, mo:MusicalWork, mm:MusicEntity .
+bv:Intro a owl:Class ; rdfs:subClassOf bv:Song ; rdfs:label "Intro"@en ; bv:table "song" ;
+    skos:definition "A song its release titles as an intro. Many are full-length songs."@en .
+bv:Outro a owl:Class ; rdfs:subClassOf bv:Song ; rdfs:label "Outro"@en ; bv:table "song" ;
+    skos:definition "A song its release titles as an outro. Many are full-length songs."@en .
+bv:Interlude a owl:Class ; rdfs:subClassOf bv:Song ; rdfs:label "Interlude"@en ; bv:table "song" ;
+    skos:definition "A song its release titles as an interlude."@en .
+bv:Skit a owl:Class ; rdfs:subClassOf bv:Song ; rdfs:label "Skit"@en ; bv:table "song" ;
+    skos:definition "A spoken track its release titles as a skit."@en .
+[] a owl:AllDisjointClasses ; owl:members ( bv:Intro bv:Outro bv:Interlude bv:Skit ) .
+
+bv:Recording a owl:Class ; rdfs:subClassOf bv:CreativeWork ; rdfs:label "Recording"@en ;
+    skos:definition "One version of a song: original, live, remix, demo, Japanese and so on."@en ; bv:table "recording" ;
+    skos:closeMatch schema:MusicRecording, mm:Recording .
+bv:Track a owl:Class ; rdfs:subClassOf bv:CreativeWork ; rdfs:label "Track"@en ;
+    skos:definition "A song as listed on Spotify or Deezer."@en ; bv:table "track" ;
+    skos:closeMatch mo:Track .
+bv:Video a owl:Class ; rdfs:subClassOf bv:CreativeWork ; rdfs:label "Video"@en ;
+    skos:definition "A video of one song on BTS's YouTube channel."@en ; bv:table "video" ;
+    skos:closeMatch schema:MusicVideoObject, wd:Q193977 .
+bv:Release a owl:Class ; rdfs:subClassOf bv:CreativeWork ; rdfs:label "Release"@en ; bv:abstract true ;
+    skos:definition "An album, EP or single."@en ; bv:table "album" ;
+    skos:closeMatch schema:MusicRelease, mm:Release .
+bv:Album a owl:Class ; rdfs:subClassOf bv:Release ; rdfs:label "Album"@en ;
+    skos:definition "A release whose Apple title has no ' - Single' or ' - EP' suffix. Apple lists BTS's mini albums this way."@en ;
+    bv:table "album" ;
+    skos:closeMatch schema:MusicAlbum, wd:Q482994 .
+bv:Single a owl:Class ; rdfs:subClassOf bv:Release ; rdfs:label "Single"@en ;
+    skos:definition "A release whose Apple title ends in ' - Single'."@en ; bv:table "album" ;
+    skos:closeMatch wd:Q134556 .
+bv:EP a owl:Class ; rdfs:subClassOf bv:Release ; rdfs:label "EP"@en ;
+    skos:definition "A release whose Apple title ends in ' - EP'."@en ; bv:table "album" .
+bv:AlbumSeries a owl:Class ; rdfs:subClassOf bv:CreativeWork ; rdfs:label "Album series"@en ; bv:table "album_series" ;
+    skos:definition "Releases that form one creative series, such as Love Yourself."@en ; skos:closeMatch mm:Collection .
+
+bv:Observation a owl:Class ; rdfs:subClassOf prov:Entity ; rdfs:label "Observation"@en ;
+    skos:definition "One dated reading of a streaming measure. Held in the warehouse tables, not as graph nodes."@en ; skos:closeMatch sosa:Observation .
+bv:TrackObservation a owl:Class ; rdfs:subClassOf bv:Observation ; rdfs:label "Track observation"@en ; bv:table "track_snapshot" ;
+    skos:definition "A reading of a track's Spotify streams, daily streams or Deezer rank on one date."@en .
+bv:VideoObservation a owl:Class ; rdfs:subClassOf bv:Observation ; rdfs:label "Video observation"@en ; bv:table "video_snapshot" ;
+    skos:definition "A reading of a video's YouTube views on one date."@en .
+
+bv:AudioAnalysis a owl:Class ; rdfs:subClassOf prov:Entity ; rdfs:label "Audio analysis"@en ; bv:abstract true ;
+    skos:definition "One measurement of audio features, from one track or preview. Features describe this audio, not the song across all its versions."@en ;
+    rdfs:seeAlso <https://w3id.org/afo/onto/1.1> .
+bv:VerifiedAnalysis a owl:Class ; rdfs:subClassOf bv:AudioAnalysis ; rdfs:label "Verified analysis"@en ; bv:table "verified_analysis" ;
+    skos:definition "Spotify's audio features for one track, via ReccoBeats."@en ; dcterms:source bv:ReccoBeats .
+bv:EstimatedAnalysis a owl:Class ; rdfs:subClassOf bv:AudioAnalysis ; rdfs:label "Estimated analysis"@en ; bv:table "estimated_analysis" ;
+    skos:definition "Tempo and energy estimated with librosa from a 30-second preview of a song."@en ; dcterms:source bv:Previews .
+[] a owl:AllDisjointClasses ; owl:members ( bv:VerifiedAnalysis bv:EstimatedAnalysis ) .
+
+bv:Chart a owl:Class ; rdfs:label "Chart"@en ;
+    skos:definition "A Billboard chart."@en ; bv:table "node" ;
+    skos:closeMatch wd:Q373899 .
+bv:ChartRun a owl:Class ; rdfs:label "Chart run"@en ;
+    skos:definition "A song's or release's time on one chart: peak position, weeks, first and last week. In the graph, a charted_on edge carries these."@en .
+
+[] a owl:AllDisjointClasses ; owl:members ( bv:Agent bv:CreativeWork bv:Chart bv:ChartRun bv:AudioAnalysis ) .
+[] a owl:AllDisjointClasses ; owl:members ( bv:Song bv:Recording bv:Track bv:Video bv:Release ) .
+bv:Group owl:disjointWith bv:Person .
+[] a owl:AllDisjointClasses ; owl:members ( bv:Album bv:EP bv:Single ) .
+
+# Individuals.
+
+bv:BTS a bv:Group ; rdfs:label "BTS"@en, "방탄소년단"@ko ; skos:closeMatch wd:Q13580495 .
+bv:Hot100 a bv:Chart ; rdfs:label "Billboard Hot 100"@en ; dcterms:source bv:Billboard .
+bv:Billboard200 a bv:Chart ; rdfs:label "Billboard 200"@en ; dcterms:source bv:Billboard .
+
+# Relations.
+
+bv:member_of a owl:ObjectProperty, owl:FunctionalProperty ; rdfs:label "member of"@en ;
+    rdfs:domain bv:Person ; rdfs:range bv:Group ; owl:inverseOf bv:has_member ;
+    skos:closeMatch schema:memberOf, wd:P463 .
+bv:has_member a owl:ObjectProperty ; rdfs:label "has member"@en .
+
+bv:by_artist a owl:ObjectProperty, owl:FunctionalProperty ; rdfs:label "by artist"@en ;
+    skos:definition "The group a song or release is by."@en ;
+    rdfs:domain [ owl:unionOf ( bv:Song bv:Release ) ] ; rdfs:range bv:Group ; owl:inverseOf bv:artist_of ;
+    skos:closeMatch schema:byArtist, wd:P175 .
+bv:artist_of a owl:ObjectProperty ; rdfs:label "artist of"@en .
+
+bv:credited a owl:ObjectProperty ; rdfs:label "credited"@en ;
+    skos:definition "Someone credited on a song, in any role."@en ;
+    rdfs:domain bv:Song ; rdfs:range bv:Person ; owl:inverseOf bv:credited_on ;
+    bv:evidence "Wikipedia pages listing the credit" ; dcterms:source bv:Wikipedia .
+bv:credited_on a owl:ObjectProperty ; rdfs:label "credited on"@en .
+bv:written_by a owl:ObjectProperty ; rdfs:subPropertyOf bv:credited ; rdfs:label "written by"@en ;
+    skos:definition "Credited as writer, lyricist or composer."@en ; owl:inverseOf bv:wrote ;
+    bv:evidence "Wikipedia pages listing the credit" .
+bv:wrote a owl:ObjectProperty ; rdfs:label "wrote"@en .
+bv:lyrics_by a owl:ObjectProperty ; rdfs:subPropertyOf bv:written_by ; rdfs:label "lyrics by"@en ;
+    skos:definition "Credited as lyricist."@en ; skos:closeMatch schema:lyricist, wd:P676 .
+bv:music_by a owl:ObjectProperty ; rdfs:subPropertyOf bv:written_by ; rdfs:label "music by"@en ;
+    skos:definition "Credited as composer."@en ; skos:closeMatch schema:composer, wd:P86 .
+bv:produced_by a owl:ObjectProperty ; rdfs:subPropertyOf bv:credited ; rdfs:label "produced by"@en ;
+    skos:definition "Credited as producer."@en ; owl:inverseOf bv:produced ;
+    skos:closeMatch schema:producer, wd:P162 .
+bv:produced a owl:ObjectProperty ; rdfs:label "produced"@en .
+
+bv:on_album a owl:ObjectProperty ; rdfs:label "on release"@en ;
+    skos:definition "A song is on a release's tracklist, in any version."@en ;
+    rdfs:domain bv:Song ; rdfs:range bv:Release ; owl:inverseOf bv:contains ;
+    bv:evidence "Disc, track and version of each listing" ; dcterms:source bv:Apple, bv:MusicBrainz ;
+    skos:closeMatch schema:inAlbum, wd:P361 .
+bv:contains a owl:ObjectProperty ; rdfs:label "contains"@en .
+bv:first_released_on a owl:ObjectProperty, owl:FunctionalProperty ; rdfs:subPropertyOf bv:on_album ;
+    rdfs:label "first released on"@en ; skos:definition "The release a song first appeared on."@en ;
+    bv:evidence "Which source dates the first release: Apple or MusicBrainz" ;
+    owl:inverseOf bv:first_release_of .
+bv:first_release_of a owl:ObjectProperty ; rdfs:label "first release of"@en .
+
+bv:recording_of a owl:ObjectProperty, owl:FunctionalProperty ; rdfs:label "recording of"@en ;
+    rdfs:domain bv:Recording ; rdfs:range bv:Song ; owl:inverseOf bv:has_recording ;
+    bv:evidence "Version; release date; length" ; dcterms:source bv:MusicBrainz ;
+    skos:closeMatch schema:recordingOf, wd:P2550 .
+bv:has_recording a owl:ObjectProperty ; rdfs:label "has recording"@en .
+
+bv:track_of a owl:ObjectProperty, owl:FunctionalProperty ; rdfs:label "track of"@en ;
+    skos:definition "The recording a streaming track carries, where its ISRC identifies one."@en ;
+    rdfs:domain bv:Track ; rdfs:range bv:Recording ; owl:inverseOf bv:has_track ;
+    bv:evidence "Platform; version" ; dcterms:source bv:Kworb, bv:Deezer .
+bv:has_track a owl:ObjectProperty ; rdfs:label "has track"@en .
+bv:track_of_song a owl:ObjectProperty, owl:FunctionalProperty ; rdfs:label "track of song"@en ;
+    skos:definition "The song a streaming track carries."@en ;
+    rdfs:domain bv:Track ; rdfs:range bv:Song ;
+    owl:propertyChainAxiom ( bv:track_of bv:recording_of ) ;
+    bv:evidence "Platform; version" .
+
+bv:video_of a owl:ObjectProperty, owl:FunctionalProperty ; rdfs:label "video of"@en ;
+    rdfs:domain bv:Video ; rdfs:range bv:Song ; owl:inverseOf bv:has_video ;
+    bv:evidence "Kind; month published" ; dcterms:source bv:YouTube, bv:Kworb .
+bv:has_video a owl:ObjectProperty ; rdfs:label "has video"@en .
+
+bv:analyses_track a owl:ObjectProperty, owl:FunctionalProperty ; rdfs:label "analyses track"@en ;
+    skos:definition "The streaming track a verified analysis measures."@en ;
+    rdfs:domain bv:VerifiedAnalysis ; rdfs:range bv:Track ; bv:evidence "Date observed" ; dcterms:source bv:ReccoBeats .
+bv:analyses_song a owl:ObjectProperty, owl:FunctionalProperty ; rdfs:label "analyses song"@en ;
+    skos:definition "The song whose preview an estimated analysis measures."@en ;
+    rdfs:domain bv:EstimatedAnalysis ; rdfs:range bv:Song ; bv:evidence "Date observed" ; dcterms:source bv:Previews .
+bv:audio_profile a owl:ObjectProperty, owl:FunctionalProperty ; rdfs:label "audio profile"@en ;
+    skos:definition "The analysis that stands for a song's sound: of the track on its own album, or else a preview estimate."@en ;
+    rdfs:domain bv:Song ; rdfs:range bv:AudioAnalysis ; bv:evidence "Verified or estimated" .
+
+bv:in_series a owl:ObjectProperty, owl:FunctionalProperty ; rdfs:label "in series"@en ;
+    skos:definition "The series a release belongs to."@en ;
+    rdfs:domain bv:Release ; rdfs:range bv:AlbumSeries ; owl:inverseOf bv:series_contains ; bv:evidence "Position in the series; where it is stated" .
+bv:observation_of a owl:ObjectProperty, owl:FunctionalProperty ; rdfs:label "observation of"@en ;
+    skos:definition "The track or video an observation measures."@en ;
+    rdfs:domain bv:Observation ; rdfs:range [ owl:unionOf ( bv:Track bv:Video ) ] ; skos:closeMatch sosa:hasFeatureOfInterest .
+
+bv:run_of a owl:ObjectProperty, owl:FunctionalProperty ; rdfs:label "run of"@en ;
+    rdfs:domain bv:ChartRun ; rdfs:range [ owl:unionOf ( bv:Song bv:Release ) ] .
+bv:run_on a owl:ObjectProperty, owl:FunctionalProperty ; rdfs:label "run on"@en ;
+    rdfs:domain bv:ChartRun ; rdfs:range bv:Chart .
+bv:charted_on a owl:ObjectProperty ; rdfs:label "charted on"@en ;
+    skos:definition "A song charted on the Hot 100, or a release on the Billboard 200."@en ;
+    rdfs:domain [ owl:unionOf ( bv:Song bv:Release ) ] ; rdfs:range bv:Chart ;
+    owl:propertyChainAxiom ( [ owl:inverseOf bv:run_of ] bv:run_on ) ;
+    bv:weight "Weeks on chart" ; bv:evidence "Peak; weeks; first and last week" ; dcterms:source bv:Billboard .
+
+bv:collaborated_with a owl:ObjectProperty, owl:SymmetricProperty, owl:IrreflexiveProperty ;
+    rdfs:label "collaborated with"@en ; rdfs:domain bv:Person ; rdfs:range bv:Person ;
+    bv:rule "Two people credited on the same song." ;
+    bv:weight "Songs credited together" ; bv:evidence "The songs" .
+bv:shares_writers a owl:ObjectProperty, owl:SymmetricProperty, owl:IrreflexiveProperty ;
+    rdfs:label "shares writers with"@en ; rdfs:domain bv:Song ; rdfs:range bv:Song ;
+    bv:rule "Songs with credited people in common: cosine similarity of their credit vectors, each person weighted ln(credited songs / songs they are credited on) (TF-IDF). Each song keeps its ten strongest." ;
+    bv:weight "Cosine similarity" ; bv:evidence "The shared people, rarest first" .
+bv:sounds_like a owl:ObjectProperty, owl:SymmetricProperty, owl:IrreflexiveProperty ;
+    rdfs:label "sounds like"@en ; rdfs:domain bv:Song ; rdfs:range bv:Song ;
+    bv:rule "Songs with verified audio, compared on standardized tempo, energy, danceability, valence, acousticness and speechiness (root mean square difference d); each song keeps its five nearest." ;
+    bv:weight "1 / (1 + d), where d is the distance across six standardized audio features (closer is higher, at most 1)" ; bv:evidence "Each feature compared" ; dcterms:source bv:ReccoBeats .
+bv:sounds_like_estimated a owl:ObjectProperty, owl:SymmetricProperty, owl:IrreflexiveProperty ;
+    rdfs:label "sounds like (estimated)"@en ; rdfs:domain bv:Song ; rdfs:range bv:Song ;
+    bv:rule "Songs with only estimated audio, placed against songs with verified audio on standardized tempo and energy (root mean square difference d); each estimated song keeps its five nearest." ;
+    bv:weight "1 / (1 + d), where d is the distance on standardized tempo and energy (closer is higher, at most 1)" ; bv:evidence "Tempo and energy compared; audio estimated" ; dcterms:source bv:Previews, bv:ReccoBeats .
+
+# Attributes: names and dates.
+
+bv:title a owl:DatatypeProperty ; rdfs:label "title"@en ; rdfs:range xsd:string ;
+    rdfs:domain [ owl:unionOf ( bv:Song bv:Recording bv:Track bv:Video bv:Release bv:AlbumSeries ) ] ;
+    skos:closeMatch schema:name .
+bv:title_ko a owl:DatatypeProperty, owl:FunctionalProperty ; rdfs:label "Korean title"@en ;
+    rdfs:domain bv:Song ; rdfs:range xsd:string ; bv:table "song" .
+bv:slug a owl:DatatypeProperty, owl:FunctionalProperty ; rdfs:label "slug"@en ;
+    skos:definition "Readable identifier, unique per table."@en ;
+    rdfs:domain [ owl:unionOf ( bv:Song bv:Release bv:Person bv:AlbumSeries ) ] ; rdfs:range xsd:string .
+bv:name a owl:DatatypeProperty, owl:FunctionalProperty ; rdfs:label "name"@en ;
+    skos:definition "Name as credited."@en ; rdfs:domain bv:Person ; rdfs:range xsd:string ; bv:table "person" .
+bv:display_name a owl:DatatypeProperty, owl:FunctionalProperty ; rdfs:label "display name"@en ;
+    rdfs:domain bv:Person ; rdfs:range xsd:string ; bv:table "person" .
+bv:first_release_date a owl:DatatypeProperty, owl:FunctionalProperty ; rdfs:label "first release date"@en ;
+    rdfs:domain [ owl:unionOf ( bv:Song bv:Recording ) ] ; rdfs:range xsd:date ;
+    skos:closeMatch schema:datePublished, wd:P577 .
+bv:release_date a owl:DatatypeProperty, owl:FunctionalProperty ; rdfs:label "release date"@en ;
+    rdfs:domain bv:Release ; rdfs:range xsd:date ; bv:table "album" ; dcterms:source bv:Apple ;
+    skos:closeMatch schema:datePublished, wd:P577 .
+bv:published_month a owl:DatatypeProperty, owl:FunctionalProperty ; rdfs:label "month published"@en ;
+    rdfs:domain bv:Video ; rdfs:range xsd:date ; bv:unit "first day of the month" ; bv:table "video" .
+
+# Attributes: song, release, recording, track and video facts.
+
+bv:is_single a owl:DatatypeProperty, owl:FunctionalProperty ; rdfs:label "is a single"@en ;
+    rdfs:domain bv:Song ; rdfs:range xsd:boolean ; bv:table "song" ; dcterms:source bv:Wikipedia .
+bv:is_generic_title a owl:DatatypeProperty, owl:FunctionalProperty ; rdfs:label "has a generic title"@en ;
+    skos:definition "Titled Intro, Outro, Skit or Interlude with nothing else."@en ;
+    rdfs:domain bv:Song ; rdfs:range xsd:boolean ; bv:table "song" .
+bv:track_count a owl:DatatypeProperty, owl:FunctionalProperty ; rdfs:label "track count"@en ;
+    rdfs:domain bv:Release ; rdfs:range xsd:nonNegativeInteger ; bv:table "album" ; dcterms:source bv:Apple .
+bv:version a owl:DatatypeProperty, owl:FunctionalProperty ; rdfs:label "version"@en ;
+    skos:definition "original, live, remix, instrumental, demo, japanese, korean, alternate or atmos."@en ;
+    rdfs:domain [ owl:unionOf ( bv:Recording bv:Track bv:Video ) ] ; rdfs:range xsd:string .
+bv:version_label a owl:DatatypeProperty, owl:FunctionalProperty ; rdfs:label "version label"@en ;
+    skos:definition "The version as the source words it, such as 'V demo ver.'."@en ;
+    rdfs:domain bv:Recording ; rdfs:range xsd:string ; bv:table "recording" ; dcterms:source bv:MusicBrainz .
+bv:first_release_precision a owl:DatatypeProperty, owl:FunctionalProperty ; rdfs:label "first release precision"@en ;
+    skos:definition "year, month or day: how much of a recording's first release date is known."@en ;
+    rdfs:domain bv:Recording ; rdfs:range xsd:string ; bv:table "recording" ; dcterms:source bv:MusicBrainz .
+bv:is_video a owl:DatatypeProperty, owl:FunctionalProperty ; rdfs:label "is a video recording"@en ;
+    rdfs:domain bv:Recording ; rdfs:range xsd:boolean ; bv:table "recording" ; dcterms:source bv:MusicBrainz .
+bv:has_tracklist a owl:DatatypeProperty, owl:FunctionalProperty ; rdfs:label "has tracklist"@en ;
+    rdfs:domain bv:Release ; rdfs:range xsd:boolean ; bv:table "album" ; dcterms:source bv:Apple .
+bv:length a owl:DatatypeProperty, owl:FunctionalProperty ; rdfs:label "length"@en ; bv:column "length_ms" ;
+    rdfs:domain bv:Recording ; rdfs:range xsd:nonNegativeInteger ; bv:unit "milliseconds" ;
+    bv:table "recording" ; dcterms:source bv:MusicBrainz ; skos:closeMatch schema:duration .
+bv:platform a owl:DatatypeProperty, owl:FunctionalProperty ; rdfs:label "platform"@en ;
+    skos:definition "spotify or deezer."@en ; rdfs:domain bv:Track ; rdfs:range xsd:string ; bv:table "track" .
+bv:is_feature a owl:DatatypeProperty, owl:FunctionalProperty ; rdfs:label "BTS featured"@en ;
+    skos:definition "BTS appears as a featured artist."@en ;
+    rdfs:domain [ owl:unionOf ( bv:Track bv:Video ) ] ; rdfs:range xsd:boolean .
+bv:video_kind a owl:DatatypeProperty, owl:FunctionalProperty ; rdfs:label "video kind"@en ; bv:column "kind" ;
+    skos:definition "mv, dance_practice, lyric_video, teaser, performance or other."@en ;
+    rdfs:domain bv:Video ; rdfs:range xsd:string ; bv:table "video" .
+bv:peak_position a owl:DatatypeProperty, owl:FunctionalProperty ; rdfs:label "peak position"@en ;
+    rdfs:domain bv:ChartRun ; rdfs:range bv:ChartPosition ; dcterms:source bv:Billboard .
+bv:weeks_on_chart a owl:DatatypeProperty, owl:FunctionalProperty ; rdfs:label "weeks on chart"@en ;
+    rdfs:domain bv:ChartRun ; rdfs:range xsd:positiveInteger ; dcterms:source bv:Billboard .
+bv:first_week a owl:DatatypeProperty, owl:FunctionalProperty ; rdfs:label "first week"@en ;
+    rdfs:domain bv:ChartRun ; rdfs:range xsd:date .
+bv:last_week a owl:DatatypeProperty, owl:FunctionalProperty ; rdfs:label "last week"@en ;
+    rdfs:domain bv:ChartRun ; rdfs:range xsd:date .
+
+# Attributes: a streaming observation.
+
+bv:metric a owl:DatatypeProperty, owl:FunctionalProperty ; rdfs:label "metric"@en ;
+    skos:definition "What is measured: streams, daily, rank or views."@en ;
+    rdfs:domain bv:Observation ; rdfs:range xsd:string ; skos:closeMatch sosa:observedProperty .
+bv:result a owl:DatatypeProperty, owl:FunctionalProperty ; rdfs:label "result"@en ;
+    skos:definition "The value read on that date."@en ;
+    rdfs:domain bv:Observation ; rdfs:range xsd:integer ; skos:closeMatch sosa:hasSimpleResult .
+
+# Attributes: audio features, measured by an analysis of one track or preview.
+
+bv:observed_at a owl:DatatypeProperty, owl:FunctionalProperty ; rdfs:label "observed at"@en ;
+    skos:definition "The date the analysis was obtained."@en ;
+    rdfs:domain [ owl:unionOf ( bv:AudioAnalysis bv:Observation ) ] ; rdfs:range xsd:date ; skos:closeMatch sosa:resultTime .
+
+bv:audio_confidence a owl:DatatypeProperty, owl:FunctionalProperty ; rdfs:label "audio confidence"@en ;
+    skos:definition "verified: Spotify's values via ReccoBeats. estimated: tempo and energy from previews."@en ;
+    rdfs:domain bv:Song ; rdfs:range xsd:string ; bv:table "song_intelligence" .
+bv:tempo a owl:DatatypeProperty, owl:FunctionalProperty ; rdfs:label "tempo"@en ;
+    rdfs:domain bv:AudioAnalysis ; rdfs:range xsd:decimal ; bv:unit "beats per minute" ;
+    dcterms:source bv:ReccoBeats, bv:Previews .
+bv:energy a owl:DatatypeProperty, owl:FunctionalProperty ; rdfs:label "energy"@en ;
+    skos:definition "Intensity and activity."@en ;
+    rdfs:domain bv:AudioAnalysis ; rdfs:range bv:UnitInterval ; dcterms:source bv:ReccoBeats, bv:Previews .
+bv:danceability a owl:DatatypeProperty, owl:FunctionalProperty ; rdfs:label "danceability"@en ;
+    rdfs:domain bv:AudioAnalysis ; rdfs:range bv:UnitInterval ; dcterms:source bv:ReccoBeats .
+bv:valence a owl:DatatypeProperty, owl:FunctionalProperty ; rdfs:label "valence"@en ;
+    skos:definition "Musical positiveness."@en ;
+    rdfs:domain bv:AudioAnalysis ; rdfs:range bv:UnitInterval ; dcterms:source bv:ReccoBeats .
+bv:acousticness a owl:DatatypeProperty, owl:FunctionalProperty ; rdfs:label "acousticness"@en ;
+    rdfs:domain bv:AudioAnalysis ; rdfs:range bv:UnitInterval ; dcterms:source bv:ReccoBeats .
+bv:speechiness a owl:DatatypeProperty, owl:FunctionalProperty ; rdfs:label "speechiness"@en ;
+    skos:definition "Presence of spoken words, such as rap."@en ;
+    rdfs:domain bv:AudioAnalysis ; rdfs:range bv:UnitInterval ; dcterms:source bv:ReccoBeats .
+bv:instrumentalness a owl:DatatypeProperty, owl:FunctionalProperty ; rdfs:label "instrumentalness"@en ;
+    rdfs:domain bv:AudioAnalysis ; rdfs:range bv:UnitInterval ; dcterms:source bv:ReccoBeats .
+bv:liveness a owl:DatatypeProperty, owl:FunctionalProperty ; rdfs:label "liveness"@en ;
+    skos:definition "Presence of a live audience."@en ;
+    rdfs:domain bv:AudioAnalysis ; rdfs:range bv:UnitInterval ; dcterms:source bv:ReccoBeats .
+bv:loudness a owl:DatatypeProperty, owl:FunctionalProperty ; rdfs:label "loudness"@en ;
+    rdfs:domain bv:AudioAnalysis ; rdfs:range xsd:decimal ; bv:unit "decibels" ;
+    dcterms:source bv:ReccoBeats .
+bv:key a owl:DatatypeProperty, owl:FunctionalProperty ; rdfs:label "key"@en ;
+    rdfs:domain bv:AudioAnalysis ; rdfs:range bv:PitchClass ; dcterms:source bv:ReccoBeats .
+bv:mode a owl:DatatypeProperty, owl:FunctionalProperty ; rdfs:label "mode"@en ;
+    skos:definition "1 = major, 0 = minor."@en ;
+    rdfs:domain bv:AudioAnalysis ; rdfs:range xsd:integer ; dcterms:source bv:ReccoBeats .
+
+# Attributes: streaming and chart measures of a song (song_intelligence). Spotify history starts April 2023.
+
+bv:release_age_years a owl:DatatypeProperty, owl:FunctionalProperty ;
+    skos:scopeNote "As of the dataset's latest snapshot; changes with each build."@en ; rdfs:label "release age"@en ;
+    rdfs:domain bv:Song ; rdfs:range xsd:decimal ; bv:unit "years" ; bv:table "song_intelligence" .
+bv:current_streams a owl:DatatypeProperty, owl:FunctionalProperty ;
+    skos:scopeNote "As of the dataset's latest snapshot; changes with each build."@en ; rdfs:label "Spotify streams"@en ;
+    skos:definition "Total Spotify streams at the latest snapshot."@en ;
+    rdfs:domain bv:Song ; rdfs:range xsd:nonNegativeInteger ; bv:unit "streams" ;
+    bv:table "song_intelligence" ; dcterms:source bv:Kworb .
+bv:streams_per_day a owl:DatatypeProperty, owl:FunctionalProperty ;
+    skos:scopeNote "As of the dataset's latest snapshot; changes with each build."@en ; rdfs:label "streams per day"@en ;
+    skos:definition "Average daily Spotify streams over the last 90 days."@en ;
+    rdfs:domain bv:Song ; rdfs:range xsd:decimal ; bv:unit "streams per day" ;
+    bv:table "song_intelligence" ; dcterms:source bv:Kworb .
+bv:stream_growth_rate a owl:DatatypeProperty, owl:FunctionalProperty ;
+    skos:scopeNote "As of the dataset's latest snapshot; changes with each build."@en ; rdfs:label "stream growth"@en ;
+    skos:definition "Last 90 days' streams per day against the 90 before, minus 1."@en ;
+    rdfs:domain bv:Song ; rdfs:range xsd:decimal ; bv:unit "ratio" ; bv:table "song_intelligence" ; dcterms:source bv:Kworb .
+bv:growth_acceleration a owl:DatatypeProperty, owl:FunctionalProperty ;
+    skos:scopeNote "As of the dataset's latest snapshot; changes with each build."@en ; rdfs:label "growth acceleration"@en ;
+    skos:definition "This 90-day growth rate minus the previous one."@en ;
+    rdfs:domain bv:Song ; rdfs:range xsd:decimal ; bv:unit "ratio" ; bv:table "song_intelligence" ; dcterms:source bv:Kworb .
+bv:mv_views_per_day a owl:DatatypeProperty, owl:FunctionalProperty ;
+    skos:scopeNote "As of the dataset's latest snapshot; changes with each build."@en ; rdfs:label "music video views per day"@en ;
+    skos:definition "Average daily official music video views over the last 90 days."@en ;
+    rdfs:domain bv:Song ; rdfs:range xsd:decimal ; bv:unit "views per day" ;
+    bv:table "song_intelligence" ; dcterms:source bv:Kworb .
+bv:mv_growth_rate a owl:DatatypeProperty, owl:FunctionalProperty ;
+    skos:scopeNote "As of the dataset's latest snapshot; changes with each build."@en ; rdfs:label "music video growth"@en ;
+    skos:definition "Last 90 days' video views per day against the 90 before, minus 1."@en ;
+    rdfs:domain bv:Song ; rdfs:range xsd:decimal ; bv:unit "ratio" ; bv:table "song_intelligence" ; dcterms:source bv:Kworb .
+bv:hot100_peak a owl:DatatypeProperty, owl:FunctionalProperty ;
+    skos:scopeNote "As of the dataset's latest snapshot; changes with each build."@en ; rdfs:label "Hot 100 peak"@en ;
+    rdfs:domain bv:Song ; rdfs:range bv:ChartPosition ; bv:table "song_intelligence" ; dcterms:source bv:Billboard .
+bv:hot100_weeks a owl:DatatypeProperty, owl:FunctionalProperty ;
+    skos:scopeNote "As of the dataset's latest snapshot; changes with each build."@en ; rdfs:label "Hot 100 weeks"@en ;
+    rdfs:domain bv:Song ; rdfs:range xsd:positiveInteger ; bv:unit "weeks" ;
+    bv:table "song_intelligence" ; dcterms:source bv:Billboard .
+bv:mv_views a owl:DatatypeProperty, owl:FunctionalProperty ;
+    skos:scopeNote "As of the dataset's latest snapshot; changes with each build."@en ; rdfs:label "music video views"@en ;
+    skos:definition "Total official music video views at the latest snapshot."@en ;
+    rdfs:domain bv:Song ; rdfs:range xsd:nonNegativeInteger ; bv:unit "views" ; bv:table "song_intelligence" ; dcterms:source bv:Kworb .
+bv:streams_per_day_2025 a owl:DatatypeProperty, owl:FunctionalProperty ; rdfs:label "streams per day in 2025"@en ;
+    skos:definition "Average daily Spotify streams in 2025, for songs released by then with data on at least 75% of its days. The basis of long_tail_score."@en ;
+    rdfs:domain bv:Song ; rdfs:range xsd:nonNegativeInteger ; bv:unit "streams per day" ; bv:table "song_intelligence" ; dcterms:source bv:Kworb .
+bv:revival_score a owl:DatatypeProperty, owl:FunctionalProperty ;
+    skos:scopeNote "As of the dataset's latest snapshot; changes with each build."@en ; rdfs:label "revival score"@en ;
+    skos:definition "Largest monthly surge against the song's prior six-month median, net of the same surge for songs a year or more old. Songs a year or more old with at least 5,000 streams per day."@en ;
+    rdfs:domain bv:Song ; rdfs:range xsd:decimal ; bv:unit "ratio" ; bv:table "song_intelligence" ; dcterms:source bv:Kworb .
+bv:revival_month a owl:DatatypeProperty, owl:FunctionalProperty ;
+    skos:scopeNote "As of the dataset's latest snapshot; changes with each build."@en ; rdfs:label "revival month"@en ;
+    rdfs:domain bv:Song ; rdfs:range xsd:date ; bv:unit "first day of the month" ; bv:table "song_intelligence" .
+bv:has_revival a owl:DatatypeProperty, owl:FunctionalProperty ;
+    skos:scopeNote "As of the dataset's latest snapshot; changes with each build."@en ; rdfs:label "has a revival"@en ;
+    skos:definition "The revival month at least doubled the song's usual level (revival score of 1 or more)."@en ;
+    rdfs:domain bv:Song ; rdfs:range xsd:boolean ; bv:table "song_intelligence" .
+bv:writer_count a owl:DatatypeProperty, owl:FunctionalProperty ; rdfs:label "writers"@en ;
+    rdfs:domain bv:Song ; rdfs:range xsd:nonNegativeInteger ; bv:table "song_intelligence" ; dcterms:source bv:Wikipedia .
+bv:producer_count a owl:DatatypeProperty, owl:FunctionalProperty ; rdfs:label "producers"@en ;
+    rdfs:domain bv:Song ; rdfs:range xsd:nonNegativeInteger ; bv:table "song_intelligence" ; dcterms:source bv:Wikipedia .
+bv:member_writer_share a owl:DatatypeProperty, owl:FunctionalProperty ; rdfs:label "member writer share"@en ;
+    skos:definition "Share of a song's writers who are members."@en ;
+    rdfs:domain bv:Song ; rdfs:range bv:UnitInterval ; bv:table "song_intelligence" ; dcterms:source bv:Wikipedia .
+bv:popularity_score a owl:DatatypeProperty, owl:FunctionalProperty ;
+    skos:scopeNote "As of the dataset's latest snapshot; changes with each build."@en ; rdfs:label "popularity"@en ;
+    skos:definition "Percentile of streams per day among songs that have it."@en ;
+    rdfs:domain bv:Song ; rdfs:range bv:Percentile ; bv:table "song_intelligence" ; dcterms:source bv:Kworb .
+bv:long_tail_score a owl:DatatypeProperty, owl:FunctionalProperty ;
+    skos:scopeNote "As of the dataset's latest snapshot; changes with each build."@en ; rdfs:label "long tail"@en ;
+    skos:definition "Percentile of 2025 streams per day among songs released before 2023: the dataset's one measure of staying power."@en ;
+    rdfs:domain bv:Song ; rdfs:range bv:Percentile ; bv:table "song_intelligence" ; dcterms:source bv:Kworb .
+
+# Recommendation: meta-paths (routes that relate two songs), their weights, and the relation they produce.
+
+bv:uses_relation a owl:AnnotationProperty ; rdfs:label "uses relation"@en ; skos:definition "A relation the route walks; the recommendation query reads it."@en .
+bv:route a owl:AnnotationProperty ; rdfs:label "route"@en ; skos:definition "The path through the graph, as classes and relations."@en .
+bv:path_weight a owl:AnnotationProperty ; rdfs:label "path weight"@en ; skos:definition "How much the path counts in a recommendation score."@en .
+bv:reason a owl:AnnotationProperty ; rdfs:label "reason"@en ; skos:definition "The label of the reason the path gives, as shown in 'Why this?'."@en .
+
+bv:MetaPath a owl:Class ; rdfs:label "Meta-path"@en ;
+    skos:definition "A route through the graph that relates two songs; each one scores 0 to 1 and gives a reason."@en .
+
+bv:SoundsLike a bv:MetaPath ; rdfs:label "Sounds like"@en ;
+    bv:uses_relation bv:sounds_like ; bv:route "song -sounds_like- song" ; bv:path_weight 1.0 ; bv:reason "sounds like" ;
+    skos:definition "The sounds_like similarity, against the nearest for the song. The reason gives tempo, energy and speechiness: the recommended song's, then this song's."@en .
+bv:SoundsLikeEstimated a bv:MetaPath ; rdfs:label "Sounds like (estimated)"@en ;
+    bv:uses_relation bv:sounds_like_estimated ; bv:route "song -sounds_like_estimated- song" ; bv:path_weight 0.5 ; bv:reason "sounds like (estimated)" ;
+    skos:definition "The sounds_like_estimated similarity, against the nearest for the song. Connects songs with only estimated audio to the catalog. The reason gives tempo and energy: the recommended song's, then this song's."@en .
+bv:SameFirstRelease a bv:MetaPath ; rdfs:label "Same first release"@en ;
+    bv:uses_relation bv:first_released_on ; bv:route "song -first_released_on-> release <-first_released_on- song" ; bv:path_weight 0.25 ; bv:reason "same first release" ;
+    skos:definition "Both songs first released on the same release: 1."@en .
+
+bv:Setting a owl:Class ; rdfs:label "Setting"@en ; skos:definition "A number that tunes how recommendations are picked."@en .
+bv:value a owl:AnnotationProperty ; rdfs:label "value"@en .
+
+bv:HiddenGemWeight a bv:Setting ; rdfs:label "Hidden gem weight"@en ; bv:value 0.1 ;
+    skos:definition "Relevance is lowered by this times the song's popularity percentile / 100, so a much-streamed song needs a closer match to be picked. A song with no streaming data counts as average (50th percentile, median streams per day)."@en .
+bv:MinimumLength a bv:Setting ; rdfs:label "Minimum length"@en ; bv:value 120 ;
+    skos:definition "In seconds. A track shorter than this is not recommended after a longer song: a short linking track is not a like-for-like pick. Length decides, not the title."@en .
+bv:VarietyLambda a bv:Setting ; rdfs:label "Variety lambda"@en ; bv:value 0.7 ;
+    skos:definition "MMR: each pick maximizes lambda x relevance - (1 - lambda) x its similarity to songs already picked (audio closeness, or 1 for the same first release). 1 = relevance only."@en .
+
+bv:recommends a owl:ObjectProperty, owl:IrreflexiveProperty ; rdfs:label "recommends"@en ;
+    skos:definition "A song to listen to next after another."@en ;
+    rdfs:domain bv:Song ; rdfs:range bv:Song ;
+    bv:rule "Relevance: the sum over meta-paths (sounds like, sounds like estimated, same first release) of path weight x path score, scaled to the song's best, minus the hidden gem nudge. Credits are not used. Tracks under MinimumLength are left out after a longer song. Five songs are picked one at a time by MMR (VarietyLambda). Ties go to the song that sounds closer, then the less streamed (streams per day), then the earlier track on the song's first release. Skits are neither recommended nor given recommendations." ;
+    bv:weight "1 / rank" ; bv:evidence "One reason per meta-path that relates the songs" .
+
+# Definitions of inverses and of terms whose meaning is plain from their name.
+
+bv:artist_of skos:definition "The songs and releases a group is the artist of."@en .
+bv:contains skos:definition "The songs on a release's tracklist."@en .
+bv:credited_on skos:definition "The songs a person is credited on, in any role."@en .
+bv:first_release_of skos:definition "The songs a release was the first to carry."@en .
+bv:has_member skos:definition "The people in a group."@en .
+bv:has_recording skos:definition "The versions recorded of a song."@en .
+bv:has_track skos:definition "The streaming tracks that carry a recording."@en .
+bv:has_video skos:definition "The videos of a song."@en .
+bv:produced skos:definition "The songs a person is credited as producing."@en .
+bv:wrote skos:definition "The songs a person is credited as writing."@en .
+bv:member_of skos:definition "A person belongs to a group."@en .
+bv:recording_of skos:definition "A recording is one version of a song."@en .
+bv:video_of skos:definition "A video shows one song."@en .
+bv:run_of skos:definition "The song or release a chart run belongs to."@en .
+bv:run_on skos:definition "The chart a chart run is on."@en .
+bv:collaborated_with skos:definition "Two people credited together on at least one song."@en .
+bv:shares_writers skos:definition "Two songs with credited people in common."@en .
+bv:sounds_like skos:definition "Two songs with verified audio that are close on audio features."@en .
+bv:sounds_like_estimated skos:definition "A song with only estimated audio that is close to a song with verified audio on tempo and energy."@en .
+bv:acousticness skos:definition "Confidence from 0 to 1 that the audio is acoustic."@en .
+bv:danceability skos:definition "How suitable the audio is for dancing, from 0 to 1."@en .
+bv:instrumentalness skos:definition "Confidence from 0 to 1 that the audio has no vocals."@en .
+bv:key skos:definition "The estimated key of the audio, as a pitch class."@en .
+bv:loudness skos:definition "The overall loudness of the audio."@en .
+bv:tempo skos:definition "The estimated tempo of the audio."@en .
+bv:display_name skos:definition "The person's name for display, without a Wikipedia disambiguator."@en .
+bv:first_release_date skos:definition "The earliest known release date."@en .
+bv:first_week skos:definition "The first week of a chart run."@en .
+bv:last_week skos:definition "The last week of a chart run."@en .
+bv:has_tracklist skos:definition "Apple lists the tracks on the release."@en .
+bv:hot100_peak skos:definition "The song's highest Billboard Hot 100 position."@en .
+bv:hot100_weeks skos:definition "The weeks the song has spent on the Billboard Hot 100."@en .
+bv:is_single skos:definition "Wikipedia lists the song as a single."@en .
+bv:is_video skos:definition "MusicBrainz marks the recording as a video."@en .
+bv:length skos:definition "The length of the recording."@en .
+bv:peak_position skos:definition "The highest position of a chart run."@en .
+bv:producer_count skos:definition "The people credited as producer on the song."@en .
+bv:published_month skos:definition "The month the video was published."@en .
+bv:release_age_years skos:definition "The time from the song's first release to the latest snapshot."@en .
+bv:release_date skos:definition "The date the release came out."@en .
+bv:revival_month skos:definition "The month of the song's largest surge."@en .
+bv:title skos:definition "The title as its source gives it."@en .
+bv:title_ko skos:definition "The song's Korean title, where it has one."@en .
+bv:track_count skos:definition "The number of tracks Apple lists on the release."@en .
+bv:weeks_on_chart skos:definition "The number of weeks in a chart run."@en .
+bv:writer_count skos:definition "The people credited as writer on the song."@en .
+
+# Domains and ranges stated explicitly on sub-relations and inverses.
+
+bv:written_by rdfs:domain bv:Song ; rdfs:range bv:Person .
+bv:lyrics_by rdfs:domain bv:Song ; rdfs:range bv:Person .
+bv:music_by rdfs:domain bv:Song ; rdfs:range bv:Person .
+bv:produced_by rdfs:domain bv:Song ; rdfs:range bv:Person .
+bv:first_released_on rdfs:domain bv:Song ; rdfs:range bv:Release .
+bv:wrote rdfs:domain bv:Person ; rdfs:range bv:Song .
+bv:produced rdfs:domain bv:Person ; rdfs:range bv:Song .
+bv:credited_on rdfs:domain bv:Person ; rdfs:range bv:Song .
+bv:contains rdfs:domain bv:Release ; rdfs:range bv:Song .
+bv:first_release_of rdfs:domain bv:Release ; rdfs:range bv:Song .
+bv:has_member rdfs:domain bv:Group ; rdfs:range bv:Person .
+bv:artist_of rdfs:domain bv:Group ; rdfs:range [ owl:unionOf ( bv:Song bv:Release ) ] .
+bv:has_recording rdfs:domain bv:Song ; rdfs:range bv:Recording .
+bv:has_track rdfs:domain bv:Recording ; rdfs:range bv:Track .
+bv:has_video rdfs:domain bv:Song ; rdfs:range bv:Video .
+
+# Streaming measures summarise dated observations.
+
+bv:derived_from a owl:AnnotationProperty ; rdfs:label "derived from"@en ; skos:definition "The observations a measure is calculated from."@en .
+bv:current_streams bv:derived_from bv:TrackObservation .
+bv:streams_per_day bv:derived_from bv:TrackObservation .
+bv:stream_growth_rate bv:derived_from bv:TrackObservation .
+bv:growth_acceleration bv:derived_from bv:TrackObservation .
+bv:revival_score bv:derived_from bv:TrackObservation .
+bv:revival_month bv:derived_from bv:TrackObservation .
+bv:has_revival bv:derived_from bv:TrackObservation .
+bv:popularity_score bv:derived_from bv:TrackObservation .
+bv:long_tail_score bv:derived_from bv:TrackObservation .
+bv:mv_views_per_day bv:derived_from bv:VideoObservation .
+bv:mv_growth_rate bv:derived_from bv:VideoObservation .
+
+bv:series_contains a owl:ObjectProperty ; rdfs:label "series contains"@en ; skos:definition "The releases in a series."@en ; rdfs:domain bv:AlbumSeries ; rdfs:range bv:Release .
+bv:mv_views bv:derived_from bv:VideoObservation .
+bv:streams_per_day_2025 bv:derived_from bv:TrackObservation .

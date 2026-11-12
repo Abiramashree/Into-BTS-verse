@@ -30,8 +30,10 @@ bv: a owl:Ontology ;
     bibo:status <http://purl.org/ontology/bibo/status/draft> ;
     vann:preferredNamespacePrefix "bv" ;
     vann:preferredNamespaceUri "https://abiramashree.github.io/Into-BTS-verse/ontology#" ;
-    owl:versionIRI <https://abiramashree.github.io/Into-BTS-verse/versions/1.1.0/ontology.ttl> ;
-    owl:versionInfo "1.1.0" ;
+    owl:versionIRI <https://abiramashree.github.io/Into-BTS-verse/versions/1.1.1/ontology.ttl> ;
+    owl:versionInfo "1.1.1" ;
+    owl:priorVersion <https://abiramashree.github.io/Into-BTS-verse/versions/1.1.0/ontology.ttl> ;
+    skos:changeNote "1.1.1: the sounds-like weights say what their distance is. No terms added or removed."@en ;
     rdfs:comment "Songs, their versions and releases, the people credited on them, charts and streaming measures."@en .
 
 # Annotations used on terms below.
