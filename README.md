@@ -3,6 +3,18 @@
 BTS catalog data: songs, albums, recordings, credits, Spotify streams, YouTube views, audio features and Billboard
 charts, as one normalized warehouse.
 
+## The site
+
+[abiramashree.github.io/Into-BTS-verse](https://abiramashree.github.io/Into-BTS-verse/), built from these files:
+
+- Home: next streaming milestones, the month's trend, hidden gems.
+- Songweb: catalog stats, a mood map, rankings, and Compare for any two songs.
+- Explore: how songs connect through writers, producers, albums and sound, with the reason for every link.
+- Song pages: monthly rank, streams, share of album, audio and credits.
+- Ask: a question in plain English becomes one read-only SQL query, written by a language model (Groq, through a
+  Cloudflare Worker that holds the key) and run in your browser on these Parquet files. The query is shown with every
+  answer. Limits: 6 questions a minute and 20 a day per visitor.
+
 - `data/bts.duckdb`: every table and view in one file.
 - `data/parquet/`, `data/csv/`: one file per table and view.
 - `schema.sql`: table definitions, primary and foreign keys, allowed values (ENUMs).
