@@ -1,19 +1,142 @@
 # Into BTSVerse
 
-BTS catalog data: songs, albums, recordings, credits, Spotify streams, YouTube views, audio features and Billboard
-charts, as one normalized warehouse.
+**[Open the site](https://abiramashree.github.io/Into-BTS-verse/)** · [Data dictionary](DICTIONARY.md) ·
+[Ontology](ontology.html) · [Validation rules](shapes.html) · [License and sources](LICENSE.md)
 
-## The site
+The BTS catalog as one dataset you can trust and explore: 7 public sources joined into a normalized warehouse, a
+knowledge graph that explains every connection it draws, and a site where anyone can see what's rising, why two songs
+belong together, or ask a question in plain English.
 
-[abiramashree.github.io/Into-BTS-verse](https://abiramashree.github.io/Into-BTS-verse/), built from these files:
+![Welcome page](screenshots/welcome.png)
 
-- Home: next streaming milestones, the month's trend, hidden gems.
-- Songweb: catalog stats, a mood map, rankings, and Compare for any two songs.
-- Explore: how songs connect through writers, producers, albums and sound, with the reason for every link.
-- Song pages: monthly rank, streams, share of album, audio and credits.
-- Ask: a question in plain English becomes one read-only SQL query, written by a language model (Groq, through a
-  Cloudflare Worker that holds the key) and run in your browser on these Parquet files. The query is shown with every
-  answer. Limits: 6 questions a minute and 20 a day per visitor.
+## At a glance
+
+| | |
+|---|---|
+| Catalog | 209 songs, 430 recordings, 1,021 tracks, 42 releases, 282 credited people |
+| History | 42 Spotify snapshots since April 2023, 418 Billboard 200 weeks and 185 Hot 100 weeks |
+| Knowledge graph | 2,528 nodes and 9,383 edges across 22 relations; every edge carries its evidence and source |
+| Ontology | OWL 2: 31 classes, 37 relations, 58 attributes, 29 mappings to schema.org, Wikidata and the Music Ontology |
+| Quality | 85 checks on every build, 95 automated tests including a browser test, byte-identical rebuilds |
+| Privacy | All published IDs are this project's own; no Spotify, Apple, MusicBrainz, Deezer or YouTube IDs |
+
+## What you can do
+
+**See what's moving.** Home shows the songs about to cross a streaming milestone (with an expected date), what's
+heating up and cooling down this month with each song's 12-month line, and hidden gems the recommendations keep
+leading to.
+
+![Home](screenshots/home.png)
+
+**Understand any song.** Its monthly rank among all songs, its album or its year; streams, video and chart stats; its
+share of its album's listening; measured audio features; writers and producers.
+
+![Song page](screenshots/song.png)
+
+**Follow the connections.** Explore starts from a song and grows a path one click at a time (song → writer → their
+other songs → their collaborators), ranked by how close each one is to where you started. Click any node or link to
+see why it's there: shared writers, same album, similar audio profile, same era, a recommendation.
+
+![Explore](screenshots/explore.png)
+
+**Compare two songs** side by side: how they connect (including the shortest path between them), both stream lines,
+the numbers, and how alike they sound against every other pair in the catalog.
+
+![Compare](screenshots/compare.png)
+
+**See the shape of the catalog.** Songweb ranks songs by any measure and maps every song with measured audio by
+energy and mood, which shows where the catalog is dense and where it has gaps.
+
+![Mood map](screenshots/mood-map.png)
+
+**Ask in plain English.** A question becomes one read-only SQL query, written by a language model and run in your
+browser on the published files. The query is always shown, so every answer can be checked.
+
+![Ask](screenshots/ask.png)
+
+Light and dark themes, phone layouts, and keyboard-reachable lists for every chart and graph.
+
+## How it works
+
+```mermaid
+flowchart LR
+  S["7 sources<br/>MusicBrainz · Apple · Deezer<br/>kworb + Wayback · ReccoBeats<br/>Wikipedia · Billboard"] --> M["Model and match<br/>songs, versions, releases"]
+  M --> W["Warehouse<br/>normalized tables<br/>our own permanent IDs"]
+  W --> V["Views<br/>one row of measures per song"]
+  O["Ontology<br/>OWL 2"] --> G["Knowledge graph<br/>edges with evidence"]
+  W --> G
+  O --> X["Validation<br/>SHACL + 85 checks"]
+  G --> X
+  V --> P["Site, Parquet,<br/>CSV, DuckDB"]
+  G --> P
+  X --> P
+  P --> A["Ask: model writes SQL,<br/>browser runs it"]
+```
+
+- **Matching.** One song can exist as many recordings (live, remix, Japanese, remaster) and many tracks. Songs are
+  merged by evidence with union-find, and every merge rule is checked on each build.
+- **Measures.** Streams are spread evenly across each snapshot interval to get monthly and daily figures; relinked
+  Spotify tracks are de-duplicated; drops are never counted as negative streams.
+- **Reproducible.** The whole pipeline rebuilds offline from a local cache in about 15 seconds and produces the same
+  files byte for byte.
+
+## Why the ontology matters
+
+The ontology (`ontology.ttl`) isn't documentation that sits beside the data. The build reads it, and it drives five
+things:
+
+1. **The graph's schema.** Every class, relation and attribute in the graph is generated from it, and every edge is
+   checked against it. A relation the ontology doesn't define can't be published.
+2. **Validation.** SHACL shapes are generated from it and run on every build (2,528 nodes, 28,945 triples). They
+   caught tracks linked straight to a song where the model expects a recording; the ontology gained `track_of_song`
+   for the 217 tracks with no matched recording.
+3. **Definitions.** Every published column has a definition that comes from the ontology or the SQL that builds it,
+   and the build fails if one is missing. That's where [DICTIONARY.md](DICTIONARY.md) comes from.
+4. **The language model's knowledge.** Ask's instructions are generated from the same definitions, so the model knows
+   what each column means, which way each relation points and what unit each number is in.
+5. **Interoperability.** Its terms map to schema.org, Wikidata and the Music Ontology, and the recommender's settings
+   (hidden gem weight, variety, which paths count) live in the ontology, so tuning doesn't need code changes.
+
+## Definitions
+
+| Measure | What it means |
+|---|---|
+| Streams per day | Spotify streams gained per day, averaged over the last 90 days |
+| Growth | Streams per day in the last 90 days against the 90 days before |
+| Popularity | Percentile of streams per day among songs with data (0–100) |
+| Long tail | Percentile of 2025 streams per day among songs released before 2023: staying power, not launch size |
+| Monthly rank | Position by streams per day that month, among all songs, the same album or the same year |
+| Hype meter | Share of songs with more streams per day last month than the month before |
+| Next milestone | The next 100M step up to 1B, then every 500M; the date assumes last month's daily rate continues |
+| Hidden gem | A song the recommendations lead to most often, among songs with popularity 40 or under |
+| Sounds like | Closest songs by distance across six standardized audio features (tempo, energy, danceability, valence, acousticness, speechiness), verified audio only |
+| Recommendations | Five per song, picked one at a time for relevance and variety (MMR): sound first, then same first release, with a small nudge toward less-streamed songs |
+| Mood map | Energy against valence (musical positivity), split at 0.5 into upbeat, intense, bright and mellow, and melancholy |
+
+Every column of every table is defined in [DICTIONARY.md](DICTIONARY.md).
+
+## Trust, quality and responsible AI
+
+- **Checks on every build (85).** Merges, de-duplication, totals that must add up, no negative stream gains, score
+  ranges, a validated estimate for every estimated audio value, competency questions with known answers (for example,
+  Spring Day's member writers are RM and Suga), and the graph against the ontology.
+- **Tests (95),** including a browser test of every page in both themes and at phone width, run before every publish.
+- **Estimates are labelled, or dropped.** Audio for 23 songs is estimated from previews and marked as estimated. An
+  estimated danceability that tested no better than a baseline was removed instead of published.
+- **No source IDs.** The build maps every source ID to this project's own and checks that none leaks into a published
+  table; each publish scans the files again.
+- **Ask, with guardrails.** The model only writes SQL; it never sees the data or runs anything. The query runs in the
+  visitor's browser on public files and must pass the same read-only check in three places (the model service, the
+  page and the Python tools). If a query fails, the model gets one chance to repair it. The API key stays on the
+  server, use is limited (6 a minute, 20 a day per visitor), and the page's security policy blocks every other
+  address.
+
+## Built with
+
+Python 3.12, DuckDB and SQL; rdflib and pySHACL; a static site with Cytoscape.js and DuckDB-WASM; a Cloudflare Worker
+calling Groq (`gpt-oss-120b`) for Ask; Playwright for browser tests; GitHub Pages.
+
+## Files
 
 - `data/bts.duckdb`: every table and view in one file.
 - `data/parquet/`, `data/csv/`: one file per table and view.
@@ -146,5 +269,7 @@ recommendations, and checks the result against `shapes.ttl`.
 - Snapshots are roughly monthly.
 - Audio features cover 194 songs: all features for 171; tempo and energy estimated from previews for 23.
 - Credits cover songs with a Wikipedia track listing.
+- Streams are Spotify only; YouTube views cover songs with a music video.
+- Ask can misread a question; the query behind every answer is shown so it can be checked.
 
 License: [LICENSE.md](LICENSE.md).

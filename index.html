@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'sha256-oasBYGoQT6lw1m7cpmOH17/LiFLAV6+MrLOw3BKmz80=' 'sha256-pgvDUBa4IjFA2yuSJ2cqcyxmNYJMborsd0ORcRv9vw8='; script-src 'sha256-4hH9bn+EfCQ2CIvt66qyaZ/5wnPgyNShZGIPcp/pPss=' 'sha256-OFXhRrOS2Wj4PwJ46MVaN+A25XsQ18yhIx0OUwmGaps=' https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.34.4/cytoscape.min.js 'sha256-0bXL4UXnxphbk+4QarIgi4LgxZ/pFWZOS5KHFlhgQQM=' https://cdn.jsdelivr.net 'wasm-unsafe-eval'; worker-src blob:; img-src 'none'; connect-src 'self' https://cdn.jsdelivr.net https://extensions.duckdb.org https://into-btsverse-ask.abiramashree.workers.dev; font-src 'none'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'sha256-CTtHDe9UjSyJnnEucYcFV7b20HG4rwdOCBRL5vTkTKs=' 'sha256-pgvDUBa4IjFA2yuSJ2cqcyxmNYJMborsd0ORcRv9vw8='; script-src 'sha256-tisPw4wT6uqRAllZelrcpRosbdsd9B6ourkduO1wc6Y=' 'sha256-OFXhRrOS2Wj4PwJ46MVaN+A25XsQ18yhIx0OUwmGaps=' https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.34.4/cytoscape.min.js 'sha256-xbkWmxvo+M6ze2VvBgmL3Q0gz76EmLdLcwMWtd1x9SA=' https://cdn.jsdelivr.net 'wasm-unsafe-eval'; worker-src blob:; img-src 'none'; connect-src 'self' https://cdn.jsdelivr.net https://extensions.duckdb.org https://into-btsverse-ask.abiramashree.workers.dev; font-src 'none'; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Into BTSVerse</title>
-<meta name="description" content="BTS songs: next milestones, trends, hidden gems and revivals; rankings, stats and comparisons; and a graph of how songs connect.">
+<meta name="description" content="BTS songs: next milestones, trends and hidden gems; rankings, stats and comparisons; and a graph of how songs connect.">
 <script>(()=>{let t=null;try{t=localStorage.getItem("theme")}catch(e){}if(t!=="light"&&t!=="dark")t=matchMedia("(prefers-color-scheme: light)").matches?"light":"dark";document.documentElement.dataset.theme=t})();</script>
 <style>
 :root{color-scheme:dark;--bg:#08090a;--panel:#0f1011;--raised:#17181b;--fg:#f7f8f8;--fg2:#d0d6e0;--muted:#8a8f98;--line:#1d1e21;--line2:#2a2b2f;--soft:#141517;--accent:#7d7aff;--series2:#d95926;--release:#199e70}
@@ -51,7 +51,7 @@ input::placeholder{color:var(--muted)}
   --down-bg:rgba(196,71,26,.12);--pink:#c93f7f;--sky:#1f7fb0}
 :root[data-theme=light] #tip,:root[data-theme=light] #found{box-shadow:0 8px 24px rgba(20,20,40,.12)}
 .themer{font:inherit;font-size:14px;line-height:1;width:30px;height:30px;flex:none;border:1px solid var(--line2);border-radius:8px;background:var(--panel);color:var(--fg2);cursor:pointer}
-.themer:hover{color:var(--fg);background:var(--soft)}
+.themer:hover{color:var(--fg);background:var(--soft)}.themer[hidden]{display:none}#back{margin-right:-4px}
 .k-song{color:var(--accent)}.k-person{color:var(--series2)}.k-release{color:var(--release)}
 .hello{position:relative;padding:40px 0 8px;isolation:isolate}
 .hello::before{content:"";position:absolute;inset:-32px 0 auto;height:440px;z-index:-1;pointer-events:none;-webkit-mask-image:radial-gradient(closest-side,#000 55%,transparent);mask-image:radial-gradient(closest-side,#000 55%,transparent);
@@ -241,7 +241,7 @@ main.wide{max-width:1720px}
 <style id="__________cytoscape_stylesheet">.__________cytoscape_container { position: relative; }</style>
 </head>
 <body>
-<header class="top"><a class="brand" href="#/">Into BTSVerse</a><div class="find"><input id="find" type="search" placeholder="Search songs" aria-label="Search songs" autocomplete="off"><div id="found" role="listbox" hidden></div></div><a data-nav="home" href="#/home">Home</a><a data-nav="songweb" href="#/songweb">Songweb</a><a data-nav="explore" href="#/explore">Explore</a><a data-nav="ask" href="#/ask">Ask</a><button id="theme" class="themer" type="button" aria-label="Switch theme">☀</button></header>
+<header class="top"><button id="back" class="themer" type="button" aria-label="Back" title="Back" hidden>←</button><a class="brand" href="#/">Into BTSVerse</a><div class="find"><input id="find" type="search" placeholder="Search songs" aria-label="Search songs" autocomplete="off"><div id="found" role="listbox" hidden></div></div><a data-nav="home" href="#/home">Home</a><a data-nav="songweb" href="#/songweb">Songweb</a><a data-nav="explore" href="#/explore">Explore</a><a data-nav="ask" href="#/ask">Ask</a><button id="theme" class="themer" type="button" aria-label="Switch theme">☀</button></header>
 <main>
 <section data-view="welcome" id="welcome"></section>
 <section data-view="home" hidden>
@@ -544,8 +544,9 @@ function statPane(id) {
       num(s.popularity_score === null ? "–" : Math.round(s.popularity_score), "Popularity", { small: "of 100", tip: D.tips.popularity_score })],
     Video: () => [num(fmt(s.mv_views), "MV views", { tip: D.tips.mv_views }),
       num(fmt(s.mv_views_per_day), "Views per day", { delta: s.mv_growth_rate, tip: D.tips.mv_views_per_day })],
-    Charts: () => [num(s.hot100_peak ? "#" + s.hot100_peak : "–", "Hot 100 peak", { tip: D.tips.hot100_peak }),
-      num(s.hot100_weeks || "–", "Weeks on Hot 100", { tip: D.tips.hot100_weeks }),
+    // Billboard coverage is every week, so no entry means the song never charted (a fact, not missing data).
+    Charts: () => [num(s.hot100_peak ? "#" + s.hot100_peak : "Never", "Hot 100 peak", { small: s.hot100_peak ? null : "charted", tip: D.tips.hot100_peak }),
+      num(String(s.hot100_weeks || 0), "Weeks on Hot 100", { tip: D.tips.hot100_weeks }),
       num(s.long_tail_score === null || s.long_tail_score === undefined ? "–" : Math.round(s.long_tail_score), "Long tail", { small: "of 100", tip: D.tips.long_tail_score })],
   };
   const box = el("div", { class: "nums three" });
@@ -648,12 +649,22 @@ function songweb(tab) {
     ...(tab === "rankings" ? rankings() : stats()));
 }
 
-// A few songs to start from: the most popular, hidden gems and revivals.
+// Songs to start from are only ones with every section complete, so a first click never lands on a thin page:
+// a full song (not a skit or interlude), verified audio with valence, two years of monthly streams, writer and
+// producer credits, popularity and long-tail scores, an MV with views per day, recommendations and sound links.
+const SOUND = {};
+D.edges.forEach((e) => { if (e[1] === "sounds_like") { SOUND[e[0]] = (SOUND[e[0]] || 0) + 1; SOUND[e[2]] = (SOUND[e[2]] || 0) + 1; } });
+const RECS = new Set(D.edges.filter((e) => e[1] === "recommends").map((e) => e[0]));
+const complete = (sid) => { const s = SONGS[sid], roles = new Set((s.c || []).map((c) => c[1]));
+  return s.form === "song" && s.audio === "verified" && aud(s, "valence") !== null && (s.m || []).length >= 24 && roles.has("writer") && roles.has("producer")
+    && s.popularity_score !== null && s.long_tail_score !== null && s.mv_views !== null && s.mv_views_per_day !== null
+    && RECS.has("song:" + sid) && (SOUND["song:" + sid] || 0) >= 2; };
+// The six most popular complete songs, then the two complete songs growing fastest.
 function samples() {
-  const H = D.home, seen = new Set(), out = [];
-  const add = (sid) => { if (sid && SONGS[sid] && !seen.has(String(sid))) { seen.add(String(sid)); out.push(sid); } };
-  Object.entries(SONGS).sort(([, a], [, b]) => (b.popularity_score || 0) - (a.popularity_score || 0)).slice(0, 4).forEach(([sid]) => add(sid));
-  H.gems.slice(0, 2).forEach(([sid]) => add(sid)); H.revivals.slice(0, 2).forEach(([sid]) => add(sid));
+  const ok = Object.keys(SONGS).filter(complete), out = [];
+  ok.sort((a, b) => SONGS[b].popularity_score - SONGS[a].popularity_score || SONGS[a].title.localeCompare(SONGS[b].title)).slice(0, 6).forEach((sid) => out.push(sid));
+  ok.filter((sid) => !out.includes(sid) && SONGS[sid].stream_growth_rate !== null)
+    .sort((a, b) => SONGS[b].stream_growth_rate - SONGS[a].stream_growth_rate).slice(0, 2).forEach((sid) => out.push(sid));
   return out;
 }
 const finder = (label, to) => [el("div", { class: "controls" }, picker(null, label, (sid) => { location.hash = to + SONGS[sid].slug; })),
@@ -760,7 +771,7 @@ function compare(a, b) {
     ["hot100_peak", "Hot 100 peak", (x) => "#" + x], ["date", "Released", day]];
   v.append(el("h2", { text: "Numbers" }), el("div", { class: "scroll" }, el("table", {},
     el("thead", {}, el("tr", {}, el("th", { text: "" }), el("th", { class: "n", text: A.title }), el("th", { class: "n", text: B.title }))),
-    el("tbody", {}, F.map(([k, name, f]) => el("tr", {}, el("td", { text: name, title: D.tips[k] }), ...[A, B].map((s) => el("td", { class: "n", text: s[k] === null || s[k] === undefined ? "–" : f(s[k]) }))))))));
+    el("tbody", {}, F.map(([k, name, f]) => el("tr", {}, el("td", { text: name, title: D.tips[k] }), ...[A, B].map((s) => el("td", { class: "n", text: s[k] === null || s[k] === undefined ? (k === "hot100_peak" ? "Never charted" : "–") : f(s[k]) }))))))));
   if (A.a || B.a) {
     const grid = el("div", { class: "props duo" }, el("div", {}, el("span", { text: "" }), el("span", { text: A.title }), el("span", { text: B.title })));
     AUDIO.forEach(([col, name]) => {
@@ -1021,7 +1032,7 @@ function graph(id) {
 function welcome() {
   const box = $("#welcome"); if (box.childElementCount) return;
   const last = D.home.catalog[D.home.catalog.length - 1];
-  const doors = [["home", "#/home", "◉", "Home", "Milestones, trends, hidden gems and revivals"],
+  const doors = [["home", "#/home", "◉", "Home", "Milestones, trends and hidden gems"],
     ["songweb", "#/songweb", "▤", "Songweb", "Stats, rankings and every song's numbers"],
     ["explore", "#/explore", "✳", "Explore", "How songs connect through writers, albums and sound"],
     ["compare", "#/compare", "⇄", "Compare", "Two songs side by side"]]
@@ -1042,10 +1053,11 @@ function welcome() {
 
 function route() {
   const [view, a, b] = (location.hash || "#/").slice(2).split("/").map((x) => decodeURIComponent(x));
-  if (view === "song" && b === "explore") { location.replace("#/explore/" + a); return; }
+  if (view === "song" && b === "explore") { depth--; location.replace("#/explore/" + a); return; }  // replace adds no history step
   const views = ["home", "song", "songweb", "explore", "compare"].concat($("[data-view=ask]") ? ["ask"] : []);
   const name = views.includes(view) ? view : "welcome";
   redraw = null;
+  $("#back").hidden = name === "welcome";
   document.querySelectorAll("[data-view]").forEach((s) => (s.hidden = s.dataset.view !== name));
   document.querySelectorAll(".top a[data-nav]").forEach((x) => x.dataset.nav === name ? x.setAttribute("aria-current", "page") : x.removeAttribute("aria-current"));
   if (cy) { cy.destroy(); cy = null; }
@@ -1061,7 +1073,10 @@ function route() {
   else if (name === "compare") { compare(bySlug[a || ""], bySlug[b || ""]); if (!(a && b)) document.title = "Compare · Into BTSVerse"; }
 }
 
-window.addEventListener("hashchange", route);
+// Back: to the previous view inside the site; if the visitor arrived straight on this view, to the welcome page.
+let depth = 0;
+window.addEventListener("hashchange", () => { depth++; route(); });
+$("#back").addEventListener("click", () => { if (depth > 0) { depth -= 2; history.back(); } else location.hash = "#/"; });
 route();
 })();
 </script>
@@ -1094,7 +1109,7 @@ const cell = (v, type) => {
 };
 // Example questions: ones Ask's tests check against the data. A click fills the box and asks.
 const EXAMPLES = ["Which 5 songs have the most Spotify streams per day?", "Which songs sound most like Spring Day?",
-  "Which BTS songs reached number 1 on the Billboard Hot 100?", "Which BTS members wrote Spring Day?",
+  "Which BTS songs reached number 1 on the Billboard Hot 100, and how many weeks did each spend at number 1?", "Which BTS members wrote Spring Day?",
   "Who has the most songs credited together with RM?", "Which albums reached number 1 on the Billboard 200?",
   "Which songs have the highest long tail score?"];
 for (const q of EXAMPLES) {
@@ -1107,15 +1122,28 @@ $("ask").addEventListener("submit", async (e) => {
   const q = $("askq").value.trim(), out = $("askout"), sqlBox = $("asksql");
   if (!q) return;
   out.replaceChildren(); sqlBox.hidden = true; $("askstate").textContent = "Thinking…";
-  try {
-    const r = await fetch(ASK, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ question: q }) });
+  // Ask for SQL; with `retry`, the model sees its failed query and DuckDB's error and repairs it.
+  const write = async (retry) => {
+    const r = await fetch(ASK, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ question: q, retry }) });
     const body = await r.json();
     if (!r.ok) throw new Error(body.error || "Something went wrong.");
     const sql = body.sql.trim().replace(/;\s*$/, "");
     sqlBox.querySelector("pre").textContent = sql; sqlBox.hidden = false;
     if (!safe(sql)) throw new Error("The model's answer wasn't a read-only query.");
+    return sql;
+  };
+  try {
+    let sql = await write();
     $("askstate").textContent = "Loading the data…";
-    const res = await (await db()).query(sql);
+    const conn = await db();
+    let res;
+    try {
+      res = await conn.query(sql);
+    } catch (err) {  // one repair attempt: syntax or a wrong column, never a second guess at the question
+      $("askstate").textContent = "Fixing the query…";
+      sql = await write({ sql, error: String(err.message || err).slice(0, 500) });
+      res = await conn.query(sql);
+    }
     const fields = res.schema.fields, rows = res.toArray().slice(0, 50);
     const head = document.createElement("tr");
     for (const f of fields) { const th = document.createElement("th"); th.textContent = f.name; head.append(th); }
