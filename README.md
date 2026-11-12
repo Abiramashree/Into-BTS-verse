@@ -1,7 +1,7 @@
 # Into BTSVerse
 
 **[Open the site](https://abiramashree.github.io/Into-BTS-verse/)** · [Data dictionary](DICTIONARY.md) ·
-[Ontology](ontology.html) · [Validation rules](shapes.html) · [License and sources](LICENSE.md)
+[Ontology](https://abiramashree.github.io/Into-BTS-verse/ontology.html) · [Validation rules](https://abiramashree.github.io/Into-BTS-verse/shapes.html) · [License and sources](LICENSE.md)
 
 The BTS catalog as one dataset you can trust and explore: 7 public sources joined into a normalized warehouse, a
 knowledge graph that explains every connection it draws, and a site where anyone can see what's rising, why two songs
