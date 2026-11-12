@@ -20,6 +20,13 @@ belong together, or ask a question in plain English.
 | Quality | 85 checks on every build, 95 automated tests including a browser test, reproducible exports |
 | Privacy | All published IDs are this project's own; no Spotify, Apple, MusicBrainz, Deezer or YouTube IDs |
 
+## Measured
+
+| What | Result |
+|---|---|
+| Ask accuracy | 14 of 14 test questions answered correctly, each checked against a known answer, including every example question on the site (one run, 2026-11-11) |
+| FAIR score of the ontology ([FOOPS!](https://foops.linkeddata.es)) | 80%: Interoperable 3/3, Reusable 265/267, Accessible 3/4, Findable 12/16, assessed on `ontology.ttl` on 2026-11-11. Not done yet: a persistent w3id.org address, a DOI and a listing in the LOV registry |
+
 ## What you can do
 
 **See what's moving.** Home shows the songs about to cross a streaming milestone (with an expected date), what's
@@ -92,8 +99,10 @@ things:
    for the 217 tracks with no matched recording.
 3. **Definitions.** Every published column has a definition that comes from the ontology or the SQL that builds it,
    and the build fails if one is missing. That's where [DICTIONARY.md](DICTIONARY.md) comes from.
-4. **The language model's knowledge.** Ask's instructions are generated from the same definitions, so the model knows
-   what each column means, which way each relation points and what unit each number is in.
+4. **The language model's knowledge.** Ask's instructions are generated from it: what each column means and its
+   unit, which way each relation points, which relations are stored once for both directions, which are kinds of
+   others (lyrics and music credits are writing credits), and what each edge weight measures. None of it is typed by
+   hand, so it can't drift from the data.
 5. **Interoperability.** Its terms map to schema.org, Wikidata and the Music Ontology, and the recommender's settings
    (hidden gem weight, variety, which paths count) live in the ontology, so tuning doesn't need code changes.
 
