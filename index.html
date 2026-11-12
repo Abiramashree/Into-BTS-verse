@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'sha256-VQn/g96XG513m1yHylgQFdMP1GT4Gr2sR5/0ebFsLwA=' 'sha256-pgvDUBa4IjFA2yuSJ2cqcyxmNYJMborsd0ORcRv9vw8='; script-src 'sha256-sdH9lY4hNh6X0s4VBcbJvxugaOKyYk3b7v5eMr91Tj4=' 'sha256-OFXhRrOS2Wj4PwJ46MVaN+A25XsQ18yhIx0OUwmGaps=' https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.34.4/cytoscape.min.js 'sha256-vqBXJ7LM34iGrs8mudr7L2D7zhk0NtI4cI6D10H9W1g=' https://cdn.jsdelivr.net 'wasm-unsafe-eval'; worker-src blob:; img-src 'none'; connect-src 'self' https://cdn.jsdelivr.net https://extensions.duckdb.org https://into-btsverse-ask.abiramashree.workers.dev; font-src 'none'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'sha256-svzni3isC22Fn37POMeXVsy6c6leqk0VTro/yZAHJ5o=' 'sha256-pgvDUBa4IjFA2yuSJ2cqcyxmNYJMborsd0ORcRv9vw8='; script-src 'sha256-sdH9lY4hNh6X0s4VBcbJvxugaOKyYk3b7v5eMr91Tj4=' 'sha256-OFXhRrOS2Wj4PwJ46MVaN+A25XsQ18yhIx0OUwmGaps=' https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.34.4/cytoscape.min.js 'sha256-3EztLmg1sbdy0aeBnZPx5f4gY/mupsJJE0WfBt1inIU=' https://cdn.jsdelivr.net 'wasm-unsafe-eval'; worker-src blob:; img-src 'none'; connect-src 'self' https://cdn.jsdelivr.net https://extensions.duckdb.org https://into-btsverse-ask.abiramashree.workers.dev; font-src 'none'; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Into BTSVerse</title>
@@ -39,6 +39,10 @@ input::placeholder{color:var(--muted)}
 .chart text{fill:var(--muted);font-size:11px}
 .chart .grid{stroke:var(--line);stroke-width:1}
 .chart .hit{fill:transparent;outline:none}
+#ask{display:flex;gap:8px;margin-top:16px}#ask input{flex:1;padding:8px 12px;font-size:14px}#ask .btn{padding:6px 16px}
+.scroll:has(#askout:empty){display:none}
+#askeg{margin:12px 0 20px}#askeg .chip{font:inherit;font-size:12px;cursor:pointer}#askeg .chip:hover{color:var(--fg);border-color:var(--muted)}
+#asksql{margin-top:12px;font-size:12px;color:var(--muted)}#asksql pre{white-space:pre-wrap;color:var(--fg2);background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:12px}
 #tip{position:absolute;pointer-events:none;background:var(--raised);border:1px solid var(--line2);border-radius:6px;padding:6px 10px;font-size:12px;white-space:nowrap;box-shadow:0 8px 24px rgba(0,0,0,.5);z-index:3}
 
 :root{--up:#3fc495;--up-bg:rgba(25,158,112,.16);--down:#f0895c;--down-bg:rgba(217,89,38,.16);--pink:#e8619f;--sky:#3fa7d6}
@@ -249,7 +253,8 @@ main.wide{max-width:1720px}
 <section data-view="compare" id="compare" hidden></section>
 <section data-view="ask" hidden><h1>Ask</h1>
 <form id="ask"><input id="askq" type="search" maxlength="300" placeholder="Which songs sound like Spring Day?" aria-label="Ask a question">
-<button type="submit">Ask</button></form>
+<button type="submit" class="btn">Ask</button></form>
+<div class="chips" id="askeg" aria-label="Example questions"></div>
 <p id="askstate" class="meta" aria-live="polite"></p>
 <div class="scroll"><table id="askout"></table></div>
 <details id="asksql" hidden><summary>SQL, written by a language model; check it</summary><pre></pre></details>
@@ -1077,6 +1082,16 @@ const cell = (v, type) => {
   if (typeof v === "number") return Number.isInteger(v) ? v.toLocaleString() : v.toFixed(3);
   return typeof v === "object" ? JSON.stringify(v) : String(v);
 };
+// Example questions: ones Ask's tests check against the data. A click fills the box and asks.
+const EXAMPLES = ["Which 5 songs have the most Spotify streams per day?", "Which songs sound most like Spring Day?",
+  "Which BTS songs reached number 1 on the Billboard Hot 100?", "Which BTS members wrote Spring Day?",
+  "Who has the most songs credited together with RM?", "Which albums reached number 1 on the Billboard 200?",
+  "Which songs have the highest long tail score?"];
+for (const q of EXAMPLES) {
+  const b = document.createElement("button"); b.type = "button"; b.className = "chip"; b.textContent = q;
+  b.addEventListener("click", () => { $("askq").value = q; $("ask").requestSubmit(); });
+  $("askeg").append(b);
+}
 $("ask").addEventListener("submit", async (e) => {
   e.preventDefault();
   const q = $("askq").value.trim(), out = $("askout"), sqlBox = $("asksql");
