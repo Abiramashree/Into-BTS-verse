@@ -249,8 +249,8 @@ chart          Billboard Hot 100 · Billboard 200
 | `recommends` | song → song | A song to listen to next after another. | 1 / rank |
 | `recording_of` | recording → song | A recording is one version of a song. |  |
 | `shares_writers` | song ↔ song | Two songs with credited people in common. | Cosine similarity |
-| `sounds_like` | song ↔ song | Two songs with verified audio that are close on audio features. | 1 / (1 + d) |
-| `sounds_like_estimated` | song ↔ song | A song with only estimated audio that is close to a song with verified audio on tempo and energy. | 1 / (1 + d) |
+| `sounds_like` | song ↔ song | Two songs with verified audio that are close on audio features. | 1 / (1 + d), where d is the distance across six standardized audio features (closer is higher, at most 1) |
+| `sounds_like_estimated` | song ↔ song | A song with only estimated audio that is close to a song with verified audio on tempo and energy. | 1 / (1 + d), where d is the distance on standardized tempo and energy (closer is higher, at most 1) |
 | `track_of` | track → recording | The recording a streaming track carries, where its ISRC identifies one. |  |
 | `track_of_song` | track → song | The song a streaming track carries. |  |
 | `video_of` | video → song | A video shows one song. |  |

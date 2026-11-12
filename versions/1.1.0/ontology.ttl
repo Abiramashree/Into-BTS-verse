@@ -19,7 +19,7 @@
 bv: a owl:Ontology ;
     dcterms:title "Into BTSVerse ontology"@en ;
     dcterms:created "2026-11-08"^^xsd:date ;
-    dcterms:modified "2026-11-10"^^xsd:date ;
+    dcterms:modified "2026-11-11"^^xsd:date ;
     dcterms:issued "2026-11-08"^^xsd:date ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:creator "Abi" ;
@@ -284,11 +284,11 @@ bv:shares_writers a owl:ObjectProperty, owl:SymmetricProperty, owl:IrreflexivePr
 bv:sounds_like a owl:ObjectProperty, owl:SymmetricProperty, owl:IrreflexiveProperty ;
     rdfs:label "sounds like"@en ; rdfs:domain bv:Song ; rdfs:range bv:Song ;
     bv:rule "Songs with verified audio, compared on standardized tempo, energy, danceability, valence, acousticness and speechiness (root mean square difference d); each song keeps its five nearest." ;
-    bv:weight "1 / (1 + d)" ; bv:evidence "Each feature compared" ; dcterms:source bv:ReccoBeats .
+    bv:weight "1 / (1 + d), where d is the distance across six standardized audio features (closer is higher, at most 1)" ; bv:evidence "Each feature compared" ; dcterms:source bv:ReccoBeats .
 bv:sounds_like_estimated a owl:ObjectProperty, owl:SymmetricProperty, owl:IrreflexiveProperty ;
     rdfs:label "sounds like (estimated)"@en ; rdfs:domain bv:Song ; rdfs:range bv:Song ;
     bv:rule "Songs with only estimated audio, placed against songs with verified audio on standardized tempo and energy (root mean square difference d); each estimated song keeps its five nearest." ;
-    bv:weight "1 / (1 + d)" ; bv:evidence "Tempo and energy compared; audio estimated" ; dcterms:source bv:Previews, bv:ReccoBeats .
+    bv:weight "1 / (1 + d), where d is the distance on standardized tempo and energy (closer is higher, at most 1)" ; bv:evidence "Tempo and energy compared; audio estimated" ; dcterms:source bv:Previews, bv:ReccoBeats .
 
 # Attributes: names and dates.
 
