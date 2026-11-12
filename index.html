@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'sha256-svzni3isC22Fn37POMeXVsy6c6leqk0VTro/yZAHJ5o=' 'sha256-pgvDUBa4IjFA2yuSJ2cqcyxmNYJMborsd0ORcRv9vw8='; script-src 'sha256-sdH9lY4hNh6X0s4VBcbJvxugaOKyYk3b7v5eMr91Tj4=' 'sha256-OFXhRrOS2Wj4PwJ46MVaN+A25XsQ18yhIx0OUwmGaps=' https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.34.4/cytoscape.min.js 'sha256-3EztLmg1sbdy0aeBnZPx5f4gY/mupsJJE0WfBt1inIU=' https://cdn.jsdelivr.net 'wasm-unsafe-eval'; worker-src blob:; img-src 'none'; connect-src 'self' https://cdn.jsdelivr.net https://extensions.duckdb.org https://into-btsverse-ask.abiramashree.workers.dev; font-src 'none'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'sha256-svzni3isC22Fn37POMeXVsy6c6leqk0VTro/yZAHJ5o=' 'sha256-pgvDUBa4IjFA2yuSJ2cqcyxmNYJMborsd0ORcRv9vw8='; script-src 'sha256-sdH9lY4hNh6X0s4VBcbJvxugaOKyYk3b7v5eMr91Tj4=' 'sha256-OFXhRrOS2Wj4PwJ46MVaN+A25XsQ18yhIx0OUwmGaps=' https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.34.4/cytoscape.min.js 'sha256-0bXL4UXnxphbk+4QarIgi4LgxZ/pFWZOS5KHFlhgQQM=' https://cdn.jsdelivr.net 'wasm-unsafe-eval'; worker-src blob:; img-src 'none'; connect-src 'self' https://cdn.jsdelivr.net https://extensions.duckdb.org https://into-btsverse-ask.abiramashree.workers.dev; font-src 'none'; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Into BTSVerse</title>
@@ -1060,8 +1060,11 @@ route();
 </script>
 <script type="module">import * as duckdb from "https://cdn.jsdelivr.net/npm/@duckdb/duckdb-wasm@1.32.0/+esm";
 const ASK = "https://into-btsverse-ask.abiramashree.workers.dev/ask", DATA = new URL("data/parquet", location.href).href, TABLES = ["song_intelligence", "song", "album", "album_summary", "album_series", "album_series_member", "person", "person_summary", "credit", "song_credit", "recording", "song_audio", "hot100_entry", "billboard200_entry", "song_streams_monthly", "album_streams_monthly", "node", "edge"];
-const READ_ONLY = /^\s*(select|with)\b/i, WRITE = /\b(insert|update|delete|create|drop|alter|attach|detach|copy|export|import|install|load|pragma|set|call|read_\w+|glob)\b|;|:\/\//i;
-const safe = (q) => { const code = q.replace(/'(?:[^']|'')*'/g, "''"); return READ_ONLY.test(code) && !WRITE.test(code); };  // keywords outside quoted text
+// Same rules as mi/ask.py guard and worker/index.js: one read-only SELECT on the listed tables, keywords counted outside
+// quoted text, and no quoted file or URL used as a table.
+const READ_ONLY = /^\s*(select|with)\b/i, WRITE = /\b(insert|update|delete|create|drop|alter|attach|detach|copy|export|import|install|load|pragma|set|call|read_\w+|glob|getenv)\b|;|:\/\//i;
+const FROM_STRING = /\b(from|join)\s*\(?\s*''/i;
+const safe = (q) => { const code = q.replace(/'(?:[^']|'')*'/g, "''"); return READ_ONLY.test(code) && !WRITE.test(code) && !FROM_STRING.test(code) && !q.includes("://"); };
 const $ = (id) => document.getElementById(id);
 let conn;
 async function db() {
