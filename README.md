@@ -17,7 +17,7 @@ belong together, or ask a question in plain English.
 | History | 42 Spotify snapshots since April 2023, 418 Billboard 200 weeks and 185 Hot 100 weeks |
 | Knowledge graph | 2,528 nodes and 9,383 edges across 22 relations; every edge carries its evidence and source |
 | Ontology | OWL 2: 31 classes, 37 relations, 58 attributes, 29 mappings to schema.org, Wikidata and the Music Ontology |
-| Quality | 85 checks on every build, 95 automated tests including a browser test, byte-identical rebuilds |
+| Quality | 85 checks on every build, 95 automated tests including a browser test, reproducible exports |
 | Privacy | All published IDs are this project's own; no Spotify, Apple, MusicBrainz, Deezer or YouTube IDs |
 
 ## What you can do
@@ -77,8 +77,8 @@ flowchart LR
   merged by evidence with union-find, and every merge rule is checked on each build.
 - **Measures.** Streams are spread evenly across each snapshot interval to get monthly and daily figures; relinked
   Spotify tracks are de-duplicated; drops are never counted as negative streams.
-- **Reproducible.** The whole pipeline rebuilds offline from a local cache in about 15 seconds and produces the same
-  files byte for byte.
+- **Reproducible.** The whole pipeline rebuilds offline from a local cache in about 15 seconds; the Parquet and CSV
+  exports come out byte for byte the same.
 
 ## Why the ontology matters
 
